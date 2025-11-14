@@ -485,28 +485,34 @@ This roadmap integrates Privileged Access Management (PAM), CyberArk Conjur, and
 
 ## Suggested Timeline (15 Hours/Week - Working Professional)
 
-### Recommended Path: 24 Months (96 Weeks) - SUSTAINABLE & COMPREHENSIVE
+### Recommended Path: 36 Months (144 Weeks) - OPTIMAL SUSTAINABLE PACE
 **Study Schedule**: 15 hours/week = ~2 hours/day weekdays + 5 hours weekend
-**Total Study Hours**: ~1,440 hours over 24 months
-**Learning Style**: 60-70% hands-on labs, 30-40% study/reading/certification prep
+**Total Study Hours**: ~2,160 hours over 36 months
+**Learning Style**: 70% hands-on labs, 30% study/reading/certification prep
+**Pace**: Relaxed, no burnout, maximum retention
 
-**Advantages of 24-Month Path**:
-- ✅ Deeper knowledge retention and mastery
-- ✅ More hands-on lab time (less rushing)
-- ✅ Better certification pass rates
-- ✅ Stronger portfolio with multiple projects
-- ✅ More time for consulting skills development
-- ✅ Sustainable pace while working full-time
-- ✅ Better work-life balance
+**Advantages of 36-Month Path**:
+- ✅ **Deeper expertise** - Extra 12 months for mastery
+- ✅ **More hands-on labs** - 70% labs vs 60% in 24-month plan
+- ✅ **Better work-life balance** - No rushing, sustainable pace
+- ✅ **Higher certification pass rates** - More time to prepare
+- ✅ **Stronger portfolio** - 5-7 high-quality projects
+- ✅ **More consulting skills** - Time to practice presentations, proposals, RFPs
+- ✅ **Better English proficiency** - 3 years to become fluent
+- ✅ **Less stress/burnout** - Realistic for working full-time
+- ✅ **More practical experience** - Time to repeat labs, try different approaches
+- ✅ **Higher consulting value** - Deeper expertise = premium rates
 
 ---
 
-### PHASE 1: PAM Foundations & Kubernetes Mastery (Months 1-6 / Weeks 1-24)
+### PHASE 1: PAM Foundations & Kubernetes Mastery (Months 1-9 / Weeks 1-36)
+**Duration**: 9 months (extra 3 months vs 24-month plan)
 **Weekly Commitment**: 15 hours
 - **5 hours**: CyberArk training and documentation
-- **6 hours**: Hands-on lab work (PAM + K8s)
-- **3 hours**: Kubernetes practical exercises
-- **1 hour**: Reading, notes, review
+- **7 hours**: Hands-on lab work (PAM + K8s) - INCREASED
+- **2 hours**: Reading, notes, review, English
+
+**Phase 1 Philosophy**: Take time to master both PAM and K8s thoroughly without rushing
 
 #### Month 1 (Weeks 1-4): PAM Foundations & Lab Setup
 **Objective**: Understand PAM concepts, establish lab environment, K8s review, start English foundations
@@ -617,20 +623,58 @@ This roadmap integrates Privileged Access Management (PAM), CyberArk Conjur, and
 - Comprehensive K8s troubleshooting guide
 - Ready for Conjur implementation
 
-**PHASE 1 CHECKPOINT**:
+#### Month 7 (Weeks 25-28): K8s Advanced + Extended PAM Labs
+**Objective**: Final K8s mastery, advanced PAM scenarios
+
+| Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
+|-------|-----------|-------------|----------|--------------|
+| 25 | K8s: Monitoring & Logging | 6 | Deploy Prometheus/ELK | Observability stack |
+| 26 | Advanced PAM Scenarios | 6 | Multi-tenant, multi-platform | Complex deployments |
+| 27 | K8s Troubleshooting Deep Dive | 6 | Advanced debugging techniques | Troubleshooting guide |
+| 28 | PAM + K8s Integration Prep | 6 | Plan integration approach | Architecture doc |
+
+**Month 7 Deliverables**:
+- K8s monitoring and logging fully operational
+- Advanced PAM scenarios documented
+- Comprehensive K8s troubleshooting guide
+- Ready for Phase 2 (Conjur)
+
+#### Month 8-9 (Weeks 29-36): Extended Lab Time + Guardian Cert (Optional)
+**Objective**: Deep practice, optional CyberArk Guardian, consolidate knowledge
+
+| Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
+|-------|-----------|-------------|----------|--------------|
+| 29-30 | Optional: Guardian Cert Prep | 8 | Expert-level scenarios | Guardian materials |
+| 31-32 | Extended K8s Hands-On | 8 | Repeat labs, try new patterns | Advanced patterns |
+| 33-34 | Extended PAM Hands-On | 8 | Deep configuration mastery | Advanced documentation |
+| 35-36 | Portfolio & Documentation | 8 | GitHub polish, write articles | 2 LinkedIn posts |
+
+**Month 8-9 Deliverables**:
+- Optional: CyberArk Guardian certification (if pursued)
+- Advanced K8s and PAM expertise deeply consolidated
+- GitHub portfolio with 2-3 well-documented projects
+- 2 published LinkedIn articles on PAM/K8s
+- Comprehensive technical documentation
+
+**PHASE 1 CHECKPOINT** (Month 9):
 - ✅ CyberArk Defender + Sentry certified
-- ✅ K8s hands-on proficiency achieved
-- ✅ Complete PAM lab environment functional
+- ✅ K8s hands-on proficiency COMPLETELY MASTERED
+- ✅ Complete PAM lab environment functional with advanced scenarios
+- ✅ Optional: CyberArk Guardian certification
+- ✅ Portfolio: 2-3 published projects + 2 LinkedIn articles
+- ✅ English: Comfortable reading/listening, basic writing
 - ✅ Solid foundation for Conjur and DevSecOps
 
 ---
 
-### PHASE 2: Conjur Mastery & DevSecOps (Months 7-12 / Weeks 25-48)
+### PHASE 2: Conjur Mastery & DevSecOps (Months 10-18 / Weeks 37-72)
+**Duration**: 9 months (extra 3 months vs 24-month plan)
 **Weekly Commitment**: 15 hours
-- **4 hours**: Conjur training and documentation
-- **8 hours**: Hands-on Conjur and CI/CD labs
-- **2 hours**: DevSecOps concepts and reading
-- **1 hour**: Review and documentation
+- **3 hours**: Conjur training and documentation
+- **9 hours**: Hands-on Conjur and CI/CD labs - INCREASED
+- **2 hours**: DevSecOps concepts, reading, English
+
+**Phase 2 Philosophy**: Extensive hands-on Conjur deployments in multiple scenarios, master DevSecOps practices thoroughly
 
 #### Month 7 (Weeks 25-28): DevSecOps Foundations & Conjur Architecture
 **Objective**: Understand DevSecOps, learn Conjur architecture
@@ -753,11 +797,14 @@ This roadmap integrates Privileged Access Management (PAM), CyberArk Conjur, and
 
 ---
 
-### PHASE 3: Cloud Security & CCSP Certification (Months 13-18 / Weeks 49-72)
+### PHASE 3: Cloud Security & CCSP Certification (Months 19-27 / Weeks 73-108)
+**Duration**: 9 months (extra 3 months vs 24-month plan)
 **Weekly Commitment**: 15 hours
-- **10 hours**: CCSP study, cloud platforms, compliance
-- **3 hours**: Hands-on cloud labs (AWS/Azure)
-- **2 hours**: Compliance frameworks deep dive
+- **8 hours**: CCSP study, cloud platforms, compliance - INCREASED
+- **4 hours**: Hands-on cloud labs (AWS/Azure) - INCREASED
+- **2 hours**: English articles/documentation
+
+**Phase 3 Philosophy**: Deep cloud security expertise with extensive hands-on labs in AWS and Azure
 
 #### Month 13 (Weeks 49-52): AWS Security Deep Dive
 **Objective**: Master AWS IAM, security services, compliance features
@@ -878,11 +925,14 @@ This roadmap integrates Privileged Access Management (PAM), CyberArk Conjur, and
 
 ---
 
-### PHASE 4: CISSP Certification & Enterprise Capstone (Months 19-24 / Weeks 73-96)
+### PHASE 4: CISSP Certification & Enterprise Capstone (Months 28-36 / Weeks 109-144)
+**Duration**: 9 months (extra 3 months vs 24-month plan)
 **Weekly Commitment**: 15 hours
-- **12 hours**: CISSP comprehensive study (8 domains)
-- **2 hours**: Capstone project completion
-- **1 hour**: Portfolio finalization and consulting prep
+- **10 hours**: CISSP comprehensive study (8 domains) - RELAXED PACE
+- **3 hours**: Capstone project completion
+- **2 hours**: Portfolio finalization, consulting prep, English
+
+**Phase 4 Philosophy**: Thorough CISSP preparation, complete capstone, build consulting readiness, final English mastery
 
 #### Month 19 (Weeks 73-76): CISSP Domain 1 & 2 Study
 **Objective**: Security & Risk Management, Asset Security
@@ -1026,17 +1076,31 @@ This roadmap integrates Privileged Access Management (PAM), CyberArk Conjur, and
 
 ---
 
-### Alternative Accelerated Path (12 Months / 52 Weeks)
-**For those who can commit 30 hours/week or have faster learning pace**
+### Alternative: 24-Month Accelerated Path (If needed)
+**For those who want to complete faster but still need 24 months**
 
 | Months | Focus Area | Deliverables |
 |--------|-----------|--------------|
-| 1-3 | PAM + K8s Foundations | Defender, Sentry, K8s proficiency |
-| 4-6 | Conjur + DevSecOps | Conjur deployments in K8s |
-| 7-8 | CCSP + Compliance | CCSP cert |
-| 9-12 | CISSP + Capstone | CISSP cert + project |
+| 1-6 | PAM + K8s Foundations | Defender, Sentry, K8s proficiency, 2 projects |
+| 7-12 | Conjur + DevSecOps | Conjur mastery, CI/CD integration, 3 projects |
+| 13-18 | CCSP + Cloud Security | CCSP certification, cloud expertise, 2 projects |
+| 19-24 | CISSP + Capstone | CISSP certification, full capstone |
 
-*Note: Not recommended unless you can truly commit 30+ hours/week or have professional development time*
+**Note**: This is the minimum recommended time. Going faster than 24 months risks burnout and reduced learning quality.
+
+### ⚠️ NOT RECOMMENDED: 12-Month Path
+**For those who can commit 30+ hours/week**
+
+This was the original plan but has significant downsides:
+- ❌ High burnout risk while working full-time
+- ❌ Limited hands-on lab time (50% vs 70%)
+- ❌ Rushed certifications (lower pass rates)
+- ❌ Weak portfolio (1-2 projects vs 5-7)
+- ❌ Poor work-life balance
+- ❌ Limited English improvement
+- ❌ Unsustainable long-term
+
+**Recommendation**: Stick with 36-month plan for maximum success and sustainability.
 
 ---
 
@@ -1948,83 +2012,116 @@ While focusing on cloud-agnostic principles, ensure you understand:
 
 ---
 
-## Summary: Your 24-Month Journey
+## Summary: Your 36-Month Journey (3-Year Path)
 
 **Your Profile**: 17-year Linux/Windows sysadmin with CKA cert, working full-time
-**Time Commitment**: 15 hours/week (~1,440 hours total)
-**Target Role**: PAM/Conjur consultant for healthcare, banking, enterprise clients
-**Key Advantage**: Sustainable pace with better knowledge retention and stronger portfolio
+**Time Commitment**: 15 hours/week (~2,160 hours total = 90 hours/month)
+**Target Role**: Expert PAM/Conjur consultant for healthcare, banking, enterprise clients
+**Key Advantage**: Optimal sustainable pace with maximum expertise development and minimal burnout
 
-### Key Milestones - 24 Month Timeline
+### Key Milestones - 36 Month Timeline
 - **Month 3**: ✅ CyberArk Defender certified
 - **Month 5**: ✅ CyberArk Sentry certified
-- **Month 6**: ✅ K8s hands-on proficiency completely achieved
-- **Month 12**: ✅ Conjur mastery + DevSecOps expertise + Capstone Phase 1 complete
-- **Month 18**: ✅ CCSP certified + Compliance frameworks mastered
-- **Month 24**: ✅ CISSP certified + Full capstone complete + Consultant-ready
+- **Month 6**: ✅ Optional: CyberArk Guardian certified
+- **Month 9**: ✅ K8s hands-on proficiency MASTERED + 2-3 portfolio projects published
+- **Month 18**: ✅ Conjur mastery + DevSecOps expertise + Advanced portfolio
+- **Month 27**: ✅ CCSP certified + Cloud security expert + 5-7 portfolio projects
+- **Month 36**: ✅ CISSP certified + Full capstone complete + Professional consultant-ready
 
-### Realistic Timeline Breakdown
-**Phase 1 (Months 1-6)**: PAM + Kubernetes Foundation
-- Sustainable pace for learning PAM thoroughly
-- Kubernetes gap fully closed with extensive hands-on labs
-- Two CyberArk certifications achieved
+### Realistic Timeline Breakdown - 36 MONTHS
 
-**Phase 2 (Months 7-12)**: Conjur + DevSecOps + Portfolio Building
-- Deep Conjur mastery (Docker, K8s, multi-cloud)
-- CI/CD integration fully implemented
-- Enterprise capstone foundation established
+**Phase 1 (Months 1-9)**: PAM + Kubernetes Foundation - DEEP MASTERY
+- 9 months to thoroughly master PAM (not rushed)
+- Kubernetes gap completely closed with extensive hands-on practice
+- Two CyberArk certifications achieved (Defender + Sentry)
+- Optional: CyberArk Guardian certification
+- 2-3 portfolio projects published to GitHub
+- 2 LinkedIn articles published on PAM/K8s
 
-**Phase 3 (Months 13-18)**: Cloud Security + CCSP
-- AWS security expertise achieved
-- Azure security expertise achieved
-- Compliance frameworks deeply integrated into portfolio
-- CCSP certification obtained
+**Phase 2 (Months 10-18)**: Conjur + DevSecOps - EXTENSIVE HANDS-ON
+- 9 months for deep Conjur mastery (Docker, K8s, multi-cloud)
+- CI/CD integration thoroughly implemented (Jenkins, GitLab, GitHub Actions)
+- Advanced DevSecOps practices mastered
+- 3-4 more portfolio projects created
+- Capstone Phase 1 foundation established
+- 2 more LinkedIn articles on DevSecOps/Conjur
 
-**Phase 4 (Months 19-24)**: CISSP + Enterprise Capstone Final
-- CISSP certification achieved
-- Full capstone project completed
-- Professional portfolio and visibility established
-- Ready for consulting engagements
+**Phase 3 (Months 19-27)**: Cloud Security + CCSP - EXPERT LEVEL
+- AWS security expertise deeply achieved (9 months of study + hands-on)
+- Azure security expertise deeply achieved
+- Compliance frameworks (HIPAA, PCI-DSS, SOC2, GDPR) mastered
+- CCSP certification obtained (Month 27)
+- 2-3 more portfolio projects demonstrating cloud integration
+- 2 more LinkedIn articles on cloud security
+- Healthcare/banking reference architectures created
 
-### Critical Success Factors
-1. **Consistency**: Maintain 15 hours/week throughout (sustainability > speed)
-2. **Hands-on focus**: 60-70% of time should be lab work, not just reading
-3. **K8s practice**: Close gap completely in months 1-6 (not rushed in 3 months)
-4. **Compliance integration**: Study HIPAA/PCI-DSS throughout (Months 1-24)
-5. **Portfolio building**: Document everything from Month 1 (not just at the end)
-6. **Regular reviews**: Monthly checkpoints to assess progress and adjust as needed
+**Phase 4 (Months 28-36)**: CISSP + Enterprise Capstone Final - POLISH & MASTERY
+- CISSP certification achieved (Month 34-35)
+- Full capstone project completed and documented
+- Professional portfolio fully polished (5-7 high-quality projects)
+- Consulting readiness package finalized
+- Professional presentations and sales materials created
+- Final English proficiency achieved (fluent in technical communication)
 
-### Expected Outcome After 24 Months
-At 15 hours/week, you'll have:
+### Critical Success Factors for 36-Month Plan
+1. **Consistency**: Maintain 15 hours/week throughout (non-negotiable for success)
+2. **Hands-on focus**: 70% of time should be lab work, 30% study/reading
+3. **Quality over speed**: Focus on deep understanding, not rushing through topics
+4. **K8s mastery**: Extra months (1-9) ensure complete K8s gap closure
+5. **Compliance integration**: Deep study throughout all 36 months
+6. **Portfolio building**: Continuous documentation from Month 1 (2-3 articles per quarter)
+7. **English improvement**: Integrated throughout - fluent by Month 36
+8. **Regular reviews**: Monthly checkpoints + quarterly progress assessments
+9. **Work-life balance**: Realistic pace prevents burnout while maintaining full-time work
+
+### Expected Outcome After 36 Months
+At 15 hours/week for 3 years, you'll have:
 - ✅ **4 major professional certifications** (Defender, Sentry, CCSP, CISSP)
-- ✅ **Expert-level PAM expertise** (CyberArk platform fully mastered)
-- ✅ **Expert-level secrets management** (Conjur in Docker, K8s, multi-cloud)
-- ✅ **Cloud security expertise** (AWS + Azure + GCP)
-- ✅ **Deep Kubernetes proficiency** (hands-on experience, not just theory)
-- ✅ **Compliance mastery** (HIPAA, PCI-DSS, SOC2, GDPR, ISO27001)
-- ✅ **Enterprise architecture skills** (design complex, integrated systems)
+- ✅ **Optional: CyberArk Guardian certification** (expert-level)
+- ✅ **MASTERED-level PAM expertise** (CyberArk platform inside-out knowledge)
+- ✅ **MASTERED-level secrets management** (Conjur in Docker, K8s, multi-cloud, all patterns)
+- ✅ **Expert-level cloud security** (AWS + Azure + GCP proficiency)
+- ✅ **Expert-level Kubernetes** (deep practical experience across 36 months)
+- ✅ **Compliance mastery** (HIPAA, PCI-DSS, SOC2, GDPR, ISO27001, NIST)
+- ✅ **Professional-grade English** (fluent in technical communication and consulting)
+- ✅ **Enterprise architecture expertise** (design complex, integrated, multi-cloud systems)
 - ✅ **Strong professional portfolio**:
-  - 3-5 published GitHub projects
-  - 20+ pages of technical documentation
-  - 3-5 LinkedIn/blog articles
-  - Case studies demonstrating real-world implementations
-- ✅ **Ready to bill as a senior PAM/security consultant**
+  - 5-7 published GitHub projects (high-quality, well-documented)
+  - 30+ pages of technical documentation
+  - 8-10 LinkedIn/blog articles
+  - 2-3 detailed case studies
+  - Reference architecture templates (AWS, Azure, Hybrid)
+  - Consulting proposal and SOW templates
+  - Sales materials and presentation decks
+- ✅ **Expert consultant credibility** - Ready to command premium rates
 
-### Advantages vs 12-Month Plan
-✅ **Better knowledge retention** - Spaced learning is proven more effective
-✅ **Higher certification pass rates** - More time for proper exam prep
-✅ **Stronger portfolio** - More complete, professional-quality projects
-✅ **Less burnout** - Sustainable pace while working full-time
-✅ **Better work-life balance** - Not sacrificing health/personal time
-✅ **Consulting credibility** - Deeper expertise = higher billing rates
-✅ **More hands-on experience** - 60-70% labs vs 50% labs
-✅ **Stronger compliance knowledge** - For regulated industry clients (healthcare/banking)
+### Advantages of 36-Month vs 24-Month Plan
+✅ **Deeper expertise** - 12 extra months for mastery vs rushing
+✅ **More hands-on labs** - 70% labs vs 60% (extra 200+ hours of hands-on)
+✅ **Better work-life balance** - No stress, sustainable pace, family time
+✅ **Higher certification pass rates** - 50%+ more prep time per certification
+✅ **Stronger portfolio** - 5-7 quality projects vs 3-5 rushed projects
+✅ **Better English proficiency** - 3 years to become truly fluent
+✅ **Less burnout risk** - Realistic for working full-time professional
+✅ **Better consulting credibility** - Deeper expertise = premium rates
+✅ **Time for consulting skills** - More practice with presentations, proposals, RFPs
+✅ **Flexibility** - Time to handle unexpected life events without derailing
 
-**Estimated Consulting Value**: With this comprehensive skillset and portfolio, you can command:
-- **Independent Consultant**: $175-300/hour (or $150-250/hour conservatively)
-- **Enterprise Consulting Firm**: $140K-200K+ salary plus benefits
-- **Contract-based**: $50-80K/month for full-time engagements
-- **Specialized PAM Consultant**: Premium rates due to niche expertise
+### Advantages of 36-Month vs Original 12-Month Plan
+✅ **3x more hands-on time** (1,512 hours vs 504 hours of hands-on lab)
+✅ **2x better work-life balance** - Realistic pace for working full-time
+✅ **Higher quality portfolio** - 5-7 quality projects vs 1-2 rushed
+✅ **Expert-level knowledge** - Time to reach mastery, not just competency
+✅ **Consulting readiness** - Full professional package vs minimum viable
+✅ **English fluency** - 3 years of daily practice vs crash course
+✅ **Sustainability** - Built to last, no burnout, career longevity
+
+**Estimated Consulting Value with 36-Month Expertise**:
+- **Independent Consultant**: $200-350/hour (premium rates due to deep expertise)
+- **Enterprise Consulting Firm**: $160K-250K+ salary (senior/principal level)
+- **Contract-based**: $60-100K/month for full-time engagements
+- **Specialized PAM Consultant**: Top-tier rates in niche market
+- **Training & Mentoring**: $150-200/hour for training others
 
 ---
 
