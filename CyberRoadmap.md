@@ -606,64 +606,81 @@ This roadmap integrates Privileged Access Management (PAM), CyberArk Conjur, and
 
 ---
 
-#### Month 6 (Weeks 21-24): K8s Mastery + Extended Learning
-**Objective**: Close Kubernetes gap completely, explore optional Guardian cert
+#### Month 6 (Weeks 21-24): CyberArk Guardian Certification Prep
+**Objective**: Prepare for and pass CyberArk Guardian exam (expert-level PAM)
 
 | Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
 |-------|-----------|-------------|----------|--------------|
-| 21 | K8s: Secrets + ConfigMaps | 6 | Secrets management in K8s | K8s secrets working |
-| 22 | K8s: Ingress + LoadBalancing | 6 | Ingress controller setup | Multi-service routing |
-| 23 | K8s: Monitoring + Logging | 6 | Deploy monitoring (Prometheus/ELK) | Observability stack |
-| 24 | Optional: Guardian Cert OR Extended Labs | 8 | Choose path based on interest | Guardian OR advanced labs |
+| 21 | Guardian Course: Advanced Architecture | 8 | Enterprise scenario design | 70% course completion |
+| 22 | Guardian Course: High Availability & DR | 8 | HA deployment setup | 100% course completion |
+| 23 | Advanced Scenarios + Practice Tests | 8 | Complex PAM scenarios | 90%+ practice test scores |
+| 24 | **Guardian Exam** + Celebration | 8 | 6-hour Guardian exam | **✅ GUARDIAN CERTIFIED** |
 
 **Month 6 Deliverables**:
-- K8s hands-on gap completely closed
-- Kubernetes cluster fully operational with monitoring
-- Optional: CyberArk Guardian certification (if pursued)
-- Comprehensive K8s troubleshooting guide
-- Ready for Conjur implementation
+- ✅ CyberArk Guardian Certification achieved (expert-level)
+- Advanced PAM architecture expertise
+- High availability and disaster recovery knowledge
+- Guardian study materials and flashcards
+- Ready for K8s intensive phase
 
-#### Month 7 (Weeks 25-28): K8s Advanced + Extended PAM Labs
-**Objective**: Final K8s mastery, advanced PAM scenarios
+#### Month 7 (Weeks 25-28): K8s Mastery Phase 1
+**Objective**: Start K8s intensive practice after Guardian certification
 
 | Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
 |-------|-----------|-------------|----------|--------------|
 | 25 | K8s: Monitoring & Logging | 6 | Deploy Prometheus/ELK | Observability stack |
-| 26 | Advanced PAM Scenarios | 6 | Multi-tenant, multi-platform | Complex deployments |
-| 27 | K8s Troubleshooting Deep Dive | 6 | Advanced debugging techniques | Troubleshooting guide |
-| 28 | PAM + K8s Integration Prep | 6 | Plan integration approach | Architecture doc |
+| 26 | K8s: Advanced Networking | 6 | Multi-tenant networks | Network policies mastered |
+| 27 | K8s: Storage & Persistence | 6 | StatefulSets + PVCs | Storage patterns understood |
+| 28 | K8s: Security Hardening | 6 | Pod Security Standards, RBAC | Security practices |
 
 **Month 7 Deliverables**:
 - K8s monitoring and logging fully operational
-- Advanced PAM scenarios documented
-- Comprehensive K8s troubleshooting guide
-- Ready for Phase 2 (Conjur)
+- Advanced networking patterns understood
+- Storage and persistence mastered
+- K8s security hardening practices implemented
+- Advanced K8s scenarios documented
 
-#### Month 8-9 (Weeks 29-36): Extended Lab Time + Guardian Cert (Optional)
-**Objective**: Deep practice, optional CyberArk Guardian, consolidate knowledge
+#### Month 8 (Weeks 29-32): K8s Mastery Phase 2
+**Objective**: Continue K8s intensive, consolidate knowledge, start portfolio
 
 | Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
 |-------|-----------|-------------|----------|--------------|
-| 29-30 | Optional: Guardian Cert Prep | 8 | Expert-level scenarios | Guardian materials |
-| 31-32 | Extended K8s Hands-On | 8 | Repeat labs, try new patterns | Advanced patterns |
-| 33-34 | Extended PAM Hands-On | 8 | Deep configuration mastery | Advanced documentation |
-| 35-36 | Portfolio & Documentation | 8 | GitHub polish, write articles | 2 LinkedIn posts |
+| 29 | K8s: Advanced Troubleshooting | 7 | Debug complex scenarios | Troubleshooting guide |
+| 30 | K8s: Performance & Optimization | 7 | Optimize cluster performance | Performance documentation |
+| 31 | K8s: Multi-cluster & Networking | 7 | Set up multi-cluster setup | Multi-cluster patterns |
+| 32 | Portfolio Project 1: K8s | 7 | Build documented K8s project | GitHub project published |
 
-**Month 8-9 Deliverables**:
-- Optional: CyberArk Guardian certification (if pursued)
-- Advanced K8s and PAM expertise deeply consolidated
-- GitHub portfolio with 2-3 well-documented projects
+**Month 8 Deliverables**:
+- K8s troubleshooting expertise advanced
+- Performance optimization techniques mastered
+- Multi-cluster networking understood
+- 1st portfolio project published (K8s deployment)
+- Ready to start Conjur with K8s expertise
+
+#### Month 9 (Weeks 33-36): K8s Mastery Phase 3 + Portfolio
+**Objective**: Final K8s consolidation, publish portfolio articles
+
+| Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
+|-------|-----------|-------------|----------|--------------|
+| 33 | Portfolio Project 2: PAM + K8s | 7 | CyberArk in K8s setup | 2nd GitHub project |
+| 34 | Portfolio Project 3: Advanced Labs | 7 | Complex integration scenarios | 3rd GitHub project |
+| 35 | Documentation & Articles | 7 | Write technical documentation | 2 LinkedIn articles |
+| 36 | Review & Prepare for Conjur | 7 | Consolidate K8s knowledge | Phase 1 summary doc |
+
+**Month 9 Deliverables**:
+- 3 well-documented portfolio projects on GitHub
 - 2 published LinkedIn articles on PAM/K8s
-- Comprehensive technical documentation
+- Comprehensive K8s troubleshooting guide
+- Phase 1 documentation complete
 
 **PHASE 1 CHECKPOINT** (Month 9):
-- ✅ CyberArk Defender + Sentry certified
-- ✅ K8s hands-on proficiency COMPLETELY MASTERED
-- ✅ Complete PAM lab environment functional with advanced scenarios
-- ✅ Optional: CyberArk Guardian certification
-- ✅ Portfolio: 2-3 published projects + 2 LinkedIn articles
-- ✅ English: Comfortable reading/listening, basic writing
-- ✅ Solid foundation for Conjur and DevSecOps
+- ✅ **3 CyberArk certifications**: Defender + Sentry + Guardian (all expert-level)
+- ✅ **K8s hands-on proficiency**: COMPLETELY MASTERED across 4 months (M6-9)
+- ✅ **Complete PAM lab environment**: Fully functional with all advanced scenarios
+- ✅ **Portfolio**: 3 published projects + 2 LinkedIn articles + documentation
+- ✅ **English**: Comfortable reading/listening/writing technical content
+- ✅ **Expert-level PAM knowledge**: All three CyberArk certifications completed
+- ✅ **Solid foundation for Conjur and DevSecOps**: Ready to advance
 
 ---
 
@@ -1856,43 +1873,51 @@ While focusing on cloud-agnostic principles, ensure you understand:
 
 ---
 
-## Success Metrics - Consultant Readiness (24-Month Timeline)
+## Success Metrics - Consultant Readiness (36-Month Timeline)
 
 ### Certifications (Essential for Consulting)
-**Realistic Timeline at 15 hours/week (24-month path):**
-- [ ] **CyberArk Defender** (Month 3 / Week 12) - ✅ Foundation
+**Realistic Timeline at 15 hours/week (36-month path):**
+- [ ] **CyberArk Defender** (Month 3 / Week 12) - ✅ Foundation-level
 - [ ] **CyberArk Sentry** (Month 5 / Week 20) - ✅ Advanced administration
-- [ ] **CCSP** (Month 18 / Week 72) - ✅ Cloud security credibility
-- [ ] **CISSP** (Month 24 / Week 96) - ✅ Industry gold standard
-- [ ] CyberArk Guardian (Optional - Month 6 / Week 24)
-- [ ] Conjur Certified Professional (if available - Month 10-12)
+- [ ] **CyberArk Guardian** (Month 6 / Week 24) - ✅ Expert-level PAM
+- [ ] **CCSP** (Month 27 / Week 108) - ✅ Cloud security credibility
+- [ ] **CISSP** (Month 36 / Week 144) - ✅ Industry gold standard
+- [ ] Conjur Certified Professional (if available - Months 10-15)
 
 ### Technical Competency - By Month
 **Months 1-6**:
 - [ ] Multi-cloud PAM lab environment fully functional
-- [ ] **Kubernetes hands-on proficiency completely achieved**
+- [ ] **All three CyberArk certifications achieved** (Defender, Sentry, Guardian)
 - [ ] Docker containerization skills mastered
-- [ ] All CyberArk components deployed and integrated
+- [ ] All CyberArk components deployed with expert-level configuration
 
-**Months 7-12**:
+**Months 7-9**:
+- [ ] **Kubernetes hands-on proficiency completely mastered**
+- [ ] Advanced K8s patterns and multi-cluster setups
+- [ ] 3 portfolio projects published on GitHub
+
+**Months 10-18**:
 - [ ] Conjur in Docker + Kubernetes fully operational
 - [ ] CI/CD pipeline integration (Jenkins, GitLab, GitHub Actions)
-- [ ] Multi-platform PAM integration (Linux, Windows, databases, cloud)
-- [ ] Secrets rotation automation implemented
+- [ ] Multi-platform PAM + Conjur integration (Linux, Windows, databases, cloud)
+- [ ] Automated secrets rotation implemented for all platforms
+- [ ] 6-7 portfolio projects total created
 
-**Months 13-18**:
+**Months 19-27**:
 - [ ] AWS security architecture expertise achieved
 - [ ] Azure security architecture expertise achieved
 - [ ] Cloud compliance implementation patterns mastered
 - [ ] Multi-cloud integration patterns understood
+- [ ] CCSP certification achieved (Month 27)
 
-**Months 19-24**:
+**Months 28-36**:
 - [ ] Enterprise-grade PAM + Conjur system designed and deployed
-- [ ] Disaster recovery and high availability implemented
+- [ ] Disaster recovery and high availability fully implemented
 - [ ] Complete monitoring and incident response framework
 - [ ] All components integrated and tested
+- [ ] CISSP certification achieved (Month 36)
 
-### Consulting Skills Development (Throughout 24 Months)
+### Consulting Skills Development (Throughout 36 Months)
 - [ ] **Compliance frameworks mastery** (HIPAA, PCI-DSS, SOC2, GDPR, ISO27001)
 - [ ] Created reference architectures for healthcare and banking
 - [ ] Documentation portfolio (10+ architecture diagrams, 20+ pages runbooks)
@@ -1906,63 +1931,81 @@ While focusing on cloud-agnostic principles, ensure you understand:
 ### Portfolio and Visibility - Graduated Approach
 **By Month 6:**
 - [ ] GitHub repository with PAM foundation projects
-- [ ] 2+ technical documentation files (10+ pages)
-- [ ] Basic deployment guides for CyberArk
+- [ ] 3+ technical documentation files (10+ pages)
+- [ ] Guardian-level PAM deployment guides
+- [ ] Advanced CyberArk scenarios documented
 
-**By Month 12:**
-- [ ] 3+ GitHub projects (PAM, Conjur, DevSecOps)
-- [ ] 2 published LinkedIn articles or blog posts
-- [ ] Capstone Phase 1 documented
+**By Month 9:**
+- [ ] 3+ GitHub projects (PAM, K8s, PAM+K8s integration)
+- [ ] 2 published LinkedIn articles on PAM/K8s
+- [ ] K8s deployment guides and best practices
 - [ ] Architecture diagrams (5+)
 - [ ] Troubleshooting guides (3+)
 
 **By Month 18:**
-- [ ] 4+ GitHub projects with comprehensive documentation
+- [ ] 6-7 GitHub projects with comprehensive documentation
 - [ ] 4 published articles/case studies
-- [ ] Compliance implementation guides (HIPAA, PCI-DSS, SOC2)
-- [ ] Cloud security architecture examples
-- [ ] All Phase 3 learnings documented
+- [ ] Conjur integration guides (Docker, K8s, multi-cloud)
+- [ ] CI/CD implementation examples (Jenkins, GitLab, GitHub)
+- [ ] DevSecOps best practices documented
 
-**By Month 24 (FINAL):**
-- [ ] 5+ published GitHub projects
-- [ ] 20+ pages of professional technical documentation
-- [ ] 5+ LinkedIn articles or blog posts
-- [ ] 2-3 detailed case studies
-- [ ] Complete capstone project with documentation
-- [ ] Consulting sales materials and presentation deck
-- [ ] 3+ reference architecture templates (AWS, Azure, Hybrid)
+**By Month 27:**
+- [ ] 8-9 GitHub projects total
+- [ ] Cloud security architecture examples (AWS, Azure)
+- [ ] Compliance implementation guides (HIPAA, PCI-DSS, SOC2, GDPR)
+- [ ] Multi-cloud integration patterns
+- [ ] 6+ published LinkedIn articles
+
+**By Month 36 (FINAL):**
+- [ ] 8-10 published GitHub projects (all high-quality)
+- [ ] 30+ pages of professional technical documentation
+- [ ] 8-10 LinkedIn articles or blog posts
+- [ ] 2-3 detailed case studies with results
+- [ ] Complete enterprise capstone project
+- [ ] Professional consulting sales materials and presentation deck
+- [ ] 4+ reference architecture templates (AWS, Azure, Hybrid, PAM+K8s)
+- [ ] Guardian-level expertise examples and documentation
 - [ ] Contributions to CyberArk or security community
 
 ### Client Readiness Checklist - Graduated Progression
 
-**Month 6 - Foundational**:
-- [ ] Can explain PAM fundamentals to stakeholders
-- [ ] Can install and configure CyberArk components
-- [ ] Can perform basic compliance gap assessments
+**Month 6 - PAM Expert**:
+- [ ] Can explain PAM fundamentals to stakeholders ✅
+- [ ] Can install and configure all CyberArk components ✅
+- [ ] Can perform basic compliance gap assessments ✅
+- [ ] **All 3 CyberArk certifications completed** (Guardian-level) ✅
 
-**Month 12 - Intermediate**:
-- [ ] Can explain PAM + DevSecOps value proposition
-- [ ] Can design PAM + Conjur architecture
-- [ ] Can perform detailed compliance assessments
-- [ ] Can design CI/CD pipeline with secrets management
+**Month 9 - Kubernetes Expert**:
+- [ ] Can design and deploy Kubernetes clusters ✅
+- [ ] Can integrate K8s with CyberArk PAM ✅
+- [ ] Can perform K8s security hardening ✅
+- [ ] K8s hands-on gap completely closed ✅
 
-**Month 18 - Advanced**:
-- [ ] Can explain multi-cloud security architecture
-- [ ] Can perform compliance gap assessments for healthcare/banking
-- [ ] Can design cloud-native PAM solutions
-- [ ] Can present to C-level executives
+**Month 18 - DevSecOps Master**:
+- [ ] Can explain PAM + DevSecOps value proposition ✅
+- [ ] Can design PAM + Conjur architecture ✅
+- [ ] Can implement CI/CD with secrets management ✅
+- [ ] Can design multi-cloud security solutions ✅
 
-**Month 24 - Consultant-Ready**:
+**Month 27 - Cloud Security Expert**:
+- [ ] Can explain multi-cloud security architecture ✅
+- [ ] Can perform comprehensive compliance gap assessments ✅
+- [ ] Can design cloud-native PAM solutions ✅
+- [ ] **CCSP Certification achieved** ✅
+
+**Month 36 - Principal Consultant-Ready**:
 - [ ] Can explain PAM value to non-technical stakeholders ✅
 - [ ] Can perform comprehensive compliance gap assessments ✅
-- [ ] Can design enterprise multi-tier PAM architecture ✅
-- [ ] Can troubleshoot CyberArk components independently ✅
-- [ ] Can integrate Conjur with K8s and cloud platforms ✅
+- [ ] Can design enterprise multi-tier PAM + Conjur architecture ✅
+- [ ] Can troubleshoot CyberArk components independently (all 3 levels) ✅
+- [ ] Can integrate Conjur with K8s and all cloud platforms ✅
 - [ ] Can design disaster recovery and HA solutions ✅
 - [ ] Understand RFP/SOW requirements for security projects ✅
 - [ ] Can present solutions to C-suite and board members ✅
 - [ ] Can estimate project costs and ROI ✅
-- [ ] Can manage multi-month security consulting engagements ✅
+- [ ] Can manage multi-month/multi-million $ consulting engagements ✅
+- [ ] **Expert in all CyberArk products** (Defender, Sentry, Guardian level) ✅
+- [ ] **CISSP certified** - Industry gold standard ✅
 
 ---
 
@@ -2022,10 +2065,10 @@ While focusing on cloud-agnostic principles, ensure you understand:
 ### Key Milestones - 36 Month Timeline
 - **Month 3**: ✅ CyberArk Defender certified
 - **Month 5**: ✅ CyberArk Sentry certified
-- **Month 6**: ✅ Optional: CyberArk Guardian certified
-- **Month 9**: ✅ K8s hands-on proficiency MASTERED + 2-3 portfolio projects published
-- **Month 18**: ✅ Conjur mastery + DevSecOps expertise + Advanced portfolio
-- **Month 27**: ✅ CCSP certified + Cloud security expert + 5-7 portfolio projects
+- **Month 6**: ✅ **CyberArk Guardian certified** (expert-level)
+- **Month 9**: ✅ K8s hands-on proficiency COMPLETELY MASTERED + 3 portfolio projects
+- **Month 18**: ✅ Conjur mastery + DevSecOps expertise + 6-7 portfolio projects
+- **Month 27**: ✅ CCSP certified + Cloud security expert + 8-10 portfolio projects
 - **Month 36**: ✅ CISSP certified + Full capstone complete + Professional consultant-ready
 
 ### Realistic Timeline Breakdown - 36 MONTHS
@@ -2033,10 +2076,10 @@ While focusing on cloud-agnostic principles, ensure you understand:
 **Phase 1 (Months 1-9)**: PAM + Kubernetes Foundation - DEEP MASTERY
 - 9 months to thoroughly master PAM (not rushed)
 - Kubernetes gap completely closed with extensive hands-on practice
-- Two CyberArk certifications achieved (Defender + Sentry)
-- Optional: CyberArk Guardian certification
-- 2-3 portfolio projects published to GitHub
+- **Three CyberArk certifications achieved** (Defender + Sentry + Guardian) - EXPERT-LEVEL
+- 3 portfolio projects published to GitHub (PAM, K8s, PAM+K8s integration)
 - 2 LinkedIn articles published on PAM/K8s
+- Expert-level PAM knowledge (all three certifications)
 
 **Phase 2 (Months 10-18)**: Conjur + DevSecOps - EXTENSIVE HANDS-ON
 - 9 months for deep Conjur mastery (Docker, K8s, multi-cloud)
@@ -2076,8 +2119,8 @@ While focusing on cloud-agnostic principles, ensure you understand:
 
 ### Expected Outcome After 36 Months
 At 15 hours/week for 3 years, you'll have:
-- ✅ **4 major professional certifications** (Defender, Sentry, CCSP, CISSP)
-- ✅ **Optional: CyberArk Guardian certification** (expert-level)
+- ✅ **5 major professional certifications** (Defender, Sentry, Guardian, CCSP, CISSP)
+- ✅ **All three CyberArk certifications** - EXPERT-LEVEL PAM knowledge
 - ✅ **MASTERED-level PAM expertise** (CyberArk platform inside-out knowledge)
 - ✅ **MASTERED-level secrets management** (Conjur in Docker, K8s, multi-cloud, all patterns)
 - ✅ **Expert-level cloud security** (AWS + Azure + GCP proficiency)
@@ -2086,14 +2129,15 @@ At 15 hours/week for 3 years, you'll have:
 - ✅ **Professional-grade English** (fluent in technical communication and consulting)
 - ✅ **Enterprise architecture expertise** (design complex, integrated, multi-cloud systems)
 - ✅ **Strong professional portfolio**:
-  - 5-7 published GitHub projects (high-quality, well-documented)
+  - 7-8 published GitHub projects (high-quality, well-documented)
   - 30+ pages of technical documentation
   - 8-10 LinkedIn/blog articles
   - 2-3 detailed case studies
-  - Reference architecture templates (AWS, Azure, Hybrid)
+  - Reference architecture templates (AWS, Azure, Hybrid, PAM+K8s)
   - Consulting proposal and SOW templates
   - Sales materials and presentation decks
-- ✅ **Expert consultant credibility** - Ready to command premium rates
+  - Guardian-level PAM expertise examples
+- ✅ **Expert consultant credibility** - Top-tier consulting rates
 
 ### Advantages of 36-Month vs 24-Month Plan
 ✅ **Deeper expertise** - 12 extra months for mastery vs rushing
@@ -2116,12 +2160,13 @@ At 15 hours/week for 3 years, you'll have:
 ✅ **English fluency** - 3 years of daily practice vs crash course
 ✅ **Sustainability** - Built to last, no burnout, career longevity
 
-**Estimated Consulting Value with 36-Month Expertise**:
-- **Independent Consultant**: $200-350/hour (premium rates due to deep expertise)
-- **Enterprise Consulting Firm**: $160K-250K+ salary (senior/principal level)
-- **Contract-based**: $60-100K/month for full-time engagements
-- **Specialized PAM Consultant**: Top-tier rates in niche market
-- **Training & Mentoring**: $150-200/hour for training others
+**Estimated Consulting Value with 36-Month + Guardian Expertise**:
+- **Independent Consultant**: $250-400/hour (top-tier rates, all 3 CyberArk certs)
+- **Enterprise Consulting Firm**: $180K-280K+ salary (principal/expert level)
+- **Contract-based**: $80-120K/month for full-time engagements
+- **Specialized PAM Consultant**: Top-tier premium rates (Guardian expertise)
+- **Training & Mentoring**: $200-250/hour for training others (CyberArk expert)
+- **Niche Expertise Premium**: 30-50% higher rates than standard consultants
 
 ---
 
