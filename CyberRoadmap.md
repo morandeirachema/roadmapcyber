@@ -21,7 +21,208 @@ This roadmap integrates Privileged Access Management (PAM), CyberArk Conjur, and
 
 **Time Commitment**: 15 hours/week while working full-time
 
-**Recommended Path**: Realistic 10-12 month timeline focusing on security concepts, CyberArk platforms, hands-on Kubernetes work, and compliance frameworks.
+**Language Requirement**: English fluency for consulting (healthcare/banking clients expect professional English communication)
+- **Strategy**: Integrate English learning throughout roadmap (no extra time needed)
+- **Goal**: Professional technical English proficiency by Month 24
+- **Method**: Learn through technical documentation, practice with real content
+
+**Recommended Path**: Realistic 24-month timeline focusing on security concepts, CyberArk platforms, hands-on Kubernetes work, compliance frameworks, and English proficiency improvement.
+
+---
+
+## English Learning Integration (Throughout 24 Months)
+
+### Why English Is Critical for Your Consulting Role
+- **Client Communications**: Healthcare/banking clients expect professional English
+- **Documentation**: All technical docs, runbooks, and proposals in English
+- **Certifications**: CISSP, CCSP, CyberArk exams are in English
+- **Networking**: Security community, forums, conferences are primarily English
+- **Consulting Value**: English proficiency = higher rates and more opportunities
+- **Resume/Portfolio**: All professional materials in English
+
+### English Learning Strategy: Integrated Approach
+**Philosophy**: Learn English through your technical studies (not separate language classes)
+- 🎯 **No extra time required** - leverage existing 15 hours/week
+- 🎯 **Domain-specific vocabulary** - learn cybersecurity English naturally
+- 🎯 **Practical application** - use English with real technical content
+- 🎯 **Progressive difficulty** - start with easier content, advance with domains
+
+### English Learning Phases (Integrated into 24 Months)
+
+#### Phase 1: English Foundations (Months 1-6)
+**Focus**: Reading + Listening (comprehension)
+- **Hours/week**: 2-3 hours naturally embedded
+- **Activities**:
+  - Read CyberArk documentation in English (not translated)
+  - Watch CyberArk training videos in English (use subtitles if needed)
+  - Take notes in English (technical terminology)
+  - Join CyberArk Community Forums (read discussions)
+  - Follow CyberArk blogs and updates
+
+**English Milestones**:
+- [ ] Month 1-2: Comfortable reading technical documentation
+- [ ] Month 3-4: Understand CyberArk training videos without subtitles (50%)
+- [ ] Month 5-6: Write technical documentation in English
+
+**Vocabulary Focus**: PAM, authentication, encryption, security, credentials, policies, deployment
+
+---
+
+#### Phase 2: English Communication (Months 7-12)
+**Focus**: Writing + Listening (active use)
+- **Hours/week**: 2-3 hours naturally embedded
+- **Activities**:
+  - Write lab documentation in English
+  - Document architecture diagrams with English labels
+  - Participate in CyberArk forums (ask/answer questions)
+  - Take notes during training in English
+  - Create GitHub documentation in English
+  - Record yourself explaining concepts in English (practice)
+
+**English Milestones**:
+- [ ] Month 7-8: Write clear technical documentation in English
+- [ ] Month 9-10: Participate confidently in online forums/discussions
+- [ ] Month 11-12: Create documentation that others can understand
+
+**Vocabulary Focus**: DevSecOps, CI/CD, Kubernetes, orchestration, integration, automation
+
+---
+
+#### Phase 3: English Proficiency (Months 13-18)
+**Focus**: Speaking + Writing (professional level)
+- **Hours/week**: 2-3 hours naturally embedded
+- **Activities**:
+  - Write blog articles/LinkedIn posts in English
+  - Create presentation slides with English content
+  - Record demo videos explaining configurations
+  - Participate in webinars and Q&A sessions
+  - Read compliance frameworks in English (HIPAA, PCI-DSS docs)
+  - Study for CCSP in English (official materials)
+
+**English Milestones**:
+- [ ] Month 13-14: Read and understand compliance documents
+- [ ] Month 15-16: Write blog articles that are publishable
+- [ ] Month 17-18: Present technical concepts confidently
+
+**Vocabulary Focus**: Cloud security, compliance, HIPAA, PCI-DSS, governance, risk management
+
+---
+
+#### Phase 4: Expert English (Months 19-24)
+**Focus**: Consulting English (professional communication)
+- **Hours/week**: 2-3 hours naturally embedded
+- **Activities**:
+  - Write consulting proposals and SOWs in English
+  - Create client-facing presentations
+  - Write case studies and technical reports
+  - Prepare for CISSP exam in English
+  - Network at security conferences/webinars
+  - Mentor others in English (forums/community)
+
+**English Milestones**:
+- [ ] Month 19-20: Write professional consulting materials
+- [ ] Month 21-22: Present to simulated C-level audiences
+- [ ] Month 23-24: Ready for client-facing consulting work
+
+**Vocabulary Focus**: Enterprise security, governance, risk, compliance reporting, architecture, best practices
+
+---
+
+### English Learning Resources
+
+**English Learning Platforms** (Spanish Speaker Optimized):
+- **Duolingo** ($10/month) - 20-30 min/day for vocabulary
+- **YouTube Subtitles** - Watch CyberArk videos with English subtitles
+- **Lingoni English** - YouTube channel for advanced English
+- **TED Talks** - Technical and business English (with subtitles)
+- **Coursera "English for IT Professionals"** - Free audit available
+
+**Language Exchange & Speaking Practice**:
+- **Tandem App** - Find language partners (free)
+- **HelloTalk** - Language learning community
+- **ConversationExchange** - Find speaking partners
+- **Local Meetup Groups** - English speaking tech meetups
+
+**Spanish-to-English Resources**:
+- **DeepL Translator** - Better than Google for technical translation (use to check your work)
+- **Reverso Context** - See phrases in context with translations
+- **Linguee** - Technical term translations
+- **Spanish cybersecurity forums** - Read Spanish, then find English equivalents
+
+**Technical English Resources**:
+- **English for Technical Professionals** - Coursera
+- **Technical Writing for Software Documentation** - Udemy
+- **Business English for Consultants** - LinkedIn Learning
+- **Pronunciation practice** - Forvo.com (hear native speakers)
+
+---
+
+### Monthly English Study Plan (Integrated, Not Extra)
+
+**Month 1-2**:
+- Spend 30 min/day reading CyberArk docs in English
+- Duolingo 20 min/day (vocabulary building)
+- Take notes in English during study
+
+**Month 3-4**:
+- Watch training videos in English (no subtitles after videos)
+- Write lab documentation in English
+- Join CyberArk forums, read discussions
+
+**Month 5-6**:
+- Document your Kubernetes setup in English
+- Comment on CyberArk forum posts in English (short responses)
+- Record 10-minute explanation of PAM architecture
+
+**Month 7-8**:
+- Write DevSecOps documentation in English
+- Create GitHub README files in English
+- Publish 1st blog post/LinkedIn article
+
+**Month 9-12**:
+- Write CI/CD integration guides in English
+- Publish 2-3 more blog articles
+- Create architecture diagrams with English documentation
+- Prepare first presentation on your work
+
+**Month 13-18**:
+- Write compliance guides (HIPAA, PCI-DSS) in English
+- Publish 2-3 case studies in English
+- Create webinar/presentation materials
+- Join English-speaking security webinars
+
+**Month 19-24**:
+- Write professional consulting proposals
+- Create client-ready presentations
+- Write technical reports and assessments
+- Network in English-speaking security communities
+- Mentor others in forums
+
+---
+
+### English Proficiency Checkpoints
+
+**Month 6 (Target: Basic Technical Reading)**:
+- [ ] Can read and understand CyberArk documentation
+- [ ] Can take technical notes in English
+- [ ] Can follow training videos with subtitles
+
+**Month 12 (Target: Technical Writing)**:
+- [ ] Can write clear technical documentation
+- [ ] Can participate in forums with confidence
+- [ ] Can create GitHub documentation
+
+**Month 18 (Target: Professional Communication)**:
+- [ ] Can write blog articles and case studies
+- [ ] Can explain concepts verbally in English
+- [ ] Can present technical topics confidently
+
+**Month 24 (Target: Consulting Ready)**:
+- [ ] Can write professional proposals and reports
+- [ ] Can present to C-level executives in English
+- [ ] Can communicate with clients professionally
+- [ ] Can mentor others in English
+- [ ] Professional portfolio entirely in English
 
 ---
 
@@ -308,20 +509,21 @@ This roadmap integrates Privileged Access Management (PAM), CyberArk Conjur, and
 - **1 hour**: Reading, notes, review
 
 #### Month 1 (Weeks 1-4): PAM Foundations & Lab Setup
-**Objective**: Understand PAM concepts, establish lab environment, K8s review
+**Objective**: Understand PAM concepts, establish lab environment, K8s review, start English foundations
 
-| Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
-|-------|-----------|-------------|----------|--------------|
-| 1 | Setup + PAM Fundamentals | 5 | Lab setup (VMs, K8s cluster) | Lab environment ready |
-| 2 | Zero Trust + Credential Management | 5 | CyberArk component exploration | PAM architecture mapped |
-| 3 | Session Recording + Best Practices | 5 | Network & storage setup for lab | Documentation started |
-| 4 | Review + Community Setup | 5 | Initial CyberArk installation | GitHub repo created |
+| Weeks | Focus Area | Study Hours | Hands-On | English Activity | Deliverables |
+|-------|-----------|-------------|----------|------------------|--------------|
+| 1 | Setup + PAM Fundamentals | 5 | Lab setup (VMs, K8s cluster) | Start Duolingo (20 min/day) | Lab environment ready |
+| 2 | Zero Trust + Credential Management | 5 | CyberArk component exploration | Read CyberArk docs in English | PAM architecture mapped |
+| 3 | Session Recording + Best Practices | 5 | Network & storage setup for lab | Watch 1 training video (with subtitles) | Documentation started |
+| 4 | Review + Community Setup | 5 | Initial CyberArk installation | Take notes in English | GitHub repo created |
 
 **Month 1 Deliverables**:
 - Fully functional lab with 3-4 VMs + local K8s cluster (kind/k3s/minikube)
 - CyberArk components installed (basic)
-- Study notes and concept map created
+- Study notes and concept map created (in English)
 - GitHub repository initialized
+- **English**: Comfortable reading technical documentation ✓
 
 ---
 
@@ -525,21 +727,22 @@ This roadmap integrates Privileged Access Management (PAM), CyberArk Conjur, and
 ---
 
 #### Month 12 (Weeks 45-48): Capstone Phase 1 + Enterprise Architecture
-**Objective**: Begin capstone project, document enterprise architecture
+**Objective**: Begin capstone project, document enterprise architecture, publish first blog article
 
-| Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
-|-------|-----------|-------------|----------|--------------|
-| 45 | Enterprise Architecture Design | 8 | Design multi-tier PAM + Conjur system | Architecture diagrams (visio/draw.io) |
-| 46 | Capstone Phase 1: Foundation | 8 | Build capstone infrastructure | Capstone infrastructure in place |
-| 47 | Integration Testing | 8 | Test all components together | Integration tests passing |
-| 48 | Documentation + Portfolio | 8 | Create architecture guides, runbooks | Comprehensive documentation |
+| Weeks | Focus Area | Study Hours | Hands-On | English Activity | Deliverables |
+|-------|-----------|-------------|----------|------------------|--------------|
+| 45 | Enterprise Architecture Design | 8 | Design multi-tier PAM + Conjur system | Label diagrams in English | Architecture diagrams (visio/draw.io) |
+| 46 | Capstone Phase 1: Foundation | 8 | Build capstone infrastructure | Write documentation in English | Capstone infrastructure in place |
+| 47 | Integration Testing | 8 | Test all components together | Document testing procedures | Integration tests passing |
+| 48 | Documentation + Portfolio | 8 | Create architecture guides, runbooks | **Publish 1st LinkedIn article** | Comprehensive documentation |
 
 **Month 12 Deliverables**:
-- Enterprise PAM + Conjur architecture designed
+- Enterprise PAM + Conjur architecture designed (with English documentation)
 - Capstone Phase 1 foundation complete
-- Integration testing framework
-- Technical documentation (10+ pages)
+- Integration testing framework (documented in English)
+- Technical documentation (10+ pages in English)
 - GitHub portfolio updated with capstone progress
+- **English**: Published 1st blog/LinkedIn article ✓
 
 **PHASE 2 CHECKPOINT**:
 - ✅ Conjur fully mastered (Docker, K8s, multi-cloud)
@@ -858,31 +1061,513 @@ This roadmap integrates Privileged Access Management (PAM), CyberArk Conjur, and
 
 ---
 
-## Learning Resources
+## Comprehensive Learning Resources (By Phase)
 
-### Official Documentation
-- CyberArk Campus (official training platform)
-- CyberArk Marketplace (integrations and tools)
-- Conjur Documentation (conjur.org)
-- CyberArk Community Forums
+### PHASE 1: CyberArk PAM (Months 1-6)
 
-### Online Platforms
-- Pluralsight - CyberArk courses
-- Udemy - PAM and IAM courses
-- A Cloud Guru / Linux Academy - Cloud security
-- Cybrary - Security certifications
+#### Official CyberArk Resources
+- **CyberArk Campus** (conjur.org/learn) - Official training platform with free courses
+  - CyberArk Defender certification course
+  - CyberArk Sentry certification course
+  - PAM fundamentals modules
+  - Video tutorials and documentation
+- **CyberArk University** - Advanced training programs
+- **CyberArk Documentation Portal** (docs.cyberark.com)
+  - PAM installation and administration guides
+  - API documentation
+  - Best practices documentation
+- **CyberArk Community Forums** (cyberark.force.com/community)
+  - Active community discussions
+  - Troubleshooting help
+  - Implementation tips from other professionals
+- **CyberArk Blog** (cyberark.com/blog) - Latest updates, threat analysis, best practices
+- **CyberArk Webinars** - Free monthly technical webinars
+- **CyberArk YouTube Channel** - Product demos, training clips, case studies
 
-### Books
-- "Privileged Attack Vectors" by Morey Haber
-- "Zero Trust Networks" by Evan Gilman
-- "Secrets Management: A Practitioner's Guide"
-- "The DevOps Handbook" by Gene Kim
+#### Online Learning Platforms
+- **Pluralsight**
+  - "CyberArk Privilege Access Management" course
+  - Advanced PAM administration courses
+  - Subscription: $299/year or monthly
+- **Udemy**
+  - "Privileged Access Management (PAM) Course" ($15-50)
+  - "CyberArk Administration Bootcamp" ($15-50)
+  - Multiple PAM courses available
+- **LinkedIn Learning** (included with LinkedIn Premium)
+  - IAM and security courses
+  - CyberArk-related content
+- **A Cloud Guru** (now Pluralsight) - Cloud security modules
+- **Cybrary** (cybrary.it) - Free security certification prep
+- **ITProTV** - Video-based IT training
 
-### Practice Environments
-- CyberArk Labs (official training environment)
-- GitHub - Conjur examples and tutorials
-- TryHackMe / HackTheBox - Security labs
-- Cloud sandbox environments (AWS/Azure free tiers)
+#### Recommended Books
+- **"Privileged Attack Vectors" by Morey Haber** (CyberArk CTO)
+  - Deep dive into PAM security
+  - Threat modeling
+  - Best practices
+  - Pages: 304, ISBN: 978-0134927757
+
+- **"Identity and Access Management" by Pritpal Singh**
+  - IAM architecture
+  - Best practices
+  - Modern identity solutions
+
+- **"Zero Trust Networks" by Evan Gilman & Doug Barth**
+  - Zero Trust principles (critical for PAM)
+  - Architecture and implementation
+  - Pages: 432, ISBN: 978-1491962183
+
+- **"Secrets Management: A Practitioner's Guide" (O'Reilly)**
+  - Practical secrets management
+  - Architecture patterns
+  - Case studies
+
+#### Lab Environments
+- **CyberArk Labs** (cyberark.com/labs) - Official sandbox environment
+- **Docker Hub** - CyberArk container images for testing
+- **GitHub CyberArk Repositories**
+  - cyberark/identity-demo-docker
+  - cyberark/conjur-quickstart
+  - Official examples and templates
+- **Home Lab Setup**
+  - VirtualBox (free) - Create test VMs
+  - Hyper-V (Windows native)
+  - VMware ESXi (free version available)
+  - KVM (Linux native)
+
+#### Practice Tests & Certifications
+- **CyberArk Official Practice Tests** - Available in Campus
+- **Exam.io** - CyberArk certification prep
+- **Whizlabs** - Practice tests for certifications
+
+#### Spanish Language Resources (for PAM)
+- **SANS en Español** - Spanish security resources
+- **OWASP Spanish** - Security best practices in Spanish
+- **Cisco Networking Academy** - Spanish content available
+
+---
+
+### PHASE 2: Kubernetes & Conjur (Months 7-12)
+
+#### Kubernetes Official Resources
+- **Kubernetes Documentation** (kubernetes.io/docs)
+  - Official reference
+  - Tutorials and guides
+  - Completely free
+- **Kubernetes the Hard Way** (Kelsey Hightower)
+  - Build K8s cluster from scratch
+  - Deep understanding of components
+  - Free online: github.com/kelseyhightower/kubernetes-the-hard-way
+- **Linux Foundation Kubernetes Courses**
+  - "Introduction to Kubernetes" (LFS158) - $299
+  - "Kubernetes for Developers" (LFD259) - $399
+  - Includes exam access
+- **Kubernetes Official YouTube** (kubernetes.io/youtube)
+  - Official videos and talks
+  - Conference recordings
+  - Tutorials
+
+#### Kubernetes Training Platforms
+- **killer.sh** (for CKA practice)
+  - 2 practice exams: $69
+  - Real exam simulation
+  - 36-hour access per exam
+- **KodeKloud**
+  - Interactive Kubernetes labs
+  - Free and paid courses
+  - Hands-on exercises
+- **Linux Academy / A Cloud Guru**
+  - Kubernetes Deep Dive
+  - CKA preparation courses
+- **Udemy Kubernetes Courses**
+  - "Docker and Kubernetes: The Complete Guide" (~$15-50)
+  - "Kubernetes for the Absolute Beginners" (~$15-50)
+
+#### Conjur Specific Resources
+- **CyberArk Conjur Official Documentation** (docs.conjur.org)
+  - Installation guides
+  - Configuration references
+  - API documentation
+  - Policy as Code documentation
+  - Tutorials
+- **Conjur GitHub Repository** (github.com/cyberarkconjur)
+  - Official examples
+  - Quick start guides
+  - Sample applications (Python, Go, Java)
+  - Kubernetes examples
+  - CI/CD integrations
+- **CyberArk Conjur Campus Course**
+  - Conjur fundamentals
+  - Advanced topics
+  - Integration patterns
+- **HashiCorp Vault Documentation** (for comparison)
+  - Alternative secrets management
+  - Comparison with Conjur
+  - Architecture patterns
+
+#### DevSecOps & CI/CD Resources
+- **The DevOps Handbook** by Gene Kim
+  - Implementation patterns
+  - Security in DevOps
+  - Best practices
+  - Pages: 672, ISBN: 978-1942788003
+
+- **GitLab CI/CD Documentation** (docs.gitlab.com/ee/ci)
+  - Free, comprehensive CI/CD platform
+  - Integration examples
+  - Security best practices
+
+- **GitHub Actions Documentation** (docs.github.com/actions)
+  - CI/CD with GitHub
+  - Workflow examples
+  - Integration patterns
+
+- **Jenkins Documentation** (jenkins.io/doc)
+  - Enterprise CI/CD
+  - Plugin ecosystem
+  - Integration guides
+
+- **OWASP DevSecOps Guidelines** (owasp.org/www-project-devsecops)
+  - Best practices
+  - Security controls
+  - Implementation guidance
+
+#### Kubernetes Security Resources
+- **Kubernetes Security Best Practices** (Sysdig)
+  - Free guide and webinars
+  - Runtime security
+  - Compliance
+
+- **Pod Security Standards** (kubernetes.io/docs/concepts/security)
+  - Official security guidance
+  - Implementation examples
+  - Migration guides
+
+- **NIST Cybersecurity Framework** (nist.gov/cyberframework)
+  - Framework overview
+  - K8s security mappings
+  - Free download
+
+---
+
+### PHASE 3: Cloud Security & CCSP (Months 13-18)
+
+#### AWS Security Resources
+- **AWS Official Documentation** (aws.amazon.com/documentation)
+  - IAM documentation
+  - Security services (KMS, Secrets Manager, etc.)
+  - Compliance documentation
+  - Free and comprehensive
+
+- **AWS Security Best Practices** (aws.amazon.com/security/best-practices)
+  - Implementation guides
+  - Whitepapers (free PDF)
+  - Reference architectures
+
+- **AWS Training and Certification** (aws.amazon.com/training)
+  - Free tier academy courses
+  - "AWS Fundamentals" courses
+  - Advanced security courses
+
+- **A Cloud Guru AWS Security Courses**
+  - IAM Deep Dive
+  - AWS Security Essentials
+  - Advanced AWS security
+
+- **Linux Academy AWS Courses**
+  - AWS Security Fundamentals
+  - Identity and Access Management
+
+#### Azure Security Resources
+- **Microsoft Azure Documentation** (docs.microsoft.com/azure)
+  - Azure AD/Entra ID documentation
+  - Security services (Key Vault, Defender, etc.)
+  - Compliance guides
+
+- **Microsoft Learn** (learn.microsoft.com)
+  - Free Azure security courses
+  - Hands-on labs
+  - Interactive modules
+  - No credit card required
+
+- **Azure Architecture Center** (docs.microsoft.com/azure/architecture)
+  - Reference architectures
+  - Security best practices
+  - Implementation patterns
+
+- **Microsoft Azure Security Fundamentals** (free course)
+  - Azure security services
+  - Identity management
+  - Compliance and governance
+
+#### CCSP Certification Resources
+- **Official (ISC)² CCSP Study Guide** - 2nd Edition
+  - Author: Mike Chapple
+  - Pages: 880
+  - ISBN: 978-1492044948
+  - Most comprehensive resource
+
+- **Sybex CCSP Study Guide** (if available)
+  - Exam-focused content
+  - Practice questions
+  - Domain-specific deep dives
+
+- **CloudAcademy CCSP Courses**
+  - Video-based learning
+  - Practice exams
+  - Subscription: $49/month
+
+- **A Cloud Guru CCSP Certification**
+  - Video courses
+  - Hands-on labs
+  - Practice exams
+
+- **Official (ISC)² CCSP Practice Tests**
+  - 200+ questions
+  - Domain-specific tests
+  - Detailed explanations
+
+- **Boson CCSP Practice Exams**
+  - 2 full-length exams
+  - Very realistic
+  - Detailed explanations
+  - Cost: ~$100
+
+#### Compliance Framework Resources
+
+**HIPAA**:
+- **HHS Office for Civil Rights** (hhs.gov/hipaa)
+  - Official HIPAA documentation
+  - Security Rule details
+  - Free government resources
+- **HIPAA Compliance Checklist** (HHS)
+  - Implementation guidance
+  - Control mappings
+- **HIPAA for Cloud Computing** (various free guides)
+
+**PCI-DSS**:
+- **PCI Security Standards Council** (pcisecuritystandards.org)
+  - Official PCI-DSS Standard (PDF)
+  - Implementation guides
+  - Assessment requirements
+- **PCI-DSS Compliance Guides** (various vendors)
+  - Practical implementation
+  - Best practices
+  - Architecture patterns
+
+**SOC2**:
+- **AICPA SOC2 Documentation** (aicpa.org)
+  - Trust Service Criteria
+  - Implementation guidance
+- **SOC2 Compliance Guides** (various sources)
+  - Practical checklists
+  - Documentation templates
+
+**GDPR**:
+- **GDPR Official Regulation** (gdpr-info.eu)
+  - Complete regulation text
+  - Article-by-article guidance
+  - Free resource
+
+**ISO 27001**:
+- **ISO 27001 Standard** ($200 PDF from ISO)
+  - Or accessible via libraries
+- **ISO 27001 Implementation Guides** (various free sources)
+  - Practical guidance
+  - Control documentation
+
+#### NIST & Government Standards
+- **NIST Cybersecurity Framework** (nist.gov/cyberframework)
+  - Free PDF download
+  - Implementation guidance
+  - Industry-specific versions
+- **NIST SP 800 Series** (free from NIST)
+  - SP 800-53: Security Controls
+  - SP 800-171: Protecting Controlled Information
+  - SP 800-207: Zero Trust Architecture
+
+---
+
+### PHASE 4: CISSP Certification (Months 19-24)
+
+#### Official CISSP Resources
+- **Official (ISC)² CISSP Study Guide** - Latest Edition
+  - Author: Mike Chapple
+  - Pages: 1000+
+  - Most comprehensive (must-have)
+
+- **Sybex CISSP Official Study Guide** (if available)
+  - Exam-focused
+  - Practice questions
+  - Domain-specific deep dives
+
+- **"11th Hour CISSP"** - George McBride
+  - Quick reference guide
+  - Last-minute review
+  - Condensed format
+  - Pages: 400+
+
+- **CISSP CBK (Common Body of Knowledge)**
+  - Official (ISC)² curriculum
+  - 8 domains coverage
+  - Free overview at isc2.org
+
+#### CISSP Training and Practice
+- **Destination CISSP** (YouTube - Rob Witcher)
+  - Free domain-by-domain videos
+  - Exam tips and strategies
+  - Highly recommended
+  - 50+ hours of content
+
+- **Kelly Handerhan CISSP Exam Cram** (YouTube)
+  - Free exam preparation
+  - Domain coverage
+  - Exam strategy
+
+- **Cybrary CISSP Course** (cybrary.it)
+  - Free audit available
+  - 40+ hours content
+  - Practice questions
+
+- **Boson CISSP Practice Exams**
+  - 2 full-length exams
+  - Very realistic (most similar to real exam)
+  - Detailed explanations
+  - Cost: ~$120
+  - Highly recommended
+
+- **Official (ISC)² Practice Tests**
+  - 50 questions
+  - Available online
+  - Available in Campus
+
+- **CISSP Flash Cards**
+  - Quizlet decks (free)
+  - Domain summaries
+  - Key concepts
+
+- **CISSP study groups**
+  - Reddit: r/cissp
+  - Discord CISSP channels
+  - Local meetup groups
+
+---
+
+### General Security Resources (Ongoing)
+
+#### Blogs & News
+- **SecurityBoulevard.com** - Daily security news
+- **Krebs on Security** - Investigative security journalism
+- **BleepingComputer.com** - Breaking security news
+- **InfoSec.com** - Security news and articles
+- **SANS Reading Room** (sans.org/reading) - Free security papers
+
+#### Security Communities
+- **Reddit Communities**:
+  - r/cybersecurity
+  - r/cissp
+  - r/kubernetes
+  - r/CyberArk (if exists)
+  - r/Conjur (if exists)
+
+- **Discord Communities**:
+  - SANS Discord
+  - ISACA Discord
+  - Kubernetes Discord
+  - Various security communities
+
+- **LinkedIn Groups**:
+  - CISSP Professionals
+  - Cloud Security Professionals
+  - CyberArk Community
+  - DevSecOps
+  - IAM Professionals
+
+- **Forums**:
+  - CyberArk Community Forums
+  - Stack Overflow (technical questions)
+  - Security Stack Exchange
+
+#### Podcast Resources
+- **Defensive Security** - Malware, vulnerabilities, defensive strategies
+- **Security Now** - Daily security news and analysis
+- **CyberWire Daily** - Cybersecurity news briefing
+- **SANS Cyber Aces** - Educational security content
+- **The Privacy Podcast** - Privacy and compliance focus
+
+#### Hands-On Practice
+- **TryHackMe.com** - Interactive security labs
+  - Free and paid courses
+  - Hands-on exercises
+  - Path-based learning
+
+- **HackTheBox.com** - Security lab challenges
+  - Machines and challenges
+  - Community discussions
+  - Certification prep
+
+- **Cloud Security Posture Management Labs**
+  - AWS Security Hub labs
+  - Azure Security Center labs
+  - GCP Security Command Center labs
+
+---
+
+### Spanish-Language Security Resources
+
+Since you're a Spanish speaker, these resources can help with learning:
+
+- **INCIBE** (incibe.es) - Spanish Cybersecurity Institute
+  - Free resources in Spanish
+  - Security guides
+  - Best practices
+
+- **AEPD** (aepd.es) - Spanish Data Protection Authority
+  - GDPR resources in Spanish
+  - Privacy guidance
+  - Compliance documentation
+
+- **OWASP Spain** (owasp.org/www-chapter-spain)
+  - Spanish security best practices
+  - Local meetups and events
+  - Resources in Spanish
+
+- **Hispano Security** (hispanosecurity.com)
+  - Spanish security news
+  - Community discussions
+  - Local resources
+
+- **Cisco Networking Academy** (netacad.com)
+  - Available in Spanish
+  - Security courses in Spanish
+  - Free cybersecurity fundamentals
+
+- **LinkedIn en Español**
+  - Follow Spanish security professionals
+  - Translate technical articles
+  - Network with Spanish-speaking security community
+
+---
+
+### Summary: Resource Investment
+
+**Free Resources**: Estimated 60-70% of all learning
+- Official documentation (CyberArk, Kubernetes, AWS, Azure, NIST)
+- YouTube channels and tutorials
+- GitHub examples
+- Community forums
+- Cybrary courses
+- A Cloud Guru free tier
+- Microsoft Learn
+
+**Paid Resources**: Estimated $500-1500 total for 24 months
+- Study guides: ~$200-400
+- Practice exams (Boson, Official): ~$250-400
+- Online courses (Pluralsight, A Cloud Guru): ~$300-600
+- One certification exam: ~$400-600 (depending on certification)
+- Optional: Training bootcamps or instructor-led courses: $1000-2000
+
+**Recommendation**: Use free resources first, then supplement with targeted paid resources as you get closer to certifications.
 
 ---
 
