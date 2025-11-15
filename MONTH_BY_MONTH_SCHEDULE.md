@@ -1,5 +1,14 @@
 # 36-Month Detailed Schedule: Week-by-Week Activities
 
+**Weekly Commitment**: 10-12 hours/week (sustainable pace for working professionals)
+- **Weekdays**: 1.5-2 hours/day (Mon-Fri) = 7.5-10 hours
+- **Weekends**: 2.5-3 hours total = additional 2.5-3 hours
+- **Total**: ~10-12 hours/week (family-friendly, no burnout)
+
+**Note**: This reduced schedule provides the same comprehensive learning path as the original 15 hrs/week plan, just at a more comfortable pace. All certifications and milestones remain achievable.
+
+---
+
 ## PHASE 1: PAM + Kubernetes Mastery (Months 1-11)
 
 ---
@@ -10,18 +19,17 @@
 
 ### Week 1-4 Schedule
 
-| Week | Monday-Friday (2 hrs/day) | Saturday (3 hrs) | Sunday (2 hrs) | Deliverables |
-|------|--------------------------|-----------------|----------------|--------------|
-| 1 | Setup: VMs, K8s cluster basics, lab planning | K8s: Deploy minikube + tutorial | Review + plan week 2 | Lab environment initiated |
-| 2 | PAM Fundamentals: Read CyberArk docs (1 hr) + K8s basics (1 hr) | K8s: Deploy first pod + service | Plan week 3 | K8s cluster running |
-| 3 | PAM: Zero Trust + Credential Mgmt + K8s networking | K8s: RBAC + NetworkPolicies lab | Review + notes | Architecture doc started |
-| 4 | PAM: Session Recording, Review + Community join + K8s storage | K8s: Persistent volumes lab | Week review + planning | GitHub repo created |
+| Week | Monday-Friday (1.5 hrs/day) | Weekend (2.5 hrs total) | Deliverables |
+|------|--------------------------|----------------------|--------------|
+| 1 | Setup: VMs, K8s cluster basics, lab planning | K8s: Deploy minikube + tutorial | Lab environment initiated |
+| 2 | PAM Fundamentals: Read CyberArk docs (1 hr) + K8s basics (0.5 hr) | K8s: Deploy first pod + service | K8s cluster running |
+| 3 | PAM: Zero Trust + Credential Mgmt + K8s networking | K8s: RBAC + NetworkPolicies lab | Architecture doc started |
+| 4 | PAM: Session Recording, Community join + K8s storage | K8s: Persistent volumes lab | GitHub repo created |
 
-### Daily Activities
-- **Morning (30 min)**: English - Read 1 CyberArk doc page in English + take notes
-- **Mid-morning (1.5 hrs)**: Technical learning (rotate: PAM 1 day, K8s 1 day)
-- **Afternoon (30 min)**: K8s or PAM labs (hands-on)
-- **Evening (30 min)**: English - Watch 15-min tutorial video + take notes
+### Daily Activities (10-12 hrs/week)
+- **Morning (30 min)**: English - Read technical docs in English + take notes
+- **Mid-day or Evening (1 hr)**: Technical learning (rotate: PAM focus 3 days/week, K8s 2 days/week)
+- **Weekend (2.5 hrs total)**: Hands-on labs and review
 
 ### Monthly Checkpoints
 - **Week 1**: Lab setup complete ✓
@@ -51,11 +59,12 @@
 | 7 | K8s Intensive: Deployments, StatefulSets, DaemonSets | Deploy multi-tier app in K8s | Document patterns |
 | 8 | PAM: PVWA (web interface) + K8s Ingress setup | Integrate PVWA + Ingress | Prepare for Defender exam study |
 
-### Key Activities
-- **PAM Labs**: 4 hours/week (2 hours Wed, 2 hours Sat)
-- **K8s Labs**: 3 hours/week (1 hour Mon, 2 hours Sat)
-- **English**: Daily 30-min documentation reading + weekly 1 video
-- **Consulting Skills**: Prepare Month 3 presentation (PAM overview)
+### Key Activities (10-12 hrs/week)
+- **PAM Labs**: 3 hours/week (1.5 hours weekdays, 1.5 hours weekend)
+- **K8s Labs**: 2 hours/week (1 hour weekdays, 1 hour weekend)
+- **Study/Reading**: 5 hours/week (1 hr/day weekdays)
+- **English**: Daily 30-min documentation reading (included in study time)
+- **Consulting Skills**: Prepare Month 3 presentation (PAM overview) - 1 hr/week
 
 ### Deliverables
 - Full CyberArk PAM lab (Password Vault, CPM, PVWA operational)
@@ -78,10 +87,11 @@
 | 11 | Defender: Practice tests 90%+ score | Troubleshooting drills | Review presentation |
 | 12 | **Defender Exam** | Lab review | Celebrate! |
 
-### Certification Prep
-- 8 hours/week study (CyberArk Campus)
-- 4 hours/week hands-on labs (testing concepts)
-- 3 hours/week practice tests
+### Certification Prep (10-12 hrs/week focused on exam)
+- 6 hours/week study (CyberArk Campus courses)
+- 3 hours/week hands-on labs (testing concepts)
+- 2 hours/week practice tests
+- 1 hour/week review and notes
 - Goal: 90%+ on practice tests before exam
 
 ### Key Deliverables

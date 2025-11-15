@@ -19,7 +19,7 @@ This roadmap integrates Privileged Access Management (PAM), CyberArk Conjur, and
 - **Professional certifications** (clients expect credentialed consultants)
 - **Communication skills** (translating technical concepts to stakeholders)
 
-**Time Commitment**: 15 hours/week while working full-time
+**Time Commitment**: 10-12 hours/week while working full-time (sustainable pace)
 
 **Language Requirement**: English fluency for consulting (healthcare/banking clients expect professional English communication)
 - **Strategy**: Integrate English learning throughout roadmap (no extra time needed)
@@ -557,10 +557,10 @@ For the complete week-by-week breakdown of all 36 months including:
 ---
 
 ### Recommended Path: 36 Months (144 Weeks) - OPTIMAL SUSTAINABLE PACE
-**Study Schedule**: 15 hours/week = ~2 hours/day weekdays + 5 hours weekend
-**Total Study Hours**: ~2,160 hours over 36 months
+**Study Schedule**: 10-12 hours/week = ~1.5-2 hours/day weekdays + 3-4 hours weekend
+**Total Study Hours**: ~1,620 hours over 36 months (realistic for working professionals)
 **Learning Style**: 70% hands-on labs, 30% study/reading/certification prep
-**Pace**: Relaxed, no burnout, maximum retention
+**Pace**: Very comfortable, family-friendly, no burnout, maximum retention
 
 **Advantages of 36-Month Path**:
 - ✅ **Deeper expertise** - Extra 12 months for mastery
@@ -578,9 +578,9 @@ For the complete week-by-week breakdown of all 36 months including:
 
 ### PHASE 1: PAM Foundations & Kubernetes Mastery (Months 1-11 / Weeks 1-44)
 **Duration**: 11 months (includes certification exams at M5, M8, M11)
-**Weekly Commitment**: 15 hours
-- **5 hours**: CyberArk training and documentation
-- **7 hours**: Hands-on lab work (PAM + K8s) - INCREASED
+**Weekly Commitment**: 10-12 hours
+- **3-4 hours**: CyberArk training and documentation
+- **5-6 hours**: Hands-on lab work (PAM + K8s)
 - **2 hours**: Reading, notes, review, English
 
 **Phase 1 Philosophy**: Take time to master both PAM and K8s thoroughly without rushing
@@ -755,11 +755,11 @@ For the complete week-by-week breakdown of all 36 months including:
 
 ---
 
-### PHASE 2: Conjur Mastery & DevSecOps (Months 10-18 / Weeks 37-72)
-**Duration**: 9 months (extra 3 months vs 24-month plan)
-**Weekly Commitment**: 15 hours
-- **3 hours**: Conjur training and documentation
-- **9 hours**: Hands-on Conjur and CI/CD labs - INCREASED
+### PHASE 2: Conjur Mastery & DevSecOps (Months 12-18 / Weeks 45-72)
+**Duration**: 7 months (includes Month 12 recovery)
+**Weekly Commitment**: 10-12 hours (8 hrs during Month 12 recovery)
+- **2-3 hours**: Conjur training and documentation
+- **6-7 hours**: Hands-on Conjur and CI/CD labs
 - **2 hours**: DevSecOps concepts, reading, English
 
 **Phase 2 Philosophy**: Extensive hands-on Conjur deployments in multiple scenarios, master DevSecOps practices thoroughly
@@ -886,10 +886,10 @@ For the complete week-by-week breakdown of all 36 months including:
 ---
 
 ### PHASE 3: Cloud Security & CCSP Certification (Months 19-27 / Weeks 73-108)
-**Duration**: 9 months (extra 3 months vs 24-month plan)
-**Weekly Commitment**: 15 hours
-- **8 hours**: CCSP study, cloud platforms, compliance - INCREASED
-- **4 hours**: Hands-on cloud labs (AWS/Azure) - INCREASED
+**Duration**: 9 months (includes Month 27 recovery with CCSP exam)
+**Weekly Commitment**: 10-12 hours (8 hrs during Month 18, 27 recovery)
+- **5-6 hours**: CCSP study, cloud platforms, compliance
+- **3-4 hours**: Hands-on cloud labs (AWS/Azure)
 - **2 hours**: English articles/documentation
 
 **Phase 3 Philosophy**: Deep cloud security expertise with extensive hands-on labs in AWS and Azure
@@ -1014,10 +1014,10 @@ For the complete week-by-week breakdown of all 36 months including:
 ---
 
 ### PHASE 4: CISSP Certification & Enterprise Capstone (Months 28-36 / Weeks 109-144)
-**Duration**: 9 months (extra 3 months vs 24-month plan)
-**Weekly Commitment**: 15 hours
-- **10 hours**: CISSP comprehensive study (8 domains) - RELAXED PACE
-- **3 hours**: Capstone project completion
+**Duration**: 9 months (7 months CISSP study + Month 35 exam + Month 36 consulting launch)
+**Weekly Commitment**: 10-12 hours
+- **6-8 hours**: CISSP comprehensive study (8 domains) - COMFORTABLE PACE
+- **2-3 hours**: Capstone project completion
 - **2 hours**: Portfolio finalization, consulting prep, English
 
 **Phase 4 Philosophy**: Thorough CISSP preparation, complete capstone, build consulting readiness, final English mastery
@@ -2267,7 +2267,7 @@ Based on comprehensive analysis of realistic timelines, learning velocity, and c
 ## Summary: Your 36-Month Journey (3-Year Path)
 
 **Your Profile**: 17-year Linux/Windows sysadmin with CKA cert, working full-time
-**Time Commitment**: 15 hours/week (~2,160 hours total = 90 hours/month)
+**Time Commitment**: 10-12 hours/week (~1,620 hours total = 45 hours/month - sustainable pace)
 **Target Role**: Expert PAM/Conjur consultant for healthcare, banking, enterprise clients
 **Key Advantage**: Optimal sustainable pace with maximum expertise development and minimal burnout
 

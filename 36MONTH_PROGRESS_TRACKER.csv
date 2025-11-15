@@ -1,137 +1,137 @@
 Month,Week,Phase,Focus_Area,Study_Hours_Planned,Lab_Hours_Planned,Total_Hours,Study_Hours_Actual,Lab_Hours_Actual,Deliverable,Status,Notes,English_Milestone,Consulting_Skill,Certification,Portfolio_Projects
-1,1-4,Phase 1,Foundations & Lab Setup,5,10,15,,,Lab environment initiated,,,,,,
-1,1,Phase 1,Week 1,2,3,5,,,Lab environment setup - VMs + K8s cluster started,Pending,Started lab setup,Reading English docs,,,"K8s cluster, GitHub repo"
-1,2,Phase 1,Week 2,2,3,5,,,K8s cluster operational + PAM fundamentals,Pending,Cluster running,Reading English docs,,,"K8s basics, GitHub repo"
-1,3,Phase 1,Week 3,2,3,5,,,PAM architecture beginning + K8s networking,Pending,Architecture doc started,Reading docs + notes,,,"Architecture doc, K8s networking"
-1,4,Phase 1,Week 4,2,3,5,,,GitHub repo organized + Study notes compiled,Pending,First month complete,Reading + video watching,,,"GitHub repo, Study notes"
-2,5-8,Phase 1,PAM Deep Dive + K8s Expansion,5,10,15,,,PAM Vault + CPM installation complete,,,,,,
-2,5,Phase 1,Week 5,2,3,5,,,CyberArk Password Vault installed,Pending,Vault setup,,,"Vault deployment guide"
-2,6,Phase 1,Week 6,2,3,5,,,CPM setup + Vault integration tested,Pending,CPM working,,,"CPM configuration"
-2,7,Phase 1,Week 7,2,3,5,,,K8s multi-tier app deployed,Pending,K8s app running,Reading + watching videos,Prepare Month 3 presentation,"","K8s multi-tier app"
-2,8,Phase 1,Week 8,2,3,5,,,PVWA web interface + Ingress setup,Pending,PAM lab complete,Reading + video notes,Presentation slides ready,,Presentation slides
-3,9-12,Phase 1,Defender Cert Prep + Advanced Labs,8,7,15,,,CyberArk Defender Certification achieved,Pending,"Exam passed, 90%+ practice","Reading docs, taking notes",First presentation (PAM Fundamentals),Defender Certified,
-3,9,Phase 1,Week 9,8,7,15,,,Defender course 75% + practice tests,In Progress,Core concepts studied,"Reading, video watching",First presentation delivered,Studying,Presentation 1
-3,10,Phase 1,Week 10,8,7,15,,,Defender course 100% + advanced topics,In Progress,Advanced topics covered,"Reading, documentation","Refine presentation, lab exercises",,
-3,11,Phase 1,Week 11,8,7,15,,,Defender practice tests 90%+,In Progress,Ready for exam,"Reading, practice tests","Lab review, exam prep",,
-3,12,Phase 1,Week 12,8,7,15,,,DEFENDER CERTIFICATION ACHIEVED,Complete,"Exam passed ✓",Documentation review,Celebrate!,Defender Certified (M3),
-4,13-16,Phase 1,Sentry Prep + K8s Advanced + Portfolio 1,6,9,15,,,Advanced PAM scenarios + K8s networking,Pending,Sentry prep 70%,"Reading docs, writing notes",Second presentation (PAM Architecture),"","Project 1: PAM Lab Guide"
-4,13,Phase 1,Week 13,6,9,15,,,Sentry fundamentals + K8s multi-cluster concepts,In Progress,Started Sentry,Reading Sentry course,"Started Project 1, architecture diagrams",Studying,
-4,14,Phase 1,Week 14,6,9,15,,,Sentry advanced admin + K8s storage mastery,In Progress,Sentry 50% complete,"Reading, practice labs",Build Project 1 core,,
-4,15,Phase 1,Week 15,6,9,15,,,K8s Prometheus setup + Sentry scenarios,In Progress,Sentry 70% complete,"Reading, troubleshooting practice",Document Project 1,,
-4,16,Phase 1,Week 16,6,9,15,,,Sentry practice tests + K8s monitoring,In Progress,Sentry 90%+,"Practice tests, lab review",Polish Project 1,Sentry Prep (80%+),
-5,17-20,Phase 1,Sentry Cert Exam + K8s + Portfolio 1 Done,6,9,15,,,SENTRY CERTIFICATION ACHIEVED + Project 1 Published,Pending,Exam passed + project published,Writing English documentation,First LinkedIn article published,Sentry Certified (M5),"Project 1: PAM Lab Guide published"
-5,17,Phase 1,Week 17,6,9,15,,,Sentry course completion + Project 1 README,In Progress,Sentry 100%,Writing in English,Article preparation,,
-5,18,Phase 1,Week 18,6,9,15,,,Sentry practice tests 85%+,In Progress,Getting ready,"Writing, practicing","LinkedIn article draft",,
-5,19,Phase 1,Week 19,6,9,15,,,Sentry weak areas mastery,In Progress,90%+ tests,Writing articles,Final review,,
-5,20,Phase 1,Week 20,6,9,15,,,SENTRY EXAM DAY,Complete,"Exam passed ✓","Writing, publishing",LinkedIn article published,Sentry Certified,Published Project 1
-6,21-24,Phase 1,Guardian Cert Prep + K8s Security,6,9,15,,,Guardian exam prep + K8s security hardening,Pending,"Guardian course, K8s PSS",Reading K8s security docs,Recovery consolidation,,,"Project 2 Core Started"
-6,21,Phase 1,Week 21,6,9,15,,,Guardian advanced architecture + K8s PSS,In Progress,Started Guardian,Documentation reading,Monthly review,,
-6,22,Phase 1,Week 22,6,9,15,,,Guardian HA + Disaster Recovery + K8s RBAC,In Progress,HA/DR study,"Reading, practice labs",Knowledge check,,
-6,23,Phase 1,Week 23,6,9,15,,,Guardian advanced scenarios + K8s security,In Progress,Advanced scenarios,"Reading, practice tests","Practice tests, Lab exercises",,
-6,24,Phase 1,Week 24,6,9,15,,,GUARDIAN EXAM PREP COMPLETE,In Progress,Ready for exam,Documentation review,"Ready for certification, Month summary",,
-7,25-28,Phase 1,Guardian Certification + K8s Intensive,5,10,15,,,GUARDIAN CERTIFIED + K8s intensive begins,Pending,"Guardian passed, K8s intensive","Reading K8s patterns, writing guides",Presentation: K8s Architecture,Guardian Certified (M6),"Project 3 Started"
-7,25,Phase 1,Week 25,5,10,15,,,Guardian practice tests + K8s multi-cluster,In Progress,90%+ Guardian tests,K8s documentation,Portfolio Project 3 start,,
-7,26,Phase 1,Week 26,5,10,15,,,Guardian weak areas + K8s networking,In Progress,95%+ tests,Writing K8s articles,Project 3 building,,
-7,27,Phase 1,Week 27,5,10,15,,,Guardian final prep + K8s performance,In Progress,Ready for exam,"Writing, publishing","Presentation prep",,
-7,28,Phase 1,Week 28,5,10,15,,,GUARDIAN EXAM DAY,Complete,"Exam passed ✓",Presentation delivery,"K8s presentation given, celebrations",Guardian Certified,
-8,29-32,Phase 1,K8s Mastery + Conjur Prep + Portfolio 2-3,5,10,15,,,K8s advanced troubleshooting + Conjur intro,Pending,"K8s mastery, Conjur basics","Reading Conjur docs, writing guides",RFP template development,"","Project 2 & 3 Finishing"
-8,29,Phase 1,Week 29,5,10,15,,,K8s advanced troubleshooting + Conjur architecture,In Progress,K8s mastery focus,"Conjur architecture review, K8s labs",Finish Project 2 docs,,
-8,30,Phase 1,Week 30,5,10,15,,,K8s performance tuning + Conjur policy intro,In Progress,Deep troubleshooting,"Reading, labs, writing",Finish Project 3 docs,,
-8,31,Phase 1,Week 31,5,10,15,,,K8s monitoring + Conjur authentication,In Progress,Observability stack,"Reading, writing guides",Polish Project docs,,
-8,32,Phase 1,Week 32,5,10,15,,,K8s final labs + Conjur Docker intro,In Progress,K8s consolidation,"Conjur basics, writing",Upload projects to GitHub,,Complete Projects 2 & 3
-9,33-36,Phase 1,K8s Consolidation + Consulting Skills + Capstone,5,10,15,,,K8s mastery confirmed + Capstone planning,Pending,"K8s mastery, Consulting skills","Writing articles, presentations",Consulting proposal template,,"3 Projects Published, Capstone Designed"
-9,33,Phase 1,Week 33,5,10,15,,,K8s patterns review + capstone architecture,In Progress,K8s final review,"Writing 2nd LinkedIn article, K8s guide",Consulting proposal template start,,
-9,34,Phase 1,Week 34,5,10,15,,,K8s multi-cluster mastery + capstone planning,In Progress,Advanced patterns,"Technical blog preparation, writing",Sample proposal draft,,
-9,35,Phase 1,Week 35,5,10,15,,,K8s final scenarios + capstone phase planning,In Progress,Consolidation,"Blog post publishing, technical writing",Proposal template review,,
-9,36,Phase 1,Week 36,5,10,15,,,K8s consolidation + capstone ready,Complete,"K8s mastery confirmed, capstone planned","Preparing Month 9 presentation, final articles",Consulting presentation prepared,Complete,"3 Projects Published, Capstone Plan"
-10,37-40,Phase 2,Conjur + Docker + DevSecOps + Portfolio 4,4,11,15,,,Conjur Docker deployment + CI/CD basics,Pending,"Conjur started, DevSecOps intro","Writing Conjur article, documentation",Presentations starting regularly,"","Project 4: Conjur Basics"
-10,37,Phase 2,Week 37,4,11,15,,,Conjur architecture + deployment models,In Progress,Conjur docker started,"Writing Conjur overview article, labs",Month 10 presentation preparation,,
-10,38,Phase 2,Week 38,4,11,15,,,Conjur policy-as-code introduction,In Progress,Docker deployment,"Conjur patterns documentation, writing","K8s + Conjur integration concepts",,
-10,39,Phase 2,Week 39,4,11,15,,,Conjur host identity + integration concepts,In Progress,Host identity concepts,"Reading, writing guides",Presentation preparation,,
-10,40,Phase 2,Week 40,4,11,15,,,Conjur Docker + K8s integration planning,In Progress,Docker fully operational,"Consulting presentation delivered, summary",Month 10 presentation delivered,,
-11,41-44,Phase 2,Guardian Recap + Conjur Intensive + Portfolio 4,4,11,15,,,Guardian mastery consolidation + Conjur intensive,Pending,"Conjur Docker-to-K8s, Phase 1 Review","Documentation consolidation, writing",Phase 1 final review,,"Project 4 Complete"
-11,41,Phase 2,Week 41,4,11,15,,,Guardian best practices + Conjur Docker labs,In Progress,Guardian review,"Conjur documentation, writing",Phase 1 monthly review,,
-11,42,Phase 2,Week 42,4,11,15,,,Enterprise scenario review + Conjur policy labs,In Progress,Guardian mastery,"Knowledge consolidation, writing","Consolidation checkpoint",,
-11,43,Phase 2,Week 43,4,11,15,,,Guardian advanced patterns + Conjur K8s prep,In Progress,Guardian complete,"Phase 1 review, summary documentation","Phase 1 knowledge check",,
-11,44,Phase 2,Week 44,4,11,15,,,Guardian + Conjur K8s readiness,Complete,"Phase 1 complete, Conjur ready","Final Phase 1 documentation, article publishing",Phase 1 complete,,"4 Projects Published, Phase 1 ✓"
+1,1-4,Phase 1,Foundations & Lab Setup,3,7,10,,,Lab environment initiated,,,,,,"REDUCED TO 10-12 HRS/WEEK"
+1,1,Phase 1,Week 1,1.5,2,3.5,,,Lab environment setup - VMs + K8s cluster started,Pending,Started lab setup,Reading English docs,,,"K8s cluster, GitHub repo"
+1,2,Phase 1,Week 2,1.5,2,3.5,,,K8s cluster operational + PAM fundamentals,Pending,Cluster running,Reading English docs,,,"K8s basics, GitHub repo"
+1,3,Phase 1,Week 3,1.5,2,3.5,,,PAM architecture beginning + K8s networking,Pending,Architecture doc started,Reading docs + notes,,,"Architecture doc, K8s networking"
+1,4,Phase 1,Week 4,1.5,2,3.5,,,GitHub repo organized + Study notes compiled,Pending,First month complete,Reading + video watching,,,"GitHub repo, Study notes"
+2,5-8,Phase 1,PAM Deep Dive + K8s Expansion,3,7,10,,,PAM Vault + CPM installation complete,,,,,,
+2,5,Phase 1,Week 5,1.5,2,3.5,,,CyberArk Password Vault installed,Pending,Vault setup,,,"Vault deployment guide"
+2,6,Phase 1,Week 6,1.5,2,3.5,,,CPM setup + Vault integration tested,Pending,CPM working,,,"CPM configuration"
+2,7,Phase 1,Week 7,1.5,2,3.5,,,K8s multi-tier app deployed,Pending,K8s app running,Reading + watching videos,Prepare Month 3 presentation,"","K8s multi-tier app"
+2,8,Phase 1,Week 8,1.5,2,3.5,,,PVWA web interface + Ingress setup,Pending,PAM lab complete,Reading + video notes,Presentation slides ready,,Presentation slides
+3,9-12,Phase 1,Defender Cert Prep + Advanced Labs,6,4,10,,,CyberArk Defender Certification achieved,Pending,"Exam passed, 90%+ practice","Reading docs, taking notes",First presentation (PAM Fundamentals),Defender Certified (M5),
+3,9,Phase 1,Week 9,6,4,10,,,Defender course 75% + practice tests,In Progress,Core concepts studied,"Reading, video watching",First presentation delivered,Studying,Presentation 1
+3,10,Phase 1,Week 10,6,4,10,,,Defender course 100% + advanced topics,In Progress,Advanced topics covered,"Reading, documentation","Refine presentation, lab exercises",,
+3,11,Phase 1,Week 11,6,4,10,,,Defender practice tests 90%+,In Progress,Ready for exam,"Reading, practice tests","Lab review, exam prep",,
+3,12,Phase 1,Week 12,6,4,10,,,DEFENDER CERTIFICATION ACHIEVED,Complete,"Exam passed ✓",Documentation review,Celebrate!,Defender Certified (M5),
+4,13-16,Phase 1,Sentry Prep + K8s Advanced + Portfolio 1,4,6,10,,,Advanced PAM scenarios + K8s networking,Pending,Sentry prep 70%,"Reading docs, writing notes",Second presentation (PAM Architecture),"","Project 1: PAM Lab Guide"
+4,13,Phase 1,Week 13,4,6,10,,,Sentry fundamentals + K8s multi-cluster concepts,In Progress,Started Sentry,Reading Sentry course,"Started Project 1, architecture diagrams",Studying,
+4,14,Phase 1,Week 14,4,6,10,,,Sentry advanced admin + K8s storage mastery,In Progress,Sentry 50% complete,"Reading, practice labs",Build Project 1 core,,
+4,15,Phase 1,Week 15,4,6,10,,,K8s Prometheus setup + Sentry scenarios,In Progress,Sentry 70% complete,"Reading, troubleshooting practice",Document Project 1,,
+4,16,Phase 1,Week 16,4,6,10,,,Sentry practice tests + K8s monitoring,In Progress,Sentry 90%+,"Practice tests, lab review",Polish Project 1,Sentry Prep (80%+),
+5,17-20,Phase 1,Sentry Cert Exam + K8s + Portfolio 1 Done,4,6,10,,,SENTRY CERTIFICATION ACHIEVED + Project 1 Published,Pending,Exam passed + project published,Writing English documentation,First LinkedIn article published,Sentry Certified (M5),"Project 1: PAM Lab Guide published"
+5,17,Phase 1,Week 17,4,6,10,,,Sentry course completion + Project 1 README,In Progress,Sentry 100%,Writing in English,Article preparation,,
+5,18,Phase 1,Week 18,4,6,10,,,Sentry practice tests 85%+,In Progress,Getting ready,"Writing, practicing","LinkedIn article draft",,
+5,19,Phase 1,Week 19,4,6,10,,,Sentry weak areas mastery,In Progress,90%+ tests,Writing articles,Final review,,
+5,20,Phase 1,Week 20,4,6,10,,,SENTRY EXAM DAY,Complete,"Exam passed ✓","Writing, publishing",LinkedIn article published,Sentry Certified,Published Project 1
+6,21-24,Phase 1,Guardian Cert Prep + K8s Security,4,6,10,,,Guardian exam prep + K8s security hardening,Pending,"Guardian course, K8s PSS",Reading K8s security docs,Recovery consolidation,,,"Project 2 Core Started"
+6,21,Phase 1,Week 21,4,6,10,,,Guardian advanced architecture + K8s PSS,In Progress,Started Guardian,Documentation reading,Monthly review,,
+6,22,Phase 1,Week 22,4,6,10,,,Guardian HA + Disaster Recovery + K8s RBAC,In Progress,HA/DR study,"Reading, practice labs",Knowledge check,,
+6,23,Phase 1,Week 23,4,6,10,,,Guardian advanced scenarios + K8s security,In Progress,Advanced scenarios,"Reading, practice tests","Practice tests, Lab exercises",,
+6,24,Phase 1,Week 24,4,6,10,,,GUARDIAN EXAM PREP COMPLETE,In Progress,Ready for exam,Documentation review,"Ready for certification, Month summary",,
+7,25-28,Phase 1,Guardian Certification + K8s Intensive,3,7,10,,,GUARDIAN CERTIFIED + K8s intensive begins,Pending,"Guardian passed, K8s intensive","Reading K8s patterns, writing guides",Presentation: K8s Architecture,Guardian Certified (M6),"Project 3 Started"
+7,25,Phase 1,Week 25,3,7,10,,,Guardian practice tests + K8s multi-cluster,In Progress,90%+ Guardian tests,K8s documentation,Portfolio Project 3 start,,
+7,26,Phase 1,Week 26,3,7,10,,,Guardian weak areas + K8s networking,In Progress,95%+ tests,Writing K8s articles,Project 3 building,,
+7,27,Phase 1,Week 27,3,7,10,,,Guardian final prep + K8s performance,In Progress,Ready for exam,"Writing, publishing","Presentation prep",,
+7,28,Phase 1,Week 28,3,7,10,,,GUARDIAN EXAM DAY,Complete,"Exam passed ✓",Presentation delivery,"K8s presentation given, celebrations",Guardian Certified,
+8,29-32,Phase 1,K8s Mastery + Conjur Prep + Portfolio 2-3,3,7,10,,,K8s advanced troubleshooting + Conjur intro,Pending,"K8s mastery, Conjur basics","Reading Conjur docs, writing guides",RFP template development,"","Project 2 & 3 Finishing"
+8,29,Phase 1,Week 29,3,7,10,,,K8s advanced troubleshooting + Conjur architecture,In Progress,K8s mastery focus,"Conjur architecture review, K8s labs",Finish Project 2 docs,,
+8,30,Phase 1,Week 30,3,7,10,,,K8s performance tuning + Conjur policy intro,In Progress,Deep troubleshooting,"Reading, labs, writing",Finish Project 3 docs,,
+8,31,Phase 1,Week 31,3,7,10,,,K8s monitoring + Conjur authentication,In Progress,Observability stack,"Reading, writing guides",Polish Project docs,,
+8,32,Phase 1,Week 32,3,7,10,,,K8s final labs + Conjur Docker intro,In Progress,K8s consolidation,"Conjur basics, writing",Upload projects to GitHub,,Complete Projects 2 & 3
+9,33-36,Phase 1,K8s Consolidation + Consulting Skills + Capstone,3,7,10,,,K8s mastery confirmed + Capstone planning,Pending,"K8s mastery, Consulting skills","Writing articles, presentations",Consulting proposal template,,"3 Projects Published, Capstone Designed"
+9,33,Phase 1,Week 33,3,7,10,,,K8s patterns review + capstone architecture,In Progress,K8s final review,"Writing 2nd LinkedIn article, K8s guide",Consulting proposal template start,,
+9,34,Phase 1,Week 34,3,7,10,,,K8s multi-cluster mastery + capstone planning,In Progress,Advanced patterns,"Technical blog preparation, writing",Sample proposal draft,,
+9,35,Phase 1,Week 35,3,7,10,,,K8s final scenarios + capstone phase planning,In Progress,Consolidation,"Blog post publishing, technical writing",Proposal template review,,
+9,36,Phase 1,Week 36,3,7,10,,,K8s consolidation + capstone ready,Complete,"K8s mastery confirmed, capstone planned","Preparing Month 9 presentation, final articles",Consulting presentation prepared,Complete,"3 Projects Published, Capstone Plan"
+10,37-40,Phase 2,Conjur + Docker + DevSecOps + Portfolio 4,3,7,10,,,Conjur Docker deployment + CI/CD basics,Pending,"Conjur started, DevSecOps intro","Writing Conjur article, documentation",Presentations starting regularly,"","Project 4: Conjur Basics"
+10,37,Phase 2,Week 37,3,7,10,,,Conjur architecture + deployment models,In Progress,Conjur docker started,"Writing Conjur overview article, labs",Month 10 presentation preparation,,
+10,38,Phase 2,Week 38,3,7,10,,,Conjur policy-as-code introduction,In Progress,Docker deployment,"Conjur patterns documentation, writing","K8s + Conjur integration concepts",,
+10,39,Phase 2,Week 39,3,7,10,,,Conjur host identity + integration concepts,In Progress,Host identity concepts,"Reading, writing guides",Presentation preparation,,
+10,40,Phase 2,Week 40,3,7,10,,,Conjur Docker + K8s integration planning,In Progress,Docker fully operational,"Consulting presentation delivered, summary",Month 10 presentation delivered,,
+11,41-44,Phase 2,Guardian Recap + Conjur Intensive + Portfolio 4,3,7,10,,,Guardian mastery consolidation + Conjur intensive,Pending,"Conjur Docker-to-K8s, Phase 1 Review","Documentation consolidation, writing",Phase 1 final review,,"Project 4 Complete"
+11,41,Phase 2,Week 41,3,7,10,,,Guardian best practices + Conjur Docker labs,In Progress,Guardian review,"Conjur documentation, writing",Phase 1 monthly review,,
+11,42,Phase 2,Week 42,3,7,10,,,Enterprise scenario review + Conjur policy labs,In Progress,Guardian mastery,"Knowledge consolidation, writing","Consolidation checkpoint",,
+11,43,Phase 2,Week 43,3,7,10,,,Guardian advanced patterns + Conjur K8s prep,In Progress,Guardian complete,"Phase 1 review, summary documentation","Phase 1 knowledge check",,
+11,44,Phase 2,Week 44,3,7,10,,,Guardian + Conjur K8s readiness,Complete,"Phase 1 complete, Conjur ready","Final Phase 1 documentation, article publishing",Phase 1 complete,,"4 Projects Published, Phase 1 ✓"
 12,45-48,Phase 2,RECOVERY MONTH,2,6,8,,,Vacation + Consolidation + Light Learning,Pending,Rest + planning,"Light reading, consolidation",Recovery month,,"Capstone Foundation"
 12,45-46,Phase 2,Weeks 45-46,2,6,8,,,VACATION / PERSONAL TIME,In Progress,Rest week,"Relaxation, personal time","Family, health, rest",,
 12,47,Phase 2,Week 47,2,6,8,,,Consolidation review,In Progress,Light review,"Light reading, Conjur architecture",Phase 1 full review,,
 12,48,Phase 2,Week 48,2,6,8,,,Capstone foundation planning,Complete,"Capstone design started, planning done","Capstone architecture design","Phase 2 ready to start","","Capstone Foundation"
-13,49-52,Phase 2,Conjur + Docker Intensive + Portfolio 5,4,11,15,,,Conjur Docker mastery + DevSecOps beginning,Pending,"Docker deployment, CI/CD prep","Writing Conjur Docker guide, documentation",Regular presentations continuing,"","Project 5: Conjur Docker"
-13,49,Phase 2,Week 49,4,11,15,,,Conjur Docker setup + CI/CD overview,In Progress,Docker operational,"Conjur Docker guide writing, capstone",Project 5 started,,
-13,50,Phase 2,Week 50,4,11,15,,,Conjur policy-as-Code deep dive + Jenkins,In Progress,Policy labs,"Writing guides, pipeline basics",Project 5 building,,
-13,51,Phase 2,Week 51,4,11,15,,,Host identity patterns + GitLab CI intro,In Progress,Authentication setup,"Writing integration guides, labs",Project 5 expanding,,
-13,52,Phase 2,Week 52,4,11,15,,,Conjur Docker integration + GitHub Actions,In Progress,Full Docker stack,"Documentation finalization, capstone","Capstone Conjur component",,"Project 5 Complete"
-14,53-56,Phase 2,Conjur K8s Intensive + Portfolio 6,4,11,15,,,Conjur in Kubernetes deployment,Pending,"K8s deployment, integration","Writing K8s + Conjur guide, documentation",Monthly presentations continuing,"","Project 6: Conjur K8s"
-14,53,Phase 2,Week 53,4,11,15,,,Conjur K8s deployment basics,In Progress,K8s setup started,"Conjur K8s documentation, writing","K8s Conjur integration concepts",,
-14,54,Phase 2,Week 54,4,11,15,,,Conjur HA in Kubernetes,In Progress,HA configuration,"High availability documentation, labs","K8s HA patterns",,
-14,55,Phase 2,Week 55,4,11,15,,,K8s authenticator setup,In Progress,Authenticator configured,"K8s authentication guide, writing","Conjur K8s integration",,
-14,56,Phase 2,Week 56,4,11,15,,,Secrets injection to pods,In Progress,Injection working,"Secrets documentation, capstone","Advanced Conjur patterns",,"Project 6 Complete"
-15,57-60,Phase 2,Conjur K8s Continued + Multi-Cloud Intro,4,11,15,,,Secrets injection mastery + multi-cloud planning,Pending,"Injection working, multi-cloud start","Writing multi-cloud guide, documentation",Publishing technical blog posts,"","Project 7 Starting"
-15,57,Phase 2,Week 57,4,11,15,,,Secrets injection mastery,In Progress,Injection patterns,"Writing advanced guides, Conjur docs","Multi-cloud architecture concepts",,
-15,58,Phase 2,Week 58,4,11,15,,,Secretless Broker introduction,In Progress,Broker basics,"Writing Secretless guide, capstone","AWS IAM basics intro",,
-15,59,Phase 2,Week 59,4,11,15,15,,,AWS IAM + Conjur basics,In Progress,AWS IAM study,"Multi-cloud architecture, writing","Azure basics intro",,
-15,60,Phase 2,Week 60,4,11,15,,,Multi-cloud design planning,In Progress,Design started,"Documentation consolidation, planning","Multi-cloud planning",,"Project 7 Framework"
-16,61-64,Phase 2,Multi-Cloud + CI/CD Intensive + Portfolio 7,4,11,15,,,AWS + Azure + Conjur integration beginning,Pending,"Multi-cloud deployment start, CI/CD","Writing multi-cloud guide, documentation",CI/CD platform expertise developing,"","Project 7: Multi-Cloud"
-16,61,Phase 2,Week 61,4,11,15,,,AWS IAM + Conjur integration,In Progress,AWS setup,"AWS IAM documentation, capstone","CI/CD Jenkins deep dive",,
-16,62,Phase 2,Week 62,4,11,15,,,Azure AD + Conjur integration,In Progress,Azure setup,"Azure documentation, capstone","CI/CD GitLab CI mastery",,
-16,63,Phase 2,Week 63,4,11,15,,,CI/CD Jenkins + Conjur integration,In Progress,Jenkins operational,"CI/CD documentation, Conjur pipeline","GitHub Actions integration",,
-16,64,Phase 2,Week 64,4,11,15,,,CI/CD GitHub Actions + Conjur integration,In Progress,GitHub Actions working,"Multi-cloud architecture diagram, capstone","Multi-cloud consulting presentation",,"Project 7 Complete"
-17,65-68,Phase 2,Multi-Cloud Mastery + GCP + Capstone,4,11,15,,,AWS + Azure + Conjur + GCP basics,Pending,"Multi-cloud expert, GCP intro","Writing multi-cloud guide, documentation",Publishing case studies starting,"","Project 8 Starting"
-17,65,Phase 2,Week 65,4,11,15,,,AWS + Conjur advanced patterns,In Progress,AWS mastery,"AWS advanced documentation, capstone","AWS Conjur integration",,
-17,66,Phase 2,Week 66,4,11,15,,,Azure + Conjur advanced patterns,In Progress,Azure mastery,"Azure advanced documentation, capstone","Azure Conjur integration",,
-17,67,Phase 2,Week 67,4,11,15,,,GCP + Conjur basics,In Progress,GCP setup,"GCP documentation, multi-cloud","GCP integration concepts",,
-17,68,Phase 2,Week 68,4,11,15,,,Multi-cloud orchestration + consolidation,In Progress,Orchestration tested,"Multi-cloud architecture finalization, case study","Multi-cloud mastery",,"Project 8: Capstone"
+13,49-52,Phase 2,Conjur + Docker Intensive + Portfolio 5,3,7,10,,,Conjur Docker mastery + DevSecOps beginning,Pending,"Docker deployment, CI/CD prep","Writing Conjur Docker guide, documentation",Regular presentations continuing,"","Project 5: Conjur Docker"
+13,49,Phase 2,Week 49,3,7,10,,,Conjur Docker setup + CI/CD overview,In Progress,Docker operational,"Conjur Docker guide writing, capstone",Project 5 started,,
+13,50,Phase 2,Week 50,3,7,10,,,Conjur policy-as-Code deep dive + Jenkins,In Progress,Policy labs,"Writing guides, pipeline basics",Project 5 building,,
+13,51,Phase 2,Week 51,3,7,10,,,Host identity patterns + GitLab CI intro,In Progress,Authentication setup,"Writing integration guides, labs",Project 5 expanding,,
+13,52,Phase 2,Week 52,3,7,10,,,Conjur Docker integration + GitHub Actions,In Progress,Full Docker stack,"Documentation finalization, capstone","Capstone Conjur component",,"Project 5 Complete"
+14,53-56,Phase 2,Conjur K8s Intensive + Portfolio 6,3,7,10,,,Conjur in Kubernetes deployment,Pending,"K8s deployment, integration","Writing K8s + Conjur guide, documentation",Monthly presentations continuing,"","Project 6: Conjur K8s"
+14,53,Phase 2,Week 53,3,7,10,,,Conjur K8s deployment basics,In Progress,K8s setup started,"Conjur K8s documentation, writing","K8s Conjur integration concepts",,
+14,54,Phase 2,Week 54,3,7,10,,,Conjur HA in Kubernetes,In Progress,HA configuration,"High availability documentation, labs","K8s HA patterns",,
+14,55,Phase 2,Week 55,3,7,10,,,K8s authenticator setup,In Progress,Authenticator configured,"K8s authentication guide, writing","Conjur K8s integration",,
+14,56,Phase 2,Week 56,3,7,10,,,Secrets injection to pods,In Progress,Injection working,"Secrets documentation, capstone","Advanced Conjur patterns",,"Project 6 Complete"
+15,57-60,Phase 2,Conjur K8s Continued + Multi-Cloud Intro,3,7,10,,,Secrets injection mastery + multi-cloud planning,Pending,"Injection working, multi-cloud start","Writing multi-cloud guide, documentation",Publishing technical blog posts,"","Project 7 Starting"
+15,57,Phase 2,Week 57,3,7,10,,,Secrets injection mastery,In Progress,Injection patterns,"Writing advanced guides, Conjur docs","Multi-cloud architecture concepts",,
+15,58,Phase 2,Week 58,3,7,10,,,Secretless Broker introduction,In Progress,Broker basics,"Writing Secretless guide, capstone","AWS IAM basics intro",,
+15,59,Phase 2,Week 59,3,7,10,15,,,AWS IAM + Conjur basics,In Progress,AWS IAM study,"Multi-cloud architecture, writing","Azure basics intro",,
+15,60,Phase 2,Week 60,3,7,10,,,Multi-cloud design planning,In Progress,Design started,"Documentation consolidation, planning","Multi-cloud planning",,"Project 7 Framework"
+16,61-64,Phase 2,Multi-Cloud + CI/CD Intensive + Portfolio 7,3,7,10,,,AWS + Azure + Conjur integration beginning,Pending,"Multi-cloud deployment start, CI/CD","Writing multi-cloud guide, documentation",CI/CD platform expertise developing,"","Project 7: Multi-Cloud"
+16,61,Phase 2,Week 61,3,7,10,,,AWS IAM + Conjur integration,In Progress,AWS setup,"AWS IAM documentation, capstone","CI/CD Jenkins deep dive",,
+16,62,Phase 2,Week 62,3,7,10,,,Azure AD + Conjur integration,In Progress,Azure setup,"Azure documentation, capstone","CI/CD GitLab CI mastery",,
+16,63,Phase 2,Week 63,3,7,10,,,CI/CD Jenkins + Conjur integration,In Progress,Jenkins operational,"CI/CD documentation, Conjur pipeline","GitHub Actions integration",,
+16,64,Phase 2,Week 64,3,7,10,,,CI/CD GitHub Actions + Conjur integration,In Progress,GitHub Actions working,"Multi-cloud architecture diagram, capstone","Multi-cloud consulting presentation",,"Project 7 Complete"
+17,65-68,Phase 2,Multi-Cloud Mastery + GCP + Capstone,3,7,10,,,AWS + Azure + Conjur + GCP basics,Pending,"Multi-cloud expert, GCP intro","Writing multi-cloud guide, documentation",Publishing case studies starting,"","Project 8 Starting"
+17,65,Phase 2,Week 65,3,7,10,,,AWS + Conjur advanced patterns,In Progress,AWS mastery,"AWS advanced documentation, capstone","AWS Conjur integration",,
+17,66,Phase 2,Week 66,3,7,10,,,Azure + Conjur advanced patterns,In Progress,Azure mastery,"Azure advanced documentation, capstone","Azure Conjur integration",,
+17,67,Phase 2,Week 67,3,7,10,,,GCP + Conjur basics,In Progress,GCP setup,"GCP documentation, multi-cloud","GCP integration concepts",,
+17,68,Phase 2,Week 68,3,7,10,,,Multi-cloud orchestration + consolidation,In Progress,Orchestration tested,"Multi-cloud architecture finalization, case study","Multi-cloud mastery",,"Project 8: Capstone"
 18,69-72,Phase 2,RECOVERY MONTH #2,2,6,8,,,Vacation + Consolidation + CCSP Begin,Pending,"Rest week, CCSP prep start","Light reading, consolidation","CCSP preparation","","Phase 2 Complete ✓"
 18,69-70,Phase 2,Weeks 69-70,2,6,8,,,VACATION / PERSONAL TIME,In Progress,Rest week,"Relaxation, personal time","Family, health, rest",,
 18,71,Phase 2,Week 71,2,6,8,,,Consolidation + CCSP intro,In Progress,Light review,"CCSP basics, cloud architecture","Phase 2 final review",,
 18,72,Phase 2,Week 72,2,6,8,,,CCSP study begins,Complete,"Phase 2 complete, CCSP start","Cloud architecture review, CCSP","6-7 Projects, Conjur Mastery","","Phase 2 ✓, CCSP Start"
-19,73-76,Phase 3,AWS Deep Dive 1,8,4,12,,,AWS IAM Deep Dive,In Progress,"IAM mastery, hands-on labs","AWS documentation, writing guides",Cloud security consulting focus,,"AWS IAM Complete"
-19,73,Phase 3,Week 73,8,4,12,,,AWS IAM Fundamentals,In Progress,IAM start,"Reading AWS docs, writing","AWS security fundamentals",,
-19,74,Phase 3,Week 74,8,4,12,,,AWS IAM Roles + Policies,In Progress,Advanced IAM,"Writing IAM guide, hands-on labs","Roles and policies mastery",,
-19,75,Phase 3,Week 75,8,4,12,,,AWS STS + Integration with Conjur,In Progress,STS setup,"Conjur + AWS integration, capstone","AWS Conjur integration",,
-19,76,Phase 3,Week 76,8,4,12,,,AWS IAM hands-on mastery,In Progress,IAM lab complete,"Architecture documentation, capstone","AWS IAM mastery",,"AWS Security Started"
-20,77-80,Phase 3,AWS Security Services,8,4,12,,,AWS KMS + Secrets Manager + VPC,In Progress,"Security services mastery, labs","Writing AWS security guide, documentation","AWS security architecture",,"AWS Security Advanced"
-20,77,Phase 3,Week 77,8,4,12,,,AWS KMS Deep Dive,In Progress,KMS mastery,"KMS documentation, encryption labs","KMS encryption expertise",,
-20,78,Phase 3,Week 78,8,4,12,,,AWS Secrets Manager + CloudHSM,In Progress,Secrets setup,"Secrets documentation, capstone","Secrets management mastery",,
-20,79,Phase 3,Week 79,8,4,12,,,AWS VPC Security + Security Groups,In Progress,Network security,"VPC documentation, security groups","Network security mastery",,
-20,80,Phase 3,Week 80,8,4,12,,,AWS security architecture consolidation,In Progress,Complete,"AWS security architecture finalization, capstone","AWS security architecture",,"AWS Security Expert"
-21,81-84,Phase 3,AWS Compliance + Capstone,8,4,12,,,AWS CloudTrail + Compliance Manager,In Progress,"Compliance mastery, audit labs","Writing compliance guide, documentation","Compliance architecture focus",,"AWS Compliance Complete"
-21,81,Phase 3,Week 81,8,4,12,,,AWS CloudTrail + Config,In Progress,Audit setup,"CloudTrail documentation, capstone","AWS auditing expertise",,
-21,82,Phase 3,Week 82,8,4,12,,,AWS Compliance Manager,In Progress,Compliance setup,"Compliance documentation, capstone","Compliance framework mastery",,
-21,83,Phase 3,Week 83,8,4,12,,,AWS Security Hub + Well-Architected,In Progress,Hub setup,"Security Hub documentation, review","Well-architected framework mastery",,
-21,84,Phase 3,Week 84,8,4,12,,,AWS best practices consolidation,In Progress,Complete,"AWS architecture finalization, capstone","AWS security baseline",,"AWS Security Complete ✓"
-22,85-88,Phase 3,Azure AD Deep Dive,8,4,12,,,Azure AD/Entra ID Mastery,In Progress,"Azure identity mastery, labs","Writing Azure AD guide, documentation","Azure cloud security focus",,"Azure Identity Complete"
-22,85,Phase 3,Week 85,8,4,12,,,Azure AD User Management,In Progress,Azure start,"Azure AD documentation, capstone","Azure identity concepts",,
-22,86,Phase 3,Week 86,8,4,12,,,Azure MFA + Conditional Access,In Progress,Advanced auth,"Conditional Access guide, labs","MFA and conditional access mastery",,
-22,87,Phase 3,Week 87,8,4,12,,,Azure RBAC Implementation,In Progress,RBAC setup,"RBAC documentation, capstone","Azure RBAC mastery",,
-22,88,Phase 3,Week 88,8,4,12,,,Azure AD consolidation,In Progress,Complete,"Azure AD architecture finalization, capstone","Azure identity architecture",,"Azure Identity Expert"
-23,89-92,Phase 3,Azure Security Services,8,4,12,,,Azure Key Vault + Defender,In Progress,"Azure security mastery, labs","Writing Azure security guide, documentation","Azure security architecture",,"Azure Security Advanced"
-23,89,Phase 3,Week 89,8,4,12,,,Azure Key Vault Deep Dive,In Progress,Vault setup,"Key Vault documentation, encryption labs","Azure Key Vault expertise",,
-23,90,Phase 3,Week 90,8,4,12,,,Azure Defender + App Security,In Progress,Defender setup,"Defender documentation, capstone","Azure Defender mastery",,
-23,91,Phase 3,Week 91,8,4,12,,,Azure Network Security,In Progress,Network security,"Network security documentation, NSGs","Azure network mastery",,
-23,92,Phase 3,Week 92,8,4,12,,,Azure security consolidation,In Progress,Complete,"Azure security architecture finalization, capstone","Azure security architecture",,"Azure Security Expert"
-24,93-96,Phase 3,Azure Compliance + CCSP Start,8,4,12,,,Azure Compliance + CCSP Domain 1,In Progress,"Azure compliance, CCSP start","CCSP domain 1 reading, writing","CCSP preparation focus",,"Azure Compliance Complete"
-24,93,Phase 3,Week 93,8,4,12,,,Azure Compliance Manager + Audit,In Progress,Compliance setup,"Azure compliance documentation, capstone","Azure compliance mastery",,
-24,94,Phase 3,Week 94,8,4,12,,,Azure best practices + CCSP Domain 1,In Progress,Best practices,"CCSP Domain 1 reading, writing","CCSP cloud architecture",,
-24,95,Phase 3,Week 95,8,4,12,,,AWS + Azure comparison,In Progress,Architecture,"Multi-cloud comparison document, capstone","Multi-cloud architecture mastery",,
-24,96,Phase 3,Week 96,8,4,12,,,CCSP Domain 1 intensive,In Progress,CCSP start,"Domain 1 complete, notes finalized","CCSP Domain 1 mastery",,"Cloud Expertise ✓"
-25,97-100,Phase 3,CCSP Domains 1-2,10,2,12,,,CCSP Domains 1-2 Deep Study,In Progress,"Cloud architecture, data security","CCSP domains 1-2 mastery, writing","Professional cloud consulting",,"CCSP Prep"
-25,97,Phase 3,Week 97,10,2,12,,,CCSP Domain 1: Cloud Concepts,In Progress,Domain 1 study,"Cloud concepts notes, practice","Cloud architecture mastery",,
-25,98,Phase 3,Week 98,10,2,12,,,CCSP Domain 2A: Data Classification,In Progress,Domain 2A study,"Data classification scenarios, labs","Data security mastery",,
-25,99,Phase 3,Week 99,10,2,12,,,CCSP Domain 2B: Data Protection,In Progress,Domain 2B study,"Encryption labs, documentation","Encryption expertise",,
-25,100,Phase 3,Week 100,10,2,12,,,Domains 1-2 practice tests,In Progress,80%+ tests,"Practice test results, weak areas","Cloud architecture + data security",,"CCSP Domains 1-2 ✓"
-26,101-104,Phase 3,CCSP Domains 3-4,10,2,12,,,CCSP Domains 3-4 Deep Study,In Progress,"Platform security, application security","Domain 3-4 mastery, IaC labs","Cloud platform security consulting",,"CCSP Prep"
-26,101,Phase 3,Week 101,10,2,12,,,CCSP Domain 3: Platform Security,In Progress,Domain 3 study,"IaC security labs, Terraform","Cloud platform security",,
-26,102,Phase 3,Week 102,10,2,12,,,CCSP Domain 4: Application Security,In Progress,Domain 4 study,"API security labs, documentation","Application security mastery",,
-26,103,Phase 3,Week 103,10,2,12,,,Domains 3-4 practice tests,In Progress,80%+ tests,"Practice test results, weak areas","Platform + application security",,"CCSP Domains 3-4 ✓"
-26,104,Phase 3,Week 104,10,2,12,,,Compliance deep dive: HIPAA + PCI-DSS,In Progress,Compliance study,"HIPAA/PCI-DSS documentation, capstone","Healthcare + banking compliance",,"CCSP Prep"
-27,105-108,Phase 3,CCSP Domains 5-6 + CCSP Exam,10,2,12,,,CCSP Domains 5-6 + Exam Prep,In Progress,"Operations, legal/compliance","CCSP exam preparation, full practice",CCSP Certification Target,,"CCSP Preparation"
-27,105,Phase 3,Week 105,10,2,12,,,CCSP Domain 5: Operations,In Progress,Domain 5 study,"Incident response labs, documentation","Operations security mastery",,
-27,106,Phase 3,Week 106,10,2,12,,,CCSP Domain 6: Legal/Compliance,In Progress,Domain 6 study,"Risk frameworks, contract labs","Legal/compliance mastery",,
-27,107,Phase 3,Week 107,10,2,12,,,Full CCSP practice exams,In Progress,85%+ tests,"Full exam simulation, score analysis","CCSP exam readiness",,"CCSP Domains 5-6 ✓"
-27,108,Phase 3,Week 108,10,2,12,,,CCSP CERTIFICATION EXAM,Complete,"Exam passed ✓, CCSP certified",Post-exam consolidation,CCSP certified,CCSP Certified (M27),
+19,73-76,Phase 3,AWS Deep Dive 1,6,3,9,,,AWS IAM Deep Dive,In Progress,"IAM mastery, hands-on labs","AWS documentation, writing guides",Cloud security consulting focus,,"AWS IAM Complete"
+19,73,Phase 3,Week 73,6,3,9,,,AWS IAM Fundamentals,In Progress,IAM start,"Reading AWS docs, writing","AWS security fundamentals",,
+19,74,Phase 3,Week 74,6,3,9,,,AWS IAM Roles + Policies,In Progress,Advanced IAM,"Writing IAM guide, hands-on labs","Roles and policies mastery",,
+19,75,Phase 3,Week 75,6,3,9,,,AWS STS + Integration with Conjur,In Progress,STS setup,"Conjur + AWS integration, capstone","AWS Conjur integration",,
+19,76,Phase 3,Week 76,6,3,9,,,AWS IAM hands-on mastery,In Progress,IAM lab complete,"Architecture documentation, capstone","AWS IAM mastery",,"AWS Security Started"
+20,77-80,Phase 3,AWS Security Services,6,3,9,,,AWS KMS + Secrets Manager + VPC,In Progress,"Security services mastery, labs","Writing AWS security guide, documentation","AWS security architecture",,"AWS Security Advanced"
+20,77,Phase 3,Week 77,6,3,9,,,AWS KMS Deep Dive,In Progress,KMS mastery,"KMS documentation, encryption labs","KMS encryption expertise",,
+20,78,Phase 3,Week 78,6,3,9,,,AWS Secrets Manager + CloudHSM,In Progress,Secrets setup,"Secrets documentation, capstone","Secrets management mastery",,
+20,79,Phase 3,Week 79,6,3,9,,,AWS VPC Security + Security Groups,In Progress,Network security,"VPC documentation, security groups","Network security mastery",,
+20,80,Phase 3,Week 80,6,3,9,,,AWS security architecture consolidation,In Progress,Complete,"AWS security architecture finalization, capstone","AWS security architecture",,"AWS Security Expert"
+21,81-84,Phase 3,AWS Compliance + Capstone,6,3,9,,,AWS CloudTrail + Compliance Manager,In Progress,"Compliance mastery, audit labs","Writing compliance guide, documentation","Compliance architecture focus",,"AWS Compliance Complete"
+21,81,Phase 3,Week 81,6,3,9,,,AWS CloudTrail + Config,In Progress,Audit setup,"CloudTrail documentation, capstone","AWS auditing expertise",,
+21,82,Phase 3,Week 82,6,3,9,,,AWS Compliance Manager,In Progress,Compliance setup,"Compliance documentation, capstone","Compliance framework mastery",,
+21,83,Phase 3,Week 83,6,3,9,,,AWS Security Hub + Well-Architected,In Progress,Hub setup,"Security Hub documentation, review","Well-architected framework mastery",,
+21,84,Phase 3,Week 84,6,3,9,,,AWS best practices consolidation,In Progress,Complete,"AWS architecture finalization, capstone","AWS security baseline",,"AWS Security Complete ✓"
+22,85-88,Phase 3,Azure AD Deep Dive,6,3,9,,,Azure AD/Entra ID Mastery,In Progress,"Azure identity mastery, labs","Writing Azure AD guide, documentation","Azure cloud security focus",,"Azure Identity Complete"
+22,85,Phase 3,Week 85,6,3,9,,,Azure AD User Management,In Progress,Azure start,"Azure AD documentation, capstone","Azure identity concepts",,
+22,86,Phase 3,Week 86,6,3,9,,,Azure MFA + Conditional Access,In Progress,Advanced auth,"Conditional Access guide, labs","MFA and conditional access mastery",,
+22,87,Phase 3,Week 87,6,3,9,,,Azure RBAC Implementation,In Progress,RBAC setup,"RBAC documentation, capstone","Azure RBAC mastery",,
+22,88,Phase 3,Week 88,6,3,9,,,Azure AD consolidation,In Progress,Complete,"Azure AD architecture finalization, capstone","Azure identity architecture",,"Azure Identity Expert"
+23,89-92,Phase 3,Azure Security Services,6,3,9,,,Azure Key Vault + Defender,In Progress,"Azure security mastery, labs","Writing Azure security guide, documentation","Azure security architecture",,"Azure Security Advanced"
+23,89,Phase 3,Week 89,6,3,9,,,Azure Key Vault Deep Dive,In Progress,Vault setup,"Key Vault documentation, encryption labs","Azure Key Vault expertise",,
+23,90,Phase 3,Week 90,6,3,9,,,Azure Defender + App Security,In Progress,Defender setup,"Defender documentation, capstone","Azure Defender mastery",,
+23,91,Phase 3,Week 91,6,3,9,,,Azure Network Security,In Progress,Network security,"Network security documentation, NSGs","Azure network mastery",,
+23,92,Phase 3,Week 92,6,3,9,,,Azure security consolidation,In Progress,Complete,"Azure security architecture finalization, capstone","Azure security architecture",,"Azure Security Expert"
+24,93-96,Phase 3,Azure Compliance + CCSP Start,6,3,9,,,Azure Compliance + CCSP Domain 1,In Progress,"Azure compliance, CCSP start","CCSP domain 1 reading, writing","CCSP preparation focus",,"Azure Compliance Complete"
+24,93,Phase 3,Week 93,6,3,9,,,Azure Compliance Manager + Audit,In Progress,Compliance setup,"Azure compliance documentation, capstone","Azure compliance mastery",,
+24,94,Phase 3,Week 94,6,3,9,,,Azure best practices + CCSP Domain 1,In Progress,Best practices,"CCSP Domain 1 reading, writing","CCSP cloud architecture",,
+24,95,Phase 3,Week 95,6,3,9,,,AWS + Azure comparison,In Progress,Architecture,"Multi-cloud comparison document, capstone","Multi-cloud architecture mastery",,
+24,96,Phase 3,Week 96,6,3,9,,,CCSP Domain 1 intensive,In Progress,CCSP start,"Domain 1 complete, notes finalized","CCSP Domain 1 mastery",,"Cloud Expertise ✓"
+25,97-100,Phase 3,CCSP Domains 1-2,7,2,9,,,CCSP Domains 1-2 Deep Study,In Progress,"Cloud architecture, data security","CCSP domains 1-2 mastery, writing","Professional cloud consulting",,"CCSP Prep"
+25,97,Phase 3,Week 97,7,2,9,,,CCSP Domain 1: Cloud Concepts,In Progress,Domain 1 study,"Cloud concepts notes, practice","Cloud architecture mastery",,
+25,98,Phase 3,Week 98,7,2,9,,,CCSP Domain 2A: Data Classification,In Progress,Domain 2A study,"Data classification scenarios, labs","Data security mastery",,
+25,99,Phase 3,Week 99,7,2,9,,,CCSP Domain 2B: Data Protection,In Progress,Domain 2B study,"Encryption labs, documentation","Encryption expertise",,
+25,100,Phase 3,Week 100,7,2,9,,,Domains 1-2 practice tests,In Progress,80%+ tests,"Practice test results, weak areas","Cloud architecture + data security",,"CCSP Domains 1-2 ✓"
+26,101-104,Phase 3,CCSP Domains 3-4,7,2,9,,,CCSP Domains 3-4 Deep Study,In Progress,"Platform security, application security","Domain 3-4 mastery, IaC labs","Cloud platform security consulting",,"CCSP Prep"
+26,101,Phase 3,Week 101,7,2,9,,,CCSP Domain 3: Platform Security,In Progress,Domain 3 study,"IaC security labs, Terraform","Cloud platform security",,
+26,102,Phase 3,Week 102,7,2,9,,,CCSP Domain 4: Application Security,In Progress,Domain 4 study,"API security labs, documentation","Application security mastery",,
+26,103,Phase 3,Week 103,7,2,9,,,Domains 3-4 practice tests,In Progress,80%+ tests,"Practice test results, weak areas","Platform + application security",,"CCSP Domains 3-4 ✓"
+26,104,Phase 3,Week 104,7,2,9,,,Compliance deep dive: HIPAA + PCI-DSS,In Progress,Compliance study,"HIPAA/PCI-DSS documentation, capstone","Healthcare + banking compliance",,"CCSP Prep"
+27,105-108,Phase 3,CCSP Domains 5-6 + CCSP Exam,7,2,9,,,CCSP Domains 5-6 + Exam Prep,In Progress,"Operations, legal/compliance","CCSP exam preparation, full practice",CCSP Certification Target,,"CCSP Preparation"
+27,105,Phase 3,Week 105,7,2,9,,,CCSP Domain 5: Operations,In Progress,Domain 5 study,"Incident response labs, documentation","Operations security mastery",,
+27,106,Phase 3,Week 106,7,2,9,,,CCSP Domain 6: Legal/Compliance,In Progress,Domain 6 study,"Risk frameworks, contract labs","Legal/compliance mastery",,
+27,107,Phase 3,Week 107,7,2,9,,,Full CCSP practice exams,In Progress,85%+ tests,"Full exam simulation, score analysis","CCSP exam readiness",,"CCSP Domains 5-6 ✓"
+27,108,Phase 3,Week 108,7,2,9,,,CCSP CERTIFICATION EXAM,Complete,"Exam passed ✓, CCSP certified",Post-exam consolidation,CCSP certified,CCSP Certified (M27),
 28,109-112,Phase 4,RECOVERY MONTH #3 + CISSP Start,2,6,8,,,Vacation + CISSP Domain 1-2 Intro,Pending,"Rest week, CISSP prep",Light reading + consolidation,CISSP preparation focus,,"CISSP Domain Study"
 28,109-110,Phase 4,Weeks 109-110,2,6,8,,,VACATION / PERSONAL TIME,In Progress,Rest week,"Relaxation, personal time","Family, health, rest",,
 28,111,Phase 4,Week 111,2,6,8,,,CISSP Domain 1: Security & Risk Management,In Progress,Domain 1 start,"Domain 1 reading, notes","Security & Risk Management concepts",,
