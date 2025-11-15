@@ -48,7 +48,7 @@ Week-by-week breakdown of all 108 weeks:
 - English learning activities
 - Consulting skills practice schedule
 
-### 3. **36MONTH_PROGRESS_TRACKER.csv** (Progress Tracking)
+### 3. **27MONTH_PROGRESS_TRACKER.csv** (Progress Tracking)
 Comprehensive spreadsheet for tracking:
 - Planned vs. actual study/lab hours
 - Deliverables and status for each week
@@ -183,7 +183,7 @@ Deep analysis document explaining:
 1. **Read CyberRoadmap.md first** - Understand the overall structure and philosophy
 2. **Review ROADMAP_ULTRATHINK_ANALYSIS.md** - Understand why this approach works
 3. **Use MONTH_BY_MONTH_SCHEDULE.md as your action plan** - Follow week-by-week
-4. **Track progress in 36MONTH_PROGRESS_TRACKER.csv** - Record actual vs. planned hours
+4. **Track progress in 27MONTH_PROGRESS_TRACKER.csv** - Record actual vs. planned hours
 
 ### Daily Workflow:
 
