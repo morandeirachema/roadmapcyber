@@ -623,134 +623,171 @@ For the complete week-by-week breakdown of all 36 months including:
 
 ---
 
-#### Month 3 (Weeks 9-12): CyberArk Defender Certification Prep
-**Objective**: Prepare for and pass CyberArk Defender exam
+#### Month 3 (Weeks 9-12): Advanced PAM Labs + K8s Intermediate
+**Objective**: Build deep hands-on PAM experience, continue K8s progression
 
 | Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
 |-------|-----------|-------------|----------|--------------|
-| 9 | CyberArk Campus: Core Concepts | 8 | Lab exercises from training | 75% course completion |
-| 10 | CyberArk Campus: Advanced Topics | 8 | Configuration scenarios | 100% course completion |
-| 11 | Practice Tests + Weak Areas | 8 | Hands-on labs + exam simulation | 90%+ practice test scores |
-| 12 | **Defender Exam** + Review | 8 | Final lab review | **✅ DEFENDER CERTIFIED** |
+| 9 | Advanced Safe Management + K8s RBAC | 3 | Multi-tenant safe labs + RBAC practice | Complex policy scenarios |
+| 10 | Dual Control + Approval Workflows + K8s Networking | 3 | Approval chains + NetworkPolicies | Workflows operational |
+| 11 | PAM Troubleshooting + K8s Storage | 3 | Debug scenarios + PVCs/StatefulSets | Troubleshooting guide started |
+| 12 | Integration Patterns + K8s Services | 3 | AD/LDAP integration + Ingress setup | Integration documented |
 
 **Month 3 Deliverables**:
-- ✅ CyberArk Defender Certification achieved
-- Comprehensive study notes by topic
-- Practice test tracker with results
-- Certification badge/credentials
+- Advanced PAM scenarios mastered
+- K8s intermediate patterns working (RBAC, networking, storage)
+- Multi-tenant architecture documented
+- First consulting presentation prepared (PAM fundamentals)
 
 ---
 
-#### Month 4 (Weeks 13-16): CyberArk Sentry Prep + Advanced K8s
-**Objective**: Advanced PAM administration, improve Kubernetes skills
+#### Month 4 (Weeks 13-16): PAM Mastery + K8s Advanced + Defender Prep Start
+**Objective**: Complete PAM hands-on mastery, advanced K8s patterns, begin Defender study
 
 | Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
 |-------|-----------|-------------|----------|--------------|
-| 13 | Advanced Safe Management | 5 | Multi-tenant safe architecture | Complex policy scenarios |
-| 14 | Dual Control + Approval Workflows | 5 | Implement approval chains | Approval workflow tested |
-| 15 | K8s Intensive: Deployments & StatefulSets | 6 | Deploy multi-tier apps in K8s | App deployments working |
-| 16 | K8s Intensive: RBAC + NetworkPolicies | 6 | Implement RBAC + network controls | Security policies enforced |
+| 13 | PAM High Availability patterns + K8s Deployments | 3 | HA lab setup + multi-tier apps | HA architecture working |
+| 14 | Enterprise PAM scenarios + K8s Monitoring | 3 | Complex integrations + Prometheus setup | Monitoring operational |
+| 15 | Defender Study Start + K8s Security | 4 | CyberArk Campus begin + Pod Security Standards | 25% Defender course |
+| 16 | Defender Study + K8s Performance | 4 | Campus modules + performance tuning | 50% Defender course |
 
 **Month 4 Deliverables**:
-- Advanced CyberArk scenarios documented
-- K8s applications running with proper deployments
-- RBAC and network policies configured
-- Kubernetes troubleshooting skills improving
+- Enterprise-grade PAM scenarios completed
+- K8s monitoring and security hardening working
+- Defender certification study started (50% complete)
+- 4 months of solid hands-on PAM foundation complete
 
 ---
 
-#### Month 5 (Weeks 17-20): CyberArk Sentry Certification Prep
-**Objective**: Prepare for and pass CyberArk Sentry exam
+#### Month 5 (Weeks 17-20): CyberArk Defender Certification Exam
+**Objective**: Complete Defender study and pass certification exam
 
 | Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
 |-------|-----------|-------------|----------|--------------|
-| 17 | Sentry Course: Administration | 8 | Complex admin scenarios | 70% course completion |
-| 18 | Sentry Course: Troubleshooting | 8 | Troubleshoot lab issues | 100% course completion |
-| 19 | Practice Tests + Hands-On | 8 | Advanced lab configurations | 90%+ practice test scores |
-| 20 | **Sentry Exam** + K8s Labs | 8 | Final prep + K8s practice | **✅ SENTRY CERTIFIED** |
+| 17 | Defender Course Completion | 6 | Lab exercises + practice scenarios | 100% course completion |
+| 18 | Practice Tests + Weak Areas | 6 | Hands-on labs + troubleshooting | 85%+ practice test scores |
+| 19 | Final Prep + Review | 6 | Exam simulation + weak areas | 90%+ practice test scores |
+| 20 | **DEFENDER EXAM** + Celebration | 6 | Exam day + review | **✅ DEFENDER CERTIFIED** |
 
 **Month 5 Deliverables**:
-- ✅ CyberArk Sentry Certification achieved
-- Advanced administration documentation
-- Troubleshooting guides created
-- K8s hands-on skills significantly improved
+- ✅ **CyberArk Defender Certification achieved** (after 4 months hands-on foundation)
+- Comprehensive study notes and flashcards
+- Practice test tracker (90%+ scores)
+- First certification complete - foundation level PAM expert
 
 ---
 
-#### Month 6 (Weeks 21-24): CyberArk Guardian Certification Prep
-**Objective**: Prepare for and pass CyberArk Guardian exam (expert-level PAM)
+#### Month 6 (Weeks 21-24): Advanced PAM Administration + Sentry Prep Start
+**Objective**: Build advanced admin skills, continue K8s mastery, begin Sentry study
 
 | Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
 |-------|-----------|-------------|----------|--------------|
-| 21 | Guardian Course: Advanced Architecture | 8 | Enterprise scenario design | 70% course completion |
-| 22 | Guardian Course: High Availability & DR | 8 | HA deployment setup | 100% course completion |
-| 23 | Advanced Scenarios + Practice Tests | 8 | Complex PAM scenarios | 90%+ practice test scores |
-| 24 | **Guardian Exam** + Celebration | 8 | 6-hour Guardian exam | **✅ GUARDIAN CERTIFIED** |
+| 21 | Advanced Administration Patterns + K8s Intensive | 3 | Complex admin scenarios + K8s multi-cluster | Advanced admin mastery |
+| 22 | PAM Integrations + K8s Networking Advanced | 3 | Database integrations + CNI patterns | Integration guide created |
+| 23 | Sentry Study Start + K8s Storage Advanced | 4 | Begin Sentry course + storage patterns | 25% Sentry course |
+| 24 | Sentry Study + K8s Security Hardening | 4 | Continue Sentry modules + security patterns | 50% Sentry course |
 
 **Month 6 Deliverables**:
-- ✅ CyberArk Guardian Certification achieved (expert-level)
-- Advanced PAM architecture expertise
-- High availability and disaster recovery knowledge
-- Guardian study materials and flashcards
-- Ready for K8s intensive phase
+- Advanced PAM administration patterns mastered
+- K8s intensive phase progressing well
+- Sentry certification study started (50% complete)
+- English milestone: Comfortable reading/writing technical content ✓
 
-#### Month 7 (Weeks 25-28): K8s Mastery Phase 1
-**Objective**: Start K8s intensive practice after Guardian certification
+#### Month 7 (Weeks 25-28): Sentry Certification Prep + K8s Advanced
+**Objective**: Complete Sentry study, continue K8s intensive hands-on
 
 | Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
 |-------|-----------|-------------|----------|--------------|
-| 25 | K8s: Monitoring & Logging | 6 | Deploy Prometheus/ELK | Observability stack |
-| 26 | K8s: Advanced Networking | 6 | Multi-tenant networks | Network policies mastered |
-| 27 | K8s: Storage & Persistence | 6 | StatefulSets + PVCs | Storage patterns understood |
-| 28 | K8s: Security Hardening | 6 | Pod Security Standards, RBAC | Security practices |
+| 25 | Sentry Course Completion + K8s Troubleshooting | 4 | Advanced admin labs + K8s debug | 100% Sentry course |
+| 26 | Sentry Practice Tests + K8s Performance | 4 | Practice exams + performance tuning | 85%+ practice scores |
+| 27 | Sentry Weak Areas + K8s Patterns | 4 | Target weak areas + advanced patterns | 90%+ practice scores |
+| 28 | Portfolio Project 1 Start + Review | 3 | Begin K8s project documentation | Project 1 initiated |
 
 **Month 7 Deliverables**:
-- K8s monitoring and logging fully operational
-- Advanced networking patterns understood
-- Storage and persistence mastered
-- K8s security hardening practices implemented
-- Advanced K8s scenarios documented
+- Sentry certification study complete (ready for exam Month 8)
+- K8s troubleshooting and performance skills advancing
+- Portfolio Project 1 started (PAM Lab Guide)
+- 3 months of advanced PAM practice complete
 
-#### Month 8 (Weeks 29-32): K8s Mastery Phase 2
-**Objective**: Continue K8s intensive, consolidate knowledge, start portfolio
+#### Month 8 (Weeks 29-32): Sentry Certification Exam + K8s Mastery
+**Objective**: Pass Sentry exam, continue K8s intensive, advance portfolio
 
 | Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
 |-------|-----------|-------------|----------|--------------|
-| 29 | K8s: Advanced Troubleshooting | 7 | Debug complex scenarios | Troubleshooting guide |
-| 30 | K8s: Performance & Optimization | 7 | Optimize cluster performance | Performance documentation |
-| 31 | K8s: Multi-cluster & Networking | 7 | Set up multi-cluster setup | Multi-cluster patterns |
-| 32 | Portfolio Project 1: K8s | 7 | Build documented K8s project | GitHub project published |
+| 29 | Sentry Final Review + K8s Advanced | 6 | Exam prep + K8s multi-cluster labs | Ready for Sentry exam |
+| 30 | **SENTRY EXAM** + K8s Networking | 6 | Exam day + advanced networking | **✅ SENTRY CERTIFIED** |
+| 31 | Guardian Prep Start + K8s Storage | 4 | Begin Guardian course + storage patterns | 25% Guardian course |
+| 32 | Guardian Study + Portfolio Project 1 | 4 | Guardian modules + Project 1 build | 50% Guardian + Project building |
 
 **Month 8 Deliverables**:
-- K8s troubleshooting expertise advanced
-- Performance optimization techniques mastered
-- Multi-cluster networking understood
-- 1st portfolio project published (K8s deployment)
-- Ready to start Conjur with K8s expertise
+- ✅ **CyberArk Sentry Certification achieved** (after 7 months hands-on)
+- Guardian certification study started (50% complete)
+- K8s advanced patterns mastered (multi-cluster, networking, storage)
+- Portfolio Project 1 progressing well
 
-#### Month 9 (Weeks 33-36): K8s Mastery Phase 3 + Portfolio
-**Objective**: Final K8s consolidation, publish portfolio articles
+#### Month 9 (Weeks 33-36): Guardian Prep + K8s Finalization + Portfolio
+**Objective**: Continue Guardian study, finalize K8s mastery, publish projects
 
 | Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
 |-------|-----------|-------------|----------|--------------|
-| 33 | Portfolio Project 2: PAM + K8s | 7 | CyberArk in K8s setup | 2nd GitHub project |
-| 34 | Portfolio Project 3: Advanced Labs | 7 | Complex integration scenarios | 3rd GitHub project |
-| 35 | Documentation & Articles | 7 | Write technical documentation | 2 LinkedIn articles |
-| 36 | Review & Prepare for Conjur | 7 | Consolidate K8s knowledge | Phase 1 summary doc |
+| 33 | Guardian Course Completion + K8s Security | 4 | Advanced architecture + K8s hardening | 100% Guardian course |
+| 34 | Guardian Practice Tests + Portfolio Project 2 Start | 4 | Practice exams + PAM+K8s integration project | 85%+ practice scores |
+| 35 | Guardian Weak Areas + Project 2 Build | 4 | Target weak areas + continue Project 2 | 90%+ practice scores |
+| 36 | Guardian Review + Project 1 Publish | 4 | Final review + finalize Project 1 | Project 1 published |
 
 **Month 9 Deliverables**:
-- 3 well-documented portfolio projects on GitHub
-- 2 published LinkedIn articles on PAM/K8s
-- Comprehensive K8s troubleshooting guide
-- Phase 1 documentation complete
+- Guardian certification study complete (ready for exam Month 11)
+- K8s hands-on mastery finalized (9 months M1-9 of intensive practice)
+- Portfolio Project 1 published on GitHub (PAM Lab Guide)
+- Portfolio Project 2 in progress (PAM + K8s Integration)
 
-**PHASE 1 CHECKPOINT** (Month 9):
-- ✅ **3 CyberArk certifications**: Defender + Sentry + Guardian (all expert-level)
-- ✅ **K8s hands-on proficiency**: COMPLETELY MASTERED across 4 months (M6-9)
+---
+
+#### Month 10 (Weeks 37-40): Guardian Final Prep + Capstone Planning
+**Objective**: Final Guardian preparation, begin capstone architecture design
+
+| Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
+|-------|-----------|-------------|----------|--------------|
+| 37 | Guardian Advanced Architecture Review | 6 | Enterprise scenarios + HA/DR patterns | Architecture mastery |
+| 38 | Guardian Practice Tests + Capstone Design | 6 | Practice exams + capstone architecture | 92%+ practice scores |
+| 39 | Portfolio Project 2 Completion | 3 | Finish PAM+K8s integration project | Project 2 published |
+| 40 | Guardian Final Review + Capstone Start | 4 | Exam prep + capstone infrastructure | Ready for Guardian exam |
+
+**Month 10 Deliverables**:
+- Guardian final preparation complete (95%+ practice test scores)
+- Portfolio Project 2 published (PAM + K8s Integration)
+- Capstone project architecture designed
+- Capstone infrastructure planning complete
+
+---
+
+#### Month 11 (Weeks 41-44): Guardian Certification Exam + Phase 1 Completion
+**Objective**: Pass Guardian exam, complete Phase 1, prepare for Conjur
+
+| Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
+|-------|-----------|-------------|----------|--------------|
+| 41 | Guardian Weak Areas + Capstone Setup | 6 | Target weak areas + capstone infrastructure | Ready for exam |
+| 42 | **GUARDIAN EXAM** + Celebration | 6 | Exam day + celebration | **✅ GUARDIAN CERTIFIED** |
+| 43 | Portfolio Project 3 Start + LinkedIn Article | 3 | Advanced K8s scenarios project + writing | Project 3 initiated + article draft |
+| 44 | Phase 1 Review + Conjur Prep Start | 3 | Consolidation + Conjur architecture study | Conjur intro complete |
+
+**Month 11 Deliverables**:
+- ✅ **CyberArk Guardian Certification achieved** (expert-level, after 10 months hands-on)
+- Capstone project infrastructure established
+- Portfolio Project 3 started (Advanced K8s Security Patterns)
+- LinkedIn article published (PAM fundamentals)
+- English milestone: Writing clear technical documentation ✓
+
+---
+
+**PHASE 1 CHECKPOINT** (Month 11):
+- ✅ **3 CyberArk certifications**: Defender (M5) + Sentry (M8) + Guardian (M11) - all expert-level
+- ✅ **K8s hands-on proficiency**: COMPLETELY MASTERED across 11 months (M1-11 continuous)
 - ✅ **Complete PAM lab environment**: Fully functional with all advanced scenarios
-- ✅ **Portfolio**: 3 published projects + 2 LinkedIn articles + documentation
-- ✅ **English**: Comfortable reading/listening/writing technical content
+- ✅ **Portfolio**: 2 published projects + 1 in progress + 1 LinkedIn article
+- ✅ **English**: Comfortable reading/writing technical content
 - ✅ **Expert-level PAM knowledge**: All three CyberArk certifications completed
+- ✅ **Capstone foundation**: Architecture designed, infrastructure started
 - ✅ **Solid foundation for Conjur and DevSecOps**: Ready to advance
 
 ---
@@ -764,49 +801,43 @@ For the complete week-by-week breakdown of all 36 months including:
 
 **Phase 2 Philosophy**: Extensive hands-on Conjur deployments in multiple scenarios, master DevSecOps practices thoroughly
 
-#### Month 7 (Weeks 25-28): DevSecOps Foundations & Conjur Architecture
-**Objective**: Understand DevSecOps, learn Conjur architecture
+**📋 Note**: For complete week-by-week breakdown of Months 12-18 with daily activities, specific hours allocation, and all deliverables, see `MONTH_BY_MONTH_SCHEDULE.md`. The sections below provide high-level monthly objectives.
+
+#### Month 12 (Weeks 45-48): RECOVERY MONTH #1 + Capstone Foundation
+**Objective**: Rest and consolidation after intense 11-month Phase 1, light capstone work
 
 | Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
 |-------|-----------|-------------|----------|--------------|
-| 25 | DevSecOps Principles | 5 | Research DevSecOps practices | DevSecOps overview document |
-| 26 | Secrets Sprawl Problem | 5 | Lab: simulate secrets sprawl issues | Problem analysis documented |
-| 27 | Conjur Architecture Review | 5 | Study Conjur docs, architecture | Conjur architecture diagram |
-| 28 | CI/CD Basics | 5 | Review Jenkins/GitLab/GitHub Actions | CI/CD concepts mapped |
+| 45 | **VACATION / PERSONAL TIME** | 1 | Light capstone planning | Rest and recovery |
+| 46 | Phase 1 Consolidation + Capstone Architecture | 2 | Capstone design refinement | Architecture finalized |
+| 47 | Conjur Architecture Overview (light) | 2 | Study Conjur docs, architecture | Conjur overview notes |
+| 48 | DevSecOps Concepts (light) + English | 2 | DevSecOps reading, English practice | Ready for Phase 2 |
 
-**Month 7 Deliverables**:
-- DevSecOps fundamentals understood
-- Conjur architecture deeply understood
-- CI/CD platform basics clear
-- Reference materials organized
+**Month 12 Deliverables**:
+- Rest and recovery from 11-month intensive certification push ✓
+- Capstone project architecture finalized
+- Conjur fundamentals understood (light introduction)
+- English milestone: Comfortable technical communication ✓
+- Ready to start Phase 2 refreshed
 
 ---
 
-#### Month 8 (Weeks 29-32): Conjur in Docker & Basic Integration
-**Objective**: Deploy Conjur in Docker, implement basic integrations
+#### Month 13 (Weeks 49-52): Conjur Docker Deployment + DevSecOps
+**Objective**: Deploy Conjur in Docker, understand secrets management patterns
 
 | Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
 |-------|-----------|-------------|----------|--------------|
-| 29 | Conjur Docker Setup | 6 | Deploy Conjur in Docker (standalone) | Conjur running in Docker |
-| 30 | Conjur Policy as Code | 6 | Write and test Conjur policies | Policy examples library |
-| 31 | Basic Application Integration | 7 | Integrate sample app with Conjur | Python/Go app + Conjur working |
-| 32 | Authentication Methods | 7 | Configure host identity authentication | Auth methods tested |
+| 49 | Conjur Docker Setup + Policy Basics | 3 | Deploy Conjur standalone + basic policies | Conjur running in Docker |
+| 50 | Policy-as-Code Deep Dive | 3 | Write and test complex policies | Policy library created |
+| 51 | Application Integration + Capstone | 3 | Integrate app with Conjur + add to capstone | Python/Go app integrated |
+| 52 | Authentication Methods + Portfolio Project 3 | 3 | Host identity auth + continue Project 3 | Auth working + Project progress |
 
-**Month 8 Deliverables**:
+**Month 13 Deliverables**:
 - Conjur Docker deployment fully functional
-- Policy-as-Code library created
-- Sample applications integrated
-- Host identity authentication working
-- Integration documentation
-
----
-
-#### Month 9 (Weeks 33-36): Conjur in Kubernetes
-**Objective**: Deploy Conjur in K8s, implement K8s-specific features
-
-| Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
-|-------|-----------|-------------|----------|--------------|
-| 33 | Conjur K8s Deployment | 7 | Deploy Conjur High Availability in K8s | Conjur HA K8s cluster |
+- Policy-as-Code patterns mastered
+- Application integration working
+- Capstone: Conjur component added
+- Portfolio Project 3 advancing (Advanced K8s Security)
 | 34 | K8s Authenticator | 7 | Configure Kubernetes authenticator | K8s-native authentication |
 | 35 | Secrets Injection | 8 | Implement secrets injection in pods | Pods getting secrets from Conjur |
 | 36 | Secretless Broker Setup | 8 | Deploy Secretless Broker (advanced) | Applications using Secretless |
@@ -894,7 +925,9 @@ For the complete week-by-week breakdown of all 36 months including:
 
 **Phase 3 Philosophy**: Deep cloud security expertise with extensive hands-on labs in AWS and Azure
 
-#### Month 13 (Weeks 49-52): AWS Security Deep Dive
+**📋 Note**: For complete week-by-week breakdown of Months 19-27 with daily activities, specific hours allocation, CCSP study schedule, and all deliverables, see `MONTH_BY_MONTH_SCHEDULE.md`. The sections below provide high-level monthly objectives.
+
+#### Month 19 (Weeks 73-76): AWS Security Deep Dive
 **Objective**: Master AWS IAM, security services, compliance features
 
 | Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
@@ -1021,6 +1054,8 @@ For the complete week-by-week breakdown of all 36 months including:
 - **2 hours**: Portfolio finalization, consulting prep, English
 
 **Phase 4 Philosophy**: Thorough CISSP preparation, complete capstone, build consulting readiness, final English mastery
+
+**📋 Note**: For complete week-by-week breakdown of Months 28-36 with daily activities, CISSP study schedule across all 8 domains, capstone completion steps, and consulting launch preparation, see `MONTH_BY_MONTH_SCHEDULE.md`. The sections below provide high-level monthly objectives.
 
 #### Month 19 (Weeks 73-76): CISSP Domain 1 & 2 Study
 **Objective**: Security & Risk Management, Asset Security
