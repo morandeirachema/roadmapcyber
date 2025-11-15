@@ -1,6 +1,6 @@
-# 36-Month Cybersecurity Roadmap: PAM + Conjur + Security Certifications
+# 27-Month Cybersecurity Roadmap: PAM + Conjur + Cloud Security
 
-A comprehensive, sustainable 36-month learning path for experienced system administrators to become expert-level PAM/Conjur consultants with top-tier certifications.
+A comprehensive, sustainable 27-month learning path for experienced system administrators to become expert-level PAM/Conjur consultants ready to launch consulting practice.
 
 ## 🎯 Target Audience
 
@@ -22,7 +22,7 @@ A comprehensive, sustainable 36-month learning path for experienced system admin
 **Weekly Schedule:** 10-12 hours/week (sustainable pace)
 - **Weekdays:** 1.5-2 hours/day (Mon-Fri)
 - **Weekends:** 2.5-3 hours total
-- **Total Study Hours:** ~1,620 hours over 36 months
+- **Total Study Hours:** ~1,620 hours over 27 months
 
 **Learning Style:** 70% hands-on labs, 30% study/reading/certification prep
 
@@ -31,16 +31,16 @@ A comprehensive, sustainable 36-month learning path for experienced system admin
 This repository contains four comprehensive documents:
 
 ### 1. **CyberRoadmap.md** (Main Document)
-The complete 36-month roadmap with:
-- 4-phase structure (Months 1-11, 12-18, 19-27, 28-36)
-- Certification timeline and preparation strategies
-- English learning integration (6 phases)
+The complete 27-month roadmap with:
+- 3-phase structure (Months 1-11, 12-18, 19-27)
+- Certification timeline and preparation strategies (4 certifications)
+- English learning integration (5 phases)
 - Consulting skills development schedule
 - Portfolio building plan
-- Success metrics and checkpoints
+- Success metrics and consulting launch preparation
 
 ### 2. **MONTH_BY_MONTH_SCHEDULE.md** (Detailed Implementation)
-Week-by-week breakdown of all 144 weeks:
+Week-by-week breakdown of all 108 weeks:
 - Specific daily activities and time allocation
 - Weekly deliverables and milestones
 - Monthly checkpoints
@@ -52,7 +52,7 @@ Week-by-week breakdown of all 144 weeks:
 Comprehensive spreadsheet for tracking:
 - Planned vs. actual study/lab hours
 - Deliverables and status for each week
-- English milestones (M6, M12, M18, M24, M30, M36)
+- English milestones (M6, M12, M18, M24, M27)
 - Consulting skill development
 - Certification tracking
 - Portfolio project progress
@@ -72,9 +72,10 @@ Deep analysis document explaining:
 - **Month 8:** CyberArk Sentry (Advanced Administration)
 - **Month 11:** CyberArk Guardian (Expert-level)
 
-**Cloud & General Security:**
-- **Month 27:** CCSP (Certified Cloud Security Professional)
-- **Month 35:** CISSP (Certified Information Systems Security Professional)
+**Cloud Security:**
+- **Month 27:** CCSP (Certified Cloud Security Professional) + **Consulting Launch**
+
+**Note:** CISSP removed from roadmap - not essential for PAM/Conjur consulting. Can be pursued later if specific clients require it.
 
 ## 🚀 Phase Overview
 
@@ -100,13 +101,12 @@ Deep analysis document explaining:
 - 7-8 total portfolio projects
 - English: Consulting and presentation skills
 
-### **PHASE 4: CISSP + Capstone (Months 28-36)**
-- 7 months CISSP study (all 8 domains)
-- **Month 35:** CISSP certification
-- **Month 36:** Capstone completion + consulting launch
-- Enterprise-grade PAM + Conjur + K8s system fully operational
-- 8-10 total portfolio projects
-- English: Executive-level fluency
+**End of Roadmap - Month 27:**
+- CCSP certification achieved
+- Complete enterprise capstone project operational
+- 7-8 total portfolio projects documented
+- **CONSULTING PRACTICE LAUNCHED**
+- Ready for $250-400/hour consulting rates
 
 ## ✨ Key Optimizations
 
@@ -127,23 +127,23 @@ Deep analysis document explaining:
 - Prevents burnout, allows knowledge consolidation
 
 ### 4. **Continuous Capstone Model**
-- Build capstone progressively M1-36
+- Build capstone progressively M1-27
 - Add components as you learn each technology
-- Fully operational by M36 with all integrations working
+- Fully operational by M27 with all integrations working
 
 ### 5. **English Learning Structured**
-- 6-phase progression with checkpoints at M6, M12, M18, M24, M30, M36
+- 5-phase progression with checkpoints at M6, M12, M18, M24, M27
 - From technical reading → consulting-level fluency
 - Integrated into daily activities (no extra time needed)
 
 ### 6. **Consulting Skills Scheduled**
 - Monthly presentations starting M3
 - RFP/SOW template development by M12
-- Client simulation practice by M36
+- Client simulation practice by M27
 - Risk assessment and proposal writing
 
 ### 7. **Portfolio Building Progressive**
-- 8-10 projects across 36 months
+- 8-10 projects across 27 months
 - Each project adds complexity
 - Demonstrates expertise growth over time
 
@@ -201,13 +201,15 @@ Deep analysis document explaining:
 
 ## 💼 Career Outcomes
 
-**After 36 months, you will be:**
+**After 27 months, you will be:**
 - Expert-level PAM/Conjur consultant
-- Holder of 5 major certifications (3 CyberArk + CCSP + CISSP)
+- Holder of 4 major certifications (3 CyberArk + CCSP)
 - Fluent in professional English (technical and executive communication)
-- Portfolio of 8-10 documented projects
+- Portfolio of 7-8 documented projects
+- Complete enterprise capstone project operational
 - Ready for healthcare, banking, and enterprise consulting
 - Capable of commanding $250-400/hour consulting rates
+- **Consulting practice launched and ready for clients**
 
 **Target clients:**
 - Healthcare organizations (HIPAA compliance + PAM)
@@ -232,4 +234,4 @@ This roadmap is provided as-is for educational purposes. Feel free to use and ad
 
 ---
 
-**Good luck on your 36-month journey to becoming an expert PAM/Conjur consultant!** 🚀
+**Good luck on your 27-month journey to becoming an expert PAM/Conjur consultant!** 🚀

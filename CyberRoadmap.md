@@ -23,14 +23,14 @@ This roadmap integrates Privileged Access Management (PAM), CyberArk Conjur, and
 
 **Language Requirement**: English fluency for consulting (healthcare/banking clients expect professional English communication)
 - **Strategy**: Integrate English learning throughout roadmap (no extra time needed)
-- **Goal**: Professional consulting English fluency by Month 36 (fluent client communication, proposals, presentations)
+- **Goal**: Professional consulting English fluency by Month 27 (fluent client communication, proposals, presentations)
 - **Method**: Learn through technical documentation, practice with real content
 
-**Recommended Path**: Realistic 36-month timeline (3 years) with strategically placed recovery months, focusing on deep expertise in security concepts, CyberArk platforms, hands-on Kubernetes work, compliance frameworks, and English proficiency mastery for consulting-level competency.
+**Recommended Path**: Optimal 27-month timeline (2.25 years) with strategically placed recovery months, focusing on deep expertise in security concepts, CyberArk platforms, hands-on Kubernetes work, cloud security, and English proficiency mastery for consulting-level competency. Launch consulting practice at Month 27 with CCSP certification.
 
 ---
 
-## English Learning Integration (Throughout 36 Months)
+## English Learning Integration (Throughout 27 Months)
 
 ### Why English Is Critical for Your Consulting Role
 - **Client Communications**: Healthcare/banking clients expect professional English
@@ -47,7 +47,7 @@ This roadmap integrates Privileged Access Management (PAM), CyberArk Conjur, and
 - 🎯 **Practical application** - use English with real technical content
 - 🎯 **Progressive difficulty** - start with easier content, advance with domains
 
-### English Learning Phases (Integrated into 36 Months)
+### English Learning Phases (Integrated into 27 Months)
 
 #### Phase 1: English Foundations (Months 1-6)
 **Focus**: Reading + Listening (comprehension)
@@ -128,43 +128,23 @@ This roadmap integrates Privileged Access Management (PAM), CyberArk Conjur, and
 
 ---
 
-#### Phase 5: Advanced Consulting English (Months 25-30)
-**Focus**: Thought leadership + client relationship management
+#### Phase 5: Expert Consulting English (Months 25-27)
+**Focus**: Consulting launch preparation + executive communication
 - **Hours/week**: 2-3 hours naturally embedded
 - **Activities**:
-  - Publish thought leadership articles on LinkedIn
-  - Speak at security webinars and conferences
-  - Create white papers and technical research
-  - Develop training materials for team/clients
-  - Participate in industry forums as an expert
-  - Write case studies with business impact analysis
+  - Create consulting practice marketing materials
+  - Write RFP/SOW response templates
+  - Build client-facing presentations
+  - Practice executive summaries and C-level communication
+  - Publish final thought leadership articles
+  - Complete consulting sales materials
 
 **English Milestones**:
-- [ ] Month 25-26: Publish 2 thought leadership articles
-- [ ] Month 27-28: Present at 1 webinar/conference (professional level)
-- [ ] Month 29-30: Complete white paper on security topic
+- [ ] Month 25: Create comprehensive RFP/SOW template library
+- [ ] Month 26: Build consulting practice website and marketing materials
+- [ ] Month 27: Ready for top-tier consulting clientele with fluent English communication
 
-**Vocabulary Focus**: Business impact, ROI, risk quantification, governance frameworks, strategic planning, vendor comparison
-
----
-
-#### Phase 6: Expert Consulting English (Months 31-36)
-**Focus**: Executive-level communication and consulting mastery
-- **Hours/week**: 2-3 hours naturally embedded
-- **Activities**:
-  - Create executive summaries and C-level presentations
-  - Write RFP responses and security assessments
-  - Build consulting practice materials
-  - Present to C-suite stakeholders (simulated)
-  - Mentor junior consultants/engineers in English
-  - Contribute to security community and open source projects
-
-**English Milestones**:
-- [ ] Month 31-32: Present executive security assessment (simulated C-level)
-- [ ] Month 33-34: Complete comprehensive RFP/SOW template library
-- [ ] Month 35-36: Ready for top-tier consulting clientele with fluent English communication
-
-**Vocabulary Focus**: Executive briefings, strategic recommendations, vendor management, audit findings, compliance gaps, business requirements, solution architecture
+**Vocabulary Focus**: Executive briefings, strategic recommendations, vendor management, audit findings, compliance gaps, business requirements, solution architecture, ROI, consulting proposals
 
 ---
 
@@ -239,22 +219,14 @@ This roadmap integrates Privileged Access Management (PAM), CyberArk Conjur, and
 - Mentor others in forums
 - Publish 2-3 case studies with business impact
 
-**Month 25-30**:
-- Publish thought leadership articles (2+ per month)
-- Speak at 1-2 security webinars (present your expertise)
-- Create white paper on security architecture topic
-- Develop training materials for team
-- Participate actively in English security forums as expert
-- Present at security meetups or conferences
-
-**Month 31-36**:
-- Create executive-level presentations (C-suite focused)
-- Write comprehensive RFP/SOW response templates
+**Month 25-27**:
+- Create comprehensive RFP/SOW response templates
 - Build complete consulting practice marketing materials
+- Write executive-level presentations (C-suite focused)
 - Present security assessments to simulated executives
-- Mentor junior team members in English
-- Publish advanced thought leadership pieces
-- Achieve consulting-level English fluency
+- Publish final thought leadership pieces
+- Create consulting website and sales materials in English
+- Achieve consulting-level English fluency ✓
 
 ---
 
@@ -545,7 +517,7 @@ This roadmap integrates Privileged Access Management (PAM), CyberArk Conjur, and
 
 ### 📋 IMPORTANT: Detailed Month-by-Month Schedule
 
-For the complete week-by-week breakdown of all 36 months including:
+For the complete week-by-week breakdown of all 27 months including:
 - Specific daily activities and time allocation
 - Weekly deliverables and milestones
 - English learning checkpoints at M6, M12, M18, M24, M30, M36
@@ -556,23 +528,25 @@ For the complete week-by-week breakdown of all 36 months including:
 
 ---
 
-### Recommended Path: 36 Months (144 Weeks) - OPTIMAL SUSTAINABLE PACE
+### Recommended Path: 27 Months (108 Weeks) - OPTIMAL SUSTAINABLE PACE
 **Study Schedule**: 10-12 hours/week = ~1.5-2 hours/day weekdays + 3-4 hours weekend
-**Total Study Hours**: ~1,620 hours over 36 months (realistic for working professionals)
+**Total Study Hours**: ~1,215 hours over 27 months (realistic for working professionals)
 **Learning Style**: 70% hands-on labs, 30% study/reading/certification prep
 **Pace**: Very comfortable, family-friendly, no burnout, maximum retention
 
-**Advantages of 36-Month Path**:
-- ✅ **Deeper expertise** - Extra 12 months for mastery
-- ✅ **More hands-on labs** - 70% labs vs 60% in 24-month plan
-- ✅ **Better work-life balance** - No rushing, sustainable pace
-- ✅ **Higher certification pass rates** - More time to prepare
-- ✅ **Stronger portfolio** - 5-7 high-quality projects
-- ✅ **More consulting skills** - Time to practice presentations, proposals, RFPs
-- ✅ **Better English proficiency** - 3 years to become fluent
-- ✅ **Less stress/burnout** - Realistic for working full-time
-- ✅ **More practical experience** - Time to repeat labs, try different approaches
-- ✅ **Higher consulting value** - Deeper expertise = premium rates
+**Why 27 Months?** Focused on what matters: expert PAM/Conjur skills + cloud security (CCSP). Launch consulting immediately after CCSP instead of pursuing broad CISSP certification.
+
+**Advantages of 27-Month Path**:
+- ✅ **Focused expertise** - PAM/Conjur specialist, not generalist
+- ✅ **More hands-on labs** - 70% labs vs 60% in compressed plans
+- ✅ **Better work-life balance** - No rushing, sustainable 10-12 hrs/week
+- ✅ **Higher certification pass rates** - Proper time to prepare (M5, M8, M11, M27)
+- ✅ **Strong portfolio** - 7-8 high-quality documented projects
+- ✅ **Consulting skills developed** - Presentations, proposals, RFPs practiced
+- ✅ **Professional English fluency** - 27 months for consulting-level communication
+- ✅ **Less stress/burnout** - Includes recovery months (M12, M18, M27)
+- ✅ **Faster time-to-market** - Launch consulting 9 months earlier
+- ✅ **Higher ROI** - Start earning consulting rates sooner ($250-400/hr)
 
 ---
 
@@ -1037,216 +1011,43 @@ For the complete week-by-week breakdown of all 36 months including:
 - Healthcare/banking compliance guides
 - Capstone updated with compliance controls
 
-**PHASE 3 CHECKPOINT**:
+**PHASE 3 CHECKPOINT** (Month 27 - CONSULTING LAUNCH):
 - ✅ AWS security expertise achieved
 - ✅ Azure security expertise achieved
-- ✅ CCSP Certification obtained
-- ✅ Compliance frameworks deeply understood
-- ✅ Ready for CISSP study
+- ✅ **CCSP Certification obtained** (Month 27)
+- ✅ Compliance frameworks deeply understood (HIPAA, PCI-DSS, SOC2, GDPR)
+- ✅ **Capstone project complete** - Enterprise PAM + Conjur + K8s + Multi-cloud operational
+- ✅ **7-8 portfolio projects published** with comprehensive documentation
+- ✅ **Consulting practice launched** - RFP/SOW templates, website, sales materials ready
+- ✅ **English fluency achieved** - Professional consulting-level communication
+- ✅ **Ready for $250-400/hour consulting rates**
 
 ---
 
-### PHASE 4: CISSP Certification & Enterprise Capstone (Months 28-36 / Weeks 109-144)
-**Duration**: 9 months (7 months CISSP study + Month 35 exam + Month 36 consulting launch)
-**Weekly Commitment**: 10-12 hours
-- **6-8 hours**: CISSP comprehensive study (8 domains) - COMFORTABLE PACE
-- **2-3 hours**: Capstone project completion
-- **2 hours**: Portfolio finalization, consulting prep, English
+## ROADMAP COMPLETE - 27 MONTHS TO EXPERT PAM/CONJUR CONSULTANT
 
-**Phase 4 Philosophy**: Thorough CISSP preparation, complete capstone, build consulting readiness, final English mastery
+**Congratulations!** At Month 27, you are now a fully qualified expert PAM/Conjur consultant with:
+- 3 CyberArk certifications (Defender, Sentry, Guardian)
+- CCSP cloud security certification
+- 11 months K8s hands-on mastery
+- Conjur expertise across Docker, K8s, and multi-cloud
+- DevSecOps and CI/CD integration skills
+- AWS + Azure security architecture expertise
+- Healthcare/banking compliance knowledge
+- Professional English communication skills
+- 7-8 documented portfolio projects
+- Complete enterprise capstone project
+- Consulting practice materials ready
 
-**📋 Note**: For complete week-by-week breakdown of Months 28-36 with daily activities, CISSP study schedule across all 8 domains, capstone completion steps, and consulting launch preparation, see `MONTH_BY_MONTH_SCHEDULE.md`. The sections below provide high-level monthly objectives.
-
-#### Month 19 (Weeks 73-76): CISSP Domain 1 & 2 Study
-**Objective**: Security & Risk Management, Asset Security
-
-| Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
-|-------|-----------|-------------|----------|--------------|
-| 73 | Domain 1: Security Principles, Governance, Risk | 12 | Risk assessment exercise | Domain 1 comprehensive notes |
-| 74 | Domain 1: Continued + Domain 2A: Asset Management | 12 | Asset inventory + classification | Domains 1-2A study guide |
-| 75 | Domain 2B: Data Security | 12 | Data protection + privacy controls | Domain 2B study guide |
-| 76 | Domains 1-2 Deep Dive + Practice | 12 | 100+ practice questions | 85%+ on practice tests |
-
-**Month 19 Deliverables**:
-- Domains 1-2 expert-level understanding
-- Risk management framework documented
-- Asset and data security strategies
-- Domain-specific study materials
-- 100+ practice questions answered
+**Next Steps After Month 27:**
+1. Launch consulting practice immediately
+2. Target first clients in healthcare/banking sectors
+3. Leverage your expert CyberArk + Conjur + cloud skills
+4. Command $250-400/hour consulting rates
+5. Optional: Pursue CISSP in future if clients require it (not essential for PAM/Conjur consulting)
 
 ---
 
-#### Month 20 (Weeks 77-80): CISSP Domains 3 & 4 Study
-**Objective**: Security Architecture & Engineering, Communication & Network Security
-
-| Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
-|-------|-----------|-------------|----------|--------------|
-| 77 | Domain 3: Design Principles + Architecture | 12 | Design secure architecture | Domain 3 comprehensive notes |
-| 78 | Domain 3: Continued + Implementation | 12 | Implement security controls | Architecture documentation |
-| 79 | Domain 4: Network Architecture + Design | 12 | Design secure networks | Domain 4 study guide |
-| 80 | Domains 3-4 Practice + Deep Dive | 12 | 100+ practice questions | 85%+ on practice tests |
-
-**Month 20 Deliverables**:
-- Domains 3-4 expert-level understanding
-- Security architecture design methodology
-- Network security strategy documented
-- Implementation guides created
-- 100+ practice questions answered
-
----
-
-#### Month 21 (Weeks 81-84): CISSP Domains 5 & 6 Study
-**Objective**: Identity & Access Management, Security Assessment & Testing
-
-| Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
-|-------|-----------|-------------|----------|--------------|
-| 81 | Domain 5: IAM Frameworks + Implementation | 12 | IAM architecture design | Domain 5 comprehensive notes |
-| 82 | Domain 5: Continued + Federation | 12 | Federation + SSO + MFA implementation | Domain 5 full study guide |
-| 83 | Domain 6: Assessment + Testing Methodologies | 12 | Vulnerability assessment exercises | Domain 6 study guide |
-| 84 | Domains 5-6 Practice + Pentesting | 12 | 100+ practice questions + lab | 85%+ on practice tests |
-
-**Month 21 Deliverables**:
-- Domains 5-6 expert-level understanding
-- IAM strategy and design methodology
-- Assessment and testing frameworks
-- Penetration testing knowledge
-- 100+ practice questions answered
-
----
-
-#### Month 22 (Weeks 85-88): CISSP Domains 7 & 8 Study
-**Objective**: Security Operations, Software Development Security
-
-| Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
-|-------|-----------|-------------|----------|--------------|
-| 85 | Domain 7: Operations + Incident Response | 12 | Incident response procedures | Domain 7 comprehensive notes |
-| 86 | Domain 7: Continued + Continuity Planning | 12 | Disaster recovery + business continuity | Domain 7 full study guide |
-| 87 | Domain 8: SDLC + Secure Coding | 12 | Code review + secure development | Domain 8 study guide |
-| 88 | Domains 7-8 Practice + Integration | 12 | 100+ practice questions | 85%+ on practice tests |
-
-**Month 22 Deliverables**:
-- Domains 7-8 expert-level understanding
-- Incident response procedures documented
-- Business continuity and DR planning
-- Secure development lifecycle guidance
-- 100+ practice questions answered
-
----
-
-#### Month 23 (Weeks 89-92): CISSP Practice Exams & Weak Areas
-**Objective**: Full exam simulation, master weak areas
-
-| Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
-|-------|-----------|-------------|----------|--------------|
-| 89 | Full CISSP Practice Exam #1 | 12 | Complete 6-hour practice test | Score + weakness analysis |
-| 90 | Weak Areas Review + Domain Focus | 12 | Target difficult domains | 90%+ on weak area tests |
-| 91 | Full CISSP Practice Exam #2 | 12 | Complete 6-hour practice test | Score + progress tracking |
-| 92 | Final Weak Areas + Exam Readiness | 12 | Last-minute review + strategy | 90%+ on all full exams |
-
-**Month 23 Deliverables**:
-- 2+ full CISSP practice exams completed
-- Weak areas identified and mastered
-- Exam strategy documented
-- Final review materials organized
-- Confidence level: 90%+
-
----
-
-#### Month 24 (Weeks 93-96): CISSP Exam & Capstone Completion
-**Objective**: Certify as CISSP, complete capstone, finalize portfolio
-
-| Weeks | Focus Area | Study Hours | Hands-On | Deliverables |
-|-------|-----------|-------------|----------|--------------|
-| 93 | **CISSP Certification Exam** | 12 | 6-hour exam day | **✅ CISSP CERTIFIED** |
-| 94 | Capstone Phase 2: Full Integration | 12 | Complete multi-component system | All components integrated |
-| 95 | Capstone Phase 3: Documentation + Testing | 12 | Comprehensive documentation + testing | Full test coverage |
-| 96 | Portfolio Finalization + Consulting Launch | 12 | Final GitHub portfolio, articles, readiness | Consultant-ready package |
-
-**Month 24 Deliverables**:
-- ✅ CISSP Certification achieved
-- ✅ Full Capstone Project Complete:
-  - CyberArk PAM (all components)
-  - CyberArk Conjur (K8s + multi-cloud)
-  - Integration between PAM and Conjur
-  - AWS + Azure IAM integration
-  - CI/CD pipeline with secrets management
-  - Compliance controls (HIPAA, PCI-DSS, SOC2)
-  - Monitoring and incident response
-  - Disaster recovery procedures
-- ✅ Professional GitHub Portfolio:
-  - 3-5 published projects
-  - Architecture diagrams
-  - Documentation (20+ pages)
-  - Deployment guides
-  - Troubleshooting runbooks
-- ✅ Technical Publications:
-  - 3-5 LinkedIn articles or blog posts
-  - Case studies (2-3)
-  - Best practices guides
-- ✅ Consulting Readiness Package:
-  - Reference architectures (AWS, Azure, hybrid)
-  - Compliance assessment templates
-  - Cost estimation models
-  - Sales materials
-  - Presentation deck
-
-**PHASE 4 CHECKPOINT (Final)**:
-- ✅ CISSP Certification obtained
-- ✅ All 4 major certifications complete (Defender, Sentry, CCSP, CISSP)
-- ✅ Capstone project fully operational and documented
-- ✅ Professional portfolio complete
-- ✅ **CONSULTANT-READY STATUS ACHIEVED**
-
----
-
-### Alternative: 24-Month Accelerated Path (If needed)
-**For those who want to complete faster but still need 24 months**
-
-| Months | Focus Area | Deliverables |
-|--------|-----------|--------------|
-| 1-6 | PAM + K8s Foundations | Defender, Sentry, K8s proficiency, 2 projects |
-| 7-12 | Conjur + DevSecOps | Conjur mastery, CI/CD integration, 3 projects |
-| 13-18 | CCSP + Cloud Security | CCSP certification, cloud expertise, 2 projects |
-| 19-24 | CISSP + Capstone | CISSP certification, full capstone |
-
-**Note**: This is the minimum recommended time. Going faster than 24 months risks burnout and reduced learning quality.
-
-### ⚠️ NOT RECOMMENDED: 12-Month Path
-**For those who can commit 30+ hours/week**
-
-This was the original plan but has significant downsides:
-- ❌ High burnout risk while working full-time
-- ❌ Limited hands-on lab time (50% vs 70%)
-- ❌ Rushed certifications (lower pass rates)
-- ❌ Weak portfolio (1-2 projects vs 5-7)
-- ❌ Poor work-life balance
-- ❌ Limited English improvement
-- ❌ Unsustainable long-term
-
-**Recommendation**: Stick with 36-month plan for maximum success and sustainability.
-
----
-
-### Weekly Study Schedule Template (15 hours)
-
-#### Weekdays (2 hours/day × 5 = 10 hours)
-- **Monday**: 2 hrs - Video lectures/reading
-- **Tuesday**: 2 hrs - Hands-on lab work
-- **Wednesday**: 2 hrs - Practice exercises/problems
-- **Thursday**: 2 hrs - Hands-on lab work
-- **Friday**: 2 hrs - Review and documentation
-
-#### Weekend (5 hours)
-- **Saturday**: 3 hrs - Deep dive lab project or practice exams
-- **Sunday**: 2 hrs - Review week's material, plan next week
-
-#### Monthly Time Investment
-- **Video/Reading**: ~30 hours
-- **Hands-on Labs**: ~30 hours
-- **Practice/Review**: ~15 hours
-- **Total**: ~75 hours/month (minimum for certifications)
-
----
 
 ## Comprehensive Learning Resources (By Phase)
 
@@ -1979,15 +1780,15 @@ While focusing on cloud-agnostic principles, ensure you understand:
 
 ---
 
-## Success Metrics - Consultant Readiness (36-Month Timeline)
+## Success Metrics - Consultant Readiness (27-Month Timeline)
 
 ### Certifications (Essential for Consulting)
-**Optimized Timeline at 15 hours/week (36-month path):**
+**Optimized Timeline at 10-12 hours/week (27-month path):**
 - [ ] **CyberArk Defender** (Month 5 / Week 20) - ✅ Foundation-level (after 4 months hands-on labs)
-- [ ] **CyberArk Sentry** (Month 8 / Week 32) - ✅ Advanced administration (after 3 months advanced labs)
-- [ ] **CyberArk Guardian** (Month 11 / Week 44) - ✅ Expert-level PAM (after 3 months expert preparation)
-- [ ] **CCSP** (Month 27 / Week 108) - ✅ Cloud security credibility (with 1-week recovery)
-- [ ] **CISSP** (Month 35 / Week 140) - ✅ Industry gold standard (7 months dedicated study)
+- [ ] **CyberArk Sentry** (Month 8 / Week 32) - ✅ Advanced administration (after 7 months hands-on)
+- [ ] **CyberArk Guardian** (Month 11 / Week 44) - ✅ Expert-level PAM (after 10 months hands-on)
+- [ ] **CCSP** (Month 27 / Week 108) - ✅ Cloud security professional + consulting launch
+- [ ] **CISSP** - ❌ REMOVED (pursue later if clients require; not essential for PAM/Conjur consulting)
 - [ ] Conjur Certified Professional (if available - Months 13-18)
 
 ### Technical Competency - By Month
@@ -2060,7 +1861,7 @@ While focusing on cloud-agnostic principles, ensure you understand:
 - [ ] Disaster recovery and high availability fully implemented
 - [ ] Consulting practice launched with reference architectures
 
-### Consulting Skills Development (Throughout 36 Months)
+### Consulting Skills Development (Throughout 27 Months)
 - [ ] **Compliance frameworks mastery** (HIPAA, PCI-DSS, SOC2, GDPR, ISO27001)
 - [ ] Created reference architectures for healthcare and banking
 - [ ] Documentation portfolio (10+ architecture diagrams, 20+ pages runbooks)
@@ -2152,7 +1953,7 @@ While focusing on cloud-agnostic principles, ensure you understand:
 
 ---
 
-## Ultrathink Optimizations Summary: Key Changes to the 36-Month Plan
+## Ultrathink Optimizations Summary: Key Changes to the 27-Month Plan
 
 Based on comprehensive analysis of realistic timelines, learning velocity, and consulting readiness, the following optimizations were implemented:
 
@@ -2186,7 +1987,7 @@ Based on comprehensive analysis of realistic timelines, learning velocity, and c
 - **Month 18**: Light recovery after Conjur mastery sprint (8 hrs/week)
 - **Month 27**: Recovery with CCSP final week (8 hrs/week, then exam)
 
-**Benefit**: Sustainable 36-month pace without burnout, allows knowledge consolidation.
+**Benefit**: Sustainable 27-month pace without burnout, allows knowledge consolidation.
 
 ---
 
@@ -2234,7 +2035,7 @@ Based on comprehensive analysis of realistic timelines, learning velocity, and c
 
 ### 7. **Portfolio Building Progressive**
 **Original Plan**: 3 projects scattered throughout Phase 1
-**Optimized Plan**: 8-10 projects across all 36 months, progressively adding complexity
+**Optimized Plan**: 8-10 projects across all 27 months, progressively adding complexity
 
 - **By M6**: 1-2 basic PAM projects
 - **By M11**: 3-4 PAM + K8s integration projects
@@ -2299,7 +2100,7 @@ Based on comprehensive analysis of realistic timelines, learning velocity, and c
 
 ---
 
-## Summary: Your 36-Month Journey (3-Year Path)
+## Summary: Your 27-Month Journey (2.25-Year Path)
 
 **Your Profile**: 17-year Linux/Windows sysadmin with CKA cert, working full-time
 **Time Commitment**: 10-12 hours/week (~1,620 hours total = 45 hours/month - sustainable pace)
@@ -2350,25 +2151,25 @@ Based on comprehensive analysis of realistic timelines, learning velocity, and c
 - Professional presentations and sales materials created
 - Final English proficiency achieved (fluent in technical communication)
 
-### Critical Success Factors for 36-Month Plan
+### Critical Success Factors for 27-Month Plan
 1. **Consistency**: Maintain 15 hours/week throughout (non-negotiable for success)
 2. **Hands-on focus**: 70% of time should be lab work, 30% study/reading
 3. **Quality over speed**: Focus on deep understanding, not rushing through topics
 4. **K8s mastery**: Extra months (1-9) ensure complete K8s gap closure
-5. **Compliance integration**: Deep study throughout all 36 months
+5. **Compliance integration**: Deep study throughout all 27 months
 6. **Portfolio building**: Continuous documentation from Month 1 (2-3 articles per quarter)
 7. **English improvement**: Integrated throughout - fluent by Month 36
 8. **Regular reviews**: Monthly checkpoints + quarterly progress assessments
 9. **Work-life balance**: Realistic pace prevents burnout while maintaining full-time work
 
-### Expected Outcome After 36 Months
+### Expected Outcome After 27 Months
 At 15 hours/week for 3 years, you'll have:
 - ✅ **5 major professional certifications** (Defender, Sentry, Guardian, CCSP, CISSP)
 - ✅ **All three CyberArk certifications** - EXPERT-LEVEL PAM knowledge
 - ✅ **MASTERED-level PAM expertise** (CyberArk platform inside-out knowledge)
 - ✅ **MASTERED-level secrets management** (Conjur in Docker, K8s, multi-cloud, all patterns)
 - ✅ **Expert-level cloud security** (AWS + Azure + GCP proficiency)
-- ✅ **Expert-level Kubernetes** (deep practical experience across 36 months)
+- ✅ **Expert-level Kubernetes** (deep practical experience across 27 months)
 - ✅ **Compliance mastery** (HIPAA, PCI-DSS, SOC2, GDPR, ISO27001, NIST)
 - ✅ **Professional-grade English** (fluent in technical communication and consulting)
 - ✅ **Enterprise architecture expertise** (design complex, integrated, multi-cloud systems)
@@ -2383,7 +2184,7 @@ At 15 hours/week for 3 years, you'll have:
   - Guardian-level PAM expertise examples
 - ✅ **Expert consultant credibility** - Top-tier consulting rates
 
-### Advantages of 36-Month vs 24-Month Plan
+### Advantages of 27-Month vs 24-Month Plan
 ✅ **Deeper expertise** - 12 extra months for mastery vs rushing
 ✅ **More hands-on labs** - 70% labs vs 60% (extra 200+ hours of hands-on)
 ✅ **Better work-life balance** - No stress, sustainable pace, family time
@@ -2395,7 +2196,7 @@ At 15 hours/week for 3 years, you'll have:
 ✅ **Time for consulting skills** - More practice with presentations, proposals, RFPs
 ✅ **Flexibility** - Time to handle unexpected life events without derailing
 
-### Advantages of 36-Month vs Original 12-Month Plan
+### Advantages of 27-Month vs Original 12-Month Plan
 ✅ **3x more hands-on time** (1,512 hours vs 504 hours of hands-on lab)
 ✅ **2x better work-life balance** - Realistic pace for working full-time
 ✅ **Higher quality portfolio** - 5-7 quality projects vs 1-2 rushed
@@ -2404,7 +2205,7 @@ At 15 hours/week for 3 years, you'll have:
 ✅ **English fluency** - 3 years of daily practice vs crash course
 ✅ **Sustainability** - Built to last, no burnout, career longevity
 
-**Estimated Consulting Value with 36-Month + Guardian Expertise**:
+**Estimated Consulting Value with 27-Month + Guardian Expertise**:
 - **Independent Consultant**: $250-400/hour (top-tier rates, all 3 CyberArk certs)
 - **Enterprise Consulting Firm**: $180K-280K+ salary (principal/expert level)
 - **Contract-based**: $80-120K/month for full-time engagements
