@@ -22,13 +22,13 @@ A comprehensive, sustainable 27-month learning path for experienced system admin
 **Weekly Schedule:** 10-12 hours/week (sustainable pace)
 - **Weekdays:** 1.5-2 hours/day (Mon-Fri)
 - **Weekends:** 2.5-3 hours total
-- **Total Study Hours:** ~1,620 hours over 27 months
+- **Total Study Hours:** ~1,170-1,296 hours over 27 months
 
 **Learning Style:** 70% hands-on labs, 30% study/reading/certification prep
 
 ## 📚 What's Included
 
-This repository contains four comprehensive documents:
+This repository contains five comprehensive documents:
 
 ### 1. **CyberRoadmap.md** (Main Document)
 The complete 27-month roadmap with:
@@ -57,7 +57,16 @@ Comprehensive spreadsheet for tracking:
 - Certification tracking
 - Portfolio project progress
 
-### 4. **ROADMAP_ULTRATHINK_ANALYSIS.md** (Strategy & Rationale)
+### 4. **QUICKSTART.md** (Daily/Weekly Reference Guide) ⭐ **Start Here for Daily Use**
+One-page quick reference for:
+- Current month focus areas
+- This week's priorities
+- Daily study routine breakdown
+- Weekly checklist to stay on track
+- Monthly checkpoint questions
+- Phase-by-phase quick navigation
+
+### 5. **ROADMAP_ULTRATHINK_ANALYSIS.md** (Strategy & Rationale)
 Deep analysis document explaining:
 - Critical issues with traditional accelerated timelines
 - 7 key optimizations implemented
@@ -168,29 +177,34 @@ Deep analysis document explaining:
 - ✅ 7-8 portfolio projects total
 - ✅ English: Consulting presentation skills
 
-**By Month 36 (End of Phase 4):**
-- ✅ CISSP certification achieved
+**By Month 27 (Consulting Launch):**
+- ✅ CCSP certification achieved
 - ✅ Complete enterprise capstone project operational
-- ✅ 8-10 portfolio projects documented
-- ✅ Consulting practice launched
-- ✅ English: Executive-level fluency
+- ✅ 7-8 portfolio projects documented
+- ✅ **Consulting practice launched**
+- ✅ English: Professional consulting fluency
 - ✅ Ready for $250-400/hr consulting rates
+
+**Optional:** CISSP can be pursued in Months 28-36 if specific clients require it or you want broader security credibility (see MONTH_BY_MONTH_SCHEDULE.md appendix).
 
 ## 🛠️ How to Use This Roadmap
 
 ### For Beginners Starting the Journey:
 
-1. **Read CyberRoadmap.md first** - Understand the overall structure and philosophy
-2. **Review ROADMAP_ULTRATHINK_ANALYSIS.md** - Understand why this approach works
-3. **Use MONTH_BY_MONTH_SCHEDULE.md as your action plan** - Follow week-by-week
-4. **Track progress in 27MONTH_PROGRESS_TRACKER.csv** - Record actual vs. planned hours
+1. **Read README.md (this file)** - Get the big picture overview
+2. **Read CyberRoadmap.md** - Understand the complete 27-month structure
+3. **Review ROADMAP_ULTRATHINK_ANALYSIS.md** - Understand why this approach works
+4. **Start using QUICKSTART.md daily** ⭐ - Your daily/weekly reference guide
+5. **Follow MONTH_BY_MONTH_SCHEDULE.md** - Detailed week-by-week action plan
+6. **Track progress in 27MONTH_PROGRESS_TRACKER.csv** - Record actual vs. planned hours
 
 ### Daily Workflow:
 
-1. **Check weekly schedule** in MONTH_BY_MONTH_SCHEDULE.md
-2. **Complete daily activities** (1.5-2 hours weekdays, 2.5-3 hours weekend)
-3. **Update tracker** with actual hours and progress notes
-4. **Review weekly deliverables** to ensure you're on track
+1. **Check QUICKSTART.md** for your current month's focus
+2. **Follow daily routine** (1.5-2 hours weekdays, 2.5-3 hours weekend)
+3. **Reference MONTH_BY_MONTH_SCHEDULE.md** for detailed weekly tasks
+4. **Update 27MONTH_PROGRESS_TRACKER.csv** with actual hours and progress
+5. **Use weekly checklist** in QUICKSTART.md to stay on track
 
 ### Monthly Reviews:
 
@@ -216,6 +230,41 @@ Deep analysis document explaining:
 - Banking and financial services (PCI-DSS + secrets management)
 - Enterprise companies (multi-cloud security + compliance)
 
+## 💰 Budget Breakdown
+
+**Total Investment:** ~$2,150-4,100 over 27 months (~$80-152/month)
+
+### Certification Costs (~$1,350-2,100)
+- **CyberArk Defender:** $250-500 (check CyberArk Campus for discounts)
+- **CyberArk Sentry:** $250-500
+- **CyberArk Guardian:** $250-500
+- **CCSP Exam:** $599 (ISC² pricing)
+
+### Study Materials (~$300-600)
+- Study guides (CCSP): $50-100
+- Practice exams (Boson, official): $200-400
+- Optional books: $50-100
+
+### Lab Infrastructure (~$200-500)
+- Cloud credits (AWS/Azure free tier + paid): $100-300
+- VMs (if not using local): $0-200
+- Domain for portfolio/website: $10-20/year
+
+### Optional (~$300-900)
+- Pluralsight/A Cloud Guru subscription: $200-400/year
+- CyberArk training bootcamp: $0-500 (if available)
+
+**Cost-Saving Tips:**
+- Use AWS/Azure free tiers extensively
+- CyberArk Campus often has free training
+- Many practice exams available free online
+- Local VMs instead of cloud for labs
+- Library access for study books
+
+**ROI:** After Month 27, consulting rates of $250-400/hour mean this investment pays for itself in 6-11 billable hours.
+
+---
+
 ## 📝 Notes
 
 - **Sustainable Pace:** Designed for working professionals with families
@@ -223,6 +272,7 @@ Deep analysis document explaining:
 - **Proven Approach:** Based on realistic timelines and learning velocities
 - **Family-Friendly:** 10-12 hrs/week allows work-life balance
 - **All Goals Achievable:** Every certification and milestone is realistic
+- **Affordable:** Total investment ~$2,150-4,100 over 27 months
 
 ## 🤝 Contributing
 

@@ -1,11 +1,12 @@
-# 36-Month Detailed Schedule: Week-by-Week Activities
+# 27-Month Detailed Schedule: Week-by-Week Activities
 
 **Weekly Commitment**: 10-12 hours/week (sustainable pace for working professionals)
 - **Weekdays**: 1.5-2 hours/day (Mon-Fri) = 7.5-10 hours
 - **Weekends**: 2.5-3 hours total = additional 2.5-3 hours
 - **Total**: ~10-12 hours/week (family-friendly, no burnout)
+- **Total Study Hours**: ~1,170-1,296 hours over 27 months
 
-**Note**: This reduced schedule provides the same comprehensive learning path as the original 15 hrs/week plan, just at a more comfortable pace. All certifications and milestones remain achievable.
+**Note**: This sustainable schedule focuses on deep PAM/Conjur expertise with CCSP certification and consulting launch at Month 27. CISSP can be pursued later if specific clients require it.
 
 ---
 
@@ -485,11 +486,50 @@
 ### Portfolio & Consulting
 - Publish 5th + 6th LinkedIn articles (cloud security)
 - Create cloud security case studies (2 examples)
-- **PHASE 3 CHECKPOINT**: 8+ projects, CCSP certified ✓
+- **PHASE 3 CHECKPOINT**: 7-8 projects, CCSP certified ✓
+- **CONSULTING LAUNCH READY** ✓
 
 ---
 
-## PHASE 4: CISSP + Capstone Final (Months 28-36)
+## 27-MONTH COMPLETION: Consulting Practice Launch
+
+**Congratulations!** You've completed the 27-month roadmap and are ready to launch your consulting practice.
+
+### What You've Achieved:
+- ✅ 4 Professional Certifications (Defender, Sentry, Guardian, CCSP)
+- ✅ Expert-level PAM expertise (all 3 CyberArk certifications)
+- ✅ Kubernetes production-ready skills (12 months hands-on)
+- ✅ Conjur secrets management mastery (Docker, K8s, multi-cloud)
+- ✅ AWS + Azure cloud security expertise
+- ✅ Compliance frameworks mastery (HIPAA, PCI-DSS, SOC2, GDPR)
+- ✅ 7-8 portfolio projects published
+- ✅ Professional English fluency for consulting
+- ✅ Complete enterprise capstone project
+- ✅ Consulting practice materials ready
+
+### You Are Now Ready For:
+- **Independent Consulting**: $250-400/hour rates
+- **Healthcare clients**: HIPAA compliance + PAM expertise
+- **Banking clients**: PCI-DSS compliance + secrets management
+- **Enterprise clients**: Multi-cloud security architecture
+
+---
+
+## Optional: CISSP Path (Months 28-36)
+
+**Note**: CISSP was removed from the core 27-month roadmap because it's not essential for PAM/Conjur consulting. However, if specific clients require CISSP or you want broader security credibility, you can pursue it after launching your consulting practice.
+
+**When to Consider CISSP**:
+- Large enterprise clients specifically require it
+- Government/defense contractor work
+- Security leadership positions (CISO track)
+- You want the industry gold standard credential
+
+**If you choose to pursue CISSP**, see the appendix below for the recommended 9-month study plan.
+
+---
+
+## APPENDIX: Optional CISSP Study Plan (Months 28-36)
 
 ---
 
@@ -617,50 +657,43 @@
 
 ---
 
-## KEY SUCCESS FACTORS THROUGHOUT 36 MONTHS
+## KEY SUCCESS FACTORS THROUGHOUT 27 MONTHS
 
 ### 1. Monthly Presentations (1st Thursday of each month)
 - Month 3: PAM Fundamentals
-- Month 5: PAM Architecture
-- Month 7: K8s Basics
-- Month 10: Conjur Overview
-- Month 12: DevSecOps Basics
-- Month 15: AWS Security
-- Month 18: Multi-Cloud Architecture
-- Month 21: Compliance Frameworks
-- Month 24: CISSP Case Studies
-- Month 27: Enterprise Architecture
-- Month 30: Cloud Security Patterns
-- Month 33: Advanced PAM Scenarios
-- Month 36: Consulting Readiness
+- Month 6: PAM Architecture
+- Month 9: K8s Basics & Integration
+- Month 12: Conjur Overview & DevSecOps
+- Month 15: Multi-Cloud Architecture
+- Month 18: AWS Security Deep Dive
+- Month 21: Azure Security & Compliance
+- Month 24: CCSP Preparation & Cloud Patterns
+- Month 27: **Consulting Launch Presentation**
 
 ### 2. Monthly English Checkpoints
 - Month 6: Can write technical documentation ✓
 - Month 12: Can present to small groups ✓
 - Month 18: Can write professional articles ✓
 - Month 24: Can conduct client calls ✓
-- Month 30: Can negotiate contracts ✓
-- Month 36: Fluent in professional consulting ✓
+- Month 27: Fluent in professional consulting communication ✓
 
 ### 3. Portfolio Progression
-- By M12: 4 projects
-- By M18: 6-7 projects
-- By M27: 8-9 projects
-- By M36: 8-10 projects (all polished)
+- By M11: 3-4 projects (PAM + K8s)
+- By M18: 5-6 projects (add Conjur + DevSecOps)
+- By M27: 7-8 projects (add cloud security, all polished)
 
 ### 4. Recovery Months (Light Schedule)
 - **Month 12**: Vacation + consolidation
 - **Month 18**: Vacation + consolidation
 - **Month 27**: Vacation + consolidation
 
-### 5. Capstone Building (Continuous M1-36)
-- **M1-3**: Design + planning
-- **M4-6**: PAM foundation
-- **M7-9**: K8s integration
-- **M10-12**: Conjur component
-- **M13-18**: Multi-cloud components
-- **M19-27**: Compliance integration
-- **M28-36**: Hardening + documentation
+### 5. Capstone Building (Continuous M1-27)
+- **M1-5**: Design + planning + PAM foundation
+- **M6-11**: K8s integration + advanced PAM
+- **M12-14**: Conjur component integration
+- **M15-18**: Multi-cloud components (AWS + Azure)
+- **M19-24**: Cloud security + compliance integration
+- **M25-27**: Final hardening + documentation + consulting launch prep
 
 ---
 
@@ -702,43 +735,44 @@
 - [ ] 4-6 LinkedIn articles published
 - [ ] Capstone cloud components complete
 
-### By Month 36
-- [ ] CISSP Certification achieved
-- [ ] 5 total certifications (7 if you count Guardian + Conjur + others)
-- [ ] 8-10 portfolio projects published
+### By Month 27 (CONSULTING LAUNCH)
+- [ ] CCSP Certification achieved
+- [ ] 4 total certifications (Defender, Sentry, Guardian, CCSP)
+- [ ] 7-8 portfolio projects published
 - [ ] Capstone fully operational
 - [ ] English: Fluent consulting communication
-- [ ] 8-10 articles published
+- [ ] 6-8 articles published
 - [ ] 2-3 case studies completed
 - [ ] **✅ CONSULTANT READY**
 - [ ] **$250-400/hour consulting rates ready**
+- [ ] **CONSULTING PRACTICE LAUNCHED**
 
 ---
 
-## Time Allocation Per Month (15 hours/week)
+## Time Allocation Per Month (10-12 hours/week)
 
 ### Standard Month (3-4 weeks)
-- **Study**: 30% (4.5 hrs/week)
+- **Study**: 30% (3-3.5 hrs/week)
   - Documentation reading (1 hr)
-  - Video courses (1.5 hrs)
-  - Practice tests (1 hr)
-  - Reading for exams (1 hr)
+  - Video courses (1-1.5 hrs)
+  - Practice tests (0.5 hr)
+  - Reading for exams (0.5 hr)
 
-- **Hands-On Labs**: 60% (9 hrs/week)
-  - PAM labs (2 hrs)
-  - K8s labs (2 hrs)
-  - Conjur labs (1.5 hrs)
-  - Cloud labs (1.5 hrs)
-  - Portfolio projects (2 hrs)
+- **Hands-On Labs**: 60% (6-7 hrs/week)
+  - PAM labs (1.5-2 hrs)
+  - K8s labs (1.5-2 hrs)
+  - Conjur labs (1 hr)
+  - Cloud labs (1 hr)
+  - Portfolio projects (1-1.5 hrs)
 
-- **Consulting Skills**: 10% (1.5 hrs/week)
-  - Presentations (0.5 hrs)
-  - Writing articles (0.5 hrs)
-  - Creating templates (0.5 hrs)
+- **Consulting Skills**: 10% (1 hr/week)
+  - Presentations (0.3 hrs)
+  - Writing articles (0.3 hrs)
+  - Creating templates (0.3 hrs)
 
-### Certification Months (add 5 hrs)
-- Increase study to 7.5 hrs/week (50%)
-- Decrease other activities
+### Certification Months (maintain 10-12 hrs)
+- Increase study to 5-6 hrs/week (50%)
+- Maintain lab work at 4-5 hrs/week
 - Heavy practice test focus
 
 ### Recovery Months (reduce to 8 hrs)
@@ -751,14 +785,16 @@
 
 ## Final Notes
 
-This month-by-month schedule provides **specific, actionable activities** for all 36 months. It's designed to:
+This month-by-month schedule provides **specific, actionable activities** for all 27 months. It's designed to:
 
-✅ **Be realistic**: Based on 15 hours/week sustainable effort
+✅ **Be realistic**: Based on 10-12 hours/week sustainable effort
+✅ **Be family-friendly**: Manageable pace while working full-time
 ✅ **Be structured**: Daily activities, weekly goals, monthly checkpoints
 ✅ **Be sustainable**: Recovery months prevent burnout
 ✅ **Build continuously**: Capstone, portfolio, consulting skills all progressive
 ✅ **Track progress**: Clear deliverables each month
-✅ **Achieve expertise**: Expert-level consultant by Month 36
+✅ **Achieve expertise**: Expert-level PAM/Conjur consultant by Month 27
+✅ **Launch consulting**: Ready for $250-400/hr rates at completion
 
-**Key: Follow this schedule closely. Flexibility for real-world projects, but keep monthly deliverables.**
+**Key: Follow this schedule closely. Flexibility for real-world projects, but keep monthly deliverables. CISSP can be pursued later if needed (see appendix above).**
 
