@@ -206,6 +206,60 @@
 - Azure network security documentation
 - Capstone Azure security services integrated
 
+#### Zero Trust Architecture & PAM
+
+**Study Time**: 2-3 hours total (integrated into Week 92)
+
+**Objective**: Understand how PAM/Conjur fit into Zero Trust Architecture frameworks
+
+**Key Concepts**:
+
+**What is Zero Trust Architecture?**
+- Never trust, always verify
+- Assume breach mindset
+- Least privilege access
+- Micro-segmentation
+- Continuous verification
+
+**PAM as Zero Trust Pillar**:
+- **Identity verification**: PAM authenticates privileged users
+- **Access control**: PAM enforces least privilege for admin access
+- **Session monitoring**: PAM provides audit trail for all privileged sessions
+- **Credential management**: Conjur eliminates static credentials (ZTA requirement)
+- **Just-in-time access**: PAM enables temporary privilege elevation
+
+**Positioning PAM in Zero Trust Architecture**:
+
+| ZTA Pillar | PAM/Conjur Contribution |
+|------------|-------------------------|
+| Identity | Privileged identity governance |
+| Device | Session recording & monitoring |
+| Network | Secure credential distribution |
+| Application | Secrets management & rotation |
+| Data | Audit logging for compliance |
+| Analytics | Threat detection on privileged access |
+
+**Reference Frameworks**:
+- **NIST SP 800-207** - Zero Trust Architecture standard
+- **CISA Zero Trust Maturity Model** - Government ZTA guidance
+- **Microsoft Zero Trust** - Azure/Entra ID ZTA implementation
+
+**Client Value Proposition**:
+When selling PAM consulting services, position PAM as:
+- "Essential pillar of your Zero Trust Architecture strategy"
+- "Secures the most critical attack vector: privileged credentials"
+- "Enables ZTA principle: never trust, always verify privileged access"
+
+**Hands-on Lab** (1-2 hours):
+- Design Zero Trust architecture diagram including PAM/Conjur
+- Map CyberArk components to NIST 800-207 pillars
+- Create "PAM for Zero Trust" consulting pitch deck (5 slides)
+
+**Deliverables**:
+- Zero Trust architecture diagram with PAM positioning
+- 5-slide pitch: "Why PAM is Essential for Zero Trust"
+- Understanding of how to sell PAM in ZTA context
+
 ---
 
 **Month 24: Azure Compliance + CCSP Begins**

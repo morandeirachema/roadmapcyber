@@ -11,6 +11,17 @@ High-level structure of the complete 27-month journey to expert PAM/Conjur consu
 **Duration**: 27 months (108 weeks) at 10-12 hours/week
 **Total Study Hours**: ~1,215-1,296 hours
 
+**Roadmap Type**: Specialized PAM/Conjur architect consulting path
+
+**Note**: This roadmap is NOT a general cybersecurity career path. It's designed for experienced sysadmins who want to specialize in Privileged Access Management (PAM) and secrets management consulting. For broader cybersecurity foundations, see [roadmap.sh/cyber-security](https://roadmap.sh/cyber-security).
+
+**What makes this specialized?**
+- **Focus**: PAM/Conjur architecture expertise (vs. general offensive/defensive security)
+- **Target**: Consulting rates of $250-400/hr (vs. security analyst employment)
+- **Prerequisite**: 5+ years sysadmin experience + CKA certification
+- **Omits**: Forensics, reverse engineering, penetration testing (covered in general paths)
+- **Includes**: Deep cloud security, Kubernetes security, compliance frameworks for PAM
+
 ---
 
 ## Three-Phase Structure

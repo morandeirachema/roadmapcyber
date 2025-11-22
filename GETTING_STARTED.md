@@ -34,6 +34,51 @@ You're about to embark on a 27-month journey to become an expert PAM/Conjur cons
 
 ## Before You Begin: Prerequisites
 
+### Skills Prerequisites Verification
+
+This roadmap assumes you have foundational IT/systems administration skills. Complete this self-assessment before beginning:
+
+#### Networking Fundamentals ✅
+- [ ] Can you explain the OSI model and common protocols (TCP/IP, HTTP/HTTPS, DNS, SSH)?
+- [ ] Do you understand subnetting, CIDR notation, and IP addressing?
+- [ ] Can you configure firewall rules and understand VLANs?
+- [ ] Have you worked with load balancers and reverse proxies?
+
+**If 3+ boxes unchecked**: Study networking basics (1-2 months) before starting roadmap
+
+#### Linux/Windows Administration ✅
+- [ ] Comfortable with Linux CLI (bash, common commands, file permissions)?
+- [ ] Can you manage Linux services (systemd, cron, logging)?
+- [ ] Familiar with Windows Server administration (AD, GPO, services)?
+- [ ] Experience with SSH, remote administration, and troubleshooting?
+
+**If 3+ boxes unchecked**: Gain 6-12 months sysadmin experience before starting
+
+#### Cloud Computing Basics ✅
+- [ ] Do you understand VMs, virtual networking, and storage concepts?
+- [ ] Familiar with basic IAM concepts (users, roles, permissions)?
+- [ ] Have you worked with AWS, Azure, or GCP (even basic experience)?
+- [ ] Comfortable with API concepts and REST basics?
+
+**If 3+ boxes unchecked**: Take cloud fundamentals course (AWS Cloud Practitioner or Azure Fundamentals)
+
+#### Kubernetes Foundation ✅
+- [ ] **Do you have a valid CKA (Certified Kubernetes Administrator) certification?**
+- [ ] OR: Can you deploy and manage a Kubernetes cluster?
+- [ ] OR: Comfortable with pods, services, deployments, namespaces?
+
+**If all boxes unchecked**: Obtain CKA certification first (add 3-6 months before starting this roadmap)
+
+**Note**: CKA is a prerequisite for CKS certification (Month 9-10)
+
+---
+
+✅ **If you checked most boxes above**: You're ready to start the roadmap!
+
+⚠️ **If you have significant gaps**: Address them first to ensure success. See [roadmap.sh/cyber-security](https://roadmap.sh/cyber-security) for foundational cybersecurity learning paths.
+
+---
+
 ### Hardware Requirements
 
 **Minimum**:
