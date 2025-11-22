@@ -24,6 +24,7 @@ A comprehensive, sustainable 27-month learning path for experienced system admin
 1. **[GETTING_STARTED.md](GETTING_STARTED.md)** - Complete setup and onboarding guide
 2. **[GLOSSARY.md](GLOSSARY.md)** - Learn all terminology
 3. **[roadmap/OVERVIEW.md](roadmap/OVERVIEW.md)** - Understand the full 27-month plan
+4. **[docs/CYBERARK_CERTIFICATIONS.md](docs/CYBERARK_CERTIFICATIONS.md)** - Certification preparation guide (Defender to Trustee)
 
 ### Daily Reference:
 - **[QUICKSTART.md](QUICKSTART.md)** ⭐ - Your daily/weekly quick reference
@@ -107,6 +108,9 @@ A comprehensive, sustainable 27-month learning path for experienced system admin
 - `FAQ.md` - Frequently asked questions
 - `TROUBLESHOOTING.md` - Solutions to common problems
 - `BUDGET.md` - Complete financial breakdown
+
+**Certification Guides** (`docs/` directory):
+- `CYBERARK_CERTIFICATIONS.md` - Complete guide for Defender, Sentry, Guardian, Trustee with study plans
 
 **Detailed Roadmap** (`roadmap/` directory):
 - `OVERVIEW.md` - Complete 27-month structure
