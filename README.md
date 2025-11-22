@@ -44,7 +44,7 @@ A comprehensive, sustainable 27-month learning path for experienced system admin
 ## 📊 The 27-Month Journey
 
 ### Phase 1: PAM + Kubernetes Mastery (Months 1-11)
-**Certifications**: CyberArk Defender (M5), Sentry (M8), Guardian (M11)
+**Certifications**: CyberArk Defender (M5), Sentry (M8), CKS (M9-10), Guardian (M11)
 **Focus**: PAM fundamentals, 12 months continuous Kubernetes practice, 3-4 portfolio projects
 **English**: Reading → Writing skills
 
@@ -91,8 +91,9 @@ A comprehensive, sustainable 27-month learning path for experienced system admin
 
 1. **CyberArk Defender** (Month 5) - Foundation
 2. **CyberArk Sentry** (Month 8) - Advanced Administration
-3. **CyberArk Guardian** (Month 11) - Expert-level
-4. **CCSP** (Month 27) - Certified Cloud Security Professional
+3. **CKS** (Months 9-10) - Certified Kubernetes Security Specialist
+4. **CyberArk Guardian** (Month 11) - Expert-level
+5. **CCSP** (Month 27) - Certified Cloud Security Professional
 
 **Optional**: CISSP can be pursued after Month 27 if clients require it (see [FAQ.md](FAQ.md))
 
@@ -112,6 +113,8 @@ A comprehensive, sustainable 27-month learning path for experienced system admin
 **Certification Guides** (`docs/` directory):
 - `CYBERARK_CERTIFICATIONS.md` - Complete guide for Defender, Sentry, Guardian, Trustee (99KB, expanded with integrated study schedules)
 - `CYBERARK_CHEAT_SHEETS.md` - A+ grade quick reference sheets for all CyberArk certifications (50KB)
+- `CKS_CERTIFICATION_GUIDE.md` - Comprehensive CKS (Certified Kubernetes Security Specialist) preparation guide (55KB)
+- `CKS_CHEAT_SHEETS.md` - A+ grade quick reference sheets for CKS certification exam (45KB)
 - `CCSP_CERTIFICATION_GUIDE.md` - Comprehensive CCSP preparation guide with domain-by-domain breakdown (34KB)
 
 **Detailed Roadmap** (`roadmap/` directory):

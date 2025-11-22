@@ -245,14 +245,18 @@
 
 **Monthly Objective**: Final K8s consolidation, portfolio articles, capstone planning, consulting skills
 
-### Week 33-36 Schedule
+### Week 33-36 Schedule (CKS Preparation Part 1)
 
-| Week | K8s Polish | Portfolio Articles | Capstone Plan | Consulting |
-|-------|-----------|-------------------|---------------|------------|
-| 33 | K8s: Advanced patterns review | Write 2nd LinkedIn article (K8s) | Design capstone architecture | Create consulting proposal template |
-| 34 | K8s: Multi-cluster mastery | Prepare technical blog post | Plan capstone timeline | Draft sample proposal |
-| 35 | K8s: Final practice scenarios | Publish technical blog (500+ words) | Define capstone phases | Review consulting materials |
-| 36 | K8s: Knowledge consolidation | Portfolio review + polish | Capstone M10-11 foundation ready | Month 9 presentation prep |
+| Week | CKS Study (Domains 1-3) | CKS Labs | Portfolio & Capstone | Consulting |
+|-------|------------------------|----------|----------------------|------------|
+| 33 | Domain 1: Cluster Setup (NetworkPolicies, CIS Benchmarks, Ingress) | Practice: NetworkPolicy scenarios, kube-bench hardening | Design capstone architecture | Create consulting proposal template |
+| 34 | Domain 2: Cluster Hardening (RBAC, ServiceAccount security, K8s upgrades) | Practice: RBAC roles/bindings, secure K8s upgrade | Write 2nd LinkedIn article (K8s security) | Draft sample proposal |
+| 35 | Domain 3: System Hardening (AppArmor, Seccomp, kernel hardening) | Practice: AppArmor profiles, Seccomp policies | Prepare technical blog post | Review consulting materials |
+| 36 | CKS Review Week 1: Domains 1-3 consolidation | Killer.sh practice exam (first attempt) | Capstone M10-11 foundation ready | Month 9 presentation prep |
+
+**CKS Resources**:
+- [CKS_CERTIFICATION_GUIDE.md](../docs/CKS_CERTIFICATION_GUIDE.md) - Follow Week 33-36 study schedule
+- [CKS_CHEAT_SHEETS.md](../docs/CKS_CHEAT_SHEETS.md) - Quick reference for exam prep
 
 ### Capstone Design
 - Enterprise PAM + Conjur architecture
@@ -260,34 +264,42 @@
 - Compliance integrated (HIPAA, PCI-DSS)
 - Timeline: Build M1-36 continuously
 
-### Key Deliverables
-- ✅ K8s hands-on mastery COMPLETE
+### Key Deliverables (Month 9)
+- CKS study progress: Domains 1-3 complete (50% of exam content)
+- K8s security mastery confirmed
 - 2 LinkedIn articles + 1 technical blog post published
 - 3 portfolio projects (PAM, K8s, integration) published
 - Capstone architecture designed
 - Consulting proposal templates created
-- Comprehensive K8s guide (30+ pages)
+- Killer.sh practice exam completed (first attempt)
 
 ---
 
-## MONTH 10: PAM + Conjur Foundation
+## MONTH 10: CKS Certification + Conjur Foundation
 
-**Monthly Objective**: Start Conjur learning, PAM + Conjur integration concepts, consolidation
+**Monthly Objective**: Complete CKS certification, begin Conjur exploration
 
-### Week 37-40 Schedule
+### Week 37-40 Schedule (CKS Preparation Part 2 + Exam)
 
-| Week | Conjur Focus | K8s Integration | Portfolio 4 Start | English |
-|------|--------------|-----------------|-------------------|---------|
-| 37 | Conjur: Architecture + deployment models | K8s secrets concepts | Start Project 4: Conjur basics | Write Conjur overview article |
-| 38 | Conjur: Policy-as-Code introduction | K8s ConfigMaps + Secrets review | Build Project 4 framework | Document Conjur patterns |
-| 39 | Conjur: Host identity authentication | K8s authentication review | Expand Project 4 | Prepare presentation |
-| 40 | Conjur: Docker deployment | K8s integration planning | Polish Project 4 initial | Give Month 10 presentation |
+| Week | CKS Study (Domains 4-6) | CKS Labs + Exam | Conjur Introduction | Portfolio & Presentation |
+|------|------------------------|-----------------|---------------------|-------------------------|
+| 37 | Domain 4: Minimize Microservice Vulnerabilities (Security contexts, PSS, capabilities) | Practice: Pod security contexts, read-only filesystems | Conjur: Architecture overview | Start Project 4: Conjur basics |
+| 38 | Domain 5: Supply Chain Security (Trivy scanning, admission controllers, image signing) | Practice: Trivy scans, ImagePolicyWebhook, Cosign | Conjur: Deployment models intro | Build Project 4 framework |
+| 39 | Domain 6: Monitoring, Logging & Runtime Security (Falco, audit logging, crictl) | Practice: Falco rules, audit policies, crictl commands | Conjur: Docker setup planning | Prepare K8s security presentation |
+| 40 | CKS Review Week 2: All domains consolidation | **CKS EXAM** + Killer.sh (second attempt) | Conjur: Docker deployment planning | Give Month 10 presentation (K8s security) |
 
-### Key Deliverables
+**CKS Exam Week Preparation** (Week 40):
+- Review all 6 domains using [CKS_CHEAT_SHEETS.md](../docs/CKS_CHEAT_SHEETS.md)
+- Complete Killer.sh practice exam (second attempt)
+- Take CKS exam (schedule for end of Week 40)
+
+### Key Deliverables (Month 10)
+- **CKS Certification obtained** ✓✓✓
+- Killer.sh practice exams completed (2 attempts)
 - Conjur architecture understood
-- Conjur Docker deployment started
 - Portfolio Project 4 initiated
-- Consulting presentation delivered
+- K8s security presentation delivered
+- CKS badge added to LinkedIn, GitHub, resume
 
 ---
 

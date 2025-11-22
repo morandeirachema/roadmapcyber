@@ -229,49 +229,69 @@ See [docs/CYBERARK_CERTIFICATIONS.md](../docs/CYBERARK_CERTIFICATIONS.md) for de
 
 ### Months 9-11: K8s Consolidation + Conjur Foundation
 
-**Month 9: K8s Consolidation + Consulting Skills**
+**Month 9: K8s Consolidation + CKS Preparation (Part 1)**
 
-**Objective**: Confirm K8s mastery, develop consulting skills, plan capstone project
+**Objective**: Confirm K8s mastery, begin CKS certification preparation, develop consulting skills
 
 **Time Allocation**:
-- Study: 3 hrs/week
-- Labs: 7 hrs/week
-- Total: 10 hrs/week
+- Study: 4 hrs/week (CKS study intensive)
+- Labs: 8 hrs/week (CKS practice scenarios)
+- Total: 12 hrs/week
 
 **Key Activities**:
-- K8s: Pattern reviews, multi-cluster mastery, final scenarios, consolidation
+- **CKS Preparation**: Begin 8-week CKS study plan (Weeks 33-36 of 40-week schedule)
+  - Domains 1-3: Cluster Setup, Cluster Hardening, System Hardening
+  - NetworkPolicies, RBAC, AppArmor, Seccomp practice
+  - Killer.sh practice exam (first attempt)
+- K8s: Pattern reviews, multi-cluster mastery, security-focused scenarios
 - Capstone: Architecture design, planning, phase breakdown
 - Consulting: Proposal template development, sample proposal draft
-- Technical writing: 2nd LinkedIn article, K8s guide, technical blog
+- Technical writing: 2nd LinkedIn article, K8s security guide
 
 **Deliverables**:
-- K8s mastery confirmed ✓
+- CKS study progress (Domains 1-3 complete) ✓
+- K8s security mastery confirmed ✓
 - 3 Projects published on GitHub
 - Capstone project plan complete
 - Consulting proposal template created
 
+**CKS Study Resources**:
+- [CKS_CERTIFICATION_GUIDE.md](../docs/CKS_CERTIFICATION_GUIDE.md) - Comprehensive preparation guide
+- [CKS_CHEAT_SHEETS.md](../docs/CKS_CHEAT_SHEETS.md) - Quick reference and exam strategies
+
 ---
 
-**Month 10: Conjur Begins + Portfolio Project 4**
+**Month 10: CKS Certification + Conjur Foundation**
 
-**Objective**: Conjur Docker deployment, CI/CD basics, regular presentations
+**Objective**: Complete CKS certification, begin Conjur exploration
 
 **Time Allocation**:
-- Study: 3 hrs/week
-- Labs: 7 hrs/week
-- Total: 10 hrs/week
+- Study: 4 hrs/week (CKS exam prep + Conjur intro)
+- Labs: 8 hrs/week (CKS practice + Conjur setup)
+- Total: 12 hrs/week
 
 **Key Activities**:
-- Conjur: Architecture, deployment models, policy-as-code, host identity, Docker integration
-- K8s: Conjur + K8s integration planning
-- **Portfolio Project 4**: Conjur Basics documentation
-- Presentations: Monthly presentations now regular practice
+- **CKS Preparation**: Complete 8-week CKS study plan (Weeks 37-40)
+  - Domains 4-6: Microservice Vulnerabilities, Supply Chain, Runtime Security
+  - Trivy image scanning, Falco runtime security, audit logging
+  - Killer.sh practice exam (second attempt)
+  - **CKS Exam** (end of Month 10)
+- Conjur: Architecture overview, deployment models intro, Docker setup planning
+- K8s: Conjur + K8s integration exploration
+- **Portfolio Project 4**: Begin Conjur Basics documentation
+- Presentations: Monthly presentation on K8s security (leverage CKS knowledge)
 
 **Deliverables**:
-- Conjur Docker deployment operational
-- CI/CD basics understood
-- **Project 4 complete** (Conjur Basics)
-- Monthly presentation delivered
+- **CKS Certification obtained** ✓✓✓
+- CKS knowledge documented (blog post or GitHub guide)
+- Conjur Docker deployment planned
+- **Project 4 initiated** (Conjur Basics)
+- Monthly presentation delivered (K8s security focus)
+
+**Post-CKS Actions**:
+- Add CKS badge to LinkedIn, GitHub, resume
+- Update portfolio with K8s security projects
+- Write technical blog post: "My CKS Certification Journey"
 
 ---
 

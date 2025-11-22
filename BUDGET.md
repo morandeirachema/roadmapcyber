@@ -6,15 +6,17 @@ Complete financial breakdown for the 27-Month Cybersecurity Roadmap.
 
 ## Total Investment
 
-**$2,150-4,100** over 27 months
+**$2,500-4,500** over 27 months (with CKS certification)
 
-**Monthly average**: ~$80-152/month
+**Monthly average**: ~$93-167/month
 
 **This is an investment in your future earning potential**: After Month 27, consulting rates of $250-400/hour mean this investment pays for itself in just 6-11 billable hours.
 
+**Note**: Budget assumes you already have CKA certification (prerequisite for CKS). If you need to obtain CKA first, add $395 to the total investment.
+
 ---
 
-## Certification Costs (~$1,350-2,100)
+## Certification Costs (~$1,744-2,889)
 
 ### CyberArk Certifications
 - **CyberArk Defender** (Month 5): $250-500
@@ -27,6 +29,13 @@ Complete financial breakdown for the 27-Month Cybersecurity Roadmap.
 
 **CyberArk Total**: $750-1,500
 
+### Kubernetes Security Certifications
+- **CKS Exam** (Months 9-10): $395 (CNCF/Linux Foundation pricing)
+  - Certified Kubernetes Security Specialist
+  - **Prerequisite**: Valid CKA (Certified Kubernetes Administrator) required
+  - Includes one free retake within 12 months
+  - Note: Budget includes CKS only; if CKA not yet obtained, add $395 for CKA exam
+
 ### Cloud Security Certifications
 - **CCSP Exam** (Month 27): $599 (ISC² official pricing)
   - Certified Cloud Security Professional
@@ -34,12 +43,17 @@ Complete financial breakdown for the 27-Month Cybersecurity Roadmap.
   - Exam retake fee (if needed): $599
 
 ### Optional Certifications
+- **CKA** (If not already obtained): $395 (CNCF/Linux Foundation pricing)
+  - Required prerequisite for CKS
+  - Only needed if you don't already have valid CKA
+  - Includes one free retake within 12 months
 - **CISSP** (Optional, Months 28-36): $749 (ISC² pricing)
   - See [FAQ.md](FAQ.md) for whether you need CISSP
   - Can be deferred until clients specifically require it
   - Not included in core 27-month budget
 
-**Certification Total**: $1,349-2,099 (core roadmap)
+**Certification Total**: $1,744-2,494 (core roadmap with CKS)
+**Certification Total if CKA needed**: $2,139-2,889 (includes CKA prerequisite)
 
 ---
 
@@ -146,14 +160,19 @@ Complete financial breakdown for the 27-Month Cybersecurity Roadmap.
 
 | Category | Minimum | Maximum |
 |----------|---------|---------|
-| Certifications | $1,350 | $2,100 |
+| Certifications (with CKS) | $1,744 | $2,494 |
+| Certifications (with CKS + CKA) | $2,139 | $2,889 |
 | Study Materials | $220 | $379 |
 | Lab Infrastructure | $200 | $580 |
-| **Core Total** | **$1,770** | **$3,059** |
+| **Core Total (with CKS)** | **$2,164** | **$3,453** |
+| **Core Total (with CKS + CKA)** | **$2,559** | **$3,848** |
 | Optional | $300 | $2,400 |
-| **Grand Total** | **$2,070** | **$5,459** |
+| **Grand Total (with CKS)** | **$2,464** | **$5,853** |
+| **Grand Total (with CKS + CKA)** | **$2,859** | **$6,248** |
 
-**Recommended Budget**: $2,500-3,500 with reasonable optionals
+**Recommended Budget**:
+- $2,800-3,800 with CKS (assuming CKA already obtained)
+- $3,200-4,200 with both CKS and CKA
 
 ---
 
@@ -232,13 +251,14 @@ Create a simple spreadsheet to track actual spending:
 **Month 3-4**: $50-100 (CCSP study materials)
 **Month 5**: $250-500 (Defender exam)
 **Month 8**: $250-500 (Sentry exam)
+**Months 9-10**: $395 (CKS exam) or $790 (CKA + CKS if CKA needed)
 **Month 11**: $250-500 (Guardian exam)
 **Months 12-18**: $5-20/month (minimal cloud)
 **Months 19-27**: $20-50/month (AWS/Azure intensive)
 **Month 24-27**: $100-200 (CCSP practice exams + study materials)
 **Month 27**: $599 (CCSP exam)
 
-**Peak spending months**: M5, M8, M11, M27 (exam months)
+**Peak spending months**: M5, M8, M9-10, M11, M27 (exam months)
 
 ---
 
@@ -246,7 +266,7 @@ Create a simple spreadsheet to track actual spending:
 
 ### Investment vs. Return
 
-**Total Investment**: $2,500-3,500 (reasonable mid-range)
+**Total Investment**: $2,800-3,800 (reasonable mid-range with CKS)
 
 **Consulting Rates After Month 27**:
 - Conservative: $150/hour
@@ -254,19 +274,19 @@ Create a simple spreadsheet to track actual spending:
 - High-end: $400/hour
 
 **Break-Even Calculation**:
-- At $150/hr: 17-23 billable hours to break even
-- At $250/hr: 10-14 billable hours to break even
-- At $400/hr: 6-9 billable hours to break even
+- At $150/hr: 19-25 billable hours to break even
+- At $250/hr: 11-15 billable hours to break even
+- At $400/hr: 7-10 billable hours to break even
 
-**One consulting project** (40 hours at $250/hr = $10,000) pays for entire roadmap 4x over.
+**One consulting project** (40 hours at $250/hr = $10,000) pays for entire roadmap 3.5x over.
 
 ### Long-Term Value
 
 **Year 1 after completion** (conservative):
 - 20 hours/month billable at $150/hr = $36,000/year extra income
-- Minus $3,000 investment = $33,000 net return
+- Minus $3,300 investment = $32,700 net return
 
-**ROI**: 1,100% in first year (conservative scenario)
+**ROI**: 990% in first year (conservative scenario)
 
 **Years 2-5**:
 - Rates increase to $250-400/hr
@@ -279,11 +299,11 @@ Create a simple spreadsheet to track actual spending:
 
 ### If Budget is Constrained
 
-**Absolute minimum** to complete roadmap: ~$1,800
+**Absolute minimum** to complete roadmap: ~$2,200
 
 **How**:
 1. **Skip optional video training** (-$300-900)
-   - Use only free resources (CyberArk Campus, YouTube, free trials)
+   - Use only free resources (CyberArk Campus, YouTube, free trials, CKS/CKA free documentation)
 
 2. **Minimize cloud costs** (-$200-300)
    - Use only local VMs for Months 1-18
@@ -294,27 +314,29 @@ Create a simple spreadsheet to track actual spending:
    - Library books
    - Free practice exams online
    - Community-shared study guides
+   - Free Kubernetes documentation (kubernetes.io)
 
 4. **Delay optional certifications** (-$749+)
    - Skip CISSP initially (pursue after first consulting income)
+   - If CKA not obtained, consider deferring CKS until after first consulting income
 
-**Result**: ~$1,800 (3 CyberArk certs + CCSP + minimal materials)
+**Result**: ~$2,200 (3 CyberArk certs + CKS + CCSP + minimal materials)
 
 ### Phased Funding
 
-**Can't afford $2,500 upfront?**
+**Can't afford $2,800 upfront?**
 
 **Fund as you go**:
 - Months 1-4: $100 (study materials only)
 - Month 5: Save $350 (Defender exam)
 - Month 6-7: Save $100
 - Month 8: $350 (Sentry exam)
-- Month 9-10: Save $100
+- Months 9-10: $395-790 (CKS exam, or CKA + CKS if needed)
 - Month 11: $350 (Guardian exam)
 - Months 12-26: Save $50-100/month for CCSP
 - Month 27: $700 (CCSP exam + materials)
 
-**Total**: Spread over 27 months = $80-130/month (manageable)
+**Total**: Spread over 27 months = $93-167/month (manageable)
 
 ---
 
