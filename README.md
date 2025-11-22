@@ -110,7 +110,9 @@ A comprehensive, sustainable 27-month learning path for experienced system admin
 - `BUDGET.md` - Complete financial breakdown
 
 **Certification Guides** (`docs/` directory):
-- `CYBERARK_CERTIFICATIONS.md` - Complete guide for Defender, Sentry, Guardian, Trustee with study plans
+- `CYBERARK_CERTIFICATIONS.md` - Complete guide for Defender, Sentry, Guardian, Trustee (99KB, expanded with integrated study schedules)
+- `CYBERARK_CHEAT_SHEETS.md` - A+ grade quick reference sheets for all CyberArk certifications (50KB)
+- `CCSP_CERTIFICATION_GUIDE.md` - Comprehensive CCSP preparation guide with domain-by-domain breakdown (34KB)
 
 **Detailed Roadmap** (`roadmap/` directory):
 - `OVERVIEW.md` - Complete 27-month structure

@@ -19,7 +19,7 @@ Month,Week,Phase,Focus_Area,Study_Hours_Planned,Lab_Hours_Planned,Total_Hours,St
 4,14,Phase 1,Week 14,4,6,10,,,Sentry advanced admin + K8s storage mastery,In Progress,Sentry 50% complete,"Reading, practice labs",Build Project 1 core,,
 4,15,Phase 1,Week 15,4,6,10,,,K8s Prometheus setup + Sentry scenarios,In Progress,Sentry 70% complete,"Reading, troubleshooting practice",Document Project 1,,
 4,16,Phase 1,Week 16,4,6,10,,,Sentry practice tests + K8s monitoring,In Progress,Sentry 90%+,"Practice tests, lab review",Polish Project 1,Sentry Prep (80%+),
-5,17-20,Phase 1,Sentry Cert Exam + K8s + Portfolio 1 Done,4,6,10,,,SENTRY CERTIFICATION ACHIEVED + Project 1 Published,Pending,Exam passed + project published,Writing English documentation,First LinkedIn article published,Sentry Certified (M5),"Project 1: PAM Lab Guide published"
+5,17-20,Phase 1,Sentry Cert Exam + K8s + Portfolio 1 Done,4,6,10,,,SENTRY CERTIFICATION ACHIEVED + Project 1 Published,Pending,Exam passed + project published,Writing English documentation,First LinkedIn article published,Sentry Certified (M8),"Project 1: PAM Lab Guide published"
 5,17,Phase 1,Week 17,4,6,10,,,Sentry course completion + Project 1 README,In Progress,Sentry 100%,Writing in English,Article preparation,,
 5,18,Phase 1,Week 18,4,6,10,,,Sentry practice tests 85%+,In Progress,Getting ready,"Writing, practicing","LinkedIn article draft",,
 5,19,Phase 1,Week 19,4,6,10,,,Sentry weak areas mastery,In Progress,90%+ tests,Writing articles,Final review,,
@@ -29,7 +29,7 @@ Month,Week,Phase,Focus_Area,Study_Hours_Planned,Lab_Hours_Planned,Total_Hours,St
 6,22,Phase 1,Week 22,4,6,10,,,Guardian HA + Disaster Recovery + K8s RBAC,In Progress,HA/DR study,"Reading, practice labs",Knowledge check,,
 6,23,Phase 1,Week 23,4,6,10,,,Guardian advanced scenarios + K8s security,In Progress,Advanced scenarios,"Reading, practice tests","Practice tests, Lab exercises",,
 6,24,Phase 1,Week 24,4,6,10,,,GUARDIAN EXAM PREP COMPLETE,In Progress,Ready for exam,Documentation review,"Ready for certification, Month summary",,
-7,25-28,Phase 1,Guardian Certification + K8s Intensive,3,7,10,,,GUARDIAN CERTIFIED + K8s intensive begins,Pending,"Guardian passed, K8s intensive","Reading K8s patterns, writing guides",Presentation: K8s Architecture,Guardian Certified (M6),"Project 3 Started"
+7,25-28,Phase 1,Guardian Certification + K8s Intensive,3,7,10,,,GUARDIAN CERTIFIED + K8s intensive begins,Pending,"Guardian passed, K8s intensive","Reading K8s patterns, writing guides",Presentation: K8s Architecture,Guardian Certified (M11),"Project 3 Started"
 7,25,Phase 1,Week 25,3,7,10,,,Guardian practice tests + K8s multi-cluster,In Progress,90%+ Guardian tests,K8s documentation,Portfolio Project 3 start,,
 7,26,Phase 1,Week 26,3,7,10,,,Guardian weak areas + K8s networking,In Progress,95%+ tests,Writing K8s articles,Project 3 building,,
 7,27,Phase 1,Week 27,3,7,10,,,Guardian final prep + K8s performance,In Progress,Ready for exam,"Writing, publishing","Presentation prep",,

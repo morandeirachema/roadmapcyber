@@ -6,7 +6,7 @@ Complete financial breakdown for the 27-Month Cybersecurity Roadmap.
 
 ## Total Investment
 
-**$2,150 - $4,100** over 27 months
+**$2,150-4,100** over 27 months
 
 **Monthly average**: ~$80-152/month
 
