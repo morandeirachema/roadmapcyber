@@ -280,7 +280,7 @@ This roadmap incorporates 7 critical optimizations based on extensive analysis:
 - **Week-by-week schedule** → [MONTH_BY_MONTH_SCHEDULE.md](MONTH_BY_MONTH_SCHEDULE.md)
 - **English learning details** → [ENGLISH_LEARNING.md](ENGLISH_LEARNING.md)
 - **Consulting skills development** → [CONSULTING_SKILLS.md](CONSULTING_SKILLS.md)
-- **Complete detailed roadmap** → [../CyberRoadmap.md](../CyberRoadmap.md)
+- **Complete detailed roadmap (legacy)** → [../docs/archive/CYBERROADMAP_LEGACY.md](../docs/archive/CYBERROADMAP_LEGACY.md)
 
 ### Progress Tracking
 - **Track hours and deliverables** → [../27MONTH_PROGRESS_TRACKER.csv](../27MONTH_PROGRESS_TRACKER.csv)

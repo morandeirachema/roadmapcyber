@@ -389,3 +389,8 @@ I look forward to the opportunity to work with [Client Name] on this important s
 
 ### Appendix D: Terms & Conditions
 [Full legal terms if not included above]
+
+---
+
+**Last Updated**: 2025-11-28
+**Version**: 1.0

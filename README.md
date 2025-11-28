@@ -38,6 +38,8 @@ A comprehensive, sustainable 27-month learning path for experienced system admin
 - **[roadmap/PHASE2_MONTHS_12-18.md](roadmap/PHASE2_MONTHS_12-18.md)** - Conjur + DevSecOps
 - **[roadmap/PHASE3_MONTHS_19-27.md](roadmap/PHASE3_MONTHS_19-27.md)** - Cloud Security + CCSP
 - **[roadmap/MONTH_BY_MONTH_SCHEDULE.md](roadmap/MONTH_BY_MONTH_SCHEDULE.md)** - Week-by-week breakdown
+- **[roadmap/ENGLISH_LEARNING.md](roadmap/ENGLISH_LEARNING.md)** - 5-phase English learning plan
+- **[roadmap/CONSULTING_SKILLS.md](roadmap/CONSULTING_SKILLS.md)** - Business skills development
 
 ---
 
@@ -116,6 +118,7 @@ A comprehensive, sustainable 27-month learning path for experienced system admin
 - `CKS_CERTIFICATION_GUIDE.md` - Comprehensive CKS (Certified Kubernetes Security Specialist) preparation guide (55KB)
 - `CKS_CHEAT_SHEETS.md` - A+ grade quick reference sheets for CKS certification exam (45KB)
 - `CCSP_CERTIFICATION_GUIDE.md` - Comprehensive CCSP preparation guide with domain-by-domain breakdown (34KB)
+- `CCSP_CHEAT_SHEETS.md` - A+ grade quick reference sheets for CCSP certification exam (45KB)
 
 **Detailed Roadmap** (`roadmap/` directory):
 - `OVERVIEW.md` - Complete 27-month structure
@@ -149,4 +152,9 @@ This roadmap is provided as-is for educational purposes. Free to use and adapt f
 
 ---
 
-**Good luck on your 27-month journey to becoming an expert PAM/Conjur consultant!** 🚀
+**Good luck on your 27-month journey to becoming an expert PAM/Conjur consultant!**
+
+---
+
+**Last Updated**: 2025-11-28
+**Version**: 1.0

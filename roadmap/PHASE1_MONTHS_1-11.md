@@ -517,4 +517,9 @@ See [docs/CYBERARK_CERTIFICATIONS.md](../docs/CYBERARK_CERTIFICATIONS.md) for de
 
 ---
 
-**Phase 1 sets the foundation. Master PAM, close the K8s gap, build confidence through certifications and projects.** 🚀
+**Phase 1 sets the foundation. Master PAM, close the K8s gap, build confidence through certifications and projects.**
+
+---
+
+**Last Updated**: 2025-11-28
+**Version**: 1.0
