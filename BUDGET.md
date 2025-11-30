@@ -349,5 +349,5 @@ Create a simple spreadsheet to track actual spending:
 
 ---
 
-**Last Updated**: 2025-11-21
+**Last Updated**: 2025-12-01
 **Version**: 1.0

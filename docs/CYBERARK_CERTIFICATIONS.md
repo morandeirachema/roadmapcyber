@@ -2564,7 +2564,7 @@ Year 8+: Director / VP of Identity Security
 
 **Master CyberArk certifications to advance your career in Privileged Access Management!**
 
-**Last Updated**: 2025-11-22
+**Last Updated**: 2025-12-01
 **Version**: 1.0
 
 ---
@@ -3479,6 +3479,6 @@ Can you...
 ---
 
 **Version**: 2.0 (Expanded Edition)
-**Last Updated**: 2025-11-22
+**Last Updated**: 2025-12-01
 **Additions**: Appendices A-E with integrated study schedules, exam preparation, common mistakes, success metrics, and post-certification guidance.
 

@@ -142,5 +142,5 @@ Quick reference for all terminology used in the 27-Month Cybersecurity Roadmap.
 
 ---
 
-**Last Updated**: 2025-11-21
+**Last Updated**: 2025-12-01
 **Version**: 1.0

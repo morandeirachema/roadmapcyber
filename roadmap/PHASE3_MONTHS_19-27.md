@@ -715,5 +715,5 @@ See MONTH_BY_MONTH_SCHEDULE.md Appendix for optional CISSP study plan.
 
 ---
 
-**Last Updated**: 2025-11-28
+**Last Updated**: 2025-12-01
 **Version**: 1.0

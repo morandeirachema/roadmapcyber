@@ -2450,6 +2450,6 @@ CKS Premium: +$50-100/hour
 
 **You're ready to pass the CKS exam and become a Certified Kubernetes Security Specialist! Combined with your PAM/Conjur expertise, you're unstoppable.** 🚀☸️🔒
 
-**Last Updated**: 2025-11-22
+**Last Updated**: 2025-12-01
 **Version**: 1.0
 **Aligned with**: CKS 1.29, Kubernetes 1.29

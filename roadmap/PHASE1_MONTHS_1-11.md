@@ -521,5 +521,5 @@ See [docs/CYBERARK_CERTIFICATIONS.md](../docs/CYBERARK_CERTIFICATIONS.md) for de
 
 ---
 
-**Last Updated**: 2025-11-28
+**Last Updated**: 2025-12-01
 **Version**: 1.0

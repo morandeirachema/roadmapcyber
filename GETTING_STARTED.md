@@ -297,6 +297,61 @@ Use the **Weekly Checklist** from [QUICKSTART.md](QUICKSTART.md):
 
 ---
 
+## Progress Tracker Guide (27MONTH_PROGRESS_TRACKER.csv)
+
+The `27MONTH_PROGRESS_TRACKER.csv` file is your primary tool for tracking progress throughout the 27-month journey. Here's how to use it:
+
+### CSV Structure
+
+| Column | Description | How to Fill |
+|--------|-------------|-------------|
+| `Month` | Month number (1-27) | Pre-filled |
+| `Week` | Week number or range | Pre-filled |
+| `Phase` | Phase 1, 2, or 3 | Pre-filled |
+| `Focus_Area` | Current focus topic | Pre-filled |
+| `Study_Hours_Planned` | Target study hours | Pre-filled (use as reference) |
+| `Lab_Hours_Planned` | Target lab hours | Pre-filled (use as reference) |
+| `Total_Hours` | Total weekly hours | Pre-filled |
+| `Study_Hours_Actual` | **Your actual study hours** | Update weekly |
+| `Lab_Hours_Actual` | **Your actual lab hours** | Update weekly |
+| `Deliverable` | Expected deliverable | Pre-filled |
+| `Status` | Pending/In Progress/Complete | Update as you progress |
+| `Notes` | Personal notes, issues, wins | Add your notes |
+| `English_Milestone` | English learning checkpoint | Pre-filled with goals |
+| `Consulting_Skill` | Consulting skill focus | Pre-filled |
+| `Certification` | Certification targets | Pre-filled |
+| `Portfolio_Projects` | Project milestones | Pre-filled |
+
+### How to Use the Tracker
+
+**Daily** (5 minutes):
+1. Open `27MONTH_PROGRESS_TRACKER.csv` in any spreadsheet app (Excel, Google Sheets, LibreOffice)
+2. Find your current week's row
+3. Update `Study_Hours_Actual` and `Lab_Hours_Actual` columns
+4. Add any notes to the `Notes` column
+
+**Weekly** (Sunday review):
+1. Calculate total actual hours for the week
+2. Compare `*_Actual` vs `*_Planned` columns
+3. Update `Status` column (Pending → In Progress → Complete)
+4. Review next week's planned focus
+
+**Example Row Update**:
+```text
+Before: Week 9, Status: Pending, Study_Actual: (empty), Lab_Actual: (empty)
+After:  Week 9, Status: In Progress, Study_Actual: 5.5, Lab_Actual: 4, Notes: "Defender practice tests started"
+```
+
+### Tips for Effective Tracking
+
+- **Be honest**: Track actual hours, not ideal hours
+- **Keep it simple**: Don't overthink entries - quick updates work best
+- **Review trends**: Compare actual vs. planned to identify patterns
+- **Adjust pace**: If consistently under, adjust schedule; if over, ensure sustainability
+- **Celebrate wins**: Mark completions and celebrate milestones
+
+---
+
 ## Monthly Checkpoint Process (1-2 hours, last Sunday of month)
 
 ### Review Monthly Deliverables
@@ -425,7 +480,7 @@ Use the **Weekly Checklist** from [QUICKSTART.md](QUICKSTART.md):
    - Wastes money and time
 
 5. **Skipping recovery months** to "speed up"
-   - Burnout will cost you more time than 3 light months
+   - Burnout will cost you more time than 3 recovery months
    - Recovery months are strategic, not optional
 
 6. **Not tracking progress** in CSV
@@ -486,5 +541,5 @@ Welcome to the roadmap! 🚀
 
 ---
 
-**Last Updated**: 2025-11-21
+**Last Updated**: 2025-12-01
 **Version**: 1.0

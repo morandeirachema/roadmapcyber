@@ -427,5 +427,5 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 
 ---
 
-**Last Updated**: 2025-11-21
+**Last Updated**: 2025-12-01
 **Version**: 1.0

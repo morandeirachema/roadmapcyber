@@ -1694,7 +1694,7 @@ Solution:
 
 ---
 
-**Last Updated**: 2025-11-22
+**Last Updated**: 2025-12-01
 **Version**: 1.0
 **Use**: Study aid for CyberArk certifications (Defender, Sentry, Guardian)
 
