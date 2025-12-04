@@ -389,6 +389,6 @@ Potential expansions of this lab:
 
 ---
 
-**Project Completed**: [Date]
-**Last Updated**: [Date]
+**Project Completed**: 2025-12-04
+**Last Updated**: 2025-12-04
 **Version**: 1.0
