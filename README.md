@@ -113,12 +113,27 @@ A comprehensive, sustainable 27-month learning path for experienced system admin
 - `BUDGET.md` - Complete financial breakdown
 
 **Certification Guides** (`docs/` directory):
-- `CYBERARK_CERTIFICATIONS.md` - Complete guide for Defender, Sentry, Guardian, Trustee (99KB, expanded with integrated study schedules)
-- `CYBERARK_CHEAT_SHEETS.md` - A+ grade quick reference sheets for all CyberArk certifications (50KB)
-- `CKS_CERTIFICATION_GUIDE.md` - Comprehensive CKS (Certified Kubernetes Security Specialist) preparation guide (55KB)
-- `CKS_CHEAT_SHEETS.md` - A+ grade quick reference sheets for CKS certification exam (45KB)
-- `CCSP_CERTIFICATION_GUIDE.md` - Comprehensive CCSP preparation guide with domain-by-domain breakdown (34KB)
-- `CCSP_CHEAT_SHEETS.md` - A+ grade quick reference sheets for CCSP certification exam (45KB)
+- `CYBERARK_CERTIFICATIONS.md` - Complete guide for Defender, Sentry, Guardian, Trustee
+- `CYBERARK_CHEAT_SHEETS.md` - Quick reference sheets for all CyberArk certifications
+- `CKS_CERTIFICATION_GUIDE.md` - Comprehensive CKS preparation guide
+- `CKS_CHEAT_SHEETS.md` - Quick reference sheets for CKS certification exam
+- `CCSP_CERTIFICATION_GUIDE.md` - Comprehensive CCSP preparation guide
+- `CCSP_CHEAT_SHEETS.md` - Quick reference sheets for CCSP certification exam
+
+**Hands-On Labs** (`docs/` directory):
+- `HANDS_ON_LABS_PHASE1.md` - Phase 1 labs (PAM + Kubernetes)
+- `HANDS_ON_LABS_PHASE2.md` - Phase 2 labs (Conjur + DevSecOps)
+- `HANDS_ON_LABS_PHASE3.md` - Phase 3 labs (Cloud Security + CCSP)
+
+**Technical Guides** (`docs/` directory):
+- `DEVOPS_CI_CD_GUIDE.md` - DevSecOps CI/CD integration patterns
+- `KUBERNETES_MULTICLUSTER_GUIDE.md` - Multi-cluster PAM/Conjur architecture
+- `HA_DR_ARCHITECTURE.md` - High availability and disaster recovery
+- `PAM_INCIDENT_RESPONSE.md` - Security incident response playbooks
+- `MIGRATION_STRATEGY.md` - Legacy PAM migration strategies
+- `MULTICLOUD_PATTERNS.md` - Multi-cloud deployment patterns (AWS/Azure/GCP)
+- `PERFORMANCE_TUNING_GUIDE.md` - Performance optimization guide
+- `CONSULTING_LAUNCH_CHECKLIST.md` - Month 27 consulting business launch guide
 
 **Detailed Roadmap** (`roadmap/` directory):
 - `OVERVIEW.md` - Complete 27-month structure
@@ -132,11 +147,19 @@ A comprehensive, sustainable 27-month learning path for experienced system admin
 **Progress Tracking**:
 - `27MONTH_PROGRESS_TRACKER.csv` - Track planned vs actual hours, deliverables
 
-**Templates & Examples** (`templates/` and `examples/` directories):
-- RFP response templates
-- SOW templates
-- Portfolio project examples
-- Case study examples
+**Templates** (`templates/` directory):
+- `SOW_TEMPLATE.md` - Statement of Work template
+- `PROJECT_CHARTER_TEMPLATE.md` - Project charter for PAM implementations
+- `CHANGE_MANAGEMENT_TEMPLATE.md` - Organizational change management framework
+- `RISK_ASSESSMENT_TEMPLATE.md` - Risk assessment and mitigation planning
+- `TESTING_PLAN_TEMPLATE.md` - Comprehensive testing framework
+- `COMMUNICATION_PLAN_TEMPLATE.md` - Stakeholder communication planning
+
+**Examples** (`examples/` directory):
+- `PORTFOLIO_PROJECT_EXAMPLE.md` - Portfolio project structure example
+- `CONJUR_PROJECT_EXAMPLE.md` - Real-world Conjur implementation case study
+- `AWS_SECURITY_PROJECT_EXAMPLE.md` - AWS security services implementation
+- `DEVSECOPS_PIPELINE_EXAMPLE.md` - Secure CI/CD pipeline implementation
 
 ---
 
@@ -156,5 +179,5 @@ This roadmap is provided as-is for educational purposes. Free to use and adapt f
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
+**Last Updated**: 2025-12-04
+**Version**: 2.0
