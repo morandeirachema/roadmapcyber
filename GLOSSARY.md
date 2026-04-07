@@ -33,7 +33,7 @@ Quick reference for all terminology used in the 27-Month Cybersecurity Roadmap.
 
 ### Cloud Platforms
 - **AWS (Amazon Web Services)**: Amazon's cloud computing platform (IAM, KMS, Secrets Manager are key services for this roadmap)
-- **Azure**: Microsoft's cloud computing platform (Azure AD/Entra ID, Key Vault are key services)
+- **Azure**: Microsoft's cloud computing platform (Microsoft Entra ID, Key Vault are key services)
 - **Multi-cloud**: Architecture or strategy using multiple cloud providers (AWS + Azure in this roadmap)
 
 ---
@@ -142,5 +142,5 @@ Quick reference for all terminology used in the 27-Month Cybersecurity Roadmap.
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
+**Last Updated**: 2026-04-07
+**Version**: 1.1

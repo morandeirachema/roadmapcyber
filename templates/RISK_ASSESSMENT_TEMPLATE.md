@@ -131,7 +131,7 @@ D
 ### 3.4 External Risks
 | ID | Risk | Likelihood | Impact | Score | Status |
 |----|------|------------|--------|-------|--------|
-| E-001 | Regulatory changes | | | | |
+| E-001 | Regulatory changes (e.g., NIS2, DORA) | | | | |
 | E-002 | Vendor product changes | | | | |
 | E-003 | Third-party integration changes | | | | |
 | E-004 | Security threat landscape changes | | | | |
@@ -377,5 +377,5 @@ Risks
 
 ---
 
-*Last Updated: 2025-12-04*
-*Version: 1.0*
+*Last Updated: 2026-04-07*
+*Version: 1.1*

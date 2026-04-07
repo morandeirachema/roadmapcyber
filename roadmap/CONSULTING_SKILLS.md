@@ -3,7 +3,7 @@
 **Objective**: Develop professional consulting skills to launch independent PAM/Conjur consulting practice
 
 **Starting Point**: Technical expert with no consulting experience
-**Target State**: Consulting-ready professional able to win clients, deliver projects, and charge $250-400/hour
+**Target State**: Consulting-ready professional able to win clients, deliver projects, and charge $275-450/hour
 
 **Method**: Progressive skill development integrated with technical learning (presentations → templates → client simulation)
 
@@ -143,7 +143,7 @@ This consulting skills plan is **integrated** into your technical roadmap. You'l
   - Assessment services (1-2 weeks)
   - Implementation services (4-12 weeks)
   - Optimization services (2-4 weeks)
-  - Pricing structure ($250-400/hour)
+  - Pricing structure ($275-450/hour)
 - **Month 18**: Polish all materials
   - Review all templates and case studies
   - Update portfolio projects
@@ -240,14 +240,15 @@ This consulting skills plan is **integrated** into your technical roadmap. You'l
   - Case studies reviewed
   - Portfolio projects finalized (7-8 total)
 - **Define service offerings clearly**
-  - PAM Assessment ($5,000-10,000, 1-2 weeks)
-  - PAM Implementation ($20,000-50,000, 4-12 weeks)
-  - Conjur Implementation ($15,000-40,000, 4-10 weeks)
-  - Cloud Security Review ($8,000-15,000, 2-4 weeks)
-  - Compliance Assessment ($10,000-20,000, 2-4 weeks)
+  - PAM Assessment ($5,500-11,000, 1-2 weeks)
+  - PAM Implementation ($22,000-55,000, 4-12 weeks)
+  - Conjur Implementation ($16,500-44,000, 4-10 weeks)
+  - Cloud Security Review ($9,000-16,500, 2-4 weeks)
+  - Compliance Assessment ($11,000-22,000, 2-4 weeks)
+  - AI/LLM Security + PAM Integration ($8,000-20,000, 2-4 weeks) *(emerging, high demand in 2026)*
 - **Create rate card**
-  - Hourly rate: $250-400/hour (based on project scope)
-  - Daily rate: $2,000-3,200/day
+  - Hourly rate: $275-450/hour (based on project scope)
+  - Daily rate: $2,200-3,600/day
   - Project-based pricing options
 
 **Month 26: Go-to-Market Strategy**
@@ -430,43 +431,49 @@ This consulting skills plan is **integrated** into your technical roadmap. You'l
 
 ## Rate Card & Pricing Strategy
 
+> **Market Note (April 2026)**: PAM consulting rates have risen ~10% from 2024 levels due to strong enterprise demand, compliance pressure, and the growing intersection of PAM with AI/cloud security. The figures below reflect current market rates.
+
 ### Hourly Rates
-- **Standard**: $250/hour (initial projects, smaller clients)
-- **Premium**: $300-350/hour (enterprise clients, complex projects)
-- **Strategic**: $400/hour (urgent projects, specialized expertise)
+- **Standard**: $275/hour (initial projects, smaller clients)
+- **Premium**: $325-375/hour (enterprise clients, complex projects)
+- **Strategic**: $450/hour (urgent projects, specialized expertise, AI+PAM)
 
 ### Daily Rates
-- **Standard**: $2,000/day (8-hour day)
-- **Premium**: $2,400-2,800/day
-- **Strategic**: $3,200/day
+- **Standard**: $2,200/day (8-hour day)
+- **Premium**: $2,600-3,000/day
+- **Strategic**: $3,600/day
 
 ### Project-Based Pricing (Recommended)
 
 **PAM Assessment** (1-2 weeks):
-- Small org: $5,000-8,000
-- Medium org: $8,000-10,000
-- Large enterprise: $10,000-15,000
+- Small org: $5,500-9,000
+- Medium org: $9,000-11,000
+- Large enterprise: $11,000-17,000
 
 **PAM Implementation** (4-12 weeks):
-- Small deployment: $20,000-30,000
-- Medium deployment: $30,000-50,000
-- Enterprise deployment: $50,000-100,000+
+- Small deployment: $22,000-33,000
+- Medium deployment: $33,000-55,000
+- Enterprise deployment: $55,000-110,000+
 
 **Conjur Implementation** (4-10 weeks):
-- Docker/K8s basic: $15,000-25,000
-- Multi-cloud integration: $25,000-40,000
-- Enterprise + compliance: $40,000-75,000+
+- Docker/K8s basic: $16,500-27,500
+- Multi-cloud integration: $27,500-44,000
+- Enterprise + compliance: $44,000-82,000+
 
 **Cloud Security Review** (2-4 weeks):
-- Single cloud: $8,000-12,000
-- Multi-cloud: $12,000-15,000
+- Single cloud: $9,000-13,200
+- Multi-cloud: $13,200-16,500
 
 **Compliance Assessment** (2-4 weeks):
-- HIPAA assessment: $10,000-15,000
-- PCI-DSS assessment: $10,000-20,000
+- HIPAA assessment: $11,000-16,500
+- PCI-DSS assessment: $11,000-22,000
+
+**AI/LLM Security + PAM** (2-4 weeks) *(new in 2026)*:
+- AI secrets hygiene assessment: $8,000-15,000
+- Conjur integration for AI agent credentials: $12,000-20,000
 
 ### Pricing Tips
-- **Start conservative** ($250/hour) to build portfolio and testimonials
+- **Start conservative** ($275/hour) to build portfolio and testimonials
 - **Increase rates** after 3-5 successful projects
 - **Value-based pricing** is best (focus on business value, not hours)
 - **Package services** for predictable pricing and client confidence
@@ -493,6 +500,7 @@ This consulting skills plan is **integrated** into your technical roadmap. You'l
 - Cloud security gaps (need cloud expertise)
 - Compliance pressure (HIPAA, PCI-DSS, SOC2)
 - Kubernetes security (need K8s expertise)
+- AI/LLM agent credential sprawl (emerging 2026 pain point — AI pipelines creating new secrets management debt)
 
 **Budget**:
 - Security budget: $100K-1M+/year
@@ -548,5 +556,5 @@ This consulting skills plan is **integrated** into your technical roadmap. You'l
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
+**Last Updated**: 2026-04-07
+**Version**: 1.1

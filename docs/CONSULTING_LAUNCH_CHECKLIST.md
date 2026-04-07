@@ -343,10 +343,10 @@ Target Clients: All
 
 | Package | Services Included | Target Client | Price Range |
 |---------|------------------|---------------|-------------|
-| **Assessment** | Security assessment + roadmap | Evaluating PAM | $10,000-25,000 |
-| **Standard** | Implementation + training + 4-week hypercare | Mid-market | $50,000-100,000 |
-| **Enterprise** | Full implementation + integrations + 8-week hypercare | Enterprise | $100,000-250,000 |
-| **Retainer** | Ongoing support + optimization | Existing clients | $5,000-15,000/month |
+| **Assessment** | Security assessment + roadmap | Evaluating PAM | $11,000-27,500 |
+| **Standard** | Implementation + training + 4-week hypercare | Mid-market | $55,000-110,000 |
+| **Enterprise** | Full implementation + integrations + 8-week hypercare | Enterprise | $110,000-275,000 |
+| **Retainer** | Ongoing support + optimization | Existing clients | $5,500-16,500/month |
 
 ---
 
@@ -354,7 +354,7 @@ Target Clients: All
 
 ### Rate Calculation
 
-**Target Annual Revenue**: $200,000-400,000 (first year goal)
+**Target Annual Revenue**: $220,000-440,000 (first year goal)
 
 **Billable Hours Calculation**:
 ```
@@ -371,11 +371,11 @@ Billable hours: 2,080 × 50% = 1,040 hours/year
 
 **Hourly Rate Calculation**:
 ```
-Target Revenue: $300,000
+Target Revenue: $330,000
 Billable Hours: 1,040
-Hourly Rate: $300,000 ÷ 1,040 = $288/hour
+Hourly Rate: $330,000 ÷ 1,040 = $317/hour
 
-Recommended Range: $250-400/hour
+Recommended Range: $275-440/hour
 ```
 
 ### Pricing Models
@@ -383,18 +383,18 @@ Recommended Range: $250-400/hour
 **1. Time & Materials (T&M)**
 - Bill hourly/daily rate
 - Best for: Uncertain scope, ongoing support
-- Rate: $250-400/hour or $2,000-3,200/day
+- Rate: $275-440/hour or $2,200-3,520/day
 
 **2. Fixed Price**
 - Defined scope, fixed fee
 - Best for: Clear requirements, repeatable work
 - Include contingency: 15-20%
-- Example: Assessment = $15,000 fixed
+- Example: Assessment = $16,500 fixed
 
 **3. Retainer**
 - Monthly fee for allocated hours
 - Best for: Ongoing support relationships
-- Typical: $5,000-15,000/month for 20-60 hours
+- Typical: $5,500-16,500/month for 20-60 hours
 - Unused hours: Don't roll over (or cap rollover)
 
 **4. Value-Based**
@@ -408,18 +408,18 @@ Recommended Range: $250-400/hour
 CONSULTING RATE CARD
 
 Standard Rates (Remote):
-- Senior Consultant: $300/hour
-- Technical Lead: $350/hour
-- Principal Consultant: $400/hour
+- Senior Consultant: $330/hour
+- Technical Lead: $385/hour
+- Principal Consultant: $440/hour
 
 On-Site Premium: +25%
-- Senior Consultant: $375/hour
-- Technical Lead: $437/hour
-- Principal Consultant: $500/hour
+- Senior Consultant: $413/hour
+- Technical Lead: $481/hour
+- Principal Consultant: $550/hour
 
 Daily Rates (8 hours):
-- Remote: $2,400 - $3,200/day
-- On-Site: $3,000 - $4,000/day
+- Remote: $2,640 - $3,520/day
+- On-Site: $3,300 - $4,400/day
 
 Volume Discounts:
 - 100+ hours: 5% discount
@@ -894,10 +894,10 @@ Activities:
 
 | Metric | Target |
 |--------|--------|
-| Annual Revenue | $150,000-250,000 |
+| Annual Revenue | $165,000-275,000 |
 | Number of Clients | 5-10 |
-| Average Project Size | $20,000-50,000 |
-| Billable Rate | $250-350/hour |
+| Average Project Size | $22,000-55,000 |
+| Billable Rate | $275-385/hour |
 | Utilization Rate | 50-60% |
 | Client Satisfaction | 4.5+/5.0 |
 | Referral Rate | 30%+ of new clients |
@@ -929,5 +929,5 @@ Activities:
 
 ---
 
-**Last Updated**: 2025-12-04
+**Last Updated**: 2026-04-07
 **Version**: 1.0

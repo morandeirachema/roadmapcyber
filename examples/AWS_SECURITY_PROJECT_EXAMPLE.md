@@ -90,7 +90,7 @@
 
 #### IAM Structure Implementation
 ```hcl
-# terraform/iam/main.tf
+# terraform/iam/main.tf  (Terraform >= 1.10)
 
 # Create organizational units
 resource "aws_organizations_organizational_unit" "security" {
@@ -278,7 +278,7 @@ resource "aws_securityhub_account" "main" {}
 # Enable CIS AWS Foundations Benchmark
 resource "aws_securityhub_standards_subscription" "cis" {
   depends_on    = [aws_securityhub_account.main]
-  standards_arn = "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0"
+  standards_arn = "arn:aws:securityhub:${var.region}::standards/cis-aws-foundations-benchmark/v/3.0.0"
 }
 
 # Enable AWS Foundational Security Best Practices
@@ -690,5 +690,5 @@ def lambda_handler(event, context):
 
 ---
 
-*Last Updated: 2025-12-04*
-*Version: 1.0*
+*Last Updated: 2026-04-07*
+*Version: 1.1*

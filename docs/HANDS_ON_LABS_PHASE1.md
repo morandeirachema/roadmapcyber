@@ -109,7 +109,7 @@ kubectl get nodes
 
 ```bash
 # Install kind
-curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.20.0/kind-linux-amd64
+curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.24.0/kind-linux-amd64
 chmod +x ./kind
 sudo mv ./kind /usr/local/bin/kind
 
@@ -709,5 +709,5 @@ sudo systemctl stop k3s
 
 ---
 
-**Last Updated**: 2025-12-01
+**Last Updated**: 2026-04-07
 **Version**: 1.0

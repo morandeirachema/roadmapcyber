@@ -192,7 +192,7 @@ Legend:
 │   │  AUTHENTICATOR│──┐                                                      │
 │   └──────────────┘  │                                                       │
 │          │          │ 2. Verify Identity                                    │
-│          │          │    (K8s SA, AWS IAM, Azure AD)                        │
+│          │          │    (K8s SA, AWS IAM, Entra ID)                        │
 │          │          ▼                                                       │
 │          │    ┌──────────────┐                                              │
 │          │    │   IDENTITY   │                                              │
@@ -429,7 +429,7 @@ spec:
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │   IDENTITY & ACCESS                                                         │
-│   ├── Entra ID (Azure AD)                                                  │
+│   ├── Microsoft Entra ID                                                   │
 │   ├── Conditional Access policies                                          │
 │   ├── Privileged Identity Management (PIM)                                 │
 │   └── Managed Identities                                                   │
@@ -454,7 +454,7 @@ spec:
 │   └── Azure Policy                                                         │
 │                                                                             │
 │   PAM INTEGRATION                                                           │
-│   ├── CyberArk PAM with Entra ID                                           │
+│   ├── CyberArk PAM with Microsoft Entra ID                                 │
 │   ├── Conjur with Managed Identities                                       │
 │   └── Key Vault integration                                                │
 │                                                                             │
@@ -548,12 +548,12 @@ LEVEL 5: OPTIMAL (Score: 81-100)
 ## External References
 
 - [NIST SP 800-207: Zero Trust Architecture](https://csrc.nist.gov/publications/detail/sp/800-207/final)
-- [CISA Zero Trust Maturity Model](https://www.cisa.gov/zero-trust-maturity-model)
+- [CISA Zero Trust Maturity Model 2.0](https://www.cisa.gov/zero-trust-maturity-model)
 - [Google BeyondCorp](https://cloud.google.com/beyondcorp)
 - [Microsoft Zero Trust](https://www.microsoft.com/en-us/security/business/zero-trust)
 - [Forrester Zero Trust](https://www.forrester.com/blogs/category/zero-trust/)
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
+**Last Updated**: 2026-04-07
+**Version**: 1.1

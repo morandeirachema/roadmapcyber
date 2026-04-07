@@ -19,7 +19,7 @@ Practical lab exercises with actual commands for Months 19-27. These labs comple
 1. [AWS IAM Deep Dive](#aws-iam-deep-dive)
 2. [AWS Security Services](#aws-security-services)
 3. [AWS Compliance and Auditing](#aws-compliance-and-auditing)
-4. [Azure AD / Entra ID](#azure-ad--entra-id)
+4. [Microsoft Entra ID](#azure-ad--entra-id)
 5. [Azure Security Services](#azure-security-services)
 6. [Azure Compliance](#azure-compliance)
 7. [Multi-Cloud Security Architecture](#multi-cloud-security-architecture)
@@ -941,9 +941,9 @@ aws securityhub get-findings \
 
 ---
 
-## Azure AD / Entra ID
+## Microsoft Entra ID
 
-### Lab 4.1: Azure AD User and Group Management (Month 22, Week 85)
+### Lab 4.1: Entra ID User and Group Management (Month 22, Week 85)
 
 ```bash
 # Login to Azure
@@ -1000,7 +1000,7 @@ az role assignment create \
 ### Lab 4.2: Conditional Access Policies (Month 22, Week 86)
 
 ```bash
-# Note: Conditional Access requires Azure AD Premium P1/P2
+# Note: Conditional Access requires Microsoft Entra ID P1/P2
 # These commands use Microsoft Graph API via az rest
 
 # Get tenant ID
@@ -1505,13 +1505,13 @@ az policy state list \
 ### Lab 7.1: Multi-Cloud Identity Federation (Month 24, Week 95)
 
 ```bash
-# AWS: Create OIDC identity provider for Azure AD
+# AWS: Create OIDC identity provider for Microsoft Entra ID
 aws iam create-open-id-connect-provider \
     --url https://login.microsoftonline.com/YOUR_TENANT_ID/v2.0 \
     --client-id-list YOUR_AZURE_APP_ID \
     --thumbprint-list YOUR_THUMBPRINT
 
-# AWS: Create role that trusts Azure AD
+# AWS: Create role that trusts Microsoft Entra ID
 cat <<'EOF' > azure-ad-trust.json
 {
     "Version": "2012-10-17",
@@ -1551,16 +1551,16 @@ provider "azurerm" {
   features {}
 }
 
-# AWS OIDC Provider for Azure AD
-resource "aws_iam_openid_connect_provider" "azure_ad" {
+# AWS OIDC Provider for Microsoft Entra ID
+resource "aws_iam_openid_connect_provider" "entra_id" {
   url             = "https://login.microsoftonline.com/${var.azure_tenant_id}/v2.0"
   client_id_list  = [var.azure_app_id]
   thumbprint_list = [var.azure_thumbprint]
 }
 
-# AWS Role trusting Azure AD
+# AWS Role trusting Microsoft Entra ID
 resource "aws_iam_role" "cross_cloud_role" {
-  name = "AzureAD-CrossCloud-Role"
+  name = "EntraID-CrossCloud-Role"
 
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
@@ -2078,7 +2078,7 @@ aws securityhub get-findings --filters '{"SeverityLabel":[{"Value":"CRITICAL","C
 # Check role assignments
 az role assignment list --assignee $(az ad signed-in-user show --query id -o tsv) --output table
 
-# Debug Azure AD token
+# Debug Entra ID token
 az account get-access-token --resource https://management.azure.com/ --query accessToken -o tsv | jwt decode -
 
 # Check Key Vault access
@@ -2132,5 +2132,5 @@ az ad user delete --id testdev@yourdomain.onmicrosoft.com
 
 ---
 
-**Last Updated**: 2025-12-04
+**Last Updated**: 2026-04-07
 **Version**: 1.0

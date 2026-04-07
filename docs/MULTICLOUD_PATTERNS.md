@@ -907,7 +907,7 @@ def lambda_handler(event, context):
 
 ```yaml
 # conjur_aks_deployment.yaml
-# Conjur deployment for Azure AKS with Azure AD integration
+# Conjur deployment for Azure AKS with Microsoft Entra ID integration
 
 apiVersion: apps/v1
 kind: StatefulSet
@@ -962,7 +962,7 @@ spec:
             storage: 100Gi
 
 ---
-# Azure AD Workload Identity
+# Microsoft Entra Workload Identity
 apiVersion: v1
 kind: ServiceAccount
 metadata:
@@ -1078,8 +1078,8 @@ class AzureConjurIntegration:
         self.credential = credential
 
     def authenticate_conjur_azure(self) -> str:
-        """Authenticate to Conjur using Azure AD"""
-        # Get Azure AD token for Conjur
+        """Authenticate to Conjur using Microsoft Entra ID"""
+        # Get Entra ID token for Conjur
         token = self.credential.get_token(
             f"{self.conjur_url}/.default"
         )
@@ -1831,7 +1831,7 @@ records:
 │                                                                         │
 │                    ┌──────────────────────┐                            │
 │                    │   Identity Provider  │                            │
-│                    │   (Okta/Azure AD)    │                            │
+│                    │  (Okta/Entra ID)     │                            │
 │                    └──────────┬───────────┘                            │
 │                               │                                         │
 │                    ┌──────────▼───────────┐                            │
@@ -1843,7 +1843,7 @@ records:
 │         │                     │                     │                   │
 │         ▼                     ▼                     ▼                   │
 │  ┌─────────────┐      ┌─────────────┐      ┌─────────────┐             │
-│  │  AWS IAM    │      │ Azure AD    │      │  GCP IAM    │             │
+│  │  AWS IAM    │      │ Entra ID    │      │  GCP IAM    │             │
 │  │             │      │             │      │             │             │
 │  │ authn-iam   │      │ authn-azure │      │ authn-gcp   │             │
 │  └─────────────┘      └─────────────┘      └─────────────┘             │
@@ -1954,7 +1954,7 @@ records:
       privileges: [read, authenticate]
       resource: !webservice aws
 
-# Azure AD Authenticator
+# Microsoft Entra ID Authenticator
 - !policy
   id: authn-azure
   body:
@@ -2785,5 +2785,5 @@ alerts:
 
 ---
 
-*Last Updated: 2025-12-04*
+*Last Updated: 2026-04-07*
 *Version: 1.0*

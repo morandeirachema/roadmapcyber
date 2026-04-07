@@ -65,6 +65,8 @@ KEY: ██ = Active phase  ░░ = Inactive  [DEF] = Defender  [SEN] = Sentry 
 
 ### Week 1-4 Schedule
 
+> **Lab Version Note (April 2026)**: Use Kubernetes 1.35 (current stable), kubectl 1.35, Helm 3.17+, Terraform 1.10+. CKS exam tracks K8s 1.32+. Minikube 1.34+ or kind 0.27+ for local clusters.
+
 | Week | Monday-Friday (1.5 hrs/day) | Weekend (2.5 hrs total) | Deliverables |
 |------|--------------------------|----------------------|--------------|
 | 1 | Setup: VMs, K8s cluster basics, lab planning | K8s: Deploy minikube + tutorial | Lab environment initiated |
@@ -565,7 +567,7 @@ KEY: ██ = Active phase  ░░ = Inactive  [DEF] = Defender  [SEN] = Sentry 
 - ✅ Consulting practice materials ready
 
 ### You Are Now Ready For:
-- **Independent Consulting**: $250-400/hour rates
+- **Independent Consulting**: $275-450/hour rates
 - **Healthcare clients**: HIPAA compliance + PAM expertise
 - **Banking clients**: PCI-DSS compliance + secrets management
 - **Enterprise clients**: Multi-cloud security architecture
@@ -801,7 +803,7 @@ KEY: ██ = Active phase  ░░ = Inactive  [DEF] = Defender  [SEN] = Sentry 
 - [ ] 6-8 articles published
 - [ ] 2-3 case studies completed
 - [ ] **✅ CONSULTANT READY**
-- [ ] **$250-400/hour consulting rates ready**
+- [ ] **$275-450/hour consulting rates ready**
 - [ ] **CONSULTING PRACTICE LAUNCHED**
 
 ---
@@ -851,12 +853,12 @@ This month-by-month schedule provides **specific, actionable activities** for al
 ✅ **Build continuously**: Capstone, portfolio, consulting skills all progressive
 ✅ **Track progress**: Clear deliverables each month
 ✅ **Achieve expertise**: Expert-level PAM/Conjur consultant by Month 27
-✅ **Launch consulting**: Ready for $250-400/hr rates at completion
+✅ **Launch consulting**: Ready for $275-450/hr rates at completion
 
 **Key: Follow this schedule closely. Flexibility for real-world projects, but keep monthly deliverables. CISSP can be pursued later if needed (see appendix above).**
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
+**Last Updated**: 2026-04-07
+**Version**: 1.1
 

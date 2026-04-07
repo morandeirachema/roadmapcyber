@@ -7,7 +7,7 @@ High-level structure of the complete 27-month journey to expert PAM/Conjur consu
 ## The Big Picture
 
 **Start**: Experienced sysadmin (5+ years) with CKA certification
-**End**: Expert PAM/Conjur consultant ready for $250-400/hr rates
+**End**: Expert PAM/Conjur consultant ready for $275-450/hr rates
 **Duration**: 27 months (108 weeks) at 10-12 hours/week
 **Total Study Hours**: ~1,215-1,296 hours
 
@@ -17,7 +17,7 @@ High-level structure of the complete 27-month journey to expert PAM/Conjur consu
 
 **What makes this specialized?**
 - **Focus**: PAM/Conjur architecture expertise (vs. general offensive/defensive security)
-- **Target**: Consulting rates of $250-400/hr (vs. security analyst employment)
+- **Target**: Consulting rates of $275-450/hr (vs. security analyst employment)
 - **Prerequisite**: 5+ years sysadmin experience + CKA certification
 - **Omits**: Forensics, reverse engineering, penetration testing (covered in general paths)
 - **Includes**: Deep cloud security, Kubernetes security, compliance frameworks for PAM
@@ -36,8 +36,9 @@ High-level structure of the complete 27-month journey to expert PAM/Conjur consu
 
 **Certifications** (3):
 - **CyberArk Defender** (Month 5) - Foundation level
-- **CyberArk Sentry** (Month 8) - Advanced administration
-- **CyberArk Guardian** (Month 11) - Expert level
+- **CyberArk Sentry** (Month 8) - Intermediate administration
+- **CyberArk Guardian** (Month 11) - Advanced level
+- **CyberArk Trustee** (optional post-M27) - Expert architect level
 
 **Key Activities**:
 - Install and configure all PAM components
@@ -147,7 +148,7 @@ High-level structure of the complete 27-month journey to expert PAM/Conjur consu
 - ✅ Enterprise capstone project fully operational
 - ✅ Professional English fluency for consulting
 - ✅ **CONSULTING PRACTICE LAUNCHED**
-- ✅ Ready for $250-400/hour consulting rates
+- ✅ Ready for $275-450/hour consulting rates
 
 ---
 
@@ -339,7 +340,7 @@ This roadmap incorporates 7 critical optimizations based on extensive analysis:
 - Portfolio demonstrates consulting-ready expertise
 
 ### Proven Optimizations
-- Based on comprehensive analysis (see `docs/archive/ULTRATHINK_ANALYSIS_2024-11.md`)
+- Based on comprehensive analysis (see `docs/archive/ULTRATHINK_ANALYSIS_2024-11.md`); reviewed and updated April 2026
 - Addresses common failure points
 - Incorporates burnout prevention
 - Higher certification pass rates
@@ -371,7 +372,7 @@ This roadmap incorporates 7 critical optimizations based on extensive analysis:
 - 7-8 documented portfolio projects
 - Complete enterprise capstone project
 - **Consulting practice launched**
-- **Ready for $250-400/hour rates**
+- **Ready for $275-450/hour rates**
 
 ---
 
@@ -383,5 +384,5 @@ This roadmap incorporates 7 critical optimizations based on extensive analysis:
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
+**Last Updated**: 2026-04-07
+**Version**: 1.1

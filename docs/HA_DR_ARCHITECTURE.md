@@ -1331,5 +1331,5 @@ kubectl logs -n conjur-system -l app=conjur --tail=100 | grep -i database
 
 ---
 
-**Last Updated**: 2025-12-04
+**Last Updated**: 2026-04-07
 **Version**: 1.0

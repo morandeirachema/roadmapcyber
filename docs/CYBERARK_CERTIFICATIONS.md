@@ -47,7 +47,7 @@
 
 ### Certification Portfolio
 
-**Current Active Certifications (2025):**
+**Current Active Certifications (2026):**
 
 1. **CyberArk Defender (CDE-PAM)** - Entry Level
 2. **CyberArk Sentry (CSE-PAM)** - Professional Level
@@ -55,6 +55,7 @@
 4. **CyberArk Trustee (CTR-PAM)** - Expert Level
 5. **CyberArk Secrets Manager Sentry (CSE-SM)** - Specialized
 6. **CyberArk Endpoint Privilege Manager Sentry (CSE-EPM)** - Specialized
+7. **CyberArk Identity Security Platform Sentry (CSE-ISP)** - Specialized (added 2025)
 
 ---
 
@@ -2512,15 +2513,15 @@ Install-Module -Name psPAS -Scope CurrentUser
 
 ### Salary Impact
 
-**Average Salary by Certification (USD, 2025):**
+**Average Salary by Certification (USD, 2026):**
 
 | Certification | Average Salary | Range |
 |---------------|----------------|-------|
-| **No Certification** | $85,000 | $60,000 - $110,000 |
-| **Defender** | $98,000 (+15%) | $75,000 - $125,000 |
-| **Sentry** | $120,000 (+41%) | $95,000 - $150,000 |
-| **Guardian** | $145,000 (+71%) | $120,000 - $185,000 |
-| **Trustee** | $175,000 (+106%) | $150,000 - $225,000+ |
+| **No Certification** | $95,000 | $68,000 - $122,000 |
+| **Defender** | $112,000 (+18%) | $85,000 - $140,000 |
+| **Sentry** | $138,000 (+45%) | $108,000 - $168,000 |
+| **Guardian** | $165,000 (+74%) | $135,000 - $210,000 |
+| **Trustee** | $198,000 (+108%) | $168,000 - $255,000+ |
 
 **Factors Affecting Salary:**
 - Geographic location
@@ -2536,27 +2537,27 @@ Install-Module -Name psPAS -Scope CurrentUser
 ```
 Year 0-1: PAM Administrator
 - Role: Daily operations, account onboarding, user support
-- Salary: $75,000 - $100,000
+- Salary: $85,000 - $112,000
 - Certification: Defender
 
 Year 1-3: PAM Engineer
 - Role: Implementation, platform configuration, integrations
-- Salary: $95,000 - $130,000
+- Salary: $108,000 - $148,000
 - Certification: Sentry
 
 Year 3-5: Senior PAM Engineer / PAM Architect
 - Role: Architecture design, complex implementations, mentorship
-- Salary: $120,000 - $160,000
+- Salary: $135,000 - $180,000
 - Certification: Guardian
 
 Year 5-8: Principal Architect / PAM Practice Lead
 - Role: Strategy, thought leadership, team management
-- Salary: $150,000 - $200,000
+- Salary: $168,000 - $225,000
 - Certification: Trustee
 
 Year 8+: Director / VP of Identity Security
 - Role: Executive leadership, multi-product strategy
-- Salary: $175,000 - $300,000+
+- Salary: $200,000 - $330,000+
 - Certifications: Trustee + business certs (MBA, etc.)
 ```
 
@@ -2564,8 +2565,8 @@ Year 8+: Director / VP of Identity Security
 
 **Master CyberArk certifications to advance your career in Privileged Access Management!**
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
+**Last Updated**: 2026-04-07
+**Version**: 1.1
 
 ---
 
@@ -3478,7 +3479,7 @@ Can you...
 
 ---
 
-**Version**: 2.0 (Expanded Edition)
-**Last Updated**: 2025-12-01
+**Version**: 2.1 (Expanded Edition)
+**Last Updated**: 2026-04-07
 **Additions**: Appendices A-E with integrated study schedules, exam preparation, common mistakes, success metrics, and post-certification guidance.
 

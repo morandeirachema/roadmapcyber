@@ -32,7 +32,7 @@
 | Business Driver | Description |
 |-----------------|-------------|
 | Security Risk Reduction | [Quantify current risk exposure] |
-| Compliance Requirements | [List applicable regulations] |
+| Compliance Requirements | [List applicable regulations, e.g., NIST CSF 2.0, ISO 27001:2022, PCI DSS 4.0, NIS2] |
 | Operational Efficiency | [Expected improvements] |
 | Cost Savings | [Projected savings or ROI] |
 
@@ -415,5 +415,5 @@ By signing below, the undersigned acknowledge they have reviewed the Project Cha
 
 ---
 
-*Last Updated: 2025-12-04*
-*Version: 1.0*
+*Last Updated: 2026-04-07*
+*Version: 1.1*

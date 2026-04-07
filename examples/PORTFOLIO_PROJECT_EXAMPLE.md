@@ -14,8 +14,8 @@ Complete example of a well-documented portfolio project demonstrating PAM expert
 
 **Technologies Used**:
 - CyberArk PAM (Password Vault, CPM, PSM, PVWA)
-- Active Directory (Windows Server 2022)
-- Linux (Ubuntu 22.04, RHEL 9)
+- Active Directory (Windows Server 2025)
+- Linux (Ubuntu 24.04, RHEL 9)
 - VMware ESXi / VirtualBox
 - Network segmentation (VLANs)
 
@@ -106,22 +106,22 @@ Organizations struggle to secure privileged accounts across hybrid environments 
 ### Phase 1: Infrastructure Setup (Week 1)
 
 **Lab Environment Specifications**:
-- **Virtualization**: VMware ESXi 7.0 (or VirtualBox for local)
+- **Virtualization**: VMware ESXi 8.0 / Proxmox VE 8.x (or VirtualBox for local)
 - **Network**: 3 VLANs (Management, User, Target)
 - **Storage**: 500GB allocated across VMs
 
 **Virtual Machines Created**:
 | VM Name | OS | vCPU | RAM | Disk | Role |
 |---------|-----|------|-----|------|------|
-| VAULT01 | Windows Server 2022 | 4 | 8GB | 100GB | Password Vault (Primary) |
-| VAULT02 | Windows Server 2022 | 4 | 8GB | 100GB | Password Vault (DR) |
-| CPM01 | Windows Server 2022 | 2 | 4GB | 60GB | Central Policy Manager |
-| PSM01 | Windows Server 2022 | 4 | 8GB | 60GB | Privileged Session Manager |
-| PVWA01 | Windows Server 2022 | 2 | 4GB | 60GB | Web Access |
-| DC01 | Windows Server 2022 | 2 | 4GB | 60GB | Active Directory |
-| WIN-TARGET01 | Windows Server 2022 | 2 | 4GB | 40GB | Target Windows Server |
-| LINUX-TARGET01 | Ubuntu 22.04 | 2 | 2GB | 40GB | Target Linux Server |
-| DB01 | Windows Server 2022 + SQL Server | 4 | 8GB | 100GB | Database Server |
+| VAULT01 | Windows Server 2025 | 4 | 8GB | 100GB | Password Vault (Primary) |
+| VAULT02 | Windows Server 2025 | 4 | 8GB | 100GB | Password Vault (DR) |
+| CPM01 | Windows Server 2025 | 2 | 4GB | 60GB | Central Policy Manager |
+| PSM01 | Windows Server 2025 | 4 | 8GB | 60GB | Privileged Session Manager |
+| PVWA01 | Windows Server 2025 | 2 | 4GB | 60GB | Web Access |
+| DC01 | Windows Server 2025 | 2 | 4GB | 60GB | Active Directory |
+| WIN-TARGET01 | Windows Server 2025 | 2 | 4GB | 40GB | Target Windows Server |
+| LINUX-TARGET01 | Ubuntu 24.04 | 2 | 2GB | 40GB | Target Linux Server |
+| DB01 | Windows Server 2025 + SQL Server | 4 | 8GB | 100GB | Database Server |
 
 **Network Configuration**:
 - VLAN 10 (Management): 10.10.10.0/24
@@ -133,7 +133,7 @@ Organizations struggle to secure privileged accounts across hybrid environments 
 
 **Installation Order** (following CyberArk best practices):
 1. **Password Vault** (VAULT01):
-   - Installed CyberArk Digital Vault v13.0
+   - Installed CyberArk Digital Vault v14.4
    - Configured Master User
    - Enabled TLS 1.2+ only
    - Configured automatic backup to separate storage
@@ -215,7 +215,7 @@ Organizations struggle to secure privileged accounts across hybrid environments 
 - ✅ Person/Entity Authentication (164.312(d)): AD integration + MFA ready
 - ✅ Transmission Security (164.312(e)(1)): TLS 1.2+ enforced
 
-**PCI-DSS Requirements**:
+**PCI DSS 4.0 Requirements**:
 - ✅ Requirement 7: Restrict access to cardholder data (Safe permissions)
 - ✅ Requirement 8: Unique credentials for each user (no shared passwords)
 - ✅ Requirement 10: Track and monitor all access (audit logs + session recording)
@@ -360,7 +360,7 @@ This project demonstrates proficiency in:
 ## Future Enhancements
 
 Potential expansions of this lab:
-- [ ] Add cloud integration (AWS IAM, Azure AD)
+- [ ] Add cloud integration (AWS IAM, Microsoft Entra ID)
 - [ ] Implement CyberArk Conjur for application secrets
 - [ ] Add MFA (RSA, Duo) for additional security
 - [ ] Integrate with SIEM (Splunk) for centralized logging
@@ -389,6 +389,6 @@ Potential expansions of this lab:
 
 ---
 
-**Project Completed**: 2025-12-04
-**Last Updated**: 2025-12-04
-**Version**: 1.0
+**Project Completed**: 2026-04-07
+**Last Updated**: 2026-04-07
+**Version**: 1.1

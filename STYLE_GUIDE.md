@@ -816,25 +816,25 @@ a prerequisite. Practice with `kubectl` security commands and review the
 
 | Format | Use Case | Example |
 |--------|----------|---------|
-| `YYYY-MM-DD` | Version control, file metadata | 2025-11-22 |
-| `Month DD, YYYY` | Document footers, changelog | November 22, 2025 |
-| `YYYY-MM` | Month references without day | 2025-11 |
+| `YYYY-MM-DD` | Version control, file metadata | 2026-04-07 |
+| `Month DD, YYYY` | Document footers, changelog | April 7, 2026 |
+| `YYYY-MM` | Month references without day | 2026-04 |
 
 **Examples**:
 
 ```markdown
 ✅ Correct:
-**Last Updated**: 2025-11-22
+**Last Updated**: 2026-04-07
 **Version**: 1.0
 
 Changelog:
+- April 7, 2026: Updated for 2026 accuracy review
 - November 22, 2025: Added CKS certification guide
-- November 21, 2025: Refactored to Grade A+ standards
 
 ❌ Incorrect:
-**Last Updated**: 11/22/2025 (ambiguous internationally)
-**Last Updated**: 22-Nov-2025 (non-standard)
-**Last Updated**: Nov 22, 2025 (use full month name)
+**Last Updated**: 04/07/2026 (ambiguous internationally)
+**Last Updated**: 07-Apr-2026 (non-standard)
+**Last Updated**: Apr 7, 2026 (use full month name)
 ```
 
 ### Version Footer
@@ -853,7 +853,7 @@ Changelog:
 ```markdown
 ---
 
-**Last Updated**: 2025-11-22
+**Last Updated**: 2026-04-07
 **Version**: 1.2
 ```
 
@@ -1342,7 +1342,7 @@ CCSP (Certified Cloud Security Professional)
 ```markdown
 ---
 
-**Last Updated**: 2025-11-22
+**Last Updated**: 2026-04-07
 **Version**: 1.0
 ```
 
@@ -1510,13 +1510,16 @@ If you identify a new pattern or best practice:
 
 ## Document Control
 
-**Style Guide Version**: 2.0
-**Last Updated**: 2025-12-01
-**Previous Version**: 1.0 (2025-11-21)
+**Style Guide Version**: 2.1
+**Last Updated**: 2026-04-07
+**Previous Version**: 2.0 (2025-12-01)
 **Maintained By**: Documentation Team
 **Review Frequency**: Monthly or as needed
 
 **Changelog**:
+- **2.1** (2026-04-07): Annual accuracy review
+  - Updated date format examples to reflect 2026
+  - Minor example corrections for current tooling
 - **2.0** (2025-11-22): Complete refactor to A+ grade
   - Added Quick Reference Card section
   - Expanded certification names to include CKS

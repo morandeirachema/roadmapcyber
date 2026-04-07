@@ -11,7 +11,7 @@ Example case study demonstrating consulting value and business outcomes.
 **Challenge**: Meet HIPAA compliance requirements for privileged access to patient data systems
 **Solution**: Enterprise CyberArk PAM deployment with automated password rotation and session recording
 **Duration**: 12 weeks
-**Investment**: $85,000 professional services
+**Investment**: $95,000 professional services
 **Results**: HIPAA compliance achieved, $2.4M potential HIPAA violation fines avoided, 300+ privileged accounts secured
 
 ---
@@ -225,10 +225,10 @@ CyberArk PAM Environment:
 
 **Financial Impact**:
 - ✅ **$2.4M+ potential HIPAA fines avoided** (based on OCR penalty guidelines)
-- ✅ **$85k professional services** investment
-- ✅ **$50k annual** CyberArk licensing
-- ✅ **ROI: 1,680%** in Year 1 (avoiding fines alone)
-- ✅ **Payback period: 23 days** (operational savings + risk reduction)
+- ✅ **$95k professional services** investment
+- ✅ **$55k annual** CyberArk licensing
+- ✅ **ROI: 1,495%** in Year 1 (avoiding fines alone)
+- ✅ **Payback period: 26 days** (operational savings + risk reduction)
 
 ### Qualitative Outcomes
 
@@ -274,7 +274,7 @@ CyberArk PAM Environment:
 - ✅ Complete audit trail with session recordings
 - ✅ 30-minute audit response time
 
-**Bottom Line**: $85k investment eliminated $2.4M+ in potential regulatory fines and achieved operational efficiencies worth $48k/year.
+**Bottom Line**: $95k investment eliminated $2.4M+ in potential regulatory fines and achieved operational efficiencies worth $48k/year.
 
 ---
 
@@ -353,12 +353,12 @@ PAM/Conjur Security Consultant
 
 ---
 
-**Case Study Published**: [Date]
+**Case Study Published**: 2026-04-07
 **Client Industry**: Healthcare
 **Project Duration**: 12 weeks
 **Outcome**: HIPAA compliance achieved, $2.4M+ risk mitigated
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
+**Last Updated**: 2026-04-07
+**Version**: 1.1

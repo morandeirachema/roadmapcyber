@@ -225,7 +225,7 @@ Common questions about the 27-Month Cybersecurity Roadmap.
 - You're in North America or Asia-Pacific
 
 **Prioritize Azure if**:
-- Enterprise clients with Microsoft ecosystems (Azure AD integration)
+- Enterprise clients with Microsoft ecosystems (Entra ID integration)
 - Government and large corporations (Microsoft relationships)
 - You're in Europe or have O365/Microsoft-heavy clients
 
@@ -297,10 +297,10 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 
 ### Q: How much can I really charge as a consultant after 27 months?
 
-**A**: **Realistic range: $150-400/hour**, depending on:
+**A**: **Realistic range: $165-440/hour**, depending on:
 
 **Factors affecting rate**:
-- **Geography**: U.S. = $250-400/hr, Europe = $150-300/hr, Latin America = $100-200/hr
+- **Geography**: U.S. = $275-440/hr, Europe = $165-330/hr, Latin America = $110-220/hr
 - **Industry**: Banking/healthcare = higher, SMB = lower
 - **Certifications**: All 4 certs = command top rates
 - **English fluency**: Professional English = 50-100% rate increase
@@ -308,15 +308,15 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 - **Specialization**: PAM + Conjur + Cloud = niche = premium rates
 
 **Realistic expectations by market**:
-- **Entry consulting** (Month 27-30): $150-200/hr
-- **Established** (Year 3-4): $200-300/hr
-- **Expert** (Year 5+): $300-400/hr
+- **Entry consulting** (Month 27-30): $165-220/hr
+- **Established** (Year 3-4): $220-330/hr
+- **Expert** (Year 5+): $330-440/hr
 
 **Independent vs. contract**:
-- **Independent consultant**: Higher rates ($250-400/hr) but find your own clients
-- **Contract through agency**: Lower rates ($100-200/hr) but agency finds clients
+- **Independent consultant**: Higher rates ($275-440/hr) but find your own clients
+- **Contract through agency**: Lower rates ($110-220/hr) but agency finds clients
 
-**First year reality**: You'll likely start at $150-250/hr and prove value, then increase rates
+**First year reality**: You'll likely start at $165-275/hr and prove value, then increase rates
 
 ---
 
@@ -328,14 +328,14 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 - Small projects (PAM implementations for SMBs)
 - Contract work through agencies
 - Hourly consulting on specific issues
-- Rates: $100-150/hr
+- Rates: $110-165/hr
 
 **Month 27 (Roadmap complete)**:
 - Full consulting practice launch
 - Enterprise clients (healthcare, banking)
 - Independent consulting (finding own clients)
 - Complex projects (multi-cloud, compliance)
-- Rates: $150-400/hr
+- Rates: $165-440/hr
 
 **Before Month 18**:
 - Not recommended for paid consulting
@@ -365,13 +365,13 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 **Plan B - Employment** (easier market):
 - Apply for PAM Engineer / Security Engineer roles
 - Large enterprises always hiring PAM specialists
-- Salary range: $100-150k/year (U.S.)
+- Salary range: $110-165k/year (U.S.)
 - Use as stepping stone to consulting
 
 **Plan C - Contract work**:
 - Register with consulting agencies (Robert Half, TEKsystems, etc.)
 - They find clients, you deliver work
-- Lower rates ($100-150/hr) but guaranteed hours
+- Lower rates ($110-165/hr) but guaranteed hours
 
 **Plan D - Niche down**:
 - Focus on specific industry (healthcare only, banking only)
@@ -732,8 +732,8 @@ $250,000 / 1,500 billable hours = $167/hour minimum
 ```
 
 **Step 2: Research market rates**:
-- PAM consultants: $150-350/hour (US)
-- Conjur/K8s specialists: $175-400/hour
+- PAM consultants: $165-385/hour (US)
+- Conjur/K8s specialists: $190-440/hour
 - CCSP + CyberArk certs: Premium rates
 - Check Glassdoor, Indeed, consulting firm rate cards
 
@@ -744,9 +744,9 @@ $250,000 / 1,500 billable hours = $167/hour minimum
 - Non-profit clients: -20-40% (optional)
 
 **Starting consultant rates** (Month 27):
-- Conservative: $150-175/hour
-- Market rate: $175-225/hour
-- Premium (strong portfolio): $225-275/hour
+- Conservative: $165-190/hour
+- Market rate: $190-248/hour
+- Premium (strong portfolio): $248-303/hour
 
 **After Year 1**: Increase 15-25% annually based on demand and experience.
 
@@ -1036,5 +1036,5 @@ Portfolio Project: Healthcare PAM Implementation
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 2.0
+**Last Updated**: 2026-04-07
+**Version**: 2.1

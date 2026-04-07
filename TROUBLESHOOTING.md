@@ -1149,7 +1149,7 @@ trivy image --ignorefile .trivyignore myimage:latest
 
 # Option 2: Upgrade base image
 # Change Dockerfile FROM
-FROM alpine:3.18  # Instead of alpine:3.17
+FROM alpine:3.21  # Instead of alpine:3.20
 ```
 
 **Issue 2: SAST Tool False Positives**
@@ -1201,5 +1201,5 @@ git commit --no-verify -m "Emergency fix: documented false positive"
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 2.0
+**Last Updated**: 2026-04-07
+**Version**: 2.1

@@ -1085,7 +1085,7 @@ jobs:
 # .pre-commit-config.yaml
 repos:
   - repo: https://github.com/gitleaks/gitleaks
-    rev: v8.18.0
+    rev: v8.23.0
     hooks:
       - id: gitleaks
 
@@ -1240,5 +1240,5 @@ env:
 
 ---
 
-**Last Updated**: 2025-12-04
-**Version**: 1.0
+**Last Updated**: 2026-04-07
+**Version**: 1.1

@@ -31,7 +31,7 @@
 
 **First Introduced**: November 2020
 
-**Current Version**: CKS 1.29 (Updates regularly with Kubernetes versions)
+**Current Version**: CKS 1.32 (Updates regularly with Kubernetes versions; as of April 2026 the exam tracks Kubernetes 1.32, with 1.33/1.34 expected later in 2026)
 
 ### Why CKS?
 
@@ -43,13 +43,13 @@
 - ✅ **Consulting Credibility**: Essential for Kubernetes security consultants
 - ✅ **Complements PAM/Conjur**: Perfect fit for secrets management in K8s
 
-**CKS Holders Worldwide (2025)**: ~15,000+ professionals
+**CKS Holders Worldwide (2026)**: ~30,000+ professionals
 
 **Average Salary Impact:**
-- Without CKS: $95,000-120,000
-- With CKS: $120,000-150,000
-- **With CKS + CKA + CKAD**: $130,000-170,000
-- **Consultant Rates**: $200-400/hour (CKS adds $50-100/hour premium)
+- Without CKS: $108,000-135,000
+- With CKS: $138,000-172,000
+- **With CKS + CKA + CKAD**: $148,000-195,000
+- **Consultant Rates**: $230-460/hour (CKS adds $60-120/hour premium)
 
 ### CKS in the 27-Month Roadmap
 
@@ -115,7 +115,7 @@ CKS (Certified Kubernetes Security Specialist) ← YOU ARE HERE
 
 ## The Six CKS Domains
 
-### Domain Breakdown (CKS 1.29)
+### Domain Breakdown (CKS 1.32)
 
 | Domain | Weight | Exam Tasks (~) | Study Hours |
 |--------|--------|----------------|-------------|
@@ -255,7 +255,7 @@ kubectl describe sa <name>
 
 # Upgrades
 kubeadm upgrade plan
-kubeadm upgrade apply v1.29.0
+kubeadm upgrade apply v1.32.0
 kubectl drain <node> --ignore-daemonsets
 kubectl uncordon <node>
 ```
@@ -368,16 +368,24 @@ Time: 3-5 minutes
 
 **Solution Approach:**
 ```yaml
+# K8s 1.30+ native field (GA in 1.30, preferred over annotation):
 apiVersion: v1
 kind: Pod
 metadata:
   name: web-app
-  annotations:
-    container.apparmor.security.beta.kubernetes.io/nginx: localhost/docker-default
 spec:
   containers:
   - name: nginx
     image: nginx:1.21
+    securityContext:
+      appArmorProfile:
+        type: Localhost
+        localhostProfile: docker-default
+
+# Legacy annotation (still accepted but deprecated as of 1.30):
+# metadata:
+#   annotations:
+#     container.apparmor.security.beta.kubernetes.io/nginx: localhost/docker-default
 ```
 
 ---
@@ -484,7 +492,7 @@ spec:
 2. **Admission Controllers**
    - ImagePolicyWebhook
    - AlwaysPullImages
-   - PodSecurityPolicy (deprecated, replaced by PSS)
+   - PodSecurityPolicy (removed in K8s 1.25, fully replaced by Pod Security Admission + PSS)
    - Validating and Mutating webhooks
 
 3. **Container Image Scanning**
@@ -1196,7 +1204,7 @@ kubectl label namespace production \
 
 # Specify version
 kubectl label namespace production \
-  pod-security.kubernetes.io/enforce-version=v1.29
+  pod-security.kubernetes.io/enforce-version=v1.32
 ```
 
 **PSS Requirements for Each Level:**
@@ -2450,6 +2458,6 @@ CKS Premium: +$50-100/hour
 
 **You're ready to pass the CKS exam and become a Certified Kubernetes Security Specialist! Combined with your PAM/Conjur expertise, you're unstoppable.** 🚀☸️🔒
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
-**Aligned with**: CKS 1.29, Kubernetes 1.29
+**Last Updated**: 2026-04-07
+**Version**: 1.1
+**Aligned with**: CKS 1.32, Kubernetes 1.32

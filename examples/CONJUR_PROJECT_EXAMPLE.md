@@ -329,7 +329,7 @@ spec:
     spec:
       containers:
         - name: conjur
-          image: cyberark/conjur:latest
+          image: cyberark/conjur:1.21
           env:
             - name: CONJUR_AUTHENTICATORS
               value: "authn,authn-k8s/eks-prod"
@@ -372,7 +372,7 @@ spec:
               mountPath: /etc/secrets
               readOnly: true
         - name: conjur-secrets-provider
-          image: cyberark/secrets-provider-for-k8s:latest
+          image: cyberark/secrets-provider-for-k8s:1.5
           env:
             - name: CONJUR_AUTHN_URL
               value: "https://conjur.finservices.com/authn-k8s/eks-prod"
@@ -612,5 +612,5 @@ EOF
 
 ---
 
-*Last Updated: 2025-12-04*
-*Version: 1.0*
+*Last Updated: 2026-04-07*
+*Version: 1.1*

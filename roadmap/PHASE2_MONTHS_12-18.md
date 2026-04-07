@@ -67,7 +67,7 @@
 - Personal: Family, health, hobbies
 
 **Capstone Foundation (Week 48)**:
-- Infrastructure as Code setup (Terraform/CloudFormation)
+- Infrastructure as Code setup (Terraform 1.10+ / CloudFormation)
 - Architecture diagrams (Visio/Draw.io)
 - Implementation plan (Months 13-27 phases)
 - Timeline breakdown (weekly milestones)
@@ -351,14 +351,15 @@
 - Automated credential rotation
 
 **GitLab CI**:
-- GitLab pipeline + Conjur integration
+- GitLab pipeline + Conjur integration (GitLab 17.x syntax)
 - Secrets management in CI/CD
 - Best practices for GitLab
 
 **GitHub Actions**:
-- GitHub workflows + Conjur
-- Secrets injection in workflows
+- GitHub workflows + Conjur (Actions runner v2.x)
+- Secrets injection in workflows using OIDC (preferred over static tokens)
 - Enterprise GitHub patterns
+- **Note**: GitHub Actions now supports native OIDC federation — prefer this over long-lived credentials when integrating with Conjur
 
 ### Secrets Management Patterns
 
@@ -435,7 +436,7 @@
 
 ### Month 12: Foundation
 - Architecture design (Visio/Draw.io diagrams)
-- Infrastructure as Code setup (Terraform)
+- Infrastructure as Code setup (Terraform 1.10+)
 - Component planning
 
 ### Month 13: Conjur Component
@@ -557,5 +558,5 @@
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
+**Last Updated**: 2026-04-07
+**Version**: 1.1

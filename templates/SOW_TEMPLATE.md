@@ -120,7 +120,7 @@ Any work beyond the defined scope will require a change order with separate pric
 | **Administrator Runbooks** | Step-by-step operational procedures, 40-60 pages | Week [X] | PDF + Word |
 | **User Documentation** | End-user guides and quick reference, 15-20 pages | Week [X] | PDF |
 | **Training Materials** | Slides, videos, hands-on exercises | Week [X] | PowerPoint + Video |
-| **Compliance Documentation** | HIPAA/PCI-DSS/SOC2 control mappings, 20-30 pages | Week [X] | PDF + Excel |
+| **Compliance Documentation** | HIPAA/PCI DSS 4.0/SOC2/NIS2 control mappings, 20-30 pages | Week [X] | PDF + Excel |
 | **Hypercare Report** | Post-launch performance and recommendations, 10-15 pages | Week [X] | PDF |
 
 ---
@@ -218,17 +218,17 @@ Any work beyond the defined scope will require a change order with separate pric
 
 ### 7.1 Professional Services Fees
 
-**Consulting Rate**: $[XXX]/hour
+**Consulting Rate**: $[275–450]/hour (2026 market rate; final rate per engagement agreement)
 
 **Estimated Effort by Phase**:
 
 | Phase | Estimated Hours | Rate | Total Cost |
 |-------|----------------|------|------------|
-| Phase 1: Discovery & Design | [XX] hrs | $[XXX]/hr | $[X,XXX] |
-| Phase 2: Lab & POC | [XX] hrs | $[XXX]/hr | $[X,XXX] |
-| Phase 3: Production | [XXX] hrs | $[XXX]/hr | $[XX,XXX] |
-| Phase 4: Documentation & Training | [XX] hrs | $[XXX]/hr | $[X,XXX] |
-| Phase 5: Hypercare | [XX] hrs | $[XXX]/hr | $[X,XXX] |
+| Phase 1: Discovery & Design | [XX] hrs | $[275–450]/hr | $[X,XXX] |
+| Phase 2: Lab & POC | [XX] hrs | $[275–450]/hr | $[X,XXX] |
+| Phase 3: Production | [XXX] hrs | $[275–450]/hr | $[XX,XXX] |
+| Phase 4: Documentation & Training | [XX] hrs | $[275–450]/hr | $[X,XXX] |
+| Phase 5: Hypercare | [XX] hrs | $[275–450]/hr | $[X,XXX] |
 | **Total Professional Services** | **[XXX] hrs** | | **$[XX,XXX]** |
 
 **Note**: This is a time & materials engagement. Actual hours may vary based on project complexity. Client will be notified if estimated hours are expected to exceed 10% variance.
@@ -377,4 +377,4 @@ Date: ___________________________
 ---
 
 **Document Version**: 1.0
-**Last Updated**: [Date]
+**Last Updated**: 2026-04-07

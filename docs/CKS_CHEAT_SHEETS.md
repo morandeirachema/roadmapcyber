@@ -40,7 +40,7 @@ Comprehensive quick reference guide for the Certified Kubernetes Security Specia
 - **Number of Tasks**: 15-20 tasks
 - **Passing Score**: 67%
 - **Environment**: PSI Bridge Proctoring (remote)
-- **K8s Version**: 1.29 (check current exam version)
+- **K8s Version**: 1.32 (check current exam version; exam tracks latest stable minus one)
 - **Documentation**: kubernetes.io allowed (single tab)
 
 ### Weight Distribution
@@ -175,7 +175,7 @@ sudo ./kube-bench --config-dir cfg --config cfg/config.yaml
 | kube-apiserver | --authorization-mode | RBAC,Node |
 | kube-apiserver | --audit-log-path | /var/log/k8s-audit.log |
 | kube-apiserver | --audit-log-maxage | 30 |
-| kube-apiserver | --enable-admission-plugins | NodeRestriction,PodSecurityPolicy |
+| kube-apiserver | --enable-admission-plugins | NodeRestriction (PodSecurityPolicy removed in 1.25; use Pod Security Admission) |
 | kubelet | --anonymous-auth | false |
 | kubelet | --authorization-mode | Webhook |
 | etcd | --client-cert-auth | true |
@@ -335,7 +335,7 @@ sudo apt-get update && sudo apt-get install -y kubeadm=1.29.0-00
 sudo apt-mark hold kubeadm
 
 # Upgrade control plane
-sudo kubeadm upgrade apply v1.29.0
+sudo kubeadm upgrade apply v1.32.0
 
 # Upgrade kubelet and kubectl
 sudo apt-mark unhold kubelet kubectl
@@ -398,18 +398,27 @@ profile k8s-deny-write flags=(attach_disconnected) {
 sudo apparmor_parser -r /etc/apparmor.d/k8s-deny-write
 ```
 
-**Use in Pod**:
+**Use in Pod** (K8s 1.30+ native field, GA):
 ```yaml
 apiVersion: v1
 kind: Pod
 metadata:
   name: apparmor-pod
-  annotations:
-    container.apparmor.security.beta.kubernetes.io/secure-container: localhost/k8s-deny-write
 spec:
   containers:
   - name: secure-container
     image: nginx
+    securityContext:
+      appArmorProfile:
+        type: Localhost
+        localhostProfile: k8s-deny-write
+```
+
+**Legacy annotation** (deprecated in 1.30, still accepted):
+```yaml
+# metadata:
+#   annotations:
+#     container.apparmor.security.beta.kubernetes.io/secure-container: localhost/k8s-deny-write
 ```
 
 ### 3.2 Seccomp Profiles
@@ -1204,14 +1213,12 @@ spec:
     emptyDir: {}
 ```
 
-### Template 3: With AppArmor + Seccomp
+### Template 3: With AppArmor + Seccomp (K8s 1.30+ native fields)
 ```yaml
 apiVersion: v1
 kind: Pod
 metadata:
   name: apparmor-seccomp-pod
-  annotations:
-    container.apparmor.security.beta.kubernetes.io/app: localhost/k8s-deny-write
 spec:
   securityContext:
     runAsNonRoot: true
@@ -1228,6 +1235,9 @@ spec:
       capabilities:
         drop:
         - ALL
+      appArmorProfile:
+        type: Localhost
+        localhostProfile: k8s-deny-write
 ```
 
 ---
@@ -1769,7 +1779,7 @@ After each task:
 
 ---
 
-**Last Updated**: 2025-12-01
+**Last Updated**: 2026-04-07
 **CKS Version**: 1.29
 **Document Version**: 1.0
 **Grade**: A+ (Comprehensive quick reference for exam preparation)

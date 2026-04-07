@@ -28,9 +28,10 @@ Comprehensive guide to major compliance frameworks relevant to PAM, Conjur, Kube
 | **HIPAA** | Healthcare | PHI protection | Annual/Ongoing | Critical - access controls |
 | **PCI-DSS** | Payment cards | Cardholder data | Annual QSA/SAQ | Critical - credential mgmt |
 | **SOC 2** | Service providers | Trust services | Annual Type II | High - security controls |
-| **ISO 27001** | All | ISMS | Certification audit | High - access control |
+| **ISO 27001:2022** | All | ISMS | Certification audit | High - access control |
 | **FedRAMP** | US Government | Cloud security | Authorization | High - privileged access |
 | **GDPR** | EU data | Privacy | Supervisory authority | Moderate - access logs |
+| **NIS2** | EU critical sectors | Network/IS security | Supervisory authority | High - privileged access |
 
 ### Framework Selection Guide
 
@@ -55,10 +56,14 @@ Comprehensive guide to major compliance frameworks relevant to PAM, Conjur, Kube
 │      YES → FedRAMP required                                             │
 │                                                                         │
 │  Q6: Do they want industry-recognized security certification?           │
-│      YES → ISO 27001 recommended                                        │
+│      YES → ISO 27001:2022 recommended                                   │
+│                                                                         │
+│  Q7: Are they an EU entity in energy, transport, health, finance,       │
+│      or digital infrastructure?                                          │
+│      YES → NIS2 Directive required (in force since Oct 2024)            │
 │                                                                         │
 │  ALWAYS RECOMMENDED:                                                    │
-│  • NIST CSF as baseline framework                                       │
+│  • NIST CSF 2.0 as baseline framework                                   │
 │  • CIS Benchmarks for technical hardening                               │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
@@ -235,7 +240,7 @@ Transmission Security:
 
 ### Overview
 
-**PCI-DSS** (Payment Card Industry Data Security Standard) version 4.0 is the current standard, mandatory for organizations handling cardholder data.
+**PCI-DSS** (Payment Card Industry Data Security Standard) version 4.0 is the current standard, now in full effect (all transitional requirements were mandatory by March 2025), mandatory for organizations handling cardholder data.
 
 ### PCI-DSS Requirements Overview
 
@@ -494,7 +499,7 @@ CC7.1/CC7.2 - Monitoring:
 
 ### Overview
 
-**ISO/IEC 27001** is the international standard for Information Security Management Systems (ISMS). Certification requires third-party audit.
+**ISO/IEC 27001:2022** is the international standard for Information Security Management Systems (ISMS). The 2022 revision is now the active standard (the 2013 version was withdrawn). Certification requires third-party audit.
 
 ### ISO 27001 Annex A Controls (2022)
 
@@ -667,7 +672,7 @@ Control A.8.2 - Privileged Access Rights
 ```markdown
 # Audit Finding Response
 
-**Finding ID**: [AUDIT-2025-001]
+**Finding ID**: [AUDIT-2026-001]
 **Finding**: [Description of finding]
 **Risk Level**: [High/Medium/Low]
 **Affected Control**: [e.g., PCI-DSS 8.3.7]
@@ -804,5 +809,5 @@ Approved by: _________________ Date: _________
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
+**Last Updated**: 2026-04-07
+**Version**: 1.1

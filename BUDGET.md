@@ -10,7 +10,7 @@ Complete financial breakdown for the 27-Month Cybersecurity Roadmap.
 
 **Monthly average**: ~$93-167/month
 
-**This is an investment in your future earning potential**: After Month 27, consulting rates of $250-400/hour mean this investment pays for itself in just 6-11 billable hours.
+**This is an investment in your future earning potential**: After Month 27, consulting rates of $275-440/hour mean this investment pays for itself in just 6-11 billable hours.
 
 **Note**: Budget assumes you already have CKA certification (prerequisite for CKS). If you need to obtain CKA first, add $395 to the total investment.
 
@@ -269,29 +269,29 @@ Create a simple spreadsheet to track actual spending:
 **Total Investment**: $2,800-3,800 (reasonable mid-range with CKS)
 
 **Consulting Rates After Month 27**:
-- Conservative: $150/hour
-- Average: $250/hour
-- High-end: $400/hour
+- Conservative: $165/hour
+- Average: $275/hour
+- High-end: $440/hour
 
 **Break-Even Calculation**:
-- At $150/hr: 19-25 billable hours to break even
-- At $250/hr: 11-15 billable hours to break even
-- At $400/hr: 7-10 billable hours to break even
+- At $165/hr: 17-23 billable hours to break even
+- At $275/hr: 10-14 billable hours to break even
+- At $440/hr: 6-9 billable hours to break even
 
-**One consulting project** (40 hours at $250/hr = $10,000) pays for entire roadmap 3.5x over.
+**One consulting project** (40 hours at $275/hr = $11,000) pays for entire roadmap 3.8x over.
 
 ### Long-Term Value
 
 **Year 1 after completion** (conservative):
-- 20 hours/month billable at $150/hr = $36,000/year extra income
-- Minus $3,300 investment = $32,700 net return
+- 20 hours/month billable at $165/hr = $39,600/year extra income
+- Minus $3,300 investment = $36,300 net return
 
-**ROI**: 990% in first year (conservative scenario)
+**ROI**: 1,100% in first year (conservative scenario)
 
 **Years 2-5**:
-- Rates increase to $250-400/hr
+- Rates increase to $275-440/hr
 - Client base grows
-- Potential $100k-200k+ annual income from consulting
+- Potential $110k-220k+ annual income from consulting
 
 ---
 
@@ -349,5 +349,5 @@ Create a simple spreadsheet to track actual spending:
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
+**Last Updated**: 2026-04-07
+**Version**: 1.1

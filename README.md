@@ -12,9 +12,9 @@ A comprehensive, sustainable 27-month learning path for experienced system admin
 
 **Outcome**: Expert PAM/Conjur consultant with 4 certifications, 7-8 portfolio projects, and professional English fluency
 
-**Budget**: ~$2,150-4,100 over 27 months → See [BUDGET.md](BUDGET.md)
+**Budget**: ~$2,500-4,500 over 27 months → See [BUDGET.md](BUDGET.md)
 
-**Launch**: Consulting practice ready at Month 27, targeting $250-400/hour rates
+**Launch**: Consulting practice ready at Month 27, targeting $275-440/hour rates
 
 ---
 
@@ -179,5 +179,5 @@ This roadmap is provided as-is for educational purposes. Free to use and adapt f
 
 ---
 
-**Last Updated**: 2025-12-04
-**Version**: 2.0
+**Last Updated**: 2026-04-07
+**Version**: 2.1

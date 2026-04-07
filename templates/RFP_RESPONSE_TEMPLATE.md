@@ -55,7 +55,7 @@ Sincerely,
 - CCSP certified cloud security expertise
 - [X] documented portfolio projects demonstrating relevant experience
 - Multi-cloud expertise (AWS + Azure)
-- Healthcare/banking compliance knowledge (HIPAA, PCI-DSS, SOC2)
+- Healthcare/banking compliance knowledge (HIPAA, PCI DSS 4.0, SOC2, NIS2)
 
 ---
 
@@ -108,11 +108,11 @@ Based on the RFP, we understand your key requirements as:
 
 3. **Cloud Integration**:
    - AWS IAM integration for cloud workloads
-   - Azure AD/Entra ID integration
+   - Microsoft Entra ID integration
    - Multi-cloud secret synchronization
 
 4. **Compliance Controls**:
-   - [HIPAA/PCI-DSS/SOC2] control implementation
+   - [HIPAA/PCI DSS 4.0/SOC2/NIS2] control implementation
    - Audit logging and reporting
    - Access review workflows
 
@@ -160,7 +160,7 @@ Based on the RFP, we understand your key requirements as:
 
 **Integration Points**:
 - Active Directory/LDAP
-- AWS IAM, Azure AD
+- AWS IAM, Microsoft Entra ID
 - CI/CD platforms (Jenkins/GitLab/GitHub Actions)
 - SIEM integration (Splunk/ELK/etc.)
 - Ticketing systems (ServiceNow/Jira/etc.)
@@ -238,7 +238,7 @@ Based on the RFP, we understand your key requirements as:
 **Project 1: [Healthcare PAM Implementation]**
 - Client: [Anonymized - Healthcare organization]
 - Scope: HIPAA-compliant PAM for 300+ privileged accounts
-- Technologies: CyberArk PAM, Active Directory, Azure AD
+- Technologies: CyberArk PAM, Active Directory, Microsoft Entra ID
 - Outcome: Achieved HIPAA compliance, automated password rotation
 - [Link to case study]
 
@@ -246,21 +246,21 @@ Based on the RFP, we understand your key requirements as:
 - Client: [Anonymized - Financial services]
 - Scope: Conjur secrets management for CI/CD pipelines
 - Technologies: Conjur, Kubernetes, Jenkins, AWS
-- Outcome: PCI-DSS compliant secrets rotation, zero-downtime deployment
+- Outcome: PCI DSS 4.0 compliant secrets rotation, zero-downtime deployment
 - [Link to case study]
 
 **Project 3: [Multi-Cloud PAM Architecture]**
 - Scope: Enterprise PAM across AWS and Azure
-- Technologies: CyberArk PAM, Conjur, AWS IAM, Azure AD
+- Technologies: CyberArk PAM, Conjur, AWS IAM, Microsoft Entra ID
 - Outcome: Unified secrets management across clouds
 - [Link to portfolio project]
 
 ### Technical Skills
 - **PAM**: CyberArk PAM, Conjur, secrets management, password vaulting
-- **Cloud**: AWS (IAM, KMS, Secrets Manager), Azure (Key Vault, Azure AD)
+- **Cloud**: AWS (IAM, KMS, Secrets Manager), Azure (Key Vault, Microsoft Entra ID)
 - **Containers**: Kubernetes, Docker, OpenShift
 - **DevSecOps**: Jenkins, GitLab CI, GitHub Actions, CI/CD security
-- **Compliance**: HIPAA, PCI-DSS, SOC2, GDPR implementation
+- **Compliance**: HIPAA, PCI DSS 4.0, SOC2, GDPR, NIS2, NIST CSF 2.0, ISO 27001:2022 implementation
 - **Languages**: English (fluent), [Other languages]
 
 ---
@@ -269,7 +269,7 @@ Based on the RFP, we understand your key requirements as:
 
 ### Professional Services Fees
 
-**Consulting Rate**: $[XXX]/hour
+**Consulting Rate**: $275–450/hour (depending on engagement scope and seniority)
 
 **Estimated Hours by Phase**:
 | Phase | Estimated Hours | Cost |
@@ -310,7 +310,7 @@ The following are not included in this proposal and would be quoted separately:
 ### Client References
 Available upon request. References include:
 - Healthcare organization (HIPAA compliance project)
-- Financial services firm (PCI-DSS secrets management)
+- Financial services firm (PCI DSS 4.0 secrets management)
 - Enterprise technology company (multi-cloud PAM)
 
 ### Online Portfolio
@@ -392,5 +392,5 @@ I look forward to the opportunity to work with [Client Name] on this important s
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
+**Last Updated**: 2026-04-07
+**Version**: 1.1

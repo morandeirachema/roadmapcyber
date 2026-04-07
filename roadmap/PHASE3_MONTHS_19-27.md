@@ -43,7 +43,7 @@
 - ✅ Enterprise capstone project fully operational
 - ✅ Professional English fluency for consulting
 - ✅ **CONSULTING PRACTICE LAUNCHED**
-- ✅ Ready for $250-400/hour consulting rates
+- ✅ Ready for $275-450/hour consulting rates
 
 ---
 
@@ -95,7 +95,7 @@
 - **Week 77**: AWS KMS deep dive (encryption, key management)
 - **Week 78**: AWS Secrets Manager + CloudHSM
 - **Week 79**: AWS VPC security + Security Groups + NACLs
-- **Week 80**: AWS security architecture consolidation
+- **Week 80**: AWS security architecture consolidation + new services review
 
 **Key Topics**:
 - AWS KMS (Key Management Service) encryption
@@ -104,6 +104,9 @@
 - VPC security architecture
 - Security Groups and NACLs
 - Network security best practices
+- **AWS Security Lake** (centralized security data; GA as of 2024, widely adopted by 2026)
+- **AWS IAM Identity Center** (successor to SSO — understand federation with PAM)
+- **Amazon GuardDuty** threat detection integration with PAM workflows
 
 **Deliverables**:
 - AWS KMS encryption labs complete
@@ -194,17 +197,50 @@
 
 **Key Topics**:
 - Azure Key Vault for secrets management
-- Azure Defender for Cloud (formerly Security Center)
+- Microsoft Defender for Cloud (formerly Security Center; includes CSPM and Defender CWPP as of 2026)
 - Azure application security
 - Network Security Groups (NSGs)
 - Application Security Groups (ASGs)
 - Azure Firewall and network protection
+- **Microsoft Entra ID** (formerly Azure AD — use current branding in all docs and proposals)
+- **Microsoft Entra Permissions Management** (CIEM — Cloud Infrastructure Entitlement Management; key companion to PAM for cloud)
+- **Microsoft Security Copilot** (AI-assisted security operations; understand positioning vs PAM consulting)
 
 **Deliverables**:
 - Azure Key Vault labs complete
 - Azure Defender implementation
 - Azure network security documentation
 - Capstone Azure security services integrated
+
+#### AI Security & LLM Security — Emerging PAM Consulting Opportunity (2026)
+
+**Study Time**: 2-3 hours total (integrated into Month 23)
+
+**Objective**: Understand AI/LLM security as a rapidly growing adjacent consulting area that intersects directly with PAM and secrets management.
+
+**Why This Matters for PAM Consultants**:
+By 2026, enterprises deploying LLMs (ChatGPT Enterprise, Copilot for Microsoft 365, Amazon Bedrock, etc.) face a new category of privileged access problem: AI agents and pipelines need credentials, API keys, and secrets just like traditional workloads — but at far greater scale and with harder-to-audit access patterns.
+
+**Key Concepts**:
+- **Non-human identities for AI agents**: LLM-based agents require API keys and service credentials → Conjur/CyberArk is the natural solution
+- **Secrets sprawl from AI toolchains**: LLMOps pipelines (LangChain, LlamaIndex, AutoGen) often hardcode API keys — PAM/Conjur addresses this
+- **AI supply chain risk**: Model poisoning, prompt injection, and compromised model weights — understand how PAM controls access to model endpoints
+- **OWASP LLM Top 10**: Familiarize yourself with this framework (published 2023, widely referenced in 2026) — [https://owasp.org/www-project-top-10-for-large-language-model-applications/](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- **Agentic AI and Just-in-Time access**: AI agents that autonomously call APIs are prime use cases for JIT privileged access via CyberArk
+
+**Consulting Angle**:
+When prospects ask about AI security, position PAM as the foundational control: "Before you can secure your AI pipelines, you must secure the credentials those pipelines use." This makes Conjur/CyberArk essential — not optional — for any enterprise AI adoption.
+
+**Hands-On Lab** (1 hour):
+- Deploy a simple LangChain or Python script that fetches a secret from Conjur instead of hardcoding an API key
+- Document this as a portfolio addendum: "Securing AI Agent Credentials with CyberArk Conjur"
+
+**Deliverables**:
+- One-page brief: "AI Security and PAM — Why They Belong Together"
+- Add AI security talking points to consulting pitch deck
+- LinkedIn post: "Why AI adoption makes PAM more important, not less"
+
+---
 
 #### Zero Trust Architecture & PAM
 
@@ -517,7 +553,7 @@ When selling PAM consulting services, position PAM as:
 ### Months 23-26: Consulting Materials
 - Polish RFP/SOW templates
 - Create proposal examples
-- Develop rate card ($250-400/hour)
+- Develop rate card ($275-450/hour)
 - Service offerings documentation
 
 ### Month 27: Launch Preparation
@@ -639,7 +675,7 @@ When selling PAM consulting services, position PAM as:
 - ✅ Professional English fluency
 - ✅ RFP/SOW templates ready
 - ✅ Proposal examples prepared
-- ✅ Rate card defined ($250-400/hour)
+- ✅ Rate card defined ($275-450/hour)
 - ✅ Service offerings documented
 - ✅ Professional online presence (LinkedIn, portfolio website)
 
@@ -647,7 +683,7 @@ When selling PAM consulting services, position PAM as:
 - Healthcare clients (HIPAA + PAM expertise)
 - Banking clients (PCI-DSS + secrets management)
 - Enterprise clients (multi-cloud security architecture)
-- Independent consulting ($250-400/hour rates)
+- Independent consulting ($275-450/hour rates)
 
 ---
 
@@ -715,5 +751,5 @@ See MONTH_BY_MONTH_SCHEDULE.md Appendix for optional CISSP study plan.
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
+**Last Updated**: 2026-04-07
+**Version**: 1.1

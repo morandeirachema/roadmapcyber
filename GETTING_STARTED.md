@@ -18,7 +18,7 @@ You're about to embark on a 27-month journey to become an expert PAM/Conjur cons
 - [ ] You're currently employed and want to transition to consulting
 - [ ] You want a sustainable, family-friendly learning pace
 - [ ] You're willing to learn/improve English for consulting
-- [ ] You have $2,150-4,100 budget for certifications and labs
+- [ ] You have $2,500-4,500 budget for certifications and labs
 - [ ] You want to work with healthcare, banking, or enterprise clients
 
 ### ⚠️ Consider Adjustments If:
@@ -131,7 +131,7 @@ This roadmap assumes you have foundational IT/systems administration skills. Com
 
 ### Budget Confirmation
 
-Total investment: **$2,150-4,100** over 27 months (~$80-152/month)
+Total investment: **$2,500-4,500** over 27 months (~$93-167/month)
 
 **Breakdown**:
 - Certifications: $1,350-2,100
@@ -165,7 +165,7 @@ Your first week should feel productive and set up success. Here's what to accomp
 - [ ] Bookmark [QUICKSTART.md](QUICKSTART.md) for daily use
 
 ### Day 5: Lab Environment
-- [ ] Create 2-3 Linux VMs (Ubuntu 22.04 recommended)
+- [ ] Create 2-3 Linux VMs (Ubuntu 24.04 recommended)
 - [ ] Deploy first Kubernetes cluster with Minikube
 - [ ] Test Docker installation (run `docker run hello-world`)
 - [ ] Create GitHub repository for notes/projects
@@ -541,5 +541,5 @@ Welcome to the roadmap! 🚀
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
+**Last Updated**: 2026-04-07
+**Version**: 1.1

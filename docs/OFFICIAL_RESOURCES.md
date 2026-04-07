@@ -28,6 +28,7 @@ Curated collection of official documentation, training resources, and authoritat
 | CyberArk Campus | [cyberark.com/services-support/cyberark-campus](https://www.cyberark.com/services-support/cyberark-campus/) | Free training and labs |
 | CyberArk Community | [community.cyberark.com](https://community.cyberark.com) | Forums and discussions |
 | CyberArk Support | [cyberark-customers.force.com](https://cyberark-customers.force.com/s/) | Customer support portal |
+| CyberArk Trust Portal | [trust.cyberark.com](https://trust.cyberark.com) | Security and compliance status |
 
 ### Product-Specific Documentation
 
@@ -37,6 +38,7 @@ Curated collection of official documentation, training resources, and authoritat
 | Conjur Secrets Manager | [Conjur Documentation](https://docs.cyberark.com/conjur-cloud/latest/en/content/landing/landingpgs/landing-conjur.htm) |
 | Endpoint Privilege Manager | [EPM Documentation](https://docs.cyberark.com/epm/latest/en/content/landing/landingpgs/landing-epm.htm) |
 | Identity Security Platform | [Identity Documentation](https://docs.cyberark.com/identity/latest/en/content/landing/landingpgs/landing-identity.htm) |
+| CyberArk Secure Browser | [Secure Browser Docs](https://docs.cyberark.com/secure-browser/latest/en/content/landing/landingpgs/landing-securebrowser.htm) |
 
 ### Certification Resources
 
@@ -75,10 +77,11 @@ Curated collection of official documentation, training resources, and authoritat
 
 | Resource | URL |
 |----------|-----|
-| CNCF CKS Curriculum | [CKS Curriculum PDF](https://github.com/cncf/curriculum/blob/master/CKS_Curriculum.pdf) |
+| CNCF CKS Curriculum | [CKS Curriculum (GitHub)](https://github.com/cncf/curriculum) | Check repo for current version |
 | CKS Exam Registration | [Linux Foundation CKS](https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/) |
-| Killer.sh Practice | [killer.sh](https://killer.sh/) |
+| Killer.sh Practice | [killer.sh](https://killer.sh/) | Included free with exam purchase |
 | KodeKloud CKS Course | [kodekloud.com](https://kodekloud.com/courses/certified-kubernetes-security-specialist-cks/) |
+| CNCF Kubernetes Security Audit | [CNCF Security Audits](https://github.com/cncf/tag-security/tree/main/assessments) | Third-party security assessments |
 
 ### Community Study Resources
 
@@ -130,11 +133,12 @@ Curated collection of official documentation, training resources, and authoritat
 
 | Resource | URL |
 |----------|-----|
-| ISC² Official Site | [isc2.org](https://www.isc2.org/) |
-| CCSP Certification | [CCSP Overview](https://www.isc2.org/Certifications/CCSP) |
-| CCSP Exam Outline | [CCSP Exam Outline](https://www.isc2.org/Certifications/CCSP/Certification-Exam-Outline) |
-| CISSP Certification | [CISSP Overview](https://www.isc2.org/Certifications/CISSP) |
-| ISC² Study Resources | [ISC² Learning](https://www.isc2.org/Training) |
+| ISC2 Official Site | [isc2.org](https://www.isc2.org/) | Note: rebranded from (ISC)² to ISC2 in 2023 |
+| CCSP Certification | [CCSP Overview](https://www.isc2.org/certifications/ccsp) |
+| CCSP Exam Outline | [CCSP Exam Outline (2024 CBK)](https://www.isc2.org/certifications/ccsp/ccsp-certification-exam-outline) |
+| CISSP Certification | [CISSP Overview](https://www.isc2.org/certifications/cissp) |
+| ISC2 Study Resources | [ISC2 Learning](https://www.isc2.org/training) |
+| ISC2 Member Portal | [ISC2 CPE Portal](https://www.isc2.org/mymembership) | CPE submission and AMF payment |
 
 ### Linux Foundation (CKA, CKS)
 
@@ -154,9 +158,9 @@ Curated collection of official documentation, training resources, and authoritat
 | Standard | URL | Description |
 |----------|-----|-------------|
 | NIST Cybersecurity Framework | [CSF](https://www.nist.gov/cyberframework) | Risk management framework |
-| NIST SP 800-207 (Zero Trust) | [SP 800-207](https://csrc.nist.gov/publications/detail/sp/800-207/final) | Zero Trust Architecture |
-| NIST SP 800-53 (Security Controls) | [SP 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) | Security controls catalog |
-| NIST SP 800-63 (Digital Identity) | [SP 800-63](https://pages.nist.gov/800-63-3/) | Identity guidelines |
+| NIST SP 800-207 (Zero Trust) | [SP 800-207](https://csrc.nist.gov/pubs/sp/800/207/final) | Zero Trust Architecture *(URL updated; old /publications/detail path redirects)* |
+| NIST SP 800-53 (Security Controls) | [SP 800-53](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) | Security controls catalog Rev 5 Update 1 |
+| NIST SP 800-63 (Digital Identity) | [SP 800-63B](https://pages.nist.gov/800-63-4/) | Identity guidelines (63-4 draft in progress as of 2026) |
 
 ### Industry Compliance
 
@@ -190,6 +194,8 @@ Curated collection of official documentation, training resources, and authoritat
 | kubesec | [kubesec.io](https://kubesec.io/) | Security risk analysis |
 | OPA/Gatekeeper | [open-policy-agent.github.io](https://open-policy-agent.github.io/gatekeeper/) | Policy engine |
 | Kyverno | [kyverno.io](https://kyverno.io/) | Policy management |
+| Sigstore/cosign | [sigstore.dev](https://www.sigstore.dev/) | Image signing and supply chain security |
+| Tetragon | [tetragon.io](https://tetragon.io/) | eBPF-based runtime security (Cilium project) |
 
 ### Secrets Management
 
@@ -228,7 +234,7 @@ Curated collection of official documentation, training resources, and authoritat
 |----------|-----|----------|
 | KodeKloud | [kodekloud.com](https://kodekloud.com/) | Kubernetes, DevOps |
 | A Cloud Guru | [acloudguru.com](https://acloudguru.com/) | Cloud certifications |
-| Linux Academy | [linuxacademy.com](https://linuxacademy.com/) | Linux, Cloud |
+| Linux Academy | [linuxacademy.com](https://linuxacademy.com/) | Linux, Cloud *(Note: merged into A Cloud Guru; URL may redirect or be inactive)* |
 | Udemy | [udemy.com](https://www.udemy.com/) | Various topics |
 | Pluralsight | [pluralsight.com](https://www.pluralsight.com/) | Technology skills |
 
@@ -281,9 +287,9 @@ Curated collection of official documentation, training resources, and authoritat
 - [AWS Security Best Practices](https://aws.amazon.com/architecture/security-identity-compliance/)
 - [Azure Security Benchmark](https://learn.microsoft.com/en-us/security/benchmark/azure/)
 - [ISC² CCSP Exam Outline](https://www.isc2.org/Certifications/CCSP/Certification-Exam-Outline)
-- [NIST SP 800-207 Zero Trust](https://csrc.nist.gov/publications/detail/sp/800-207/final)
+- [NIST SP 800-207 Zero Trust](https://csrc.nist.gov/pubs/sp/800/207/final)
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
+**Last Updated**: 2026-04-07
+**Version**: 1.1

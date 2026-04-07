@@ -5,7 +5,7 @@ Practical lab exercises with actual commands for Months 12-18. These labs comple
 **Prerequisites**:
 - Phase 1 completed (Kubernetes cluster operational)
 - Docker and kubectl installed
-- Helm 3.x installed
+- Helm 3.17+ installed
 - Basic CI/CD understanding
 - Cloud provider accounts (AWS/Azure free tier acceptable)
 
@@ -25,7 +25,7 @@ Practical lab exercises with actual commands for Months 12-18. These labs comple
 8. [CI/CD Integration - GitLab CI](#cicd-integration---gitlab-ci)
 9. [CI/CD Integration - GitHub Actions](#cicd-integration---github-actions)
 10. [AWS IAM Integration](#aws-iam-integration)
-11. [Azure AD Integration](#azure-ad-integration)
+11. [Azure / Entra ID Integration](#azure-ad-integration)
 12. [Multi-Cloud Secrets Orchestration](#multi-cloud-secrets-orchestration)
 13. [Troubleshooting Commands](#troubleshooting-commands)
 
@@ -1788,14 +1788,14 @@ def lambda_handler(event, context):
 
 ---
 
-## Azure AD Integration
+## Azure / Entra ID Integration
 
-### Lab 11.1: Azure AD Authenticator Setup (Month 16, Week 62)
+### Lab 11.1: Microsoft Entra ID Authenticator Setup (Month 16, Week 62)
 
 ```bash
-# Create Azure AD authenticator policy in Conjur
+# Create Entra ID authenticator policy in Conjur
 cat <<'EOF' > policy/azure-authenticator.yml
-# Azure AD Authenticator Policy
+# Microsoft Entra ID Authenticator Policy
 - !policy
   id: conjur/authn-azure/azure
   body:
@@ -1872,7 +1872,7 @@ cat <<'EOF' > policy/azure-authenticator.yml
         - !variable keyvault/client-secret
 EOF
 
-# Load Azure AD policy
+# Load Entra ID policy
 docker exec -i conjur-cli conjur policy load -b root -f - < policy/azure-authenticator.yml
 
 # Set Azure provider URI
@@ -2201,9 +2201,9 @@ rm -rf ~/conjur-lab
 - [Conjur OSS GitHub](https://github.com/cyberark/conjur)
 - [Secretless Broker](https://secretless.io/)
 - [AWS IAM Authenticator](https://docs.conjur.org/Latest/en/Content/Integrations/Authn-IAM/IAM-authenticator.htm)
-- [Azure AD Authenticator](https://docs.conjur.org/Latest/en/Content/Integrations/Authn-Azure/azure-authenticator.htm)
+- [Microsoft Entra ID Authenticator](https://docs.conjur.org/Latest/en/Content/Integrations/Authn-Azure/azure-authenticator.htm)
 
 ---
 
-**Last Updated**: 2025-12-04
+**Last Updated**: 2026-04-07
 **Version**: 1.0

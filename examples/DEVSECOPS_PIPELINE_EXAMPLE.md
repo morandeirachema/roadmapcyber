@@ -77,6 +77,7 @@
 | Trivy | Container scanning | Build stage |
 | OWASP ZAP | DAST scanning | Test stage |
 | Falco | Runtime security | Production |
+| Detect-Secrets / TruffleHog | AI-generated code secret scanning | Pre-commit, CI |
 
 ---
 
@@ -129,9 +130,9 @@ lint-dockerfile:
 # ============================================
 build-app:
   stage: build
-  image: docker:24.0
+  image: docker:27
   services:
-    - docker:24.0-dind
+    - docker:27-dind
   id_tokens:
     CONJUR_TOKEN:
       aud: https://conjur.retailco.com
@@ -236,7 +237,7 @@ container-scan:
 # ============================================
 unit-tests:
   stage: test
-  image: node:18-alpine
+  image: node:22-alpine
   id_tokens:
     CONJUR_TOKEN:
       aud: https://conjur.retailco.com
@@ -262,9 +263,9 @@ unit-tests:
 
 integration-tests:
   stage: test
-  image: node:18-alpine
+  image: node:22-alpine
   services:
-    - name: postgres:14
+    - name: postgres:16
       alias: testdb
   variables:
     POSTGRES_DB: testdb
@@ -282,7 +283,7 @@ integration-tests:
 # ============================================
 dast-scan:
   stage: dast
-  image: owasp/zap2docker-stable
+  image: zaproxy/zap-stable
   services:
     - name: ${DOCKER_IMAGE}
       alias: target-app
@@ -311,7 +312,7 @@ dast-scan:
 # ============================================
 deploy-staging:
   stage: deploy-staging
-  image: bitnami/kubectl:latest
+  image: bitnami/kubectl:1.32
   id_tokens:
     CONJUR_TOKEN:
       aud: https://conjur.retailco.com
@@ -337,7 +338,7 @@ deploy-staging:
 # ============================================
 deploy-production:
   stage: deploy-production
-  image: bitnami/kubectl:latest
+  image: bitnami/kubectl:1.32
   id_tokens:
     CONJUR_TOKEN:
       aud: https://conjur.retailco.com
@@ -476,39 +477,39 @@ deploy-production:
 repos:
   # Secret detection
   - repo: https://github.com/gitleaks/gitleaks
-    rev: v8.18.0
+    rev: v8.21.2
     hooks:
       - id: gitleaks
 
   # Dockerfile linting
   - repo: https://github.com/hadolint/hadolint
-    rev: v2.12.0
+    rev: v2.13.0
     hooks:
       - id: hadolint-docker
 
   # YAML linting
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.32.0
+    rev: v1.35.1
     hooks:
       - id: yamllint
         args: [--strict]
 
   # Shell script linting
   - repo: https://github.com/shellcheck-py/shellcheck-py
-    rev: v0.9.0.6
+    rev: v0.10.0.1
     hooks:
       - id: shellcheck
 
   # Terraform security
   - repo: https://github.com/antonbabenko/pre-commit-terraform
-    rev: v1.83.5
+    rev: v1.96.1
     hooks:
-      - id: terraform_tfsec
+      - id: terraform_trivy
       - id: terraform_checkov
 
   # Python security
   - repo: https://github.com/PyCQA/bandit
-    rev: 1.7.5
+    rev: 1.8.3
     hooks:
       - id: bandit
         args: ["-r", "src/"]
@@ -543,7 +544,7 @@ services:
       - db
 
   db:
-    image: postgres:14
+    image: postgres:16
     environment:
       POSTGRES_DB: defectdojo
       POSTGRES_USER: defectdojo
@@ -713,10 +714,10 @@ if __name__ == "__main__":
 ### Compliance Status
 | Control | Status | Evidence |
 |---------|--------|----------|
-| PCI-DSS 6.5 | Compliant | SAST/DAST reports |
-| PCI-DSS 6.6 | Compliant | Security testing |
-| PCI-DSS 10.1 | Compliant | Audit logs |
-| PCI-DSS 10.2 | Compliant | Activity tracking |
+| PCI DSS 4.0 Req 6.3 | Compliant | SAST/DAST reports |
+| PCI DSS 4.0 Req 6.4 | Compliant | Security testing |
+| PCI DSS 4.0 Req 10.2 | Compliant | Audit logs |
+| PCI DSS 4.0 Req 10.3 | Compliant | Activity tracking |
 
 ---
 
@@ -740,6 +741,7 @@ if __name__ == "__main__":
 3. Provide clear remediation guidance with findings
 4. Track metrics from day one
 5. Integrate with existing developer workflows
+6. **AI/LLM security**: As development teams adopt AI coding assistants (GitHub Copilot, Claude, etc.), enforce enhanced secret scanning and prompt-injection checks for AI-generated code. Include LLM-specific threat modeling (indirect prompt injection, model supply-chain risks) if your pipeline interacts with LLM APIs.
 
 ---
 
@@ -750,5 +752,5 @@ if __name__ == "__main__":
 
 ---
 
-*Last Updated: 2025-12-04*
-*Version: 1.0*
+*Last Updated: 2026-04-07*
+*Version: 1.1*

@@ -28,8 +28,10 @@
 ### Certifications Earned
 
 - **CyberArk Defender** (Month 5) - Foundation level
-- **CyberArk Sentry** (Month 8) - Advanced administration
-- **CyberArk Guardian** (Month 11) - Expert level
+- **CyberArk Sentry** (Month 8) - Intermediate administration
+- **CyberArk Guardian** (Month 11) - Advanced level
+
+**CyberArk Certification Path (2026)**: Defender → Sentry → Guardian → Trustee (architect-level, optional post-M27)
 
 See [docs/CYBERARK_CERTIFICATIONS.md](../docs/CYBERARK_CERTIFICATIONS.md) for detailed preparation guides.
 
@@ -232,6 +234,8 @@ See [docs/CYBERARK_CERTIFICATIONS.md](../docs/CYBERARK_CERTIFICATIONS.md) for de
 **Month 9: K8s Consolidation + CKS Preparation (Part 1)**
 
 **Objective**: Confirm K8s mastery, begin CKS certification preparation, develop consulting skills
+
+> **K8s Version Note (2026)**: CKS exam now tracks Kubernetes 1.32+. Lab clusters should run Kubernetes 1.35 (current stable as of April 2026) using kubectl 1.35 and Helm 3.17+. Use `kubeadm` or `kind` v0.27+ for local clusters.
 
 **Time Allocation**:
 - Study: 4 hrs/week (CKS study intensive)
@@ -521,5 +525,5 @@ See [docs/CYBERARK_CERTIFICATIONS.md](../docs/CYBERARK_CERTIFICATIONS.md) for de
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
+**Last Updated**: 2026-04-07
+**Version**: 1.1

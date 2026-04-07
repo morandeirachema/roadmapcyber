@@ -238,7 +238,7 @@ This English learning plan is **integrated** into your technical studies, not se
 - ✅ Can write professional proposals and RFP responses
 - ✅ Can negotiate and discuss SOWs
 - ✅ **Consulting-level English fluency achieved**
-- ✅ **Ready for $250-400/hour consulting**
+- ✅ **Ready for $275-450/hour consulting**
 
 ---
 
@@ -398,5 +398,5 @@ This English learning plan is **integrated** into your technical studies, not se
 
 ---
 
-**Last Updated**: 2025-12-01
-**Version**: 1.0
+**Last Updated**: 2026-04-07
+**Version**: 1.1

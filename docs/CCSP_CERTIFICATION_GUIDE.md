@@ -29,7 +29,7 @@
 
 **First Introduced**: 2015
 
-**Current Version**: 2024 CBK (Common Body of Knowledge)
+**Current Version**: 2024 CBK (Common Body of Knowledge; domains and weights updated April 2024, in effect through 2026)
 
 ### Why CCSP?
 
@@ -40,12 +40,12 @@
 - ✅ **Consulting Credibility**: Essential for cloud security consultants
 - ✅ **Comprehensive**: Covers all aspects of cloud security (architecture, operations, compliance)
 
-**CCSP Holders Worldwide (2025)**: ~75,000+ professionals
+**CCSP Holders Worldwide (2026)**: ~95,000+ professionals (ISC2 passed 650,000 total members in 2025, growing into 2026)
 
 **Average Salary Impact:**
-- Without CCSP: $105,000-130,000
-- With CCSP: $135,000-175,000
-- **Consultant Rates**: $250-450/hour (CCSP adds $50-100/hour premium)
+- Without CCSP: $118,000-148,000
+- With CCSP: $152,000-198,000
+- **Consultant Rates**: $280-510/hour (CCSP adds $60-120/hour premium)
 
 ---
 
@@ -82,7 +82,7 @@
 
 ## The Six CCSP Domains
 
-### Domain Breakdown (2024 CBK)
+### Domain Breakdown (2024 CBK — current through 2026)
 
 | Domain | Weight | Exam Questions (~) | Study Hours |
 |--------|--------|-------------------|-------------|
@@ -1014,8 +1014,9 @@ NOT: Fix the issue immediately without notification
 
 **Step 4: Pay AMF (Annual Maintenance Fee)**
 ```
-□ $125 USD annually (prorated for first year)
+□ $125 USD annually (prorated for first year; verify current fee at isc2.org)
 □ Required to maintain certification
+□ Note: (ISC)2 has periodically revised AMF — confirm current rate before budgeting
 ```
 
 ### Update Professional Profiles
@@ -2091,5 +2092,5 @@ Test yourself with these representative questions. Answers at the end.
 
 ---
 
-**Last Updated**: 2025-12-01
+**Last Updated**: 2026-04-07
 **Version**: 2.0

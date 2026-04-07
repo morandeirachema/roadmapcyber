@@ -55,4 +55,4 @@ One-page quick reference for your current focus. **Bookmark this page!**
 
 ---
 
-**Last Updated**: 2025-12-01 | **Version**: 2.0 (Simplified)
+**Last Updated**: 2026-04-07 | **Version**: 2.1 (Simplified)
