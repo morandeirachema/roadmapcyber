@@ -144,7 +144,7 @@ Common questions about the 18-Month Cybersecurity Roadmap.
 - No major adjustment needed
 
 **If 3-4 weeks behind**:
-- Use next recovery month (M12, M18, or M27) to catch up
+- Use next recovery month (M12 or M18) to catch up
 - Reassess weekly time commitment (can you add 2 hrs/week?)
 - Consider extending timeline by 1 month
 
@@ -299,6 +299,52 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 
 ## Career & Consulting
 
+### Q: Should I look for a job at a CyberArk partner during the roadmap?
+
+**A**: Seriously consider it after Month 8. This is the most underrated acceleration lever in the plan.
+
+After earning Guardian in M8 you have three CyberArk certifications, a functional PAM lab, and demonstrable architecture experience. That combination qualifies you for junior/mid-level PAM consultant roles at CyberArk authorized partners — the system integrators (Deloitte, Optiv, regional SI firms) who implement CyberArk at enterprise clients.
+
+**Option A — Stay independent through M18:**
+- Full flexibility to focus on OSCP prep
+- Lab time on your own schedule
+- No income during study period
+- Launch at M18 with no real client references — first client is the hardest
+
+**Option B — Get employed at a CyberArk partner at M8-9:**
+- Paid work while completing Phase 3 (OSCP track continues in parallel)
+- Real client engagements instead of lab projects
+- Build 2-3 genuine references before launching independently
+- First client is your subcontracting network, not cold outreach
+- Lower OSCP study time — factor this in before deciding
+
+**How to evaluate:**
+- If your financial situation allows 18 months without income: Option A is fine
+- If you need income OR want lower risk for first client acquisition: Option B is clearly better
+- If OSCP is your priority and you know employment would crowd it out: Option A
+
+To find firms: search LinkedIn for "CyberArk partner" and "PAM consultant" in your target market. Look for CyberArk authorized resellers and implementation partners. See also: [docs/NETWORKING_STRATEGY.md](docs/NETWORKING_STRATEGY.md)
+
+---
+
+### Q: When should I start networking and how?
+
+**A**: Month 1 — not Month 18.
+
+The most common mistake is treating networking as a post-graduation activity. By the time you have credentials, you want to already be a known face in the community, not a stranger introducing themselves for the first time.
+
+**Month 1-5:** Create LinkedIn and CyberArk Commons accounts. Optimize your LinkedIn headline and About section. Connect with 10-15 CyberArk practitioners per month. Read CyberArk Commons to understand real-world problems practitioners face — this also informs your study priorities.
+
+**Month 6-8:** Start answering Commons questions (even simple ones). Attend a local BSides security conference. Make your first 3-5 connections with CyberArk partner firms via LinkedIn — not a sales pitch, just a genuine introduction.
+
+**Month 9+:** Publish your first LinkedIn post (a short lab note, not an article — 200-300 words). Start monthly LinkedIn articles in M11. Target Pro Hacker ranking on HackTheBox by M12 — your public profile is a visible credential.
+
+**Month 13+:** Register for CyberArk Impact conference (May 2027). Increase LinkedIn posting to weekly. Submit a BSides talk proposal around M14-15.
+
+The full month-by-month networking calendar is in [docs/NETWORKING_STRATEGY.md](docs/NETWORKING_STRATEGY.md).
+
+---
+
 ### Q: How much can I really charge as a consultant after 18 months?
 
 **A**: **Realistic range: $150-350/hour**, depending on service line and market:
@@ -388,7 +434,7 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 - Smaller market but less competition
 
 **Prevention strategies**:
-- Start networking at Month 12 (don't wait until Month 18)
+- Start networking at Month 1 (don't wait until Month 18)
 - Publish articles regularly (visibility)
 - Join CyberArk community, engage actively
 - Attend security conferences/webinars; engage with OffSec/pentesting community
@@ -532,7 +578,7 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 
 **Current status**:
 - CKS has been removed from the 18-month roadmap
-- The CKS guide is archived for reference (see [docs/CKS_CERTIFICATION_GUIDE.md](docs/CKS_CERTIFICATION_GUIDE.md))
+- The CKS guide is archived for reference (see [docs/archive/CKS_CERTIFICATION_GUIDE.md](docs/archive/CKS_CERTIFICATION_GUIDE.md))
 - CKA remains the recommended K8s prerequisite — you already have it
 
 **How Kubernetes security is covered in the roadmap**:
@@ -572,7 +618,7 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
    - Audit logging
 
 **Key Resources**:
-- See [docs/CKS_CERTIFICATION_GUIDE.md](docs/CKS_CERTIFICATION_GUIDE.md) (archived)
+- See [docs/archive/CKS_CERTIFICATION_GUIDE.md](docs/archive/CKS_CERTIFICATION_GUIDE.md) (archived)
 - killer.sh practice (most similar to real exam)
 - KodeKloud CKS course (structured learning)
 
@@ -643,24 +689,24 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 
 **A**: **Start with your network, then expand.**
 
-**Phase 1: Network (Months 12-15)**:
-1. Update LinkedIn profile with certifications
-2. Inform former colleagues you're consulting
-3. Join CyberArk Community and OffSec community, engage actively
-4. Attend local security meetups
-5. Ask for referrals from current employer (carefully, don't violate agreements)
+**Phase 1: Visibility (Months 1-8)**:
+1. Optimize LinkedIn profile and connect with PAM practitioners (M1)
+2. Join CyberArk Commons — read, then answer questions starting M7
+3. Connect with CyberArk partner firms on LinkedIn
 
-**Phase 2: Content Marketing (Months 15-18)**:
-1. Publish LinkedIn articles on PAM/Conjur/pentesting topics
-2. Answer questions in CyberArk forums
-3. Create case studies from portfolio projects
-4. Start a simple blog or GitHub presence
+**Phase 2: Content Marketing (Months 9-15)**:
+1. First LinkedIn post (M9), then one article every 6-8 weeks from M11
+2. Attend at least one BSides conference
+3. Build HackTheBox public profile to Pro Hacker rank by M12
+4. Attend CyberArk Impact conference (M15)
 
-**Phase 3: Active Outreach (Month 18+)**:
-1. Contact consulting firms (subcontracting)
-2. Register with staffing agencies (Robert Half, TEKsystems)
-3. Respond to RFPs in your niche
+**Phase 3: Active Pipeline (Months 16-18+)**:
+1. Weekly LinkedIn posts; warm outreach to partner firms about subcontracting
+2. Register with staffing agencies (Robert Half, TEKsystems) if using agency channel
+3. Contact former employer about a first engagement
 4. Cold outreach to target companies (use LinkedIn Sales Navigator)
+
+See [docs/NETWORKING_STRATEGY.md](docs/NETWORKING_STRATEGY.md) for the full month-by-month calendar.
 
 **First clients often come from**:
 - Former employers (44%)
@@ -715,7 +761,7 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
    - Termination clause
 ```
 
-**See also**: [templates/CONSULTING_PROPOSAL_TEMPLATE.md](templates/CONSULTING_PROPOSAL_TEMPLATE.md) (coming in future update)
+**See also**: `templates/CONSULTING_PROPOSAL_TEMPLATE.md` (planned future addition)
 
 ---
 
@@ -1044,4 +1090,4 @@ Portfolio Project: Healthcare PAM Implementation
 ---
 
 **Last Updated**: 2026-04-14
-**Version**: 2.0
+**Version**: 2.1

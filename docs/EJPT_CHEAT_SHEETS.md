@@ -100,7 +100,7 @@ nc -vn <IP> 22
 
 ### Metasploit Basics
 
-```text
+```bash
 # Launch and initialize
 msfconsole
 
@@ -125,7 +125,7 @@ exploit
 
 ### SQL Injection — Key Test Payloads
 
-```text
+```sql
 ' OR '1'='1
 ' OR '1'='1' --
 admin' --
@@ -158,7 +158,7 @@ ipconfig /all
 route print
 ```
 
-```text
+```bash
 # In a meterpreter session — add a route to the internal subnet
 run autoroute -s 10.10.20.0/24
 

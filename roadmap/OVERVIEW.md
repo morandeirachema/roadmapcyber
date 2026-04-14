@@ -199,6 +199,39 @@ The tracks intersect: every project uses PAM knowledge from the attacker's point
 
 ---
 
+## Key Decision Points
+
+Three decisions during the program significantly affect the outcome. Make them explicitly rather than by default.
+
+### Month 1 — Networking Start
+
+**Decision**: Will you build your professional presence from Day 1 or wait until Month 18?
+
+Waiting is the wrong choice. Start LinkedIn and CyberArk Commons accounts in Week 1. The clients you will engage at Month 18 need to have seen your name somewhere before you reach out. 18 months of consistent community participation is more valuable than a cold introduction with five certifications.
+
+See [docs/NETWORKING_STRATEGY.md](../docs/NETWORKING_STRATEGY.md) for the full month-by-month plan.
+
+### Month 8 — Employment Fork
+
+**Decision**: Continue as a sole proprietor through M18, or get employed at a CyberArk partner after Guardian?
+
+After Guardian you qualify for junior PAM consultant roles at CyberArk authorized partner firms. Option A (stay independent) preserves OSCP study time and schedule flexibility. Option B (get employed) generates income, builds real client references, and makes the first consulting engagement far easier to close.
+
+Neither is wrong. Decide based on your financial situation and how much you value real client experience versus controlled lab time for OSCP.
+
+### Month 12 — OSCP Readiness Check
+
+**Decision**: Am I ready to start OSCP PEN-200 in Month 13, or do I need one more month of preparation?
+
+Before purchasing PEN-200 ($1,499), honestly assess:
+- Can you root medium-difficulty HackTheBox and TryHackMe Linux and Windows machines without heavy hints?
+- Are you comfortable with Active Directory fundamentals (Kerberoasting, BloodHound enumeration)?
+- Can you write a clear attack chain writeup in English in under 2 hours?
+
+If the answer to any of these is no, spend an extra month before starting PEN-200 — do not compress the lab time once you start the 90-day clock.
+
+---
+
 ## Why This Combination
 
 ### Market Positioning
@@ -238,8 +271,9 @@ Studying offensive techniques transforms how you design PAM:
 - [MONTH_BY_MONTH_SCHEDULE.md](MONTH_BY_MONTH_SCHEDULE.md) — Week-by-week
 - [ENGLISH_LEARNING.md](ENGLISH_LEARNING.md) — English plan
 - [CONSULTING_SKILLS.md](CONSULTING_SKILLS.md) — Business skills
+- [NETWORKING_STRATEGY.md](../docs/NETWORKING_STRATEGY.md) — Building the client pipeline
 
 ---
 
 **Last Updated**: 2026-04-14
-**Version**: 3.0
+**Version**: 3.1

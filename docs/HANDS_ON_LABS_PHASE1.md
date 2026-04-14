@@ -691,9 +691,9 @@ sudo systemctl stop k3s
 
 ## Related Documents
 
-- **Phase 1 Overview**: [PHASE1_MONTHS_1-11.md](../roadmap/PHASE1_MONTHS_1-11.md)
-- **CKS Certification Guide**: [CKS_CERTIFICATION_GUIDE.md](CKS_CERTIFICATION_GUIDE.md)
-- **CKS Cheat Sheets**: [CKS_CHEAT_SHEETS.md](CKS_CHEAT_SHEETS.md)
+- **Phase 1 Overview**: [PHASE1_MONTHS_1-11.md](../roadmap/PHASE1_MONTHS_1-6.md)
+- **CKS Certification Guide**: [CKS_CERTIFICATION_GUIDE.md](archive/CKS_CERTIFICATION_GUIDE.md)
+- **CKS Cheat Sheets**: [CKS_CHEAT_SHEETS.md](archive/CKS_CHEAT_SHEETS.md)
 - **Troubleshooting**: [TROUBLESHOOTING.md](../TROUBLESHOOTING.md)
 - **Official Resources**: [OFFICIAL_RESOURCES.md](OFFICIAL_RESOURCES.md)
 

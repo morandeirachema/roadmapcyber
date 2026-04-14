@@ -538,8 +538,8 @@ LEVEL 5: OPTIMAL (Score: 81-100)
 ## Related Documents
 
 - **PAM Implementation**: [CYBERARK_CERTIFICATIONS.md](CYBERARK_CERTIFICATIONS.md)
-- **Kubernetes Security**: [CKS_CERTIFICATION_GUIDE.md](CKS_CERTIFICATION_GUIDE.md)
-- **Cloud Security**: [CCSP_CERTIFICATION_GUIDE.md](CCSP_CERTIFICATION_GUIDE.md)
+- **Kubernetes Security**: [CKS_CERTIFICATION_GUIDE.md](archive/CKS_CERTIFICATION_GUIDE.md)
+- **Cloud Security**: [CCSP_CERTIFICATION_GUIDE.md](archive/CCSP_CERTIFICATION_GUIDE.md)
 - **Hands-On Labs**: [HANDS_ON_LABS_PHASE1.md](HANDS_ON_LABS_PHASE1.md)
 - **Official Resources**: [OFFICIAL_RESOURCES.md](OFFICIAL_RESOURCES.md)
 

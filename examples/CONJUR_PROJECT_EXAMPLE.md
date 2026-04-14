@@ -586,10 +586,10 @@ EOF
 ## Handoff Documentation
 
 ### Operations Runbook
-- [Conjur Daily Operations](../docs/runbooks/conjur-daily-ops.md)
-- [Secret Rotation Procedures](../docs/runbooks/secret-rotation.md)
-- [Follower Management](../docs/runbooks/follower-management.md)
-- [Disaster Recovery](../docs/runbooks/conjur-dr.md)
+- `conjur-daily-ops.md` — Conjur daily operations procedures
+- `secret-rotation.md` — Secret rotation procedures
+- `follower-management.md` — Follower management guide
+- `conjur-dr.md` — Disaster recovery procedures
 
 ### Support Escalation
 | Level | Contact | Response Time |

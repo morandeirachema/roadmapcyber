@@ -542,9 +542,9 @@ This consulting skills plan is **integrated** into your technical roadmap. You'l
 ## Related Documents
 
 - **[OVERVIEW.md](OVERVIEW.md)** - Complete 27-month structure
-- **[PHASE1_MONTHS_1-11.md](PHASE1_MONTHS_1-11.md)** - Phase 1 consulting activities
-- **[PHASE2_MONTHS_12-18.md](PHASE2_MONTHS_12-18.md)** - Phase 2 consulting development
-- **[PHASE3_MONTHS_19-27.md](PHASE3_MONTHS_19-27.md)** - Phase 3 launch preparation
+- **[PHASE1_MONTHS_1-6.md](PHASE1_MONTHS_1-6.md)** - Phase 1 consulting activities
+- **[PHASE2_MONTHS_7-12.md](PHASE2_MONTHS_7-12.md)** - Phase 2 consulting development
+- **[PHASE3_MONTHS_13-18.md](PHASE3_MONTHS_13-18.md)** - Phase 3 launch preparation
 - **[ENGLISH_LEARNING.md](ENGLISH_LEARNING.md)** - English fluency (complements consulting)
 - **[MONTH_BY_MONTH_SCHEDULE.md](MONTH_BY_MONTH_SCHEDULE.md)** - Weekly consulting activities
 - **[templates/RFP_RESPONSE_TEMPLATE.md](../templates/RFP_RESPONSE_TEMPLATE.md)** - RFP template

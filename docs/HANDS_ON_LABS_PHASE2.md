@@ -2187,7 +2187,7 @@ rm -rf ~/conjur-lab
 
 ## Related Documents
 
-- **Phase 2 Overview**: [PHASE2_MONTHS_12-18.md](../roadmap/PHASE2_MONTHS_12-18.md)
+- **Phase 2 Overview**: [PHASE2_MONTHS_12-18.md](../roadmap/PHASE2_MONTHS_7-12.md)
 - **Phase 1 Labs**: [HANDS_ON_LABS_PHASE1.md](HANDS_ON_LABS_PHASE1.md)
 - **DevSecOps CI/CD Guide**: [DEVOPS_CI_CD_GUIDE.md](DEVOPS_CI_CD_GUIDE.md)
 - **Multi-Cloud Patterns**: [MULTICLOUD_PATTERNS.md](MULTICLOUD_PATTERNS.md)

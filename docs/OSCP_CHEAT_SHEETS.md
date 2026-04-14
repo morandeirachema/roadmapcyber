@@ -71,7 +71,7 @@ rpcclient -U "" -N <IP>
 
 ### SQL Injection
 
-```text
+```sql
 # Manual test payloads (login forms, URL params)
 ' OR '1'='1
 ' OR '1'='1' --

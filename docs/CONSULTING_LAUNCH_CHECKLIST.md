@@ -585,7 +585,7 @@ Each repository should have:
 **Profile Checklist**:
 - [ ] Professional headshot
 - [ ] Compelling headline (not just job title)
-  - Example: "PAM & Cloud Security Consultant | CyberArk Expert | CCSP"
+  - Example: "CyberArk PAM Consultant | Penetration Tester | OSCP | DevSecOps"
 - [ ] About section with keywords
 - [ ] Experience section updated
 - [ ] All certifications listed
@@ -660,6 +660,20 @@ Decision Makers:
 - Compliance Officer
 - DevOps Director
 ```
+
+### Before You Launch: Pipeline Readiness
+
+A consulting launch without a pipeline is a credential announcement, not a business launch. By Month 18, the following should already be in motion — not starting from zero:
+
+- [ ] LinkedIn profile active and professional since M1; 500+ relevant connections
+- [ ] 6+ LinkedIn articles published (M11-M18)
+- [ ] CyberArk Commons presence established; answering questions regularly since M7
+- [ ] Attended at least 1 BSides conference
+- [ ] CyberArk Impact conference attended (M15, May 2027)
+- [ ] 2-3 warm introductions to CyberArk partner firms or potential clients
+- [ ] HackTheBox public profile at Pro Hacker rank or above
+
+If these are not in place, delay the launch by 4-6 weeks to build the pipeline before announcing. See [NETWORKING_STRATEGY.md](NETWORKING_STRATEGY.md) for the full month-by-month plan.
 
 ### Client Acquisition Channels
 
@@ -995,6 +1009,7 @@ Activities:
 - **Penetration Testing Tools**: [PENTESTING_TOOLS_GUIDE.md](PENTESTING_TOOLS_GUIDE.md)
 - **eJPT Certification Guide**: [EJPT_CERTIFICATION_GUIDE.md](EJPT_CERTIFICATION_GUIDE.md)
 - **Consulting Skills Development**: [CONSULTING_SKILLS.md](../roadmap/CONSULTING_SKILLS.md)
+- **Networking Strategy**: [NETWORKING_STRATEGY.md](NETWORKING_STRATEGY.md)
 
 ---
 
@@ -1013,4 +1028,4 @@ Activities:
 ---
 
 **Last Updated**: 2026-04-14
-**Version**: 2.0
+**Version**: 2.1

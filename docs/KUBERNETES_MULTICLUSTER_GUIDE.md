@@ -1133,7 +1133,7 @@ data:
 - **Phase 1 Labs**: [HANDS_ON_LABS_PHASE1.md](HANDS_ON_LABS_PHASE1.md)
 - **Phase 2 Labs**: [HANDS_ON_LABS_PHASE2.md](HANDS_ON_LABS_PHASE2.md)
 - **HA/DR Architecture**: [HA_DR_ARCHITECTURE.md](HA_DR_ARCHITECTURE.md)
-- **CKS Certification**: [CKS_CERTIFICATION_GUIDE.md](CKS_CERTIFICATION_GUIDE.md)
+- **CKS Certification**: [CKS_CERTIFICATION_GUIDE.md](archive/CKS_CERTIFICATION_GUIDE.md)
 
 ---
 

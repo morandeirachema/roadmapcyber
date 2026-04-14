@@ -2113,10 +2113,10 @@ az ad user delete --id testdev@yourdomain.onmicrosoft.com
 
 ## Related Documents
 
-- **Phase 3 Overview**: [PHASE3_MONTHS_19-27.md](../roadmap/PHASE3_MONTHS_19-27.md)
+- **Phase 3 Overview**: [PHASE3_MONTHS_19-27.md](../roadmap/PHASE3_MONTHS_13-18.md)
 - **Phase 1 Labs**: [HANDS_ON_LABS_PHASE1.md](HANDS_ON_LABS_PHASE1.md)
 - **Phase 2 Labs**: [HANDS_ON_LABS_PHASE2.md](HANDS_ON_LABS_PHASE2.md)
-- **CCSP Certification Guide**: [CCSP_CERTIFICATION_GUIDE.md](CCSP_CERTIFICATION_GUIDE.md)
+- **CCSP Certification Guide**: [CCSP_CERTIFICATION_GUIDE.md](archive/CCSP_CERTIFICATION_GUIDE.md)
 - **Compliance Frameworks Guide**: [COMPLIANCE_FRAMEWORKS_GUIDE.md](COMPLIANCE_FRAMEWORKS_GUIDE.md)
 - **Multi-Cloud Patterns**: [MULTICLOUD_PATTERNS.md](MULTICLOUD_PATTERNS.md)
 

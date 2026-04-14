@@ -38,7 +38,7 @@ Solutions for common problems encountered during the 27-Month Cybersecurity Road
 4. **Update your timeline**:
    - Add 4 weeks to current phase
    - Adjust subsequent milestones
-   - Update 27MONTH_PROGRESS_TRACKER.csv
+   - Update 18MONTH_PROGRESS_TRACKER.csv
 
 **Prevention for Next Time**:
 - [ ] Never schedule exam unless scoring 90%+ on practice tests consistently

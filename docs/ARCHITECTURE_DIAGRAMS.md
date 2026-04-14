@@ -526,8 +526,8 @@ Visual representations of key security architectures covered in the 27-month roa
 ## Related Documents
 
 - **CyberArk Certifications**: [CYBERARK_CERTIFICATIONS.md](CYBERARK_CERTIFICATIONS.md)
-- **CKS Certification**: [CKS_CERTIFICATION_GUIDE.md](CKS_CERTIFICATION_GUIDE.md)
-- **CCSP Certification**: [CCSP_CERTIFICATION_GUIDE.md](CCSP_CERTIFICATION_GUIDE.md)
+- **CKS Certification**: [CKS_CERTIFICATION_GUIDE.md](archive/CKS_CERTIFICATION_GUIDE.md)
+- **CCSP Certification**: [CCSP_CERTIFICATION_GUIDE.md](archive/CCSP_CERTIFICATION_GUIDE.md)
 - **Zero Trust**: [ZERO_TRUST_ARCHITECTURE.md](ZERO_TRUST_ARCHITECTURE.md)
 - **Hands-On Labs**: [HANDS_ON_LABS_PHASE1.md](HANDS_ON_LABS_PHASE1.md)
 

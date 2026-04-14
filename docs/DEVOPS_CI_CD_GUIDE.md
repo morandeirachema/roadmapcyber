@@ -1224,7 +1224,7 @@ env:
 
 - **Phase 2 Labs**: [HANDS_ON_LABS_PHASE2.md](HANDS_ON_LABS_PHASE2.md)
 - **Multi-Cloud Patterns**: [MULTICLOUD_PATTERNS.md](MULTICLOUD_PATTERNS.md)
-- **Security Best Practices**: [CKS_CHEAT_SHEETS.md](CKS_CHEAT_SHEETS.md)
+- **Security Best Practices**: [CKS_CHEAT_SHEETS.md](archive/CKS_CHEAT_SHEETS.md)
 - **Conjur Documentation**: [HANDS_ON_LABS_PHASE2.md#conjur-docker-deployment](HANDS_ON_LABS_PHASE2.md#conjur-docker-deployment)
 
 ---
