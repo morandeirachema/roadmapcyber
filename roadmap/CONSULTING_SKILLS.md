@@ -1,560 +1,355 @@
-# Consulting Skills Development: 27-Month Business Readiness Plan
+# Consulting Skills Development: 18-Month Business Readiness Plan
 
-**Objective**: Develop professional consulting skills to launch independent PAM/Conjur consulting practice
+**Objective**: Develop professional consulting skills to launch an independent PAM + Pentesting consulting practice
 
-**Starting Point**: Technical expert with no consulting experience
-**Target State**: Consulting-ready professional able to win clients, deliver projects, and charge $275-450/hour
-
-**Method**: Progressive skill development integrated with technical learning (presentations → templates → client simulation)
+**Starting Point**: Technical expert (sysadmin) with no consulting experience
+**Target State**: Consulting-ready professional able to win clients, deliver projects, and charge $175-350/hour
+**Method**: Progressive skill development integrated with technical learning — presentations, templates, client simulation
 
 ---
 
 ## Overview
 
-This consulting skills plan is **integrated** into your technical roadmap. You'll develop business skills while building technical expertise, ensuring you're ready to launch your consulting practice at Month 27.
+This plan runs **integrated** with your technical roadmap. You build business skills while building technical expertise, so you arrive at Month 18 with both the credentials and the professional materials needed to start consulting.
 
-**Core Principle**: Technical expertise alone doesn't guarantee consulting success. You need business skills, professional materials, and confidence working with clients.
-
----
-
-## 5-Phase Progression
-
-### Phase 1: Presentation Skills Foundation (Months 1-6)
-
-**Goal**: Develop confidence presenting technical topics
-
-**Activities**:
-
-**Months 1-2: Observation & Preparation**
-- Watch professional security presentations (RSA Conference, AWS re:Invent, KubeCon)
-- Study presentation structures and techniques
-- Prepare first presentation (PAM Fundamentals)
-- Practice delivery alone (record yourself)
-
-**Month 3: First Presentation**
-- **Deliver first presentation**: PAM Fundamentals (30 min)
-- Friendly audience (family, colleagues, or self-recording)
-- Get feedback on clarity and structure
-- Overcome initial nervousness
-
-**Months 4-6: Regular Practice**
-- **Month 4**: Second presentation (PAM Architecture)
-- **Month 5**: Third presentation (Sentry certification journey)
-- **Month 6**: Fourth presentation (K8s security basics)
-
-**Skills Developed**:
-- Public speaking basics
-- Slide deck creation
-- Technical explanation skills
-- Handling nervousness
-- Responding to questions
-
-**Monthly Deliverables**:
-- Month 3: First presentation delivered (30 min)
-- Month 4: Second presentation delivered (30 min)
-- Month 5: Third presentation delivered (30 min)
-- Month 6: Fourth presentation delivered (30 min)
+**Core principle**: Technical expertise alone does not guarantee consulting success. You also need to be able to run a discovery call, write a proposal, price a project, and deliver a finding that a CISO will act on.
 
 ---
 
-### Phase 2: Professional Materials Development (Months 7-12)
+## Three-Phase Progression
 
-**Goal**: Create professional consulting templates and materials
+### Phase 1: Presentation Foundation (Months 1-6)
 
-**Activities**:
+**Goal**: Develop confidence presenting technical topics to an audience
 
-**Month 7: Presentation Refinement**
-- **Month 7 presentation**: K8s Architecture (45 min - longer format)
-- Focus on professional delivery
-- Practice Q&A handling
-- Record and review
+**Month 1-2 — Observation**:
+- Watch professional security presentations (RSA Conference, KubeCon, OffSec Live)
+- Study slide structure: problem → solution → evidence → recommendation
+- Prepare first presentation (PAM Fundamentals); record yourself; watch it back
 
-**Months 8-9: RFP Template Development**
-- **Month 8**: Research RFP structures
-  - Study example RFPs online (government, enterprise)
-  - Understand common sections (executive summary, technical approach, pricing)
-  - Begin drafting first RFP response template
-- **Month 9**: Complete RFP template
-  - Create reusable RFP response template
-  - Draft sample proposal (PAM implementation project)
-  - Define consulting service offerings
+**Month 3 — First Delivery**:
+- Deliver first presentation: PAM Fundamentals (30 min)
+- Audience: colleague, family member, or solo recording — the point is to say it out loud
+- Get feedback on clarity, not on content (content is secondary at this stage)
 
-**Months 10-11: SOW Template Development**
-- **Month 10**: Research SOW best practices
-  - Study professional SOW examples
-  - Understand deliverables, milestones, payment terms
-  - Begin drafting SOW template
-- **Month 11**: Complete SOW template
-  - Create reusable SOW template
-  - Define project phases (discovery, design, implementation, handoff)
-  - Document standard deliverables
+**Months 4-6 — Regular Practice**:
+- Month 4: PAM Architecture (30 min)
+- Month 5: Sentry certification study journey (30 min)
+- Month 6: AD attack paths and what CyberArk blocks (30 min — first dual-track presentation)
 
-**Months 7-12: Portfolio Building**
-- Publish 4 portfolio projects with professional documentation
-- Create project case studies (before/after, challenges, solutions)
-- Polish GitHub presence (professional README files)
+**Skills developed**: public speaking basics, slide structure, technical explanations, handling nerves, Q&A
 
-**Skills Developed**:
-- RFP response writing
-- SOW (Statement of Work) creation
-- Proposal development
-- Service offering definition
-- Professional documentation
-- Business writing
+**Deliverables by Month 6**:
+- [ ] 4 presentations delivered
+- [ ] Comfortable presenting PAM topics without reading from slides
+
+---
+
+### Phase 2: Professional Materials (Months 7-12)
+
+**Goal**: Create reusable consulting templates and build the portfolio
+
+**Month 7 — Longer Formats**:
+- Month 7 presentation: Guardian architecture (45 min — longer format, professional delivery)
+- Practice handling hostile Q&A (prepare 3 hard questions; ask a colleague to use them)
+
+**Months 8-9 — Proposal and RFP Templates**:
+- Study 3-5 real RFP responses online (government procurement, enterprise security)
+- Draft a PAM implementation proposal using the structure in the Client Interaction Framework below
+- Create a reusable RFP response template covering: executive summary, technical approach, project plan, pricing, about you
+
+**Months 10-11 — SOW Templates**:
+- Study professional SOW examples; understand deliverables, milestones, and payment terms
+- Create a reusable PAM SOW template (use [templates/SOW_TEMPLATE.md](../templates/SOW_TEMPLATE.md) as baseline)
+- Create a reusable Pentest SOW template (use [templates/PENTEST_SOW_TEMPLATE.md](../templates/PENTEST_SOW_TEMPLATE.md))
+- Define project phases: discovery → design → implementation → knowledge transfer → hypercare
+
+**Months 7-12 — Portfolio Building**:
+- Portfolio Project 1 (PAM Lab) should be fully documented by M4
+- Portfolio Project 2 (Guardian Architecture) by M9
+- Each project: README, architecture diagram, challenge/solution narrative, lessons learned
+
+**Skills developed**: proposal writing, RFP responses, SOW creation, service definition, business writing
 
 **Deliverables by Month 12**:
-- ✅ RFP response template (reusable)
-- ✅ SOW template (reusable)
-- ✅ Sample proposal (PAM implementation)
-- ✅ Service offerings document
-- ✅ 4 portfolio projects published
-- ✅ 6 presentations delivered
+- [ ] Reusable RFP response template
+- [ ] PAM SOW template (reusable)
+- [ ] Pentest SOW template (reusable)
+- [ ] Sample proposal (PAM implementation, fully drafted)
+- [ ] Service offerings defined (at least PAM implementation + internal network pentest)
+- [ ] Portfolio Projects 1 and 2 published with professional documentation
+- [ ] 8 presentations delivered
 
 ---
 
-### Phase 3: Case Study & Narrative Development (Months 13-18)
+### Phase 3: Case Studies, Client Simulation, and Launch (Months 13-18)
 
-**Goal**: Develop compelling consulting narratives and case studies
+**Goal**: Build consulting narratives, practice client interactions, and launch
 
-**Activities**:
+**Months 13-15 — Case Studies**:
 
-**Months 13-15: Case Study Creation**
-- **Month 13**: First case study (PAM Lab Implementation)
-  - Problem statement
-  - Solution approach
-  - Technical challenges overcome
-  - Business value delivered
-  - Lessons learned
-- **Month 14**: Second case study (Conjur + K8s Integration)
-  - Multi-cloud secrets management scenario
-  - DevSecOps integration narrative
-  - Security improvements quantified
-- **Month 15**: Third case study (Multi-Cloud Architecture)
-  - Enterprise scenario
-  - AWS + Azure integration
-  - Compliance requirements (HIPAA, PCI-DSS)
+- **Month 13 — Case Study 1**: PAM Lab Build + Conjur Docker integration
+  - Problem: hardcoded credentials in CI/CD pipeline
+  - Solution: Conjur secrets injection with policy-as-code
+  - Result: zero hardcoded credentials, full audit trail
 
-**Months 16-18: Consulting Narrative Refinement**
-- **Month 16**: Develop consulting story
-  - Your journey (sysadmin → PAM/Conjur expert)
-  - Your unique value proposition
-  - Why clients should choose you
-- **Month 17**: Refine service packages
-  - Assessment services (1-2 weeks)
-  - Implementation services (4-12 weeks)
-  - Optimization services (2-4 weeks)
-  - Pricing structure ($275-450/hour)
-- **Month 18**: Polish all materials
-  - Review all templates and case studies
-  - Update portfolio projects
-  - Prepare Phase 3 consulting focus
+- **Month 14 — Case Study 2**: Conjur on Kubernetes (HA deployment + CI/CD)
+  - Multi-tenant scenario, secrets rotation, developer workflow impact
+  - Quantify: N credentials migrated, rotation time reduced from manual to automated
 
-**Skills Developed**:
-- Case study writing
-- Business storytelling
-- Value proposition articulation
-- Service packaging
-- Pricing strategy
-- Competitive positioning
+- **Month 15 — Case Study 3**: Multi-Cloud Secrets Architecture (AWS + Azure + Conjur)
+  - Compliance scenario (SOC 2 / PCI-DSS)
+  - Cross-cloud secret lifecycle management
+
+- **Month 16 — Case Study 4**: Internal Pentest → PAM Remediation (the flagship dual-track case study)
+  - Pentest finding: Kerberoastable service account with PVWA access → lateral movement to Vault
+  - Remediation: PAM architectural changes that close the specific attack paths found
+  - This is the unique consulting narrative no pure PAM firm or pure pentest firm can write
+
+**Months 16-17 — Client Simulation**:
+- Practice discovery calls with a language partner, colleague, or in front of a recording
+- Run the full discovery call framework (below) with yourself as both client and consultant
+- Prepare a 5-minute capability pitch: who you are, what you do, what makes you different, one case study
+- Draft and refine your 30-second elevator pitch
+
+**Month 17-18 — Launch Preparation**:
+- Define service packages (use the rate card below)
+- Finalize all 4 case studies; polish all 6 portfolio projects on GitHub
+- Finalize consulting narrative: your journey (sysadmin → dual-track consultant), your value proposition
+- Announce practice on LinkedIn the week after OSCP result is confirmed
+
+**Skills developed**: case study writing, business storytelling, value proposition, client discovery, service packaging, pricing, go-to-market
 
 **Deliverables by Month 18**:
-- ✅ 3 detailed case studies
-- ✅ Consulting narrative defined
-- ✅ Service packages documented
-- ✅ Pricing structure established
-- ✅ 6-7 portfolio projects published
-- ✅ 9+ presentations delivered
-
----
-
-### Phase 4: Client Simulation & Professional Presence (Months 19-24)
-
-**Goal**: Practice client interactions and build professional presence
-
-**Activities**:
-
-**Months 19-21: Client Discovery Simulation**
-- **Practice discovery calls** (role-play with friend/colleague)
-  - Understanding client pain points
-  - Asking the right questions
-  - Active listening techniques
-  - Proposing solutions
-- **Develop discovery frameworks**
-  - Client needs assessment template
-  - Technical requirements gathering
-  - Risk assessment questions
-  - Budget and timeline discussion guides
-
-**Months 22-24: Professional Presence Development**
-- **LinkedIn optimization**
-  - Professional headline (PAM/Conjur Consultant)
-  - Compelling summary (your story + value proposition)
-  - Featured portfolio projects
-  - Published articles (6-8 by Month 24)
-  - Recommendations (request from colleagues)
-- **Portfolio website planning** (optional but recommended)
-  - Domain name selection
-  - Simple website structure
-  - Portfolio showcase
-  - Contact information
-- **Professional brand refinement**
-  - Consistent messaging across platforms
-  - Professional photo
-  - Testimonials from practice presentations
-
-**Months 19-24: Continuous Presentations**
-- Monthly presentations continue
-- **Month 19**: AWS security architecture
-- **Month 21**: Compliance frameworks (HIPAA, PCI-DSS)
-- **Month 24**: Multi-cloud security patterns
-- Focus on professional delivery and confidence
-
-**Skills Developed**:
-- Client discovery techniques
-- Needs assessment
-- Active listening
-- Professional branding
-- LinkedIn presence
-- Network building
-
-**Deliverables by Month 24**:
-- ✅ Client discovery framework
-- ✅ Needs assessment templates
-- ✅ LinkedIn profile optimized
-- ✅ 6-8 articles published
-- ✅ Professional brand established
-- ✅ 15+ presentations delivered
-
----
-
-### Phase 5: Launch Preparation & Go-to-Market (Months 25-27)
-
-**Goal**: Launch consulting practice and begin client outreach
-
-**Activities**:
-
-**Month 25: Launch Preparation**
-- **Finalize all consulting materials**
-  - RFP response templates polished
-  - SOW templates updated
-  - Case studies reviewed
-  - Portfolio projects finalized (7-8 total)
-- **Define service offerings clearly**
-  - PAM Assessment ($5,500-11,000, 1-2 weeks)
-  - PAM Implementation ($22,000-55,000, 4-12 weeks)
-  - Conjur Implementation ($16,500-44,000, 4-10 weeks)
-  - Cloud Security Review ($9,000-16,500, 2-4 weeks)
-  - Compliance Assessment ($11,000-22,000, 2-4 weeks)
-  - AI/LLM Security + PAM Integration ($8,000-20,000, 2-4 weeks) *(emerging, high demand in 2026)*
-- **Create rate card**
-  - Hourly rate: $275-450/hour (based on project scope)
-  - Daily rate: $2,200-3,600/day
-  - Project-based pricing options
-
-**Month 26: Go-to-Market Strategy**
-- **Identify target clients**
-  - Healthcare organizations (HIPAA + PAM)
-  - Banking/financial services (PCI-DSS + secrets management)
-  - Enterprise companies (multi-cloud security)
-- **Develop outreach plan**
-  - LinkedIn connections (security leaders, CISOs)
-  - Industry events (virtual or local)
-  - Former colleagues and network
-- **Practice pitch**
-  - 30-second elevator pitch
-  - 5-minute capability pitch
-  - 30-minute discovery call framework
-
-**Month 27: Launch & First Outreach**
-- **Week 105-107**: CCSP final prep (primary focus)
-- **Week 108**: CCSP exam + **CONSULTING LAUNCH**
-- **Post-CCSP (Week 108)**:
-  - Announce consulting practice on LinkedIn
-  - Update profile with CCSP certification
-  - Begin outreach to target clients (10-20 connections)
-  - Share final article (consulting launch announcement)
-  - **Open for business**
-
-**Skills Developed**:
-- Service packaging
-- Pricing strategy
-- Go-to-market planning
-- Client targeting
-- Outreach techniques
-- Pitch development
-
-**Deliverables by Month 27**:
-- ✅ All consulting materials finalized
-- ✅ Service offerings clearly defined
-- ✅ Rate card established
-- ✅ Target client list identified
-- ✅ LinkedIn presence optimized
-- ✅ **CONSULTING PRACTICE LAUNCHED**
-- ✅ First client outreach initiated
+- [ ] 4 case studies written and published
+- [ ] All 6 portfolio projects on GitHub with professional documentation
+- [ ] Discovery call framework practiced (10+ dry runs)
+- [ ] 5-minute capability pitch ready
+- [ ] Service packages and rate card finalized
+- [ ] Consulting narrative defined
+- [ ] 16 presentations delivered
+- [ ] **Consulting practice launched**
 
 ---
 
 ## Monthly Presentation Schedule
 
-**Presentations are the backbone of consulting skills development.** Starting Month 3, deliver monthly presentations.
-
-### Presentation Timeline
+Presentations are the most direct route to developing client communication skills. Start Month 3, deliver one per month.
 
 | Month | Topic | Duration | Audience |
-|-------|-------|----------|----------|
-| 3 | PAM Fundamentals | 30 min | Self/Family |
-| 4 | PAM Architecture | 30 min | Self/Colleagues |
-| 5 | Sentry Certification Journey | 30 min | Self/Colleagues |
-| 6 | K8s Security Basics | 30 min | Self/Colleagues |
-| 7 | K8s Architecture | 45 min | Colleagues |
-| 8 | Conjur Overview | 45 min | Colleagues |
-| 9 | DevSecOps Integration | 45 min | Colleagues |
-| 10 | Conjur + K8s | 45 min | Colleagues |
-| 12 | Phase 1 Review | 45 min | Colleagues |
-| 13 | Conjur Docker | 45 min | Colleagues |
-| 15 | Multi-Cloud Secrets | 45 min | Colleagues |
-| 18 | Phase 2 Review | 45 min | Colleagues |
-| 19 | AWS Security Architecture | 45 min | Colleagues |
-| 21 | Compliance Frameworks | 45 min | Colleagues |
-| 24 | Multi-Cloud Security | 45 min | Colleagues |
-| 27 | **Consulting Launch Presentation** | 60 min | Network |
+|:-----:|-------|:--------:|---------|
+| M3 | PAM Fundamentals | 30 min | Self / recording |
+| M4 | PAM Architecture | 30 min | Self / colleague |
+| M5 | Sentry Certification Journey | 30 min | Colleague |
+| M6 | AD Attack Paths → CyberArk Controls | 30 min | Colleague |
+| M7 | Guardian Architecture | 45 min | Colleague |
+| M8 | Conjur Docker Overview | 45 min | Colleague |
+| M9 | BloodHound Attack Paths: What I Found | 45 min | Colleague |
+| M10 | Conjur + Kubernetes Integration | 45 min | Colleague |
+| M11 | eJPT Preparation Lessons Learned | 45 min | Colleague / LinkedIn |
+| M12 | Phase 1-2 Retrospective | 45 min | BSides or online |
+| M13 | Conjur in CI/CD Pipelines | 45 min | LinkedIn / community |
+| M14 | Cloud Pentesting with CloudGoat | 45 min | Colleague |
+| M15 | Multi-Cloud Secrets Architecture | 45 min | CyberArk Commons |
+| M16 | DevSecOps Security Audit Methodology | 45 min | Colleague |
+| M17 | OSCP Preparation: What Worked | 45 min | BSides or online |
+| M18 | **Consulting Launch Presentation** | 60 min | Network / LinkedIn Live |
 
-**Total**: 15+ presentations delivered over 27 months
+**Total**: 16 presentations across 18 months
+
+Month 12 and M17 are ideal BSides talk candidates — a retrospective with real lab data and OSCP lessons are topics the community actively wants to hear.
 
 ---
 
 ## Consulting Materials Checklist
 
-### Templates (Created Months 8-11)
-- [ ] RFP Response Template
-- [ ] SOW (Statement of Work) Template
-- [ ] Service Agreement Template (optional, can get legal help later)
+### Templates (Completed by Month 12)
+- [ ] RFP Response Template (PAM implementation)
+- [ ] PAM SOW Template — see [templates/SOW_TEMPLATE.md](../templates/SOW_TEMPLATE.md)
+- [ ] Pentest SOW Template — see [templates/PENTEST_SOW_TEMPLATE.md](../templates/PENTEST_SOW_TEMPLATE.md)
 - [ ] Client Needs Assessment Template
 - [ ] Project Proposal Template
 
-### Case Studies (Created Months 13-15)
-- [ ] Case Study 1: PAM Lab Implementation
-- [ ] Case Study 2: Conjur + K8s Integration
-- [ ] Case Study 3: Multi-Cloud Architecture
+### Case Studies (Completed by Month 16)
+- [ ] Case Study 1: PAM Lab + Conjur Docker Integration
+- [ ] Case Study 2: Conjur on Kubernetes (HA + CI/CD)
+- [ ] Case Study 3: Multi-Cloud Secrets Architecture
+- [ ] Case Study 4: Internal Pentest → PAM Remediation (flagship)
 
-### Service Offerings (Defined Month 25)
+### Service Offerings (Defined by Month 17)
 - [ ] PAM Assessment Service
 - [ ] PAM Implementation Service
-- [ ] Conjur Implementation Service
-- [ ] Cloud Security Review Service
-- [ ] Compliance Assessment Service
+- [ ] Conjur / Secrets Management Implementation
+- [ ] Internal Network Penetration Test
+- [ ] Active Directory Security Assessment
+- [ ] PAM + Pentest Combined Assessment (flagship premium offering)
 
-### Portfolio (Completed Month 27)
-- [ ] 7-8 portfolio projects published on GitHub
-- [ ] All projects with professional documentation (20+ pages each)
-- [ ] Enterprise capstone project complete (50+ pages)
+### Portfolio (Complete by Month 18)
+- [ ] 6 portfolio projects published on GitHub
+- [ ] Each project: README, architecture diagram, challenge/solution narrative
+- [ ] Enterprise Capstone (Project 6): PAM + Conjur + Pentest combined — the anchor piece
 
-### Professional Presence (Completed Month 27)
-- [ ] LinkedIn profile optimized
-- [ ] 6-8 technical articles published
+### Professional Presence (Complete by Month 18)
+- [ ] LinkedIn profile optimized (see [NETWORKING_STRATEGY.md](../docs/NETWORKING_STRATEGY.md))
+- [ ] 6+ technical articles published (M11-M18)
+- [ ] CyberArk Defender, Sentry, Guardian, eJPT, OSCP all displayed
+- [ ] HackTheBox public profile linked (Pro Hacker or above)
 - [ ] Professional photo
-- [ ] CCSP certification displayed
-- [ ] 4 CyberArk certifications displayed
 
-### Launch Materials (Completed Month 27)
-- [ ] Rate card defined
+### Launch Materials (Month 18)
+- [ ] Rate card finalized
 - [ ] Service packages documented
-- [ ] Target client list (10-20 initial contacts)
-- [ ] Elevator pitch prepared
-- [ ] Discovery call framework ready
-- [ ] **Ready to launch**
+- [ ] 4 case studies ready to share
+- [ ] Elevator pitch (30 seconds)
+- [ ] Capability pitch (5 minutes)
+- [ ] Discovery call framework practiced
+- [ ] **Open for business**
 
 ---
 
 ## Client Interaction Framework
 
-### Discovery Call Structure (30-45 minutes)
+### Discovery Call Structure (30-45 Minutes)
 
 **Introduction (5 min)**:
-- Your background (sysadmin → PAM/Conjur expert)
-- Your certifications and expertise
-- Your unique value proposition
+- Your background in one sentence: "I'm a sysadmin turned PAM specialist and pentester — I implement CyberArk and can also assess the attack surface that makes PAM necessary."
+- Your certifications (Guardian, eJPT, OSCP)
+- One relevant case study in two sentences
 
 **Client Needs Assessment (15-20 min)**:
-- Current PAM/secrets management situation
-- Pain points and challenges
-- Compliance requirements (HIPAA, PCI-DSS, etc.)
-- Cloud environment (AWS, Azure, hybrid)
-- Timeline and budget expectations
+- Current privileged access situation: "How are admin credentials managed today?"
+- Pain points: "What compliance requirement is driving this conversation?"
+- Environment: "Are you on-prem, cloud, or hybrid? Active Directory?"
+- Timeline and urgency: "Is there a specific audit or incident driving the timeline?"
+- Budget signal: "Have you budgeted for this project or is this exploratory?"
 
 **Solution Discussion (10-15 min)**:
-- High-level approach
-- Similar projects (case studies)
-- Expected outcomes and benefits
-- Timeline estimate
-- Pricing discussion (ballpark)
+- High-level approach based on what you just heard
+- One case study that closely matches their situation
+- Realistic outcome and timeline estimate
+- Ballpark investment range (do not dodge this — ranges are fine)
 
 **Next Steps (5 min)**:
-- Proposal delivery timeline
-- Additional information needed
-- Follow-up schedule
+- Commit to a proposal delivery date (3-5 business days is professional)
+- Agree on what information they will send you (org chart, environment diagram, compliance framework)
 
 ### Proposal Structure
 
-**1. Executive Summary** (1 page)
-- Client situation overview
-- Proposed solution summary
-- Expected business value
-- Investment summary
+**1. Executive Summary** (1 page):
+- One paragraph on their situation as you understood it
+- One paragraph on the proposed solution
+- One sentence on expected business value
+- Investment summary (number only, detail in section 4)
 
-**2. Technical Approach** (2-3 pages)
-- Current state assessment
-- Proposed architecture
-- Implementation phases
-- Technology stack
-- Best practices integration
+**2. Technical Approach** (2-3 pages):
+- Current state assessment (what you found or were told)
+- Proposed architecture (diagrams preferred over text)
+- Implementation phases with durations
+- Technology stack and versions
 
-**3. Project Plan** (1-2 pages)
-- Timeline (weeks/months)
-- Milestones and deliverables
-- Dependencies and assumptions
-- Resource requirements
+**3. Project Plan** (1-2 pages):
+- Week-by-week timeline
+- Milestones and exit criteria per phase
+- What you need from the client and when
+- Assumptions and out-of-scope items
 
-**4. Pricing** (1 page)
-- Project-based pricing (preferred) or hourly rates
-- Payment terms (e.g., 33% upfront, 33% midpoint, 34% completion)
-- Travel expenses (if applicable)
-- Payment schedule
+**4. Investment** (1 page):
+- Fixed-fee pricing preferred (clients trust it more than T&M for defined scope)
+- Payment terms: 33% on contract signing, 33% at midpoint milestone, 34% on final delivery
+- Pentest engagements: 25% deposit before testing begins
+- Travel at cost, pre-approved
 
-**5. About You** (1 page)
-- Your expertise and certifications
-- Relevant experience (portfolio projects, case studies)
-- Why you're the right fit
-- References (when available)
+**5. About You** (1 page):
+- Certifications listed
+- Relevant portfolio project or case study (one paragraph)
+- One or two testimonials if available
 
 ---
 
-## Rate Card & Pricing Strategy
+## Rate Card
 
-> **Market Note (April 2026)**: PAM consulting rates have risen ~10% from 2024 levels due to strong enterprise demand, compliance pressure, and the growing intersection of PAM with AI/cloud security. The figures below reflect current market rates.
+Rates below reflect the 18-month dual-track positioning. Start at the lower end of each range and increase after 3-5 successful engagements.
 
-### Hourly Rates
-- **Standard**: $275/hour (initial projects, smaller clients)
-- **Premium**: $325-375/hour (enterprise clients, complex projects)
-- **Strategic**: $450/hour (urgent projects, specialized expertise, AI+PAM)
+### Hourly Rates (Remote)
 
-### Daily Rates
-- **Standard**: $2,200/day (8-hour day)
-- **Premium**: $2,600-3,000/day
-- **Strategic**: $3,600/day
+| Service Line | Entry Rate | Established Rate |
+|---|---|---|
+| Penetration Testing | $175/hr | $225/hr |
+| PAM Implementation | $200/hr | $275/hr |
+| PAM + Pentest Combined | $250/hr | $350/hr |
+| On-site premium | +25% | +25% |
 
-### Project-Based Pricing (Recommended)
+### Fixed-Fee Project Ranges
 
-**PAM Assessment** (1-2 weeks):
-- Small org: $5,500-9,000
-- Medium org: $9,000-11,000
-- Large enterprise: $11,000-17,000
-
-**PAM Implementation** (4-12 weeks):
-- Small deployment: $22,000-33,000
-- Medium deployment: $33,000-55,000
-- Enterprise deployment: $55,000-110,000+
-
-**Conjur Implementation** (4-10 weeks):
-- Docker/K8s basic: $16,500-27,500
-- Multi-cloud integration: $27,500-44,000
-- Enterprise + compliance: $44,000-82,000+
-
-**Cloud Security Review** (2-4 weeks):
-- Single cloud: $9,000-13,200
-- Multi-cloud: $13,200-16,500
-
-**Compliance Assessment** (2-4 weeks):
-- HIPAA assessment: $11,000-16,500
-- PCI-DSS assessment: $11,000-22,000
-
-**AI/LLM Security + PAM** (2-4 weeks) *(new in 2026)*:
-- AI secrets hygiene assessment: $8,000-15,000
-- Conjur integration for AI agent credentials: $12,000-20,000
+| Service | Typical Range | Duration |
+|---|---|---|
+| PAM Assessment | $11,000 – $27,500 | 2-4 weeks |
+| PAM Implementation | $55,000 – $110,000 | 8-16 weeks |
+| Conjur Implementation | $27,500 – $82,000 | 4-10 weeks |
+| Internal Network Pentest | $12,000 – $25,000 | 5-10 days |
+| AD Security Assessment | $8,000 – $14,000 | 5-7 days |
+| Web App Pentest | $10,000 – $22,000 | 5-10 days |
+| PAM + Pentest Combined | $22,000 – $48,000 | 3-4 weeks |
 
 ### Pricing Tips
-- **Start conservative** ($275/hour) to build portfolio and testimonials
-- **Increase rates** after 3-5 successful projects
-- **Value-based pricing** is best (focus on business value, not hours)
-- **Package services** for predictable pricing and client confidence
+
+- **Start with fixed-fee wherever possible** — clients prefer predictable spend and it rewards your efficiency
+- **Never anchor on hourly rate in a sales call** — lead with project outcomes and fixed-fee ranges
+- **Increase rates after Year 1** by 15-20%; demand in the PAM niche supports this
+- **The PAM + Pentest combined offering** is where the premium is — no pure PAM firm can offer it, no pure pentest firm can offer the remediation side
 
 ---
 
 ## Target Client Profile
 
-### Ideal Client Characteristics
+**Industries with highest PAM + pentest demand**:
+- Financial services (PCI-DSS, SOX — strong regulatory driver)
+- Healthcare (HIPAA — privileged access to EHR systems)
+- Critical infrastructure (NERC CIP, operational technology PAM)
+- Mid-market technology companies (fast cloud growth, secrets sprawl)
 
-**Industry**:
-- Healthcare organizations (HIPAA compliance need)
-- Banking/financial services (PCI-DSS compliance need)
-- Enterprise companies (multi-cloud, K8s, DevSecOps)
+**Size and structure**:
+- 500-10,000 employees
+- Has Active Directory (essentially universal in these industries)
+- Has or is considering CyberArk (or competitive PAM product)
 
-**Size**:
-- 100-5,000 employees (mid-market)
-- IT team: 10-100 people
-- Security team: 2-20 people
+**Buying signals**:
+- Recent audit finding on privileged access
+- Recent breach or near-miss involving privileged credentials
+- Compliance deadline (SOC 2 Type II, PCI-DSS assessment)
+- DevOps team scaling rapidly and creating secrets sprawl
 
-**Pain Points**:
-- Manual credential management (need PAM)
-- Secrets sprawl (need Conjur)
-- Cloud security gaps (need cloud expertise)
-- Compliance pressure (HIPAA, PCI-DSS, SOC2)
-- Kubernetes security (need K8s expertise)
-- AI/LLM agent credential sprawl (emerging 2026 pain point — AI pipelines creating new secrets management debt)
-
-**Budget**:
-- Security budget: $100K-1M+/year
-- Willing to invest in PAM/secrets management
-- Consultant budget: $20K-100K for project
-
-**Decision Makers**:
-- CISO (Chief Information Security Officer)
-- Director of Security
-- VP of IT
-- Compliance Manager
+**Decision makers**:
+- CISO or VP of Security (economic buyer)
+- Security Architect or Director (technical buyer / champion)
+- Compliance Officer (urgency driver in regulated industries)
 
 ---
 
-## Outreach Strategy
+## Outreach and Client Acquisition
 
-### Phase 1: Network Activation (Month 27)
-- **Former colleagues**: Reach out to past coworkers in security roles
-- **LinkedIn connections**: Connect with CISOs, security directors, IT leaders
-- **Industry groups**: Join PAM, cloud security, compliance groups
+The full networking and pipeline strategy — month-by-month from M1 through M18 — is in [docs/NETWORKING_STRATEGY.md](../docs/NETWORKING_STRATEGY.md).
 
-### Phase 2: Content Marketing (Ongoing)
-- **LinkedIn posts**: Share insights (2-3x/week)
-- **Technical articles**: Publish regularly (1-2/month)
-- **Case studies**: Share anonymized client successes
+The short version: first clients almost always come from former employers and warm introductions. Cold outreach and content marketing (LinkedIn articles, CyberArk Commons) take 6-12 months to produce results, which is why both start in Month 1 of this roadmap, not Month 18.
 
-### Phase 3: Direct Outreach (Month 27+)
-- **Targeted LinkedIn messages**: Personalized outreach to ideal clients
-- **Industry events**: Attend virtual or local security events
-- **Webinars**: Host or participate in PAM/Conjur webinars (future)
-
-### Phase 4: Referral Network (Future)
-- **Partner with vendors**: CyberArk partner program (consider after first projects)
-- **Consultant network**: Connect with complementary consultants (not direct competitors)
-- **Client referrals**: Ask satisfied clients for referrals
+For the M8 employment fork decision (working at a CyberArk partner vs. continuing as sole proprietor), see [FAQ.md](../FAQ.md) under Career & Consulting.
 
 ---
 
 ## Related Documents
 
-- **[OVERVIEW.md](OVERVIEW.md)** - Complete 27-month structure
-- **[PHASE1_MONTHS_1-6.md](PHASE1_MONTHS_1-6.md)** - Phase 1 consulting activities
-- **[PHASE2_MONTHS_7-12.md](PHASE2_MONTHS_7-12.md)** - Phase 2 consulting development
-- **[PHASE3_MONTHS_13-18.md](PHASE3_MONTHS_13-18.md)** - Phase 3 launch preparation
-- **[ENGLISH_LEARNING.md](ENGLISH_LEARNING.md)** - English fluency (complements consulting)
-- **[MONTH_BY_MONTH_SCHEDULE.md](MONTH_BY_MONTH_SCHEDULE.md)** - Weekly consulting activities
-- **[templates/RFP_RESPONSE_TEMPLATE.md](../templates/RFP_RESPONSE_TEMPLATE.md)** - RFP template
-- **[templates/SOW_TEMPLATE.md](../templates/SOW_TEMPLATE.md)** - SOW template
+- [OVERVIEW.md](OVERVIEW.md) — 18-month program structure and Key Decision Points
+- [PHASE1_MONTHS_1-6.md](PHASE1_MONTHS_1-6.md) — Phase 1 consulting activities
+- [PHASE2_MONTHS_7-12.md](PHASE2_MONTHS_7-12.md) — Phase 2 consulting development
+- [PHASE3_MONTHS_13-18.md](PHASE3_MONTHS_13-18.md) — Phase 3 launch preparation
+- [ENGLISH_LEARNING.md](ENGLISH_LEARNING.md) — English fluency plan
+- [docs/NETWORKING_STRATEGY.md](../docs/NETWORKING_STRATEGY.md) — Client pipeline strategy
+- [templates/SOW_TEMPLATE.md](../templates/SOW_TEMPLATE.md) — PAM SOW template
+- [templates/PENTEST_SOW_TEMPLATE.md](../templates/PENTEST_SOW_TEMPLATE.md) — Pentest SOW template
+- [templates/RFP_RESPONSE_TEMPLATE.md](../templates/RFP_RESPONSE_TEMPLATE.md) — RFP template
+- [docs/CONSULTING_LAUNCH_CHECKLIST.md](../docs/CONSULTING_LAUNCH_CHECKLIST.md) — Launch checklist
 
 ---
 
-**Consulting skills + technical expertise = successful practice. You'll be ready.**
-
----
-
-**Last Updated**: 2026-04-07
-**Version**: 1.1
+**Last Updated**: 2026-04-14
+**Version**: 2.0
