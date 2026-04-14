@@ -1,60 +1,71 @@
 # Quick Start - Daily Reference
 
-One-page quick reference for your current focus. **Bookmark this page!**
+One-page quick reference for your current focus across the 18-month roadmap. Bookmark this page.
 
 ---
 
-## 📍 I'm in Month ___ - What Do I Do?
+## I'm in Month ___ - What Do I Do?
 
-> **Program starts May 4, 2026.** Month 1 = May 2026, Month 5 = Sep 2026, Month 11 = Mar 2027, Month 27 = Jul 2028.
+> **Program starts May 4, 2026.** Key milestone months: M4 (Defender, Aug 2026), M6 (Sentry, Oct 2026), M8 (Guardian, Dec 2026), M12 (eJPT, Apr 2027), M17 (OSCP, Sep 2027), M18 (Consulting Launch, Oct 2027).
 
-| Month | Focus This Week | Daily Routine (10-12 hrs/week) | Key Deliverable |
-|-------|----------------|--------------------------------|-----------------|
-| **M1-2** | PAM basics + K8s setup | Study: PAM/K8s docs (1 hr) + Labs: VMs/K8s cluster (1 hr) | Lab environment ready |
-| **M3-5** | Defender cert | Study: Defender course (1.5 hrs) + Labs: PAM install (0.5 hr) | **Defender cert (M5)** |
-| **M6-8** | Sentry cert + K8s | Study: Sentry course (1 hr) + Labs: K8s + PAM (1 hr) | **Sentry cert (M8)** |
-| **M9-11** | Guardian cert + K8s mastery | Study: Guardian (1 hr) + Labs: K8s security (1 hr) | **Guardian cert (M11)**, K8s mastery |
-| **M12** | **RECOVERY** | Light: Review (8 hrs/week) | Rest + consolidation |
-| **M13-15** | Conjur + Docker | Study: Conjur docs (0.5 hr) + Labs: Docker deployment (1.5 hrs) | Conjur in Docker |
-| **M16-18** | Conjur + K8s | Study: K8s integration (0.5 hr) + Labs: Conjur in K8s (1.5 hrs) | Conjur in K8s |
-| **M19-22** | AWS security | Study: AWS docs (0.5 hr) + Labs: AWS security (1.5 hrs) | AWS expertise |
-| **M23-26** | Azure security | Study: Azure docs (0.5 hr) + Labs: Azure security (1.5 hrs) | Azure expertise |
-| **M27** | CCSP + Launch | Study: CCSP prep (1.5 hrs) + Polish portfolio (0.5 hr) | **CCSP cert + LAUNCH** |
+| Month | Focus This Week | Daily Routine (12-15 hrs/week) | Key Deliverable |
+|-------|-----------------|---------------------------------|-----------------|
+| **M1-2** | Lab setup (PAM + Kali), PAM fundamentals, Linux security | Study: PAM/Linux docs (1 hr) + Labs: VM + CyberArk + Kali (1-1.5 hrs) | Lab environment operational |
+| **M3** | Defender cert prep, DVWA web app security, Burp Suite setup | Study: Defender course + OWASP (1 hr) + Labs: PAM + DVWA (1.5 hrs) | Defender ready + DVWA labs complete |
+| **M4** | **Defender cert (Aug 2026)**, Docker security, Linux privesc basics | Study: Final Defender + privesc (1 hr) + Labs: Docker + Linux privesc (1.5 hrs) | **CyberArk Defender cert** + Portfolio Project 1 (PAM Lab) |
+| **M5** | Sentry prep, OWASP Top 10, DevSecOps pipeline | Study: Sentry + OWASP (1 hr) + Labs: DevSecOps CI (1.5 hrs) | DevSecOps pipeline running |
+| **M6** | **Sentry cert (Oct 2026)** + RECOVERY | Light: Review + exam (8 hrs/week) | **CyberArk Sentry cert** + rest |
+| **M7** | Network pentesting methodology, Nmap advanced, Guardian prep | Study: Guardian + Nmap (1 hr) + Labs: network pentesting (1.5 hrs) | Network pentest methodology documented |
+| **M8** | **Guardian cert (Dec 2026)**, Metasploit basics, web exploitation | Study: Final Guardian + Metasploit (1 hr) + Labs: Metasploit + web exploit (1.5 hrs) | **CyberArk Guardian cert** |
+| **M9** | AD attacks (BloodHound, Kerberoasting), Conjur Docker | Study: AD attacks + Conjur (1 hr) + Labs: BloodHound + Conjur (1.5 hrs) | Portfolio Project 2 (Guardian Architecture) |
+| **M10** | Post-exploitation, privilege escalation, eJPT prep | Study: eJPT course (1 hr) + Labs: post-exploit + THM (1.5 hrs) | eJPT mock exam scores rising |
+| **M11** | eJPT intensive prep, Conjur K8s, HackTheBox | Study: eJPT review (1 hr) + Labs: HTB + Conjur K8s (1.5 hrs) | Conjur on K8s working |
+| **M12** | **eJPT cert (Apr 2027)** + RECOVERY | Light: Exam + review (8 hrs/week) | **eJPT cert** + rest |
+| **M13** | OSCP PEN-200 begins, Conjur K8s HA, cloud pentesting intro | Study: PEN-200 course (1.5 hrs) + Labs: PEN-200 labs + Conjur HA (1-1.5 hrs) | Portfolio Project 3 (Conjur + CI/CD) |
+| **M14** | OSCP exploitation, AD at OSCP level, multi-cloud secrets | Study: PEN-200 (1.5 hrs) + Labs: AD + multi-cloud (1-1.5 hrs) | OSCP AD module complete |
+| **M15** | OSCP challenge labs, CloudGoat AWS attacks, Azure AD attacks | Study: PEN-200 review (1 hr) + Labs: CloudGoat + Azure AD + challenge (1.5-2 hrs) | Portfolio Project 4 (Multi-Cloud Secrets) |
+| **M16** | OSCP exam prep simulation, DevSecOps security audit | Study: OSCP review (1 hr) + Labs: full OSCP sims + audit (1.5-2 hrs) | Portfolio Project 5 (DevSecOps Audit) |
+| **M17** | **OSCP exam (Sep 2027)**, consulting pre-launch | Study: final review + launch materials (1 hr) + Labs: OSCP (1.5 hrs) | **OSCP cert** + launch materials ready |
+| **M18** | **Consulting Launch** + RECOVERY | Light: Capstone polish + launch (8 hrs/week) | Portfolio Project 6 (Capstone) + practice launched |
 
 ---
 
-## ⏱️ Daily Routine
+## Daily Routine
 
 **Weekdays** (1.5-2 hrs/day, Mon-Fri):
-- 30 min: English (read docs, watch videos, notes in English)
-- 60-90 min: Study OR hands-on labs (aim 70% labs overall)
 
-**Weekends** (2.5-3 hrs total):
-- Saturday (1.5-2 hrs): Deep focus hands-on labs
-- Sunday (1 hr): Review week, update tracker, plan next week
+- 30 min: English practice (read technical docs, watch videos, take notes in English)
+- 60-90 min: Study OR hands-on labs (aim for 70% labs overall)
 
-**Recovery months (M12, M18, M27)**: Reduce to 8 hrs/week
+**Weekends** (3-4 hrs total):
+
+- Saturday (2-2.5 hrs): Deep hands-on labs, pentest challenges, portfolio work
+- Sunday (1-1.5 hrs): Review the week, update tracker, plan next week
+
+**Recovery months (M6, M12, M18)**: Reduce to 8 hrs/week — light review, exam week, or launch prep only.
 
 ---
 
-## ✅ Weekly Checklist
+## Weekly Checklist
 
-- [ ] 10-12 hrs study/lab this week (or 8 if recovery month)
+- [ ] 12-15 hrs study/lab this week (or 8 hrs if recovery month)
 - [ ] 70% hands-on labs, 30% study
-- [ ] Updated `27MONTH_PROGRESS_TRACKER.csv`
+- [ ] Progress tracker updated
 - [ ] English practice daily (30 min)
+- [ ] TryHackMe / HackTheBox activity (once pentesting track begins)
 - [ ] *[If cert month]* Practice tests 90%+ before scheduling exam
 
 ---
 
-## 🆘 Need More Detail?
+## Need More Detail?
 
 - **Full schedule** → [roadmap/MONTH_BY_MONTH_SCHEDULE.md](roadmap/MONTH_BY_MONTH_SCHEDULE.md)
-- **Current phase details** → [roadmap/PHASE1_MONTHS_1-11.md](roadmap/PHASE1_MONTHS_1-11.md), [PHASE2_MONTHS_12-18.md](roadmap/PHASE2_MONTHS_12-18.md), or [PHASE3_MONTHS_19-27.md](roadmap/PHASE3_MONTHS_19-27.md)
+- **Current phase details** → [roadmap/PHASE1_MONTHS_1-6.md](roadmap/PHASE1_MONTHS_1-6.md), [PHASE2_MONTHS_7-12.md](roadmap/PHASE2_MONTHS_7-12.md), or [PHASE3_MONTHS_13-18.md](roadmap/PHASE3_MONTHS_13-18.md)
 - **Stuck?** → [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
 - **Questions?** → [FAQ.md](FAQ.md)
 - **Terms unclear?** → [GLOSSARY.md](GLOSSARY.md)
 
 ---
 
-**Last Updated**: 2026-04-14 | **Version**: 2.1 (Simplified)
+**Last Updated**: 2026-04-14
+**Version**: 3.0

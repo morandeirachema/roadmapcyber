@@ -1,353 +1,144 @@
-# Budget Breakdown
+# 18-Month Roadmap Budget
 
-Complete financial breakdown for the 27-Month Cybersecurity Roadmap.
-
----
-
-## Total Investment
-
-**$2,500-4,500** over 27 months (with CKS certification)
-
-**Monthly average**: ~$93-167/month
-
-**This is an investment in your future earning potential**: After Month 27, consulting rates of $275-440/hour mean this investment pays for itself in just 6-11 billable hours.
-
-**Note**: Budget assumes you already have CKA certification (prerequisite for CKS). If you need to obtain CKA first, add $395 to the total investment.
+Complete financial breakdown for the 18-month PAM + DevSecOps + Pentesting roadmap. All figures in USD.
 
 ---
 
-## Certification Costs (~$1,744-2,889)
-
-### CyberArk Certifications
-- **CyberArk Defender** (Month 5): $250-500
-  - Check CyberArk Campus for discounts or vouchers
-  - Some employers may cover certification costs
-- **CyberArk Sentry** (Month 8): $250-500
-  - Advanced administration certification
-- **CyberArk Guardian** (Month 11): $250-500
-  - Expert-level certification
-
-**CyberArk Total**: $750-1,500
-
-### Kubernetes Security Certifications
-- **CKS Exam** (Months 9-10): $395 (CNCF/Linux Foundation pricing)
-  - Certified Kubernetes Security Specialist
-  - **Prerequisite**: Valid CKA (Certified Kubernetes Administrator) required
-  - Includes one free retake within 12 months
-  - Note: Budget includes CKS only; if CKA not yet obtained, add $395 for CKA exam
-
-### Cloud Security Certifications
-- **CCSP Exam** (Month 27): $599 (ISC² official pricing)
-  - Certified Cloud Security Professional
-  - No training required (self-study)
-  - Exam retake fee (if needed): $599
-
-### Optional Certifications
-- **CKA** (If not already obtained): $395 (CNCF/Linux Foundation pricing)
-  - Required prerequisite for CKS
-  - Only needed if you don't already have valid CKA
-  - Includes one free retake within 12 months
-- **CISSP** (Optional, Months 28-36): $749 (ISC² pricing)
-  - See [FAQ.md](FAQ.md) for whether you need CISSP
-  - Can be deferred until clients specifically require it
-  - Not included in core 27-month budget
-
-**Certification Total**: $1,744-2,494 (core roadmap with CKS)
-**Certification Total if CKA needed**: $2,139-2,889 (includes CKA prerequisite)
-
----
-
-## Study Materials (~$300-600)
-
-### Books & Study Guides
-- **CCSP Official Study Guide**: $50-70
-  - Sybex or other official publisher
-  - E-book cheaper than print (~$40)
-- **CCSP Practice Questions**: $30-50
-  - Essential for exam prep
-- **Optional PAM/Security books**: $50-100
-  - Check if available in local library first
-
-**Books Subtotal**: $80-170
-
-### Practice Exams
-- **Boson Practice Exams** (CCSP): $99-149
-  - Highest quality practice exams
-  - Essential for passing CCSP
-  - Worth the investment
-- **Official ISC² Practice Tests**: $40-60
-- **CyberArk practice tests**: Often free on CyberArk Campus
-
-**Practice Exams Subtotal**: $140-209
-
-### Video Training (Optional)
-- **Linux Academy / A Cloud Guru**: $29-39/month
-  - Only subscribe when actively using (3-4 months)
-  - Total: $87-156
-- **Pluralsight**: $29/month or $299/year
-  - Good for K8s and cloud security
-  - Consider 10-day free trial first
-  - Total: $87-299
-- **CyberArk Campus**: **FREE**
-  - Use this exclusively for PAM training
-
-**Video Training Subtotal**: $0-455 (optional)
-
-**Study Materials Total**: $220-379 (core) or $307-834 (with video)
-
----
-
-## Lab Infrastructure (~$200-500)
-
-### Cloud Services (AWS + Azure)
-- **Months 1-18**: $0-5/month
-  - Use free tiers exclusively
-  - Local VMs for PAM and Conjur labs
-  - **Subtotal**: $0-90
-
-- **Months 19-27** (AWS/Azure intensive): $20-50/month
-  - Beyond free tier for advanced scenarios
-  - 9 months × $20-50 = $180-450
-  - **Subtotal**: $180-450
-
-**Cloud Total**: $180-540
-
-### Local Infrastructure
-- **VMs on local machine**: **FREE**
-  - Use VirtualBox (free) or VMware Player (free)
-  - Requires capable hardware (see hardware requirements)
-
-- **Domain for portfolio**: $10-20/year
-  - yourname.com for professional portfolio site
-  - Optional but recommended
-  - **Subtotal**: $20-40 (2 years)
-
-**Infrastructure Total**: $200-580
-
----
-
-## Optional Additions (~$300-900)
-
-### Premium Training
-- **Pluralsight Annual**: $299/year (vs. monthly $29)
-  - Good value if using consistently
-- **A Cloud Guru**: $29-39/month
-  - Alternative to Pluralsight
-- **CyberArk Official Training**: $0-500
-  - Sometimes available through CyberArk Campus
-  - Bootcamps occasionally offered (if available)
-
-### English Learning
-- **italki.com tutoring**: $10-20/hour
-  - 3 sessions/week × 12 weeks = $360-720
-  - Only if struggling with English progress
-  - Not required if English proficiency adequate
-
-- **Grammarly Premium**: $12/month = $144/year
-  - Helpful for professional writing
-  - Free tier may be sufficient
-
-### Exam Retake Buffer
-- **Budget $500-1000** for potential exam retakes
-  - Hope you don't need it
-  - Better to have budget ready than scramble if needed
-
-**Optional Total**: $300-2,400 (highly variable)
-
----
-
-## Total Budget Summary
+## Budget Summary
 
 | Category | Minimum | Maximum |
 |----------|---------|---------|
-| Certifications (with CKS) | $1,744 | $2,494 |
-| Certifications (with CKS + CKA) | $2,139 | $2,889 |
-| Study Materials | $220 | $379 |
-| Lab Infrastructure | $200 | $580 |
-| **Core Total (with CKS)** | **$2,164** | **$3,453** |
-| **Core Total (with CKS + CKA)** | **$2,559** | **$3,848** |
-| Optional | $300 | $2,400 |
-| **Grand Total (with CKS)** | **$2,464** | **$5,853** |
-| **Grand Total (with CKS + CKA)** | **$2,859** | **$6,248** |
+| CyberArk certifications | $750 | $1,500 |
+| Pentesting certifications (eJPT + OSCP) | $1,698 | $2,047 |
+| Study materials + platforms | $387 | $659 |
+| Lab infrastructure | $105 | $330 |
+| **Core Total** | **$2,940** | **$4,536** |
 
-**Recommended Budget**:
-- $2,800-3,800 with CKS (assuming CKA already obtained)
-- $3,200-4,200 with both CKS and CKA
+**Monthly average**: ~$163-252/month across the 18 months, though actual spending is front- and back-loaded around exam months.
 
 ---
 
-## Cost-Saving Strategies
+## Phased Spending Timeline
 
-### Maximize Free Resources
+| Month | Calendar | Major Expense | Amount |
+|:-----:|:--------:|:--------------|:-------|
+| M1-2 | May-Jun 2026 | Lab setup, domain | $15-30 |
+| M3 | Jul 2026 | Defender study materials, books | $75-100 |
+| M4 | Aug 2026 | **CyberArk Defender exam** | $250-500 |
+| M5 | Sep 2026 | TryHackMe Premium begins | $14/mo |
+| M6 | Oct 2026 | **CyberArk Sentry exam** | $250-500 |
+| M7 | Nov 2026 | **INE Platinum Annual Pass** (includes eJPT) | $199-299 |
+| M8 | Dec 2026 | **CyberArk Guardian exam** | $250-500 |
+| M9 | Jan 2027 | HackTheBox VIP begins | $14/mo |
+| M10-11 | Feb-Mar 2027 | Pentesting books | $75-135 |
+| M12 | Apr 2027 | **eJPT exam** (free with Platinum) | $0-200 |
+| M13 | May 2027 | **OSCP PEN-200** (90-day + 1 attempt) | $1,499 |
+| M14-16 | Jun-Aug 2027 | Cloud costs, Proving Grounds (optional) | $60-300 |
+| M17 | Sep 2027 | **OSCP exam** (included with PEN-200) | $0 |
+| M18 | Oct 2027 | Consulting launch (website, branding) | $50-150 |
 
-1. **CyberArk Campus**: 100% free training, labs, and practice tests
-   - Don't pay for third-party CyberArk training
-
-2. **AWS/Azure Free Tiers**:
-   - AWS: 750 hours/month EC2 for 12 months (one t2.micro instance 24/7)
-   - Azure: $200 free credits first month
-   - Use exclusively for first 6 months
-
-3. **Local Labs**:
-   - Run PAM and Conjur entirely on local VMs (no cloud costs Months 1-18)
-   - Only use cloud for AWS/Azure specific services (Months 19-27)
-
-4. **Library Access**:
-   - Many study books available at public libraries
-   - University libraries (if you have access)
-   - O'Reilly Safari Books Online (check if library provides)
-
-### Smart Spending
-
-5. **Used Books**:
-   - Amazon used books 30-50% cheaper
-   - Ensure edition is current (check publication date)
-
-6. **Employer Sponsorship**:
-   - Ask employer to cover certification costs
-   - Position as "benefits current job and company"
-   - Many companies have training budgets
-
-7. **Bundle Deals**:
-   - Boson offers multi-exam bundles (saves 20-30%)
-   - ISC² membership discounts on exams
-
-8. **Student Discounts**:
-   - AWS Educate: $100 credits (if student/alumni)
-   - Azure for Students: Additional $100 credits
-   - GitHub Student Pack: free cloud credits
-
-### Timing Optimization
-
-9. **Subscribe When Needed**:
-   - Don't maintain year-round video subscriptions
-   - Subscribe for 3-4 months when actively using
-   - Unsubscribe during recovery months
-
-10. **Cloud Usage Discipline**:
-    - **NEVER leave resources running overnight** unnecessarily
-    - Set up billing alerts at $10, $25, $50
-    - Use AWS/Azure cost calculators before launching resources
-    - Delete everything weekly, rebuild as needed
+**Peak spending months**: M4, M6, M7, M8, M13 (the OSCP at $1,499 is the single largest line item — plan cash flow around Month 13).
 
 ---
 
-## Budget Tracking
+## CyberArk Certifications (~$750-1,500)
 
-### Monthly Tracking Template
+- **CyberArk Defender** (Month 4, Aug 2026): **$250-500**
+  - Free training via CyberArk Campus
+  - Exam fees vary by region
+- **CyberArk Sentry** (Month 6, Oct 2026): **$250-500**
+  - Advanced administration
+- **CyberArk Guardian** (Month 8, Dec 2026): **$250-500**
+  - Expert architect level
 
-Create a simple spreadsheet to track actual spending:
+**Notes**: CyberArk Campus courses are free — only the exam fees count here. Some regions and partners offer vouchers; check with your employer for reimbursement before paying out of pocket.
 
-| Month | Certifications | Study Materials | Cloud Costs | Optional | Total | Notes |
-|-------|---------------|-----------------|-------------|----------|-------|-------|
-| M1 | $0 | $0 | $0 | $0 | $0 | Setup month |
-| M2 | $0 | $50 (books) | $3 | $0 | $53 | Bought CCSP study guide |
-| M5 | $350 (Defender) | $0 | $5 | $0 | $355 | Passed Defender! |
-| ... | ... | ... | ... | ... | ... | ... |
+---
 
-### When to Spend
+## Penetration Testing Certifications (~$1,698-2,047)
 
-**Months 1-2**: $0-50 (setup, maybe books)
-**Month 3-4**: $50-100 (CCSP study materials)
-**Month 5**: $250-500 (Defender exam)
-**Month 8**: $250-500 (Sentry exam)
-**Months 9-10**: $395 (CKS exam) or $790 (CKA + CKS if CKA needed)
-**Month 11**: $250-500 (Guardian exam)
-**Months 12-18**: $5-20/month (minimal cloud)
-**Months 19-27**: $20-50/month (AWS/Azure intensive)
-**Month 24-27**: $100-200 (CCSP practice exams + study materials)
-**Month 27**: $599 (CCSP exam)
+- **INE Platinum Annual Pass** (Month 7, Nov 2026): **$199-299/year**
+  - Includes the eJPT course, lab access, and the eJPT exam voucher
+  - This is by far the most cost-effective way to prepare for eJPT
+- **eJPT Exam** (Month 12, Apr 2027): **$0 with Platinum, $200 standalone**
+- **OSCP PEN-200** (Month 13, May 2027): **$1,499**
+  - 90-day lab access + 1 exam attempt
+  - 60-day option available at **$999** if budget is tight (less comfortable but doable)
+- **OSCP Retake Contingency**: **$249** (budget for this even if you hope you won't need it)
+- **OffSec Proving Grounds Practice** (optional, M15-17): **$19/month × 3 = $57**
+  - Excellent extra boxes for OSCP prep; optional but recommended
 
-**Peak spending months**: M5, M8, M9-10, M11, M27 (exam months)
+**Minimum (Platinum + PEN-200)**: $1,698
+**Maximum (Platinum + PEN-200 + retake + PG Practice)**: ~$2,047 (or ~$2,104 with Proving Grounds)
+
+---
+
+## Study Materials (~$120-165)
+
+- **"The Hacker Playbook 3" by Peter Kim**: $35-45
+  - Practical pentest methodology reference
+- **"Penetration Testing" by Georgia Weidman**: $40-55
+  - Foundational pentesting textbook; still excellent
+- **Optional — red team operations book** (e.g., "Red Team Field Manual" or similar): $25-35
+
+---
+
+## Practice Platforms (~$267-494)
+
+- **TryHackMe Premium**: $14/month × 7 months (M5-11) = **$98-112**
+  - Best progression platform for learners; strong AD and web app paths
+- **HackTheBox VIP**: $14/month × 9 months (M9-17) = **$126**
+  - Essential for OSCP-style practice and the "hard box" mindset
+- **PortSwigger Web Security Academy**: **FREE**
+  - Outstanding for Burp Suite and web app mastery; used throughout M3-8
+- **INE Starter Pass**: **FREE**
+  - Limited labs; Platinum (listed under certifications above) strongly recommended
+
+Overlap months (M9-11) intentionally have both TryHackMe and HackTheBox active for diverse practice.
+
+---
+
+## Lab Infrastructure (~$105-330)
+
+- **Local VMs** (VirtualBox, Kali Linux, Metasploitable, DVWA, Windows Server eval): **FREE**
+- **CloudGoat** (intentionally vulnerable AWS environment): **FREE** (requires your own AWS account)
+- **AWS/Azure cloud costs, M13-18**: **$15-40/month = $90-240**
+  - Beyond free tier for OSCP cloud labs, CloudGoat, Azure AD attack scenarios
+- **Portfolio website domain**: **$15-30/year**
+- **Optional hardware — RAM upgrade to 32GB**: **$80-150**
+  - Not required but helpful if running multiple VMs + K8s + Burp Suite simultaneously
+
+---
+
+## Optional Post-M18 Certifications
+
+These are NOT included in the core budget but are worth planning for once consulting income starts flowing.
+
+- **CCSP** (Certified Cloud Security Professional): **$599**
+  - Pursue after first consulting income (targeting M21-M24)
+  - Strong complement for cloud-heavy engagements
+- **eCPPT** (eLearnSecurity Certified Professional Penetration Tester): **$200**
+  - Optional bridge cert between eJPT and OSCP if skipping directly to OSCP feels too aggressive
+- **Burp Suite Professional**: **$449/year**
+  - Only if specializing in web application pentesting
+  - Free Community Edition is sufficient for the first 18 months
 
 ---
 
 ## ROI Analysis
 
-### Investment vs. Return
+**Total investment**: ~$3,400-4,500 over 18 months
 
-**Total Investment**: $2,800-3,800 (reasonable mid-range with CKS)
+**Target rates after Month 18**:
 
-**Consulting Rates After Month 27**:
-- Conservative: $165/hour
-- Average: $275/hour
-- High-end: $440/hour
+- Pentesting standalone: **$175-250/hr**
+- **Combined PAM + pentest consultant**: **$200-350/hr** (the premium niche this roadmap targets)
 
-**Break-Even Calculation**:
-- At $165/hr: 17-23 billable hours to break even
-- At $275/hr: 10-14 billable hours to break even
-- At $440/hr: 6-9 billable hours to break even
+**Break-even**: **13-20 billable hours** at the rates above — roughly a third of a 40-hour engagement pays for the entire roadmap.
 
-**One consulting project** (40 hours at $275/hr = $11,000) pays for entire roadmap 3.8x over.
-
-### Long-Term Value
-
-**Year 1 after completion** (conservative):
-- 20 hours/month billable at $165/hr = $39,600/year extra income
-- Minus $3,300 investment = $36,300 net return
-
-**ROI**: 1,100% in first year (conservative scenario)
-
-**Years 2-5**:
-- Rates increase to $275-440/hr
-- Client base grows
-- Potential $110k-220k+ annual income from consulting
+**Key cash-flow note**: The OSCP PEN-200 at $1,499 hits in **Month 13 (May 2027)** and is the single largest line item. Start setting aside ~$125/month from Month 1 so the PEN-200 purchase does not derail your cash flow or force a 60-day compromise.
 
 ---
 
-## Emergency Budget Options
-
-### If Budget is Constrained
-
-**Absolute minimum** to complete roadmap: ~$2,200
-
-**How**:
-1. **Skip optional video training** (-$300-900)
-   - Use only free resources (CyberArk Campus, YouTube, free trials, CKS/CKA free documentation)
-
-2. **Minimize cloud costs** (-$200-300)
-   - Use only local VMs for Months 1-18
-   - Use only free tiers Months 19-27
-   - Extend cloud practice over longer period
-
-3. **Use free study materials** (-$200-300)
-   - Library books
-   - Free practice exams online
-   - Community-shared study guides
-   - Free Kubernetes documentation (kubernetes.io)
-
-4. **Delay optional certifications** (-$749+)
-   - Skip CISSP initially (pursue after first consulting income)
-   - If CKA not obtained, consider deferring CKS until after first consulting income
-
-**Result**: ~$2,200 (3 CyberArk certs + CKS + CCSP + minimal materials)
-
-### Phased Funding
-
-**Can't afford $2,800 upfront?**
-
-**Fund as you go**:
-- Months 1-4: $100 (study materials only)
-- Month 5: Save $350 (Defender exam)
-- Month 6-7: Save $100
-- Month 8: $350 (Sentry exam)
-- Months 9-10: $395-790 (CKS exam, or CKA + CKS if needed)
-- Month 11: $350 (Guardian exam)
-- Months 12-26: Save $50-100/month for CCSP
-- Month 27: $700 (CCSP exam + materials)
-
-**Total**: Spread over 27 months = $93-167/month (manageable)
-
----
-
-## Questions About Budget?
-
-- **Can I do this cheaper?** → See Emergency Budget Options above
-- **Is this investment worth it?** → See ROI Analysis above
-- **What if I can't afford certifications?** → See [FAQ.md](FAQ.md) and Employer Sponsorship section
-- **How do I track spending?** → Use Monthly Tracking Template above
-
----
-
-**Last Updated**: 2026-04-07
-**Version**: 1.1
+**Last Updated**: 2026-04-14
+**Version**: 3.0

@@ -1,6 +1,6 @@
 # Consulting Practice Launch Checklist
 
-Complete guide for launching your PAM/Conjur consulting practice at Month 27. This checklist covers business setup, legal requirements, marketing, and client acquisition.
+Complete guide for launching your PAM + DevSecOps + Pentesting consulting practice at Month 18. This checklist covers business setup, legal requirements, service offerings, marketing, and client acquisition for the 18-month program.
 
 ---
 
@@ -27,20 +27,19 @@ Complete guide for launching your PAM/Conjur consulting practice at Month 27. Th
 Before launching, verify you have completed:
 
 **Technical Certifications**:
-- [ ] CyberArk Defender (Month 5)
-- [ ] CyberArk Sentry (Month 8)
-- [ ] CyberArk Guardian (Month 11)
-- [ ] CCSP (Month 27)
+- [ ] CyberArk Defender (Month 4)
+- [ ] CyberArk Sentry (Month 6)
+- [ ] CyberArk Guardian (Month 8)
+- [ ] eJPT — INE Security eJPT (Month 12)
+- [ ] OSCP — OffSec OSCP (Month 17)
 
-**Portfolio Projects** (7-8 minimum):
-- [ ] Project 1: PAM Lab Documentation
-- [ ] Project 2: Kubernetes Security Implementation
-- [ ] Project 3: Kubernetes Production Deployment
-- [ ] Project 4: Conjur Basics
-- [ ] Project 5: Conjur Docker Guide
-- [ ] Project 6: Conjur + Kubernetes Integration
-- [ ] Project 7: Multi-Cloud Secrets Architecture
-- [ ] Project 8: Enterprise Capstone
+**Portfolio Projects** (6 minimum):
+- [ ] Project 1: PAM Lab Build + Documentation (CyberArk Vault, CPM, PSM, PVWA)
+- [ ] Project 2: Conjur + Kubernetes DevSecOps Pipeline
+- [ ] Project 3: Multi-Cloud Secrets Architecture (AWS + Azure + Conjur)
+- [ ] Project 4: Internal Network Penetration Test (see `examples/PENTEST_PROJECT_EXAMPLE.md`)
+- [ ] Project 5: Active Directory Security Assessment with BloodHound
+- [ ] Project 6: PAM + Pentest Combined Capstone (pentest findings mapped to CyberArk remediation)
 
 **English Proficiency**:
 - [ ] Can conduct technical presentations
@@ -339,6 +338,79 @@ Options:
 Target Clients: All
 ```
 
+### Penetration Testing Service Offerings
+
+These offerings are enabled by the eJPT (Month 12) and OSCP (Month 17) certifications and are the differentiator between a pure PAM consultant and a PAM + offensive security consultant. Every pentest engagement is a lead generator for a follow-on CyberArk implementation — see `examples/PENTEST_PROJECT_EXAMPLE.md` for the business model in action.
+
+**6. Internal Network Penetration Test**
+```
+Service: Internal Network Penetration Test
+Description: Simulated insider attack against on-premises Active
+             Directory and network infrastructure
+Deliverables:
+- Signed SOW with Rules of Engagement (PENTEST_SOW_TEMPLATE.md)
+- Pentest report with CVSS-scored findings
+- BloodHound attack path diagrams
+- MITRE ATT&CK TTP mapping
+- Executive readout presentation
+- Optional: CyberArk remediation roadmap
+
+Typical Duration: 5-10 business days on-site
+Target Clients: Organizations with mature AD environments
+```
+
+**7. Web Application Penetration Test**
+```
+Service: Web Application Penetration Test
+Description: OWASP-based assessment of customer-facing or internal
+             web applications and APIs
+Deliverables:
+- Signed SOW with Rules of Engagement
+- Web app pentest report (OWASP Top 10 + API Top 10)
+- Burp Suite evidence archive
+- Remediation guidance per finding
+- Retest of critical/high findings (within 30 days)
+
+Typical Duration: 5-10 business days
+Target Clients: SaaS vendors, fintech, healthcare apps
+```
+
+**8. Active Directory Security Assessment**
+```
+Service: Active Directory Security Assessment
+Description: BloodHound-driven AD configuration review and attack
+             path analysis
+Deliverables:
+- BloodHound data collection and analysis
+- Attack path documentation
+- Tiered admin model recommendation
+- Kerberoastable account inventory
+- Excessive permissions report
+
+Typical Duration: 5-7 business days
+Target Clients: Any organization with Active Directory
+```
+
+**9. PAM + Pentest Combined Assessment (PREMIUM OFFERING)**
+```
+Service: PAM + Pentest Combined Assessment
+Description: Internal pentest followed immediately by PAM gap
+             analysis with direct finding-to-CyberArk-control mapping.
+             This is the flagship differentiator — no pure pentest firm
+             can offer it, and no pure PAM firm can either.
+Deliverables:
+- All deliverables from Internal Network Pentest
+- PAM gap assessment report
+- Finding-to-CyberArk-control mapping spreadsheet
+- Implementation roadmap (6-12 months)
+- Executive business case for PAM investment
+
+Typical Duration: 3-4 weeks (10 days pentest + 10 days PAM analysis)
+Target Clients: Mid-market and enterprise with weak PAM posture
+Business Value: Converts a one-time pentest engagement into a
+                6-month implementation contract + ongoing retainer
+```
+
 ### Service Packaging
 
 | Package | Services Included | Target Client | Price Range |
@@ -404,26 +476,34 @@ Recommended Range: $275-440/hour
 
 ### Rate Card Template
 
-```
-CONSULTING RATE CARD
+```text
+CONSULTING RATE CARD (2026-04-14)
 
-Standard Rates (Remote):
-- Senior Consultant: $330/hour
-- Technical Lead: $385/hour
-- Principal Consultant: $440/hour
+Service Line Rates (Remote):
+- Penetration Testing:          $175 - $225/hour
+- PAM Implementation:           $200 - $275/hour
+- PAM + Pentest Combined:       $250 - $350/hour  (PREMIUM)
 
 On-Site Premium: +25%
-- Senior Consultant: $413/hour
-- Technical Lead: $481/hour
-- Principal Consultant: $550/hour
+- Penetration Testing:          $219 - $281/hour
+- PAM Implementation:           $250 - $344/hour
+- PAM + Pentest Combined:       $313 - $438/hour
 
-Daily Rates (8 hours):
-- Remote: $2,640 - $3,520/day
-- On-Site: $3,300 - $4,400/day
+Daily Rates (8 hours, remote):
+- Penetration Testing:          $1,400 - $1,800/day
+- PAM Implementation:           $1,600 - $2,200/day
+- PAM + Pentest Combined:       $2,000 - $2,800/day
+
+Fixed-Fee Packages (typical ranges):
+- AD Security Assessment:       $8,000 - $14,000
+- Internal Network Pentest:     $12,000 - $25,000
+- Web App Pentest:              $10,000 - $22,000
+- PAM Assessment:               $11,000 - $27,500
+- PAM + Pentest Combined:       $22,000 - $48,000
 
 Volume Discounts:
-- 100+ hours: 5% discount
-- 200+ hours: 10% discount
+- 100+ hours:      5% discount
+- 200+ hours:     10% discount
 - Annual retainer: 15% discount
 
 Travel & Expenses:
@@ -432,8 +512,9 @@ Travel & Expenses:
 - Per diem: GSA rates
 
 Payment Terms:
-- Net 30 from invoice date
+- Net 30 from invoice date (Net 15 for pentest engagements)
 - Late payment: 1.5%/month
+- Pentest engagements require 25% deposit before testing begins
 ```
 
 ---
@@ -477,17 +558,15 @@ Payment Terms:
 
 ### Portfolio Presentation
 
-**GitHub Portfolio Structure**:
-```
+**GitHub Portfolio Structure** (6 projects for the 18-month program):
+```text
 github.com/yourname/
-├── cyberark-pam-lab/           # Project 1
-├── kubernetes-security/         # Project 2
-├── k8s-production-deploy/      # Project 3
-├── conjur-basics/              # Project 4
-├── conjur-docker-guide/        # Project 5
-├── conjur-kubernetes/          # Project 6
-├── multicloud-secrets/         # Project 7
-└── enterprise-capstone/        # Project 8
+├── cyberark-pam-lab/            # Project 1: PAM Lab Build + Documentation
+├── conjur-k8s-devsecops/        # Project 2: Conjur + Kubernetes pipeline
+├── multicloud-secrets/          # Project 3: Multi-Cloud Secrets Architecture
+├── internal-pentest-example/    # Project 4: Internal Network Pentest (anonymized)
+├── ad-security-assessment/      # Project 5: AD Security Assessment + BloodHound
+└── pam-pentest-capstone/        # Project 6: PAM + Pentest Combined Capstone
 ```
 
 Each repository should have:
@@ -906,12 +985,16 @@ Activities:
 
 ## Related Documents
 
-- **SOW Template**: [SOW_TEMPLATE.md](../templates/SOW_TEMPLATE.md)
+- **PAM SOW Template**: [SOW_TEMPLATE.md](../templates/SOW_TEMPLATE.md)
+- **Pentest SOW Template**: [PENTEST_SOW_TEMPLATE.md](../templates/PENTEST_SOW_TEMPLATE.md)
 - **RFP Response Template**: [RFP_RESPONSE_TEMPLATE.md](../templates/RFP_RESPONSE_TEMPLATE.md)
 - **Case Study Example**: [CASE_STUDY_EXAMPLE.md](../examples/CASE_STUDY_EXAMPLE.md)
-- **Portfolio Project Example**: [PORTFOLIO_PROJECT_EXAMPLE.md](../examples/PORTFOLIO_PROJECT_EXAMPLE.md)
+- **PAM Portfolio Project Example**: [PORTFOLIO_PROJECT_EXAMPLE.md](../examples/PORTFOLIO_PROJECT_EXAMPLE.md)
+- **Pentest Portfolio Project Example**: [PENTEST_PROJECT_EXAMPLE.md](../examples/PENTEST_PROJECT_EXAMPLE.md)
+- **Penetration Testing Methodology**: [PENTESTING_METHODOLOGY_GUIDE.md](PENTESTING_METHODOLOGY_GUIDE.md)
+- **Penetration Testing Tools**: [PENTESTING_TOOLS_GUIDE.md](PENTESTING_TOOLS_GUIDE.md)
+- **eJPT Certification Guide**: [EJPT_CERTIFICATION_GUIDE.md](EJPT_CERTIFICATION_GUIDE.md)
 - **Consulting Skills Development**: [CONSULTING_SKILLS.md](../roadmap/CONSULTING_SKILLS.md)
-- **Phase 3 Overview**: [PHASE3_MONTHS_19-27.md](../roadmap/PHASE3_MONTHS_19-27.md)
 
 ---
 
@@ -925,9 +1008,9 @@ Activities:
 
 ---
 
-**You've completed the 27-month journey. Now it's time to launch your consulting practice and help organizations secure their privileged access. Good luck!**
+**You've completed the 18-month journey. Now it's time to launch your PAM + DevSecOps + Pentesting consulting practice and help organizations secure their privileged access — and prove it by breaking in first. Good luck!**
 
 ---
 
-**Last Updated**: 2026-04-07
-**Version**: 1.0
+**Last Updated**: 2026-04-14
+**Version**: 2.0

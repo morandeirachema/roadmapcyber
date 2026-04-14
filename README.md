@@ -1,185 +1,155 @@
-# 27-Month Cybersecurity Roadmap: PAM + Conjur + Cloud Security
+# 18-Month Cybersecurity Roadmap: PAM + DevSecOps + Pentesting
 
-A comprehensive, sustainable 27-month learning path for experienced system administrators to become expert-level PAM/Conjur consultants ready to launch consulting practice.
-
----
-
-## 🎯 At a Glance
-
-**Who is this for?** Experienced sysadmins (5+ years) working full-time, wanting to transition to security consulting at a sustainable, family-friendly pace.
-
-**Time commitment**: 10-12 hours/week for 27 months
-
-**Outcome**: Expert PAM/Conjur consultant with 4 certifications, 7-8 portfolio projects, and professional English fluency
-
-**Budget**: ~$2,500-4,500 over 27 months → See [BUDGET.md](BUDGET.md)
-
-**Launch**: Consulting practice ready at Month 27, targeting $275-440/hour rates
+A focused 18-month learning path for experienced system administrators to become dual-track security consultants combining CyberArk PAM expertise with offensive security skills. Designed for professionals working full-time who want a sustainable, family-friendly pace toward premium consulting rates.
 
 ---
 
-## 🚀 Quick Links
+## At a Glance
+
+| Item | Detail |
+|------|--------|
+| Who | Experienced sysadmins (5+ years), CKA holders, full-time employed |
+| Time commitment | 12-15 hrs/week standard, 8 hrs/week in recovery months |
+| Outcome | 5 certifications, 6 portfolio projects, dual-track consulting skills |
+| Budget | ~$3,400-4,500 over 18 months (see [BUDGET.md](BUDGET.md)) |
+| Launch | Consulting practice ready Month 18 at $175-350/hour |
+
+> **Timeline**: May 4, 2026 → October 2027 | Phase 1: May–Oct 2026 | Phase 2: Nov 2026–Apr 2027 | Phase 3: May–Oct 2027
+
+---
+
+## Quick Links
 
 ### New Here? Start With:
-1. **[GETTING_STARTED.md](GETTING_STARTED.md)** - Complete setup and onboarding guide
-2. **[GLOSSARY.md](GLOSSARY.md)** - Learn all terminology
-3. **[roadmap/OVERVIEW.md](roadmap/OVERVIEW.md)** - Understand the full 27-month plan
-4. **[docs/CYBERARK_CERTIFICATIONS.md](docs/CYBERARK_CERTIFICATIONS.md)** - Certification preparation guide (Defender to Trustee)
+
+- [GETTING_STARTED.md](GETTING_STARTED.md) — Complete setup and onboarding
+- [GLOSSARY.md](GLOSSARY.md) — Terminology reference
+- [roadmap/OVERVIEW.md](roadmap/OVERVIEW.md) — Full 18-month plan
 
 ### Daily Reference:
-- **[QUICKSTART.md](QUICKSTART.md)** ⭐ - Your daily/weekly quick reference
+
+- [QUICKSTART.md](QUICKSTART.md) — Daily/weekly quick reference
 
 ### When You Need Help:
-- **[FAQ.md](FAQ.md)** - Common questions answered
-- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Solutions to common problems
+
+- [FAQ.md](FAQ.md) — Common questions
+- [TROUBLESHOOTING.md](TROUBLESHOOTING.md) — Common problem solutions
 
 ### Detailed Plans:
-- **[roadmap/PHASE1_MONTHS_1-11.md](roadmap/PHASE1_MONTHS_1-11.md)** - PAM + Kubernetes Mastery
-- **[roadmap/PHASE2_MONTHS_12-18.md](roadmap/PHASE2_MONTHS_12-18.md)** - Conjur + DevSecOps
-- **[roadmap/PHASE3_MONTHS_19-27.md](roadmap/PHASE3_MONTHS_19-27.md)** - Cloud Security + CCSP
-- **[roadmap/MONTH_BY_MONTH_SCHEDULE.md](roadmap/MONTH_BY_MONTH_SCHEDULE.md)** - Week-by-week breakdown
-- **[roadmap/ENGLISH_LEARNING.md](roadmap/ENGLISH_LEARNING.md)** - 5-phase English learning plan
-- **[roadmap/CONSULTING_SKILLS.md](roadmap/CONSULTING_SKILLS.md)** - Business skills development
+
+- [roadmap/PHASE1_MONTHS_1-6.md](roadmap/PHASE1_MONTHS_1-6.md) — Security Foundations + PAM Mastery
+- [roadmap/PHASE2_MONTHS_7-12.md](roadmap/PHASE2_MONTHS_7-12.md) — Pentesting Foundations + Advanced PAM
+- [roadmap/PHASE3_MONTHS_13-18.md](roadmap/PHASE3_MONTHS_13-18.md) — Cloud Security + Advanced Pentesting + Launch
+- [roadmap/MONTH_BY_MONTH_SCHEDULE.md](roadmap/MONTH_BY_MONTH_SCHEDULE.md) — Week-by-week breakdown
+- [roadmap/ENGLISH_LEARNING.md](roadmap/ENGLISH_LEARNING.md) — English learning plan
+- [roadmap/CONSULTING_SKILLS.md](roadmap/CONSULTING_SKILLS.md) — Business skills development
 
 ---
 
-## 📊 The 27-Month Journey
+## The 18-Month Journey
 
-> **Timeline**: May 4, 2026 → July 2028 | Phase 1: May 2026–Mar 2027 | Phase 2: Apr–Oct 2027 | Phase 3: Nov 2027–Jul 2028
-
-### Phase 1: PAM + Kubernetes Mastery (Months 1-11)
-**Certifications**: CyberArk Defender (M5), Sentry (M8), CKS (M9-10), Guardian (M11)
-**Focus**: PAM fundamentals, 12 months continuous Kubernetes practice, 3-4 portfolio projects
-**English**: Reading → Writing skills
-
-### Phase 2: Conjur + DevSecOps (Months 12-18)
-**Recovery**: Month 12 (8 hrs/week, vacation time)
-**Focus**: Conjur in Docker/K8s/multi-cloud, CI/CD integration, 5-6 total projects
-**English**: Professional communication skills
-
-### Phase 3: Cloud Security + CCSP (Months 19-27)
-**Focus**: AWS security (M19-22), Azure security (M23-26), cloud compliance
-**Certification**: CCSP (M27) + **Consulting Launch**
-**Portfolio**: 7-8 total projects, complete enterprise capstone
-**English**: Consulting and presentation skills
+| Phase | Months | Calendar | Focus | Certifications |
+|:-----:|:------:|:--------:|:------|:---------------|
+| Phase 1 | M1-6 | May–Oct 2026 | Security Foundations + PAM Mastery | CyberArk Defender (M4), CyberArk Sentry (M6) |
+| Phase 2 | M7-12 | Nov 2026–Apr 2027 | Pentesting Foundations + Advanced PAM | CyberArk Guardian (M8), eJPT (M12) |
+| Phase 3 | M13-18 | May–Oct 2027 | Cloud Security + Advanced Pentesting + Launch | OSCP (M17) + Consulting Launch (M18) |
 
 ---
 
-## ✅ Key Features
+## Key Features
 
-### Sustainable Pace
-- 10-12 hrs/week (family-friendly, no burnout)
-- Strategic recovery months (M12, M18, M27 at 8 hrs/week)
-- Realistic timelines for certifications
+### Dual-Track Learning
+
+- **PAM track**: CyberArk Defender → Sentry → Guardian → Conjur → multi-cloud secrets
+- **Pentesting track**: Linux security → network pentesting → web app → AD attacks → cloud pentesting → OSCP
+- Tracks run in parallel so every month builds both offensive and defensive skills
 
 ### Hands-On Focused
+
 - 70% labs, 30% study/reading
-- Continuous capstone project (M1-27)
-- 7-8 portfolio projects demonstrating expertise
+- 6 portfolio projects demonstrating end-to-end expertise
+- Continuous attacker-mindset practice on TryHackMe, HackTheBox, CloudGoat
 
-### Consulting-Ready
-- Monthly presentations (starting M3)
-- RFP/SOW templates developed
-- Professional English fluency integrated
-- Business skills + technical skills
+### Sustainable Pace
 
-### Proven Optimizations
-- Certification timeline restructured (M5/M8/M11 vs compressed M3/M5/M6)
-- Kubernetes learning extended (12 months vs 4 months)
-- English learning structured with checkpoints
-- Portfolio building progressive
+- 12-15 hrs/week standard (family-friendly)
+- 3 strategic recovery months at 8 hrs/week (M6, M12, M18)
+- Built around full-time employment
 
----
+### Consulting Launch Ready
 
-## 🎓 Certifications Earned
-
-1. **CyberArk Defender** (Month 5) - Foundation
-2. **CyberArk Sentry** (Month 8) - Advanced Administration
-3. **CKS** (Months 9-10) - Certified Kubernetes Security Specialist
-4. **CyberArk Guardian** (Month 11) - Expert-level
-5. **CCSP** (Month 27) - Certified Cloud Security Professional
-
-**Optional**: CISSP can be pursued after Month 27 if clients require it (see [FAQ.md](FAQ.md))
+- Portfolio and case studies aligned with consulting offerings
+- DevSecOps security audit and enterprise capstone in final phase
+- Launch in Month 18 with pentesting + PAM remediation offerings
 
 ---
 
-## 📁 Repository Contents
+## Certifications Earned
 
-**Core Documentation**:
-- `README.md` - This file (overview and navigation)
-- `GETTING_STARTED.md` - First-time setup and onboarding
-- `QUICKSTART.md` - Daily/weekly quick reference
-- `GLOSSARY.md` - All terminology defined
-- `FAQ.md` - Frequently asked questions
-- `TROUBLESHOOTING.md` - Solutions to common problems
-- `BUDGET.md` - Complete financial breakdown
-
-**Certification Guides** (`docs/` directory):
-- `CYBERARK_CERTIFICATIONS.md` - Complete guide for Defender, Sentry, Guardian, Trustee
-- `CYBERARK_CHEAT_SHEETS.md` - Quick reference sheets for all CyberArk certifications
-- `CKS_CERTIFICATION_GUIDE.md` - Comprehensive CKS preparation guide
-- `CKS_CHEAT_SHEETS.md` - Quick reference sheets for CKS certification exam
-- `CCSP_CERTIFICATION_GUIDE.md` - Comprehensive CCSP preparation guide
-- `CCSP_CHEAT_SHEETS.md` - Quick reference sheets for CCSP certification exam
-
-**Hands-On Labs** (`docs/` directory):
-- `HANDS_ON_LABS_PHASE1.md` - Phase 1 labs (PAM + Kubernetes)
-- `HANDS_ON_LABS_PHASE2.md` - Phase 2 labs (Conjur + DevSecOps)
-- `HANDS_ON_LABS_PHASE3.md` - Phase 3 labs (Cloud Security + CCSP)
-
-**Technical Guides** (`docs/` directory):
-- `DEVOPS_CI_CD_GUIDE.md` - DevSecOps CI/CD integration patterns
-- `KUBERNETES_MULTICLUSTER_GUIDE.md` - Multi-cluster PAM/Conjur architecture
-- `HA_DR_ARCHITECTURE.md` - High availability and disaster recovery
-- `PAM_INCIDENT_RESPONSE.md` - Security incident response playbooks
-- `MIGRATION_STRATEGY.md` - Legacy PAM migration strategies
-- `MULTICLOUD_PATTERNS.md` - Multi-cloud deployment patterns (AWS/Azure/GCP)
-- `PERFORMANCE_TUNING_GUIDE.md` - Performance optimization guide
-- `CONSULTING_LAUNCH_CHECKLIST.md` - Month 27 consulting business launch guide
-
-**Detailed Roadmap** (`roadmap/` directory):
-- `OVERVIEW.md` - Complete 27-month structure
-- `PHASE1_MONTHS_1-11.md` - PAM + Kubernetes details
-- `PHASE2_MONTHS_12-18.md` - Conjur + DevSecOps details
-- `PHASE3_MONTHS_19-27.md` - Cloud Security + CCSP details
-- `MONTH_BY_MONTH_SCHEDULE.md` - Week-by-week activities
-- `ENGLISH_LEARNING.md` - 5-phase English learning plan
-- `CONSULTING_SKILLS.md` - Business skills development
-
-**Progress Tracking**:
-- `27MONTH_PROGRESS_TRACKER.csv` - Track planned vs actual hours, deliverables
-
-**Templates** (`templates/` directory):
-- `SOW_TEMPLATE.md` - Statement of Work template
-- `PROJECT_CHARTER_TEMPLATE.md` - Project charter for PAM implementations
-- `CHANGE_MANAGEMENT_TEMPLATE.md` - Organizational change management framework
-- `RISK_ASSESSMENT_TEMPLATE.md` - Risk assessment and mitigation planning
-- `TESTING_PLAN_TEMPLATE.md` - Comprehensive testing framework
-- `COMMUNICATION_PLAN_TEMPLATE.md` - Stakeholder communication planning
-
-**Examples** (`examples/` directory):
-- `PORTFOLIO_PROJECT_EXAMPLE.md` - Portfolio project structure example
-- `CONJUR_PROJECT_EXAMPLE.md` - Real-world Conjur implementation case study
-- `AWS_SECURITY_PROJECT_EXAMPLE.md` - AWS security services implementation
-- `DEVSECOPS_PIPELINE_EXAMPLE.md` - Secure CI/CD pipeline implementation
+1. **CyberArk Defender** — Month 4 (Aug 2026)
+2. **CyberArk Sentry** — Month 6 (Oct 2026)
+3. **CyberArk Guardian** — Month 8 (Dec 2026)
+4. **eJPT** (eLearnSecurity Junior Penetration Tester) — Month 12 (Apr 2027)
+5. **OSCP** (Offensive Security Certified Professional) — Month 17 (Sep 2027)
 
 ---
 
-## 🤝 Contributing
+## Repository Contents
 
-This is a personal roadmap, but feel free to fork and adapt for your journey. Suggestions and improvements welcome via issues or pull requests.
+**Core Documentation** (root):
+
+- `README.md` — This file
+- `GETTING_STARTED.md` — First-time setup and onboarding
+- `QUICKSTART.md` — Daily/weekly quick reference
+- `GLOSSARY.md` — Terminology
+- `FAQ.md` — Frequently asked questions
+- `TROUBLESHOOTING.md` — Problem solutions
+- `BUDGET.md` — Financial breakdown
+
+**Roadmap** (`roadmap/`):
+
+- `OVERVIEW.md` — Complete 18-month structure
+- `PHASE1_MONTHS_1-6.md` — Security Foundations + PAM Mastery
+- `PHASE2_MONTHS_7-12.md` — Pentesting Foundations + Advanced PAM
+- `PHASE3_MONTHS_13-18.md` — Cloud Security + Advanced Pentesting + Launch
+- `MONTH_BY_MONTH_SCHEDULE.md` — Week-by-week schedule
+- `ENGLISH_LEARNING.md` — English learning plan
+- `CONSULTING_SKILLS.md` — Business skills development
+
+**Certification Guides** (`docs/`):
+
+- `CYBERARK_CERTIFICATIONS.md` — Defender, Sentry, Guardian preparation
+- `CYBERARK_CHEAT_SHEETS.md` — CyberArk quick references
+- `PENTESTING_CERTIFICATIONS.md` — eJPT and OSCP preparation
+
+**Hands-On Labs** (`docs/`):
+
+- `HANDS_ON_LABS_PHASE1.md` — Phase 1 labs (PAM + Linux security)
+- `HANDS_ON_LABS_PHASE2.md` — Phase 2 labs (pentesting + Conjur)
+- `HANDS_ON_LABS_PHASE3.md` — Phase 3 labs (cloud pentesting + capstone)
+
+**Templates** (`templates/`) and **Examples** (`examples/`):
+
+- SOW, project charter, risk assessment, and testing plan templates
+- Portfolio project examples for PAM, Conjur, AWS, and DevSecOps pipelines
 
 ---
 
-## 📄 License
+## Contributing
 
-This roadmap is provided as-is for educational purposes. Free to use and adapt for personal learning.
+This is a personal roadmap, but feel free to fork and adapt for your own journey. Suggestions and improvements welcome via issues or pull requests.
 
 ---
 
-**Good luck on your 27-month journey to becoming an expert PAM/Conjur consultant!**
+## License
+
+Provided as-is for educational purposes. Free to use and adapt for personal learning.
+
+---
+
+**Good luck on your 18-month journey to becoming a dual-track PAM + pentesting consultant.**
 
 ---
 
 **Last Updated**: 2026-04-14
-**Version**: 2.1
+**Version**: 3.0

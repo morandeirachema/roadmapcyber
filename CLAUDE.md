@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Repository Is
 
-A structured 27-month learning and consulting launch program for experienced sysadmins transitioning to PAM/Conjur consulting. It is a **documentation-only** repository — 51 Markdown files covering certifications, hands-on labs, templates, and examples. There is no application code.
+An 18-month professional learning and consulting launch program for experienced sysadmins transitioning to PAM + DevSecOps + Pentesting consulting. It is a **documentation-only** repository — 60+ Markdown files covering certifications, hands-on labs, templates, and examples. No application code.
+
+**Program**: May 4, 2026 → October 2027 | 12-15 hrs/week | 5 certifications | 6 portfolio projects
 
 ## Validation
 
@@ -15,7 +17,7 @@ The only "build" step is the style validation script:
 ./scripts/validate_style.sh --fix    # Auto-fix common issues
 ```
 
-This validates: footer presence, terminology capitalization, internal link integrity, header hierarchy, code block language identifiers, date formats, and file naming conventions. Exit code 1 means errors found. Fix all errors before committing.
+This validates: footer presence, terminology capitalization, internal link integrity, header hierarchy, code block language identifiers, date formats, and file naming conventions. Exit code 0 with warnings is acceptable; exit code 1 (errors) must be fixed before committing.
 
 ## Documentation Standards
 
@@ -41,9 +43,13 @@ Update both fields whenever a document is modified.
 | CyberArk PAM | cyberark pam, Cyberark |
 | CyberArk Conjur | conjur (standalone) |
 | Kubernetes / K8s | lowercase forms not allowed in prose |
-| CKS, CCSP | cks, ccsp |
+| OSCP, eJPT, OffSec | oscp, ejpt, offsec |
+| Kali Linux | kali linux, Kali |
+| Metasploit, Burp Suite | metasploit, burp suite |
+| TryHackMe, HackTheBox | tryhackme, hackthebox |
+| BloodHound, Impacket | bloodhound, impacket |
 | AWS, Azure, GCP | aws, azure, gcp |
-| Month 5 / M5 (tables) | month 5, m5 |
+| Month 4 / M4 (tables) | month 4, m4 |
 | Phase 1 (prose) / PHASE 1 (headers) | phase 1, Phase One |
 
 ### Formatting Rules
@@ -56,28 +62,34 @@ Update both fields whenever a document is modified.
 
 ## Repository Architecture
 
-Content is organized in a **progressive three-phase learning path**:
+Content is organized in an **18-month progressive learning path** across two parallel tracks: PAM/Conjur mastery and penetration testing.
 
 ```
 README.md / GETTING_STARTED.md  ←  entry points
-QUICKSTART.md                   ←  daily reference
+QUICKSTART.md                   ←  daily reference (18-month table)
 
 roadmap/          Phase timelines and week-by-week schedule
-docs/             Deep technical guides: certifications, labs, architecture, compliance
-templates/        Consulting deliverable templates (SOW, project charter, risk assessment)
-examples/         Worked portfolio project examples (PAM, Conjur, AWS, DevSecOps)
+docs/             Technical guides: certifications, labs, pentesting, architecture
+templates/        Consulting templates (SOW, pentest SOW, project charter, risk assessment)
+examples/         Portfolio project examples (PAM, Conjur, AWS, DevSecOps, pentest)
 scripts/          validate_style.sh — style enforcement automation
+docs/archive/     Archived docs (CKS, CCSP — no longer in primary cert path)
 ```
 
 **Three phases** and their milestones:
 
-| Phase | Months | Certs |
-|-------|--------|-------|
-| 1 – PAM + Kubernetes Mastery | 1–11 | Defender (M5), Sentry (M8), Guardian (M11) |
-| 2 – Conjur + DevSecOps | 12–18 | — (recovery M12 = 8 hrs/week) |
-| 3 – Cloud Security + CCSP | 19–27 | CCSP (M27), consulting launch |
+| Phase | Months | Calendar | Certs |
+|-------|--------|----------|-------|
+| 1 – Security Foundations + PAM Mastery | 1–6 | May–Oct 2026 | Defender (M4), Sentry (M6) |
+| 2 – Pentesting Foundations + Advanced PAM | 7–12 | Nov 2026–Apr 2027 | Guardian (M8), eJPT (M12) |
+| 3 – Cloud Security + Advanced Pentesting + Launch | 13–18 | May–Oct 2027 | OSCP (M17), Launch (M18) |
 
-`27MONTH_PROGRESS_TRACKER.csv` is the canonical progress tracker.
+**Key phase files**:
+- `roadmap/PHASE1_MONTHS_1-6.md`
+- `roadmap/PHASE2_MONTHS_7-12.md`
+- `roadmap/PHASE3_MONTHS_13-18.md`
+
+`18MONTH_PROGRESS_TRACKER.csv` is the canonical progress tracker.
 
 ## Adding or Updating Documents
 

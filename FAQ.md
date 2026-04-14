@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-Common questions about the 27-Month Cybersecurity Roadmap.
+Common questions about the 18-Month Cybersecurity Roadmap.
 
 ---
 
@@ -18,41 +18,42 @@ Common questions about the 27-Month Cybersecurity Roadmap.
 
 ---
 
-### Q: Can I complete this roadmap faster than 27 months?
+### Q: Can I complete this roadmap faster than 18 months?
 
 **A**: Not recommended, but possible in specific scenarios:
 
-**Faster scenarios (20-24 months possible)**:
+**Faster scenarios (14-16 months possible)**:
 - You already have deep Kubernetes production experience (not just CKA theory)
 - You already have 1-2 CyberArk certifications
-- You can dedicate 15-20 hours/week consistently
+- You can dedicate 18-20 hours/week consistently
 - You're already fluent in professional English
 
-**Why 27 months is optimal**:
+**Why 18 months is optimal**:
 - Certifications need lab time before exams (rushing = higher failure rate)
+- OSCP preparation cannot be rushed — it requires 90-day lab access plus a 24-hour hands-on exam
 - Consulting skills require practice, not just knowledge
-- 10-12 hrs/week is sustainable for 27 months; 20 hrs/week risks burnout
+- 12-15 hrs/week is sustainable for 18 months; 20+ hrs/week risks burnout
 - Recovery months prevent knowledge atrophy and burnout
 - English proficiency development needs time for non-native speakers
 
-**Bottom line**: You can compress by 3-6 months if you have existing expertise and can sustain 15 hrs/week. Don't compress more than that.
+**Bottom line**: You can compress by 2-3 months if you have existing expertise and can sustain 18 hrs/week. OSCP in particular sets a hard floor — do not compress the lab time.
 
 ---
 
-### Q: What if I can only dedicate 8 hours/week instead of 10-12?
+### Q: What if I can only dedicate 8 hours/week instead of 12-15?
 
 **A**: Extend the timeline proportionally:
 
-- **8 hrs/week**: Extend to 34-36 months (add 7-9 months)
-- **6 hrs/week**: Extend to 45-48 months (4 years)
+- **8 hrs/week**: Extend to 27-30 months (add 9-12 months)
+- **6 hrs/week**: Extend to 36-40 months (3+ years)
 - **Less than 6 hrs/week**: Not recommended - too slow for knowledge retention
 
 **Adjust by**:
 - Adding 1-2 weeks to each month's activities
-- Extending certification prep periods (e.g., Defender at Month 6 instead of Month 5)
+- Extending certification prep periods (e.g., Defender at Month 5 instead of Month 4)
 - Adding extra recovery time between phases
 
-**The math**: Total roadmap hours = 1,215-1,296 hours. Your hours/week ÷ 10.5 (average) = timeline multiplier
+**The math**: Total roadmap hours = 864-1,080 hours (18 months × 12-15 hrs/week). Your hours/week ÷ 13.5 (average) = timeline multiplier
 
 ---
 
@@ -62,7 +63,7 @@ Common questions about the 27-Month Cybersecurity Roadmap.
 
 **Why English is critical**:
 - Healthcare and banking clients (especially in U.S. and international markets) expect professional English
-- All certifications (CCSP, CyberArk, CISSP) are in English
+- All certifications (CyberArk, OSCP, eJPT, CISSP) are in English
 - CyberArk documentation and community are primarily English
 - Consulting requires: proposals, presentations, client calls, documentation - all in English
 - Higher billing rates require executive-level communication
@@ -127,8 +128,9 @@ Common questions about the 27-Month Cybersecurity Roadmap.
 
 **Cost impact**:
 - CyberArk retake fees: $250-500
-- CCSP retake: $599
-- Budget extra $500-1000 for potential retakes
+- eJPT retake: $200
+- OSCP retake: $249 (exam attempt only)
+- Budget extra $500-1,000 for potential retakes
 
 ---
 
@@ -148,7 +150,7 @@ Common questions about the 27-Month Cybersecurity Roadmap.
 
 **If 2+ months behind**:
 - **Stop and reassess**
-- Is 10-12 hrs/week realistic for your life situation?
+- Is 12-15 hrs/week realistic for your life situation?
 - Do you need to extend entire timeline?
 - Are you stuck on specific topics? (Seek help)
 - Consider reducing scope (skip optional certifications)
@@ -174,18 +176,20 @@ Common questions about the 27-Month Cybersecurity Roadmap.
 
 **Cannot skip** (essential for consulting credibility):
 - CyberArk Defender, Sentry, Guardian - These ARE your PAM expertise
-- CCSP - Cloud security is mandatory for modern consulting
+- eJPT - Practical pentesting foundation required before OSCP
+- OSCP - Flagship pentesting credential; the primary certification for the pentesting track
 
 **Can skip/defer** (optional based on client requirements):
-- CISSP - Valuable but not required for PAM/Conjur consulting. Can pursue after Month 27 if clients request it
+- CISSP - Valuable but not required for PAM/pentesting consulting. Can pursue after Month 18 if clients request it
+- CCSP - No longer in the primary path; archived as optional post-M18 after first consulting income
 - CompTIA Security+ - Mentioned as optional; skip if you have 5+ years experience
 
 **Alternatives**:
-- If budget is tight: Prioritize CyberArk certs + CCSP, defer CISSP to Year 4
-- If cloud isn't your focus: Could defer CCSP, but this limits consulting market significantly
+- If budget is tight: Prioritize CyberArk certs + eJPT, defer OSCP by 1-2 months
+- If pentesting isn't your focus: Could defer OSCP, but this removes the dual-track positioning advantage
 - If going in-house instead of consulting: Certifications less critical, focus on hands-on skills
 
-**Reality**: Consulting clients expect certifications. Don't skip the core 4 (Defender, Sentry, Guardian, CCSP).
+**Reality**: Consulting clients expect certifications. Don't skip the core 5 (Defender, Sentry, Guardian, eJPT, OSCP).
 
 ---
 
@@ -230,8 +234,8 @@ Common questions about the 27-Month Cybersecurity Roadmap.
 - You're in Europe or have O365/Microsoft-heavy clients
 
 **Roadmap approach**:
-- Month 19-22: AWS deep dive
-- Month 23-26: Azure deep dive
+- Month 13-15: AWS deep dive (Phase 3)
+- Month 15-17: Azure deep dive (Phase 3)
 - Both platforms covered equally
 
 **Reality**: Multi-cloud is common. You need both for maximum consulting opportunities.
@@ -245,9 +249,9 @@ Common questions about the 27-Month Cybersecurity Roadmap.
 If you have 12+ months production Kubernetes experience (not just CKA certification):
 
 **Adjust timeline**:
-- Months 1-5: Light Kubernetes review only (save 4-6 hrs/week)
+- Months 1-3: Light Kubernetes review only (save 4-6 hrs/week)
 - Reallocate time to PAM deep dive or English learning
-- Could complete roadmap in 24-25 months instead of 27
+- Could complete roadmap in 15-16 months instead of 18
 
 **Verify your K8s readiness** (Can you do these confidently?):
 - [ ] Deploy multi-tier application in K8s
@@ -266,7 +270,7 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 **A**: Use the provided tools and establish a rhythm:
 
 **Daily** (5 minutes):
-- Log hours in 27MONTH_PROGRESS_TRACKER.csv
+- Log hours in 18MONTH_PROGRESS_TRACKER.csv
 - Mark completed tasks
 
 **Weekly** (30 minutes, Sunday):
@@ -295,28 +299,33 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 
 ## Career & Consulting
 
-### Q: How much can I really charge as a consultant after 27 months?
+### Q: How much can I really charge as a consultant after 18 months?
 
-**A**: **Realistic range: $165-440/hour**, depending on:
+**A**: **Realistic range: $150-350/hour**, depending on service line and market:
+
+**Service line rates** (dual-track positioning opens two revenue streams):
+- **Pentesting standalone**: $150-250/hr
+- **PAM implementation**: $175-275/hr
+- **Combined PAM + pentest assessment**: $250-350/hr (premium for dual expertise)
 
 **Factors affecting rate**:
-- **Geography**: U.S. = $275-440/hr, Europe = $165-330/hr, Latin America = $110-220/hr
+- **Geography**: U.S. = $250-350/hr, Europe = $150-275/hr, Latin America = $100-200/hr
 - **Industry**: Banking/healthcare = higher, SMB = lower
-- **Certifications**: All 4 certs = command top rates
+- **Certifications**: OSCP + CyberArk stack = command top rates
 - **English fluency**: Professional English = 50-100% rate increase
-- **Portfolio**: 7-8 projects = credibility = higher rates
-- **Specialization**: PAM + Conjur + Cloud = niche = premium rates
+- **Portfolio**: 6-8 projects = credibility = higher rates
+- **Dual specialization**: PAM + pentesting = niche = premium rates vs. single-track consultants
 
 **Realistic expectations by market**:
-- **Entry consulting** (Month 27-30): $165-220/hr
-- **Established** (Year 3-4): $220-330/hr
-- **Expert** (Year 5+): $330-440/hr
+- **Entry consulting** (Month 18-21): $150-200/hr
+- **Established** (Year 2-3): $200-275/hr
+- **Expert** (Year 3+): $275-350/hr
 
 **Independent vs. contract**:
-- **Independent consultant**: Higher rates ($275-440/hr) but find your own clients
-- **Contract through agency**: Lower rates ($110-220/hr) but agency finds clients
+- **Independent consultant**: Higher rates ($250-350/hr) but find your own clients
+- **Contract through agency**: Lower rates ($100-175/hr) but agency finds clients
 
-**First year reality**: You'll likely start at $165-275/hr and prove value, then increase rates
+**First year reality**: You'll likely start at $150-225/hr and prove value, then increase rates
 
 ---
 
@@ -324,25 +333,25 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 
 **A**: Depends on what type of work:
 
-**Month 18+ (Phase 2 complete)**:
+**Month 12+ (Phase 2 complete)**:
 - Small projects (PAM implementations for SMBs)
 - Contract work through agencies
 - Hourly consulting on specific issues
 - Rates: $110-165/hr
 
-**Month 27 (Roadmap complete)**:
+**Month 18 (Roadmap complete)**:
 - Full consulting practice launch
 - Enterprise clients (healthcare, banking)
 - Independent consulting (finding own clients)
-- Complex projects (multi-cloud, compliance)
-- Rates: $165-440/hr
+- Complex projects (PAM + pentesting assessments, compliance)
+- Rates: $150-350/hr
 
-**Before Month 18**:
+**Before Month 12**:
 - Not recommended for paid consulting
 - OK for: volunteering, building portfolio, helping local businesses free/low-cost
 
 **Key readiness indicators**:
-- [ ] All certifications obtained
+- [ ] All certifications obtained (including OSCP at M17)
 - [ ] 5+ portfolio projects documented
 - [ ] Professional English fluency
 - [ ] Consulting materials ready (proposals, SOWs, presentations)
@@ -350,15 +359,15 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 
 ---
 
-### Q: What if no one hires me after 27 months?
+### Q: What if no one hires me after 18 months?
 
 **A**: Rare if you complete roadmap, but here's the contingency plan:
 
 **Most likely scenario**: You WILL find work because:
-- PAM/Conjur consultants are in high demand
-- 4 certifications = credibility
-- 7-8 portfolio projects = proof of expertise
-- Healthcare and banking need PAM (regulatory requirements)
+- PAM/Conjur + pentesting consultants are in high demand
+- 5 certifications (Defender, Sentry, Guardian, eJPT, OSCP) = strong credibility
+- 6-8 portfolio projects = proof of expertise
+- Healthcare and banking need PAM (regulatory requirements); OSCP opens pentesting engagements
 
 **If struggling to find consulting clients**:
 
@@ -379,41 +388,36 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 - Smaller market but less competition
 
 **Prevention strategies**:
-- Start networking at Month 18 (don't wait until Month 27)
+- Start networking at Month 12 (don't wait until Month 18)
 - Publish articles regularly (visibility)
 - Join CyberArk community, engage actively
-- Attend security conferences/webinars
+- Attend security conferences/webinars; engage with OffSec/pentesting community
 - Build LinkedIn presence throughout roadmap
 
-**Reality**: With 4 certifications + 7-8 portfolio projects + English fluency, you'll find work. Question is consulting vs. employment.
+**Reality**: With 5 certifications + 6-8 portfolio projects + English fluency, you'll find work. Question is consulting vs. employment.
 
 ---
 
-### Q: Should I get CISSP or just stick with CCSP?
+### Q: Should I get CISSP or CCSP after the roadmap?
 
-**A**: **Start with CCSP (included in roadmap). Consider CISSP later.**
+**A**: **Neither is in the primary 18-month path. OSCP is the primary certification for the pentesting track.**
 
-**CCSP is enough for PAM/Conjur consulting**:
-- Covers cloud security (where most work is)
-- Recognized by enterprise clients
-- More practical for modern environments
+**Current primary certification path** (M1-M18):
+- CyberArk Defender (M4) → Sentry (M6) → Guardian (M8) → eJPT (M12) → OSCP (M17)
 
-**Add CISSP later if**:
-- Clients specifically require it (some do)
-- You want broader security credibility
-- You're targeting CISO/leadership track
-- Government or defense clients (often require CISSP)
+**CCSP — archived from primary path**:
+- No longer included in the 18-month roadmap
+- Recommend pursuing post-M18 after first consulting income stabilizes
+- Still valuable for cloud security positioning if clients require it
+- Cost: $599 exam + ~$300 study materials
 
-**Timeline**:
-- **CCSP**: Month 27 (included in roadmap)
-- **CISSP**: Months 28-36 (optional, see MONTH_BY_MONTH_SCHEDULE.md appendix)
+**CISSP — optional, pursue if client-driven**:
+- Add if clients specifically require it (some enterprise/government clients do)
+- Useful for CISO/leadership track aspirations
+- Cost: $749 exam + ~$400 study materials
+- Recommend waiting until Year 2-3 to assess real client demand
 
-**Cost consideration**:
-- CCSP: $599 exam + ~$300 study materials
-- CISSP: $749 exam + ~$400 study materials
-- Both: ~$2,000 total
-
-**Verdict**: CCSP first, CISSP optional based on client demand
+**Verdict**: Complete the 18-month path first. Evaluate CCSP and CISSP in Year 2 based on actual consulting client requests — do not pursue them preemptively at the expense of OSCP prep
 
 ---
 
@@ -426,7 +430,7 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 **A**: Recovery months (M12, M18, M27) are designed to prevent burnout and consolidate learning.
 
 **What happens during recovery months**:
-- **50% reduced study hours**: 5-6 hrs/week instead of 10-12
+- **50% reduced study hours**: 6-8 hrs/week instead of 12-15
 - **Review, not new learning**: Consolidate knowledge from previous months
 - **Portfolio work**: Document projects, update LinkedIn
 - **Mental recovery**: Rest from intensive learning
@@ -435,7 +439,7 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 - Brain needs time to consolidate information (neuroplasticity)
 - Prevents knowledge decay from rushing
 - Maintains long-term motivation
-- 27-month roadmap is sustainable; 24-month without recovery is not
+- 18-month roadmap is sustainable; compressing further without recovery is not
 
 **DO NOT**:
 - Skip recovery months to "save time" (leads to burnout)
@@ -502,7 +506,7 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 - CyberArk has strong enterprise healthcare/banking presence
 
 **When to learn Vault**:
-- After Month 27 (optional expansion)
+- After Month 18 (optional expansion)
 - If target clients use Vault
 - For comparison knowledge in consulting
 - Approximately 2-4 weeks to get proficient
@@ -524,31 +528,30 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 
 ### Q: Is CKS (Certified Kubernetes Security Specialist) required?
 
-**A**: **Not required but highly recommended** for Kubernetes-heavy consulting.
+**A**: **No. CKS is no longer in the primary certification path.**
 
-**Roadmap recommendation**:
-- CKS is covered in Phase 1 (Months 8-10)
-- It's a differentiator but not mandatory for PAM consulting
-- Healthcare/banking clients increasingly run Kubernetes
+**Current status**:
+- CKS has been removed from the 18-month roadmap
+- The CKS guide is archived for reference (see [docs/CKS_CERTIFICATION_GUIDE.md](docs/CKS_CERTIFICATION_GUIDE.md))
+- CKA remains the recommended K8s prerequisite — you already have it
 
-**Skip CKS if**:
-- Your target clients don't use Kubernetes
-- You're focusing purely on traditional PAM
-- Time constraints require prioritization
+**How Kubernetes security is covered in the roadmap**:
+- PAM deployments on Kubernetes clusters (Phases 1 and 2) build practical K8s security skills
+- OSCP container content (Phase 3) covers container privilege escalation and escape
+- These practical skills are more consulting-relevant than the CKS exam objectives
 
-**Get CKS if**:
-- You want Conjur + K8s consulting work
-- Target clients are cloud-native organizations
-- You enjoy Kubernetes (it's fun!)
-- Differentiating from other PAM consultants
+**Consider CKS post-M18 if**:
+- Target clients are exclusively cloud-native / K8s-heavy organizations
+- You want to differentiate in the K8s security consulting niche
+- You have time and budget after completing the primary path
 
-**Alternative**: If skipping, at least understand K8s security concepts for CCSP exam (Domain 3).
+**Verdict**: Prioritize OSCP over CKS. K8s security knowledge comes through PAM lab work; CKS can be pursued as an optional post-M18 enhancement
 
 ---
 
 ### Q: What's the CKS exam format and how do I prepare?
 
-**A**: CKS is a 2-hour practical exam in a real Kubernetes environment.
+**A**: CKS is a 2-hour practical exam in a real Kubernetes environment. Note: **CKS is no longer in the primary 18-month path** — this information is provided for reference for those pursuing it optionally post-M18.
 
 **Exam Details**:
 - **Duration**: 2 hours
@@ -557,8 +560,8 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 - **Passing**: 67% (roughly 10-13 tasks correct)
 - **Proctored**: Online, through PSI
 
-**Preparation Strategy**:
-1. Complete CKA first (prerequisite knowledge)
+**Preparation Strategy** (if pursuing post-M18):
+1. Complete CKA first (prerequisite knowledge — you already have it)
 2. Use killer.sh (included with exam purchase - 2 sessions)
 3. Practice all security domains hands-on:
    - Network Policies
@@ -569,7 +572,7 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
    - Audit logging
 
 **Key Resources**:
-- See [docs/CKS_CERTIFICATION_GUIDE.md](docs/CKS_CERTIFICATION_GUIDE.md)
+- See [docs/CKS_CERTIFICATION_GUIDE.md](docs/CKS_CERTIFICATION_GUIDE.md) (archived)
 - killer.sh practice (most similar to real exam)
 - KodeKloud CKS course (structured learning)
 
@@ -640,20 +643,20 @@ If you have 12+ months production Kubernetes experience (not just CKA certificat
 
 **A**: **Start with your network, then expand.**
 
-**Phase 1: Network (Months 18-24)**:
+**Phase 1: Network (Months 12-15)**:
 1. Update LinkedIn profile with certifications
 2. Inform former colleagues you're consulting
-3. Join CyberArk Community, engage actively
+3. Join CyberArk Community and OffSec community, engage actively
 4. Attend local security meetups
 5. Ask for referrals from current employer (carefully, don't violate agreements)
 
-**Phase 2: Content Marketing (Months 24-27)**:
-1. Publish LinkedIn articles on PAM/Conjur topics
+**Phase 2: Content Marketing (Months 15-18)**:
+1. Publish LinkedIn articles on PAM/Conjur/pentesting topics
 2. Answer questions in CyberArk forums
 3. Create case studies from portfolio projects
 4. Start a simple blog or GitHub presence
 
-**Phase 3: Active Outreach (Month 27+)**:
+**Phase 3: Active Outreach (Month 18+)**:
 1. Contact consulting firms (subcontracting)
 2. Register with staffing agencies (Robert Half, TEKsystems)
 3. Respond to RFPs in your niche
@@ -743,10 +746,10 @@ $250,000 / 1,500 billable hours = $167/hour minimum
 - Long-term retainer: -10-15%
 - Non-profit clients: -20-40% (optional)
 
-**Starting consultant rates** (Month 27):
-- Conservative: $165-190/hour
-- Market rate: $190-248/hour
-- Premium (strong portfolio): $248-303/hour
+**Starting consultant rates** (Month 18):
+- Conservative: $150-175/hour
+- Market rate: $175-225/hour
+- Premium (strong portfolio + OSCP): $225-275/hour
 
 **After Year 1**: Increase 15-25% annually based on demand and experience.
 
@@ -970,28 +973,30 @@ Portfolio Project: Healthcare PAM Implementation
 
 ## Miscellaneous
 
-### Q: What happens after Month 27?
+### Q: What happens after Month 18?
 
-**A**: **Continue learning, build business, consider CISSP.**
+**A**: **Continue learning, build business, consider CCSP or CISSP based on client demand.**
 
-**Recommended Year 3+ activities**:
+**Recommended Year 2+ activities**:
 
-**Months 28-33 (Optional)**:
-- CISSP certification (if client demand)
+**Months 19-24 (Optional)**:
+- CCSP certification (if cloud security clients require it)
+- CISSP certification (if enterprise/government clients require it)
 - HashiCorp Vault certification
 - AWS Security Specialty or Azure Security Engineer
+- Advanced pentesting (OffSec PEN-300 / OSED / OSEP)
 
 **Ongoing**:
 - CyberArk CPE credits (maintain certifications)
-- CCSP CPE credits (40/year)
-- Industry conferences (CyberArk IMPACT, RSA)
+- OSCP: No CPE required, but stay current with OffSec labs (Proving Grounds)
+- Industry conferences (CyberArk IMPACT, RSA, DEF CON)
 - Advanced training (CyberArk Guardian, Trustee)
 
 **Business development**:
-- Expand client base
+- Expand client base across both service lines (PAM + pentesting)
 - Increase rates annually
 - Consider hiring subcontractors
-- Develop niche expertise (vertical specialization)
+- Develop niche expertise (vertical specialization: healthcare, banking)
 
 ---
 
@@ -1003,26 +1008,28 @@ Portfolio Project: Healthcare PAM Implementation
 - Read CyberArk release notes
 - Follow Kubernetes security news
 - Check NIST/cloud provider security announcements
+- Monitor OffSec blog and HackTheBox/TryHackMe new content
 
 **Monthly (4-6 hours)**:
 - One webinar or training video
-- CyberArk Community participation
+- CyberArk Community and OffSec community participation
 - LinkedIn article or post
 
 **Quarterly (8-10 hours)**:
 - Review new CyberArk features
 - Update one portfolio project
 - Network at local security meetup
+- Practice pentesting on Proving Grounds or HackTheBox to keep skills sharp
 
 **Annually**:
-- Attend one major conference (even virtual)
-- Evaluate new certifications
+- Attend one major conference (even virtual — RSA, DEF CON, CyberArk IMPACT)
+- Evaluate new certifications (CCSP, CISSP based on client demand)
 - Strategic skill gap assessment
 
 **CPE tracking**:
-- CCSP: 40 CPEs/year required
 - CyberArk: Varies by certification
-- Document everything (webinars, training, speaking)
+- OSCP: No CPE required — maintain skills through active practice
+- Document everything (webinars, training, speaking, lab hours)
 
 ---
 
@@ -1036,5 +1043,5 @@ Portfolio Project: Healthcare PAM Implementation
 
 ---
 
-**Last Updated**: 2026-04-07
-**Version**: 2.1
+**Last Updated**: 2026-04-14
+**Version**: 2.0

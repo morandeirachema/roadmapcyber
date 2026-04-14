@@ -1,34 +1,49 @@
 # Getting Started
 
-Complete onboarding guide for new users of the 27-Month Cybersecurity Roadmap.
+Complete onboarding guide for new users of the 18-Month Cybersecurity Roadmap (PAM + DevSecOps + Pentesting).
 
 ---
 
 ## Welcome!
 
-You're about to embark on a 27-month journey to become an expert PAM/Conjur consultant. This guide will help you set up everything you need to succeed.
+You're about to embark on an 18-month journey to become a dual-track PAM + pentesting consultant. This guide will help you set up everything you need to succeed.
 
-**Program Start Date**: May 4, 2026 | **Program End**: ~July 2028
+**Program Start Date**: May 4, 2026 | **Program End**: ~October 2027
+
+### What You'll Achieve
+
+By the end of Month 18 (October 2027) you will have earned:
+
+1. **CyberArk Defender** — Month 4 (Aug 2026)
+2. **CyberArk Sentry** — Month 6 (Oct 2026)
+3. **CyberArk Guardian** — Month 8 (Dec 2026)
+4. **eJPT** (eLearnSecurity Junior Penetration Tester) — Month 12 (Apr 2027)
+5. **OSCP** (Offensive Security Certified Professional) — Month 17 (Sep 2027)
+
+Plus 6 portfolio projects, Conjur mastery in Docker/Kubernetes/multi-cloud, cloud pentesting skills, and a launched consulting practice targeting $175-350/hour.
 
 ---
 
 ## Is This Roadmap Right for You?
 
-### ✅ You're a Good Fit If:
-- [ ] You have 5+ years systems administration experience (17+ years ideal)
-- [ ] You can commit 10-12 hours/week consistently for 27 months
+### You're a Good Fit If:
+
+- [ ] You have 5+ years systems administration experience
+- [ ] You hold a valid CKA (Certified Kubernetes Administrator)
+- [ ] You can commit 12-15 hours/week consistently for 18 months
 - [ ] You're currently employed and want to transition to consulting
 - [ ] You want a sustainable, family-friendly learning pace
 - [ ] You're willing to learn/improve English for consulting
-- [ ] You have $2,500-4,500 budget for certifications and labs
-- [ ] You want to work with healthcare, banking, or enterprise clients
+- [ ] You have $3,400-4,500 budget for certifications and labs
+- [ ] You want to combine PAM implementation with pentesting assessment work
 
-### ⚠️ Consider Adjustments If:
-- **Less experience** (<5 years): Add 6-12 months to timeline
-- **Limited time** (<10 hrs/week): Extend proportionally (8 hrs/week = 34 months)
-- **Budget constrained**: Prioritize CyberArk certs, defer optional certifications
+### Consider Adjustments If:
+
+- **Less experience** (<5 years): Add 3-6 months to timeline
+- **Limited time** (<12 hrs/week): Extend proportionally (8 hrs/week = ~27 months)
+- **Budget constrained**: Prioritize CyberArk + OSCP, defer optional certifications
 - **English not fluent**: Add 6 months focused English study before starting
-- **Already K8s expert**: Accelerate timeline by 3-6 months
+- **No prior offensive experience**: Expect the pentesting track to feel harder — budget extra TryHackMe time in M1-4
 
 **Still unsure?** → See [FAQ.md](FAQ.md) for more details
 
@@ -71,7 +86,7 @@ This roadmap assumes you have foundational IT/systems administration skills. Com
 
 **If all boxes unchecked**: Obtain CKA certification first (add 3-6 months before starting this roadmap)
 
-**Note**: CKA is a prerequisite for CKS certification (Month 9-10)
+**Note**: CKA knowledge is used throughout Phase 2 and Phase 3 for Conjur on Kubernetes and cloud-native secrets work.
 
 ---
 
@@ -133,13 +148,14 @@ This roadmap assumes you have foundational IT/systems administration skills. Com
 
 ### Budget Confirmation
 
-Total investment: **$2,500-4,500** over 27 months (~$93-167/month)
+Total investment: **$3,400-4,500** over 18 months (~$189-250/month average)
 
 **Breakdown**:
-- Certifications: $1,350-2,100
-- Study materials: $300-600
-- Lab infrastructure: $200-500 (cloud costs)
-- Optional: $300-900 (training subscriptions)
+
+- CyberArk certifications: $750-1,500
+- Pentesting certifications (eJPT + OSCP): $1,698-2,047
+- Study materials and practice platforms: $387-659
+- Lab infrastructure: $105-330
 
 **See [BUDGET.md](BUDGET.md) for detailed breakdown and cost-saving strategies**
 
@@ -177,7 +193,7 @@ Your first week should feel productive and set up success. Here's what to accomp
 - [ ] Watch first CyberArk Campus intro video
 - [ ] Take your first notes in English
 - [ ] Begin Kubernetes basics tutorial
-- [ ] Log first week hours in 27MONTH_PROGRESS_TRACKER.csv
+- [ ] Log first week hours in your progress tracker
 
 **Celebrate!** You've completed your first week! 🎉
 
@@ -194,22 +210,22 @@ Your first week should feel productive and set up success. Here's what to accomp
 
 **Step 2**: [GLOSSARY.md](GLOSSARY.md)
 - Learn all terminology used in roadmap
-- Bookmark for reference throughout 27 months
+- Bookmark for reference throughout the 18 months
 
 **Step 3**: [README.md](README.md)
 - Get big picture overview
 - Understand 3-phase structure
-- See what's achievable by Month 27
+- See what's achievable by Month 18
 
 **Step 4**: [roadmap/OVERVIEW.md](roadmap/OVERVIEW.md)
-- Detailed understanding of full 27-month plan
+- Detailed understanding of the full 18-month plan
 - Success metrics for each phase
 - Timeline visualization
 
-**Step 5**: [roadmap/PHASE1_MONTHS_1-11.md](roadmap/PHASE1_MONTHS_1-11.md)
-- Deep dive into your first 11 months
-- Understand Defender/Sentry/Guardian certifications
-- Learn about Kubernetes hands-on focus
+**Step 5**: [roadmap/PHASE1_MONTHS_1-6.md](roadmap/PHASE1_MONTHS_1-6.md)
+- Deep dive into your first 6 months
+- Understand CyberArk Defender and Sentry preparation
+- Learn about Linux security and web app fundamentals
 
 **Step 6**: [QUICKSTART.md](QUICKSTART.md) - **Bookmark this**
 - Your daily/weekly reference
@@ -244,7 +260,7 @@ Your first week should feel productive and set up success. Here's what to accomp
    - Aim for 70% hands-on / 30% study overall
 
 3. **5 minutes**: Log hours
-   - Update 27MONTH_PROGRESS_TRACKER.csv
+   - Update your progress tracker
    - Mark completed tasks
 
 ### Weekend Routine (2.5-3 hours total, Sat-Sun)
@@ -260,7 +276,7 @@ Your first week should feel productive and set up success. Here's what to accomp
 - Plan next week's priorities
 - Check if on track for month's deliverables
 
-### Recovery Months (Months 12, 18, 27)
+### Recovery Months (Months 6, 12, 18)
 
 **Reduce to 8 hours/week**:
 - Light review and consolidation
@@ -275,9 +291,9 @@ Your first week should feel productive and set up success. Here's what to accomp
 Use the **Weekly Checklist** from [QUICKSTART.md](QUICKSTART.md):
 
 ### Study Progress
-- [ ] Completed 10-12 hours this week (or 8 hrs if recovery month)
+- [ ] Completed 12-15 hours this week (or 8 hrs if recovery month)
 - [ ] Maintained 70% hands-on labs, 30% study/reading
-- [ ] Updated 27MONTH_PROGRESS_TRACKER.csv with actual hours
+- [ ] Updated your progress tracker with actual hours
 - [ ] Took notes in English daily
 
 ### Lab Work
@@ -291,7 +307,7 @@ Use the **Weekly Checklist** from [QUICKSTART.md](QUICKSTART.md):
 - [ ] Took all notes in English
 - [ ] (If Month 7+) Wrote technical content in English
 
-### Certification Prep (if certification month: M5, M8, M11, M27)
+### Certification Prep (if certification month: M4, M6, M8, M12, M17)
 - [ ] Completed course modules on schedule
 - [ ] Practice tests score 80%+ (aim for 90%+ before exam)
 - [ ] Reviewed weak areas from practice tests
@@ -299,15 +315,15 @@ Use the **Weekly Checklist** from [QUICKSTART.md](QUICKSTART.md):
 
 ---
 
-## Progress Tracker Guide (27MONTH_PROGRESS_TRACKER.csv)
+## Progress Tracker Guide
 
-The `27MONTH_PROGRESS_TRACKER.csv` file is your primary tool for tracking progress throughout the 27-month journey. Here's how to use it:
+A CSV progress tracker is your primary tool for tracking hours, deliverables, and certifications throughout the 18-month journey. Here's how to use it:
 
 ### CSV Structure
 
 | Column | Description | How to Fill |
 |--------|-------------|-------------|
-| `Month` | Month number (1-27) | Pre-filled |
+| `Month` | Month number (1-18) | Pre-filled |
 | `Week` | Week number or range | Pre-filled |
 | `Phase` | Phase 1, 2, or 3 | Pre-filled |
 | `Focus_Area` | Current focus topic | Pre-filled |
@@ -327,7 +343,7 @@ The `27MONTH_PROGRESS_TRACKER.csv` file is your primary tool for tracking progre
 ### How to Use the Tracker
 
 **Daily** (5 minutes):
-1. Open `27MONTH_PROGRESS_TRACKER.csv` in any spreadsheet app (Excel, Google Sheets, LibreOffice)
+1. Open your progress tracker CSV in any spreadsheet app (Excel, Google Sheets, LibreOffice)
 2. Find your current week's row
 3. Update `Study_Hours_Actual` and `Lab_Hours_Actual` columns
 4. Add any notes to the `Notes` column
@@ -389,27 +405,30 @@ After:  Week 9, Status: In Progress, Study_Actual: 5.5, Lab_Actual: 4, Notes: "D
 
 ### Phase Completion Assessment
 
-**End of Phase 1 (Month 11)**:
-- [ ] All 3 CyberArk certifications obtained (Defender, Sentry, Guardian)
-- [ ] Kubernetes hands-on mastery achieved (production-ready)
-- [ ] 3-4 portfolio projects published on GitHub
-- [ ] English: Comfortable reading/writing technical content
-- [ ] First consulting presentations delivered
+**End of Phase 1 (Month 6)**:
 
-**End of Phase 2 (Month 18)**:
-- [ ] Conjur mastery complete (Docker, K8s, multi-cloud basics)
-- [ ] DevSecOps expertise (CI/CD + secrets management)
-- [ ] 5-6 total portfolio projects published
-- [ ] English: Professional communication skills
-- [ ] Consulting skills progressing (RFP/SOW templates)
+- [ ] CyberArk Defender and Sentry certifications obtained
+- [ ] PAM lab fully operational and documented
+- [ ] Linux security + web app security (DVWA, Burp Suite) foundations in place
+- [ ] DevSecOps pipeline running with security scanners
+- [ ] Portfolio Project 1 (PAM Lab Documentation) published
 
-**End of Phase 3 (Month 27)**:
-- [ ] CCSP certification achieved
-- [ ] AWS + Azure security architecture expertise
-- [ ] Cloud compliance mastery (HIPAA, PCI-DSS, SOC2, GDPR)
-- [ ] 7-8 total portfolio projects published
-- [ ] English: Consulting presentation skills
-- [ ] **CONSULTING PRACTICE LAUNCHED** 🚀
+**End of Phase 2 (Month 12)**:
+
+- [ ] CyberArk Guardian certification obtained
+- [ ] eJPT certification obtained
+- [ ] Conjur deployed in Docker and Kubernetes
+- [ ] Comfortable pentesting networks, web apps, and Active Directory
+- [ ] Portfolio Project 2 (CyberArk Guardian Enterprise Architecture) published
+
+**End of Phase 3 (Month 18)**:
+
+- [ ] OSCP certification obtained
+- [ ] Cloud pentesting skills (CloudGoat AWS, Azure AD attacks)
+- [ ] Multi-cloud secrets architecture designed and deployed
+- [ ] DevSecOps security audit methodology applied
+- [ ] Portfolio Projects 3-6 published (Conjur + CI/CD, Multi-Cloud Secrets, DevSecOps Audit, Enterprise Capstone)
+- [ ] **Consulting practice launched**
 
 ### Update Professional Materials
 - **Resume/CV**: Add new certifications, skills, projects
@@ -475,7 +494,7 @@ After:  Week 9, Status: In Progress, Study_Actual: 5.5, Lab_Actual: 4, Notes: "D
 
 3. **Ignoring English** until Month 20
    - English takes time to develop (can't cram it)
-   - Start from Day 1 or you won't be ready by Month 27
+   - Start from Day 1 or you won't be ready by Month 18
 
 4. **Scheduling exams before 90%+ practice test scores**
    - High failure risk
@@ -509,13 +528,13 @@ After:  Week 9, Status: In Progress, Study_Actual: 5.5, Lab_Actual: 4, Notes: "D
 
 ### If You're Ready to Start:
 
-✅ Completed prerequisites checklist
-✅ Set up hardware, software, and accounts
-✅ Understand 27-month commitment
-✅ Budget confirmed
-✅ Read orientation documents
+- Completed prerequisites checklist
+- Set up hardware, software, and accounts
+- Understand 18-month commitment
+- Budget confirmed
+- Read orientation documents
 
-**→ Begin Month 1 activities** from [roadmap/PHASE1_MONTHS_1-11.md](roadmap/PHASE1_MONTHS_1-11.md)
+**→ Begin Month 1 activities** from [roadmap/PHASE1_MONTHS_1-6.md](roadmap/PHASE1_MONTHS_1-6.md)
 
 **→ Bookmark [QUICKSTART.md](QUICKSTART.md)** for daily reference
 
@@ -529,19 +548,19 @@ After:  Week 9, Status: In Progress, Study_Actual: 5.5, Lab_Actual: 4, Notes: "D
 **Budget concerns** → [BUDGET.md](BUDGET.md)
 **English details** → [roadmap/ENGLISH_LEARNING.md](roadmap/ENGLISH_LEARNING.md)
 **Timeline questions** → [roadmap/OVERVIEW.md](roadmap/OVERVIEW.md)
-**Certification details** → [roadmap/PHASE1_MONTHS_1-11.md](roadmap/PHASE1_MONTHS_1-11.md)
+**Certification details** → [roadmap/PHASE1_MONTHS_1-6.md](roadmap/PHASE1_MONTHS_1-6.md)
 
 ---
 
 ## Good Luck!
 
-You're about to embark on a transformative 27-month journey. Stay consistent, use the recovery months, engage with communities, and remember:
+You're about to embark on a transformative 18-month journey. Stay consistent, use the recovery months, engage with communities, and remember:
 
-**Consistency beats intensity. 10-12 hours/week for 27 months > 20 hours/week for 12 months (with burnout)**
+**Consistency beats intensity. 12-15 hours/week for 18 months beats 25 hours/week for 9 months (with burnout).**
 
-Welcome to the roadmap! 🚀
+Welcome to the roadmap.
 
 ---
 
 **Last Updated**: 2026-04-14
-**Version**: 1.1
+**Version**: 3.0

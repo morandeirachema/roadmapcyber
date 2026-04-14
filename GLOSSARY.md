@@ -1,19 +1,23 @@
 # Glossary
 
-Quick reference for all terminology used in the 27-Month Cybersecurity Roadmap.
+Quick reference for all terminology used in the 18-Month Cybersecurity Roadmap.
 
 ---
 
 ## Certifications
 
 ### CyberArk Certifications
-- **CyberArk Defender**: Entry-level CyberArk PAM certification focusing on basic administration and implementation. Target: Month 5
-- **CyberArk Sentry**: Advanced-level CyberArk PAM certification for complex administration scenarios. Target: Month 8
-- **CyberArk Guardian**: Expert-level CyberArk PAM certification demonstrating mastery of enterprise deployments. Target: Month 11
+- **CyberArk Defender**: Entry-level CyberArk PAM certification focusing on basic administration and implementation. Target: Month 4
+- **CyberArk Sentry**: Advanced-level CyberArk PAM certification for complex administration scenarios. Target: Month 6
+- **CyberArk Guardian**: Expert-level CyberArk PAM certification demonstrating mastery of enterprise deployments. Target: Month 8
+
+### Penetration Testing Certifications
+- **eJPT (eLearnSecurity Junior Penetration Tester)**: INE entry-level practical pentesting certification. Target: Month 12
+- **OSCP (Offensive Security Certified Professional)**: OffSec's flagship practical penetration testing certification requiring 90-day lab access and a 24-hour hands-on exam. Target: Month 17
 
 ### Cloud & Security Certifications
-- **CCSP (Certified Cloud Security Professional)**: Vendor-neutral cloud security certification from (ISC)² focusing on cloud architecture, compliance, and security across AWS, Azure, and GCP. Target: Month 27
-- **CISSP (Certified Information Systems Security Professional)**: Industry gold standard security certification covering 8 domains of security. Optional after Month 27 if clients require it
+- **CCSP (Certified Cloud Security Professional)**: Vendor-neutral cloud security certification from (ISC)² focusing on cloud architecture, compliance, and security across AWS, Azure, and GCP. Archived from primary path; optional post-M18
+- **CISSP (Certified Information Systems Security Professional)**: Industry gold standard security certification covering 8 domains of security. Optional after Month 18 if clients require it
 - **CKA (Certified Kubernetes Administrator)**: Linux Foundation certification validating Kubernetes administration skills. **You already have this!**
 
 ---
@@ -41,20 +45,22 @@ Quick reference for all terminology used in the 27-Month Cybersecurity Roadmap.
 ## Roadmap Terminology
 
 ### Timeline Terms
-- **Recovery Month**: Strategically placed light workload months (8 hrs/week instead of 10-12) at Month 12, Month 18, and Month 27 to prevent burnout, consolidate learning, and allow for vacation
-- **Phase 1**: Months 1-11 - PAM + Kubernetes Mastery
-- **Phase 2**: Months 12-18 - Conjur + DevSecOps
-- **Phase 3**: Months 19-27 - Cloud Security + CCSP
+- **Recovery Month**: Strategically placed light workload months to prevent burnout, consolidate learning, and allow for vacation
+- **Phase 1**: Months 1-6 - PAM Foundations
+- **Phase 2**: Months 7-12 - Pentesting + Advanced PAM
+- **Phase 3**: Months 13-18 - Cloud + OSCP + Launch
 
 ### Project Terms
-- **Portfolio Project**: Documented technical implementations demonstrating expertise (target: 7-8 projects by Month 27). These are showcased to potential clients
-- **Capstone Project**: The comprehensive enterprise project built continuously from Month 1-27, integrating PAM + Conjur + Kubernetes + Multi-cloud + Compliance. Your ultimate portfolio showpiece
+- **Portfolio Project**: Documented technical implementations demonstrating expertise (target: 6-8 projects by Month 18). These are showcased to potential clients
+- **Capstone Project**: The comprehensive enterprise project built continuously from Month 1-18, integrating PAM + Conjur + Kubernetes + Pentesting + Compliance. Your ultimate portfolio showpiece
 - **Deliverable**: Specific output expected at the end of a week, month, or phase (e.g., "Defender certification," "Project 3 documentation," "Lab environment operational")
 
 ### Study Terms
 - **Hands-on Labs**: Practical implementation work (70% of study time). Building, configuring, troubleshooting actual systems
 - **Study/Reading**: Theory, documentation reading, video courses (30% of study time)
 - **Practice Tests**: Certification exam simulation tests. Goal: 90%+ before taking real exam
+- **TryHackMe**: Online platform for guided cybersecurity training via interactive labs and learning paths; used in Phase 2 for pentesting foundations
+- **HackTheBox**: Online platform with realistic "capture the flag" machines for advanced pentesting practice; used during OSCP prep in Phase 3
 
 ---
 
@@ -134,6 +140,33 @@ Quick reference for all terminology used in the 27-Month Cybersecurity Roadmap.
 
 ---
 
+## Penetration Testing
+
+- **Penetration Testing (Pentest)**: Authorized simulated attack on a system to find vulnerabilities before attackers do
+- **OSCP**: Offensive Security Certified Professional; OffSec's flagship practical penetration testing certification
+- **eJPT**: eLearnSecurity Junior Penetration Tester; INE entry-level practical pentesting certification
+- **OffSec**: Offensive Security; the company behind OSCP, Kali Linux, and Proving Grounds
+- **Kali Linux**: Debian-based Linux distribution purpose-built for penetration testing; pre-installed with security tools
+- **Metasploit**: Open-source exploitation framework for developing and executing exploit code
+- **Burp Suite**: Web application security testing platform; Community (free) and Pro (paid) versions
+- **Nmap**: Network scanner for host discovery, port scanning, service detection, and OS fingerprinting
+- **BloodHound**: Tool for visualizing Active Directory attack paths using graph theory
+- **Impacket**: Python library for network protocols; key for Active Directory attacks (Kerberoasting, Pass-the-Hash, DCSync)
+- **TryHackMe**: Online platform for guided cybersecurity training via interactive labs and learning paths
+- **HackTheBox**: Online platform with realistic "capture the flag" machines for advanced pentesting practice
+- **Kerberoasting**: Attack that requests Kerberos service tickets for accounts with SPNs, then cracks them offline; mitigated by CyberArk service account vaulting
+- **Pass-the-Hash (PtH)**: Attack using captured NTLM hash for authentication without knowing the plaintext password; mitigated by CyberArk PSM session isolation
+- **Privilege Escalation**: Gaining higher permissions on a compromised system (Linux: SUID, sudo; Windows: token impersonation)
+- **PTES**: Penetration Testing Execution Standard; methodology framework for professional pentests
+- **CVSS**: Common Vulnerability Scoring System; standardized method for rating vulnerability severity (0-10 scale)
+- **Red Team**: Security team that simulates adversary attacks to test defenses; distinct from penetration testing
+- **Rules of Engagement (ROE)**: Written agreement defining scope, authorized activities, and emergency procedures for a pentest
+- **msfvenom**: Metasploit tool for generating shellcode and payloads for various platforms
+- **Lateral Movement**: Technique attackers use to progressively move through a network after initial access
+- **OSINT**: Open Source Intelligence; gathering information from publicly available sources during reconnaissance
+
+---
+
 ## Related Documents
 
 - **Need help with terms not listed?** → Ask in [FAQ.md](FAQ.md)
@@ -142,5 +175,5 @@ Quick reference for all terminology used in the 27-Month Cybersecurity Roadmap.
 
 ---
 
-**Last Updated**: 2026-04-07
-**Version**: 1.1
+**Last Updated**: 2026-04-14
+**Version**: 2.0

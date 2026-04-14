@@ -1,404 +1,245 @@
-# 27-Month Roadmap Overview
+# 18-Month Roadmap Overview
 
-High-level structure of the complete 27-month journey to expert PAM/Conjur consultant.
+Complete high-level structure of the 18-month journey from experienced sysadmin to dual-track PAM + pentesting consultant.
 
 ---
 
 ## The Big Picture
 
 **Start**: Experienced sysadmin (5+ years) with CKA certification
-**End**: Expert PAM/Conjur consultant ready for $275-450/hr rates
-**Duration**: 27 months (108 weeks) at 10-12 hours/week
-**Total Study Hours**: ~1,215-1,296 hours
-
-**Roadmap Type**: Specialized PAM/Conjur architect consulting path
+**End**: Dual-track consultant — PAM implementation + offensive security assessment
+**Duration**: 18 months (~78 weeks)
+**Hours/week**: 12-15 hrs/week standard, 8 hrs/week in recovery months
+**Total Study Hours**: ~972-1,080 hours
 
 **Program Start**: May 4, 2026
-**Program End**: ~July 2028
+**Program End**: ~October 2027
+
+**Note**: This roadmap is NOT a general cybersecurity career path. It is a deliberately specialized plan to become a consultant in a premium niche: implementing CyberArk PAM / Conjur while also performing pentesting engagements. Most general security paths either focus on defense or offense — this one builds both so you can assess attack surface AND remediate it. For broader cybersecurity foundations, see [roadmap.sh/cyber-security](https://roadmap.sh/cyber-security).
 
 ### Calendar Milestones
 
 | Month | Calendar | Milestone |
 |:-----:|:--------:|:----------|
-| M1 | May 2026 | Program begins — Lab setup |
-| M5 | Sep 2026 | CyberArk Defender |
-| M8 | Dec 2026 | CyberArk Sentry |
-| M11 | Mar 2027 | CyberArk Guardian |
-| M12 | Apr 2027 | Recovery month |
-| M18 | Oct 2027 | Recovery month |
-| M19 | Nov 2027 | Cloud Security phase begins |
-| M27 | Jul 2028 | CCSP + Consulting Launch |
-
-**Note**: This roadmap is NOT a general cybersecurity career path. It's designed for experienced sysadmins who want to specialize in Privileged Access Management (PAM) and secrets management consulting. For broader cybersecurity foundations, see [roadmap.sh/cyber-security](https://roadmap.sh/cyber-security).
-
-**What makes this specialized?**
-- **Focus**: PAM/Conjur architecture expertise (vs. general offensive/defensive security)
-- **Target**: Consulting rates of $275-450/hr (vs. security analyst employment)
-- **Prerequisite**: 5+ years sysadmin experience + CKA certification
-- **Omits**: Forensics, reverse engineering, penetration testing (covered in general paths)
-- **Includes**: Deep cloud security, Kubernetes security, compliance frameworks for PAM
+| M1 | May 2026 | Program begins — PAM + Kali lab setup |
+| M2 | Jun 2026 | Linux security + PAM fundamentals |
+| M3 | Jul 2026 | Defender cert prep, web app security (DVWA, Burp Suite) |
+| M4 | Aug 2026 | **CyberArk Defender cert** + Portfolio Project 1 (PAM Lab) |
+| M5 | Sep 2026 | Sentry prep + OWASP Top 10 + DevSecOps pipeline |
+| M6 | Oct 2026 | **CyberArk Sentry cert** + Recovery (8 hrs/week) |
+| M7 | Nov 2026 | Network pentesting, Nmap advanced, Guardian prep |
+| M8 | Dec 2026 | **CyberArk Guardian cert** + Metasploit, web exploitation |
+| M9 | Jan 2027 | AD attacks (BloodHound, Kerberoasting) + Portfolio Project 2 (Guardian architecture) |
+| M10 | Feb 2027 | Post-exploitation, privilege escalation, eJPT prep |
+| M11 | Mar 2027 | eJPT intensive prep, Conjur on K8s, HackTheBox |
+| M12 | Apr 2027 | **eJPT cert** + Recovery (8 hrs/week) |
+| M13 | May 2027 | OSCP PEN-200 begins + Portfolio Project 3 (Conjur + CI/CD) |
+| M14 | Jun 2027 | OSCP exploitation + AD at OSCP level + multi-cloud secrets |
+| M15 | Jul 2027 | OSCP challenge labs + CloudGoat + Azure AD attacks + Portfolio Project 4 (Multi-Cloud Secrets) |
+| M16 | Aug 2027 | OSCP exam simulation + Portfolio Project 5 (DevSecOps Audit) |
+| M17 | Sep 2027 | **OSCP exam** + consulting pre-launch |
+| M18 | Oct 2027 | **Consulting Launch** + Recovery + Portfolio Project 6 (Capstone) |
 
 ---
 
 ## Three-Phase Structure
 
-### Phase 1: PAM + Kubernetes Mastery (Months 1-11)
-**Duration**: 11 months (44 weeks)
+### Phase 1: Security Foundations + PAM Mastery (Months 1-6)
+
+**Duration**: 6 months (May–Oct 2026)
+**Calendar**: May 4, 2026 → October 2026
 
 **Focus**:
-- Master CyberArk PAM platform completely
-- Close Kubernetes hands-on gap (12 months continuous practice M1-11)
-- Build strong foundation for consulting
 
-**Certifications** (3):
-- **CyberArk Defender** (Month 5) - Foundation level
-- **CyberArk Sentry** (Month 8) - Intermediate administration
-- **CyberArk Guardian** (Month 11) - Advanced level
-- **CyberArk Trustee** (optional post-M27) - Expert architect level
+- Build Linux security foundation and attacker-mindset lab (Kali Linux)
+- Master CyberArk PAM fundamentals and administration
+- Introduce web application security (DVWA, Burp Suite, OWASP Top 10)
+- Establish a DevSecOps pipeline mindset
+
+**Certifications**:
+
+- **CyberArk Defender** (Month 4, Aug 2026)
+- **CyberArk Sentry** (Month 6, Oct 2026)
 
 **Key Activities**:
-- Install and configure all PAM components
-- Build enterprise PAM scenarios
-- Deploy multi-tier Kubernetes applications
-- Practice K8s RBAC, networking, storage, security
-- Start English learning (reading → writing)
-- Begin consulting skills (monthly presentations from M3)
+
+- Build local lab: CyberArk PAM components + Kali Linux + vulnerable targets
+- Install, configure, and harden CyberArk Vault, CPM, PVWA, PSM
+- Linux hardening, audit logs, privilege escalation basics
+- DVWA + Burp Suite web app fundamentals
+- DevSecOps pipeline introduction (CI with security scanning)
 
 **Deliverables**:
-- 3 CyberArk certifications obtained
-- Kubernetes production-ready skills
-- 3-4 portfolio projects published
-- Professional English reading/writing
-- Complete PAM lab environment
 
-**Success Metrics** (by Month 11):
-- ✅ All 3 CyberArk certifications
-- ✅ Can deploy production-grade K8s clusters
-- ✅ 3-4 documented portfolio projects on GitHub
-- ✅ Comfortable reading and writing technical English
-- ✅ Delivered first consulting presentations
+- Fully functional PAM lab
+- **Portfolio Project 1 — PAM Lab Documentation** (M4)
+- 2 CyberArk certifications obtained
+- Baseline offensive skills (Linux privesc, web basics)
+
+**Success Metrics** (by Month 6):
+
+- CyberArk Defender and Sentry both obtained
+- PAM lab fully operational and documented
+- Comfortable with Kali Linux workflow and Burp Suite
+- DevSecOps CI pipeline running with security scanners
 
 ---
 
-### Phase 2: Conjur + DevSecOps (Months 12-18)
-**Duration**: 7 months (28 weeks, includes Month 12 recovery)
+### Phase 2: Pentesting Foundations + Advanced PAM (Months 7-12)
+
+**Duration**: 6 months (Nov 2026–Apr 2027)
+**Calendar**: November 2026 → April 2027
 
 **Focus**:
-- Master CyberArk Conjur for secrets management
-- DevSecOps practices and CI/CD integration
-- Multi-cloud deployments
 
-**Recovery Month**:
-- **Month 12**: 8 hrs/week (down from 10-12)
-- Vacation time, consolidation, rest
-- Light Conjur introduction
-- Prevents burnout after 11-month certification push
+- Develop core pentesting skills (network, web, AD)
+- Achieve expert-level CyberArk Guardian
+- Deploy Conjur in Docker and Kubernetes
+- Build offensive muscle through TryHackMe and HackTheBox
+
+**Certifications**:
+
+- **CyberArk Guardian** (Month 8, Dec 2026)
+- **eJPT** (Month 12, Apr 2027)
 
 **Key Activities**:
-- Deploy Conjur in Docker and Kubernetes
-- Implement Policy-as-Code
-- Integrate with CI/CD pipelines (Jenkins, GitLab CI, GitHub Actions)
-- Multi-cloud secrets management (AWS + Azure integration)
-- Automated secrets rotation
-- Continue English learning (professional communication)
-- Advance consulting skills (RFP/SOW templates)
+
+- Network pentesting methodology (Nmap advanced, enumeration)
+- Metasploit basics and web exploitation
+- Active Directory attacks: BloodHound, Kerberoasting, Pass-the-Hash
+- Post-exploitation and privilege escalation (Linux and Windows)
+- Conjur deployment in Docker and Kubernetes
+- Recovery in Month 12 after the eJPT exam
 
 **Deliverables**:
-- Conjur mastery (Docker, K8s, multi-cloud)
-- DevSecOps expertise demonstrated
-- CI/CD integrations working
-- 5-6 total portfolio projects
-- Professional English communication skills
-- RFP and SOW templates created
+
+- **Portfolio Project 2 — CyberArk Guardian Enterprise Architecture** (M9)
+- Guardian + eJPT certifications obtained
+- Conjur running in Docker and K8s
+- Consistent TryHackMe / HackTheBox activity
+
+**Success Metrics** (by Month 12):
+
+- CyberArk Guardian and eJPT both obtained
+- Comfortable pentesting networks, web apps, and Active Directory
+- Conjur deployed in both Docker and Kubernetes
+- Ready to begin OSCP PEN-200 course
+
+---
+
+### Phase 3: Cloud Security + Advanced Pentesting + Launch (Months 13-18)
+
+**Duration**: 6 months (May–Oct 2027)
+**Calendar**: May 2027 → October 2027
+
+**Focus**:
+
+- OSCP PEN-200 course and exam
+- Cloud pentesting (AWS via CloudGoat, Azure AD attacks)
+- Multi-cloud secrets architecture
+- DevSecOps audit methodology
+- Consulting practice launch
+
+**Certifications**:
+
+- **OSCP** (Month 17, Sep 2027)
+
+**Key Activities**:
+
+- OSCP PEN-200 course, labs, and exam simulations
+- Cloud pentesting with CloudGoat (AWS) and Azure attack paths
+- Multi-cloud secrets architecture with Conjur
+- DevSecOps security audit methodology applied to real pipelines
+- Enterprise capstone combining PAM + Conjur + pentest assessment
+- Consulting pre-launch activities: website, offerings, rate card, outreach
+
+**Deliverables**:
+
+- **Portfolio Project 3 — Conjur + CI/CD Secrets Management** (M13)
+- **Portfolio Project 4 — Multi-Cloud Secrets Architecture** (M15)
+- **Portfolio Project 5 — DevSecOps Security Audit** (M16)
+- **Portfolio Project 6 — Enterprise Capstone: PAM + Conjur + Pentest Assessment** (M18)
+- OSCP certification obtained
+- **Consulting practice launched**
 
 **Success Metrics** (by Month 18):
-- ✅ Conjur deployed across Docker, K8s, multi-cloud
-- ✅ CI/CD pipeline integrations complete
-- ✅ Automated secrets rotation working
-- ✅ 5-6 portfolio projects published
-- ✅ Can write professional articles and documentation
-- ✅ Consulting templates ready (RFP, SOW)
+
+- OSCP obtained
+- All 6 portfolio projects published
+- Consulting practice launched with offerings and pricing defined
+- Dual-track positioning (PAM remediation + attack surface assessment) established
 
 ---
 
-### Phase 3: Cloud Security + CCSP (Months 19-27)
-**Duration**: 9 months (36 weeks, includes Month 27 recovery)
+## Dual-Track Design
 
-**Focus**:
-- AWS security architecture deep dive
-- Azure security architecture deep dive
-- Cloud compliance frameworks (HIPAA, PCI-DSS, SOC2, GDPR)
-- CCSP certification preparation and exam
-- **Consulting practice launch**
+This roadmap runs two skill tracks in parallel, every month, throughout all 18 months.
 
-**Key Activities**:
-- **Months 19-22**: AWS security intensive (IAM, KMS, Secrets Manager, compliance)
-- **Months 23-26**: Azure security intensive (Azure AD/Entra ID, Key Vault, compliance)
-- **Month 27**: CCSP certification + recovery week + **CONSULTING LAUNCH**
-- Hands-on labs with AWS and Azure security services
-- Implement compliance controls for healthcare and banking
-- Finalize all portfolio projects
-- Complete enterprise capstone project
-- Perfect English for consulting (presentations, proposals, client calls)
-- Prepare all consulting launch materials
+### PAM Track
 
-**Recovery Elements**:
-- **Month 18**: Light recovery week (8 hrs/week)
-- **Month 27**: Recovery with CCSP exam week, then launch prep
+- **M1-4**: CyberArk fundamentals → Defender
+- **M5-6**: Advanced administration → Sentry
+- **M7-8**: Expert architecture → Guardian
+- **M9-12**: Conjur in Docker and Kubernetes
+- **M13-15**: Conjur in CI/CD + multi-cloud secrets architecture
+- **M16-18**: Enterprise audit + capstone
 
-**Deliverables**:
-- **CCSP certification** obtained
-- AWS + Azure security expertise
-- Cloud compliance mastery (HIPAA, PCI-DSS, SOC2, GDPR)
-- 7-8 total portfolio projects polished and published
-- Complete enterprise capstone project operational
-- Consulting-level English fluency
-- **Consulting practice launched** (website, materials, ready for clients)
+### Pentesting Track
 
-**Success Metrics** (by Month 27 - LAUNCH)**:
-- ✅ **CCSP certification achieved**
-- ✅ AWS security architecture expertise
-- ✅ Azure security architecture expertise
-- ✅ Healthcare and banking compliance frameworks mastered
-- ✅ 7-8 portfolio projects documented professionally
-- ✅ Enterprise capstone project fully operational
-- ✅ Professional English fluency for consulting
-- ✅ **CONSULTING PRACTICE LAUNCHED**
-- ✅ Ready for $275-450/hour consulting rates
+- **M1-2**: Linux security and hardening, Kali Linux workflow
+- **M3-5**: Web application security (DVWA, Burp Suite, OWASP Top 10)
+- **M6-8**: Network pentesting, Nmap, Metasploit, web exploitation
+- **M9-11**: Active Directory attacks (BloodHound, Kerberoasting), post-exploitation
+- **M12**: eJPT exam
+- **M13-16**: OSCP PEN-200, cloud pentesting (CloudGoat, Azure)
+- **M17**: OSCP exam
+- **M18**: Capstone pentest assessment
+
+The tracks intersect: every project uses PAM knowledge from the attacker's point of view, and every pentest finding feeds into PAM remediation design.
 
 ---
 
-## Timeline Visualization
+## Why This Combination
 
-### Gantt-Style Overview
+### Market Positioning
 
-```text
-Month:  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27
-        │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │
-PHASE   ├───────────────────────────────────────────┤   ├───────────────────────────┤   ├───────────────────────────────────┤
-        │         PHASE 1: PAM + K8s               │   │    PHASE 2: Conjur        │   │     PHASE 3: Cloud + CCSP         │
-        │                                           │   │                           │   │                                   │
-CERTS   │   ┌───────────┐     ┌───────────┐       │   │                           │   │                       ┌───────┐  │
-        │   │ DEFENDER  │     │  SENTRY   │       │   │                           │   │                       │ CCSP  │  │
-        │   │  (M5) ✅  │     │  (M8) ✅  │       │   │                           │   │                       │(M27)✅│  │
-        │   └───────────┘     └───────────┘       │   │                           │   │                       └───────┘  │
-        │                           ┌───────────┐ │   │                           │   │                                   │
-        │                           │ GUARDIAN  │ │   │                           │   │                                   │
-        │                           │ (M11) ✅  │ │   │                           │   │                                   │
-        │                           └───────────┘ │   │                           │   │                                   │
-        │                                         │   │                           │   │                                   │
-K8s     ├─────────────────────────────────────────┤   │                           │   │                                   │
-        │ Kubernetes hands-on continuous (M1-11)  │   │                           │   │                                   │
-        │                                         │   │                           │   │                                   │
-RECOVERY│                                         │ 🏖️│                         🏖️│   │                               🏖️🚀│
-        │                                         │M12│                       M18 │   │                              M27  │
-        └─────────────────────────────────────────┴───┴───────────────────────────┴───┴───────────────────────────────────┘
+Most consultants fall into one of two camps:
 
-Legend: ✅ = Certification milestone  🏖️ = Recovery month (8 hrs/week)  🚀 = Consulting launch
-```
+- **PAM implementers** — strong with CyberArk but cannot assess what attackers would actually exploit
+- **Pentesters** — strong at finding issues but cannot implement PAM remediations
 
-### Phase Breakdown
+This roadmap trains the rare hybrid: a consultant who can walk into an engagement, assess privilege-related attack surface, AND implement the CyberArk / Conjur controls that remediate it. That combination is in demand in regulated industries (finance, healthcare, critical infrastructure) and commands premium rates.
 
-```text
-PHASE 1: PAM + Kubernetes Mastery (M1-11)
-├─ M1-2:   Foundations & lab setup
-├─ M3-5:   Defender cert prep & exam (M5) ✅
-├─ M6-8:   Sentry cert prep & exam (M8) ✅
-└─ M9-11:  Guardian cert prep & exam (M11) ✅
-           K8s hands-on continuous M1-11
+### Attacker Mindset Makes Better PAM
 
-PHASE 2: Conjur + DevSecOps (M12-18)
-├─ M12:    🏖️ RECOVERY MONTH (8 hrs/week)
-├─ M13-15: Conjur Docker + DevSecOps fundamentals
-└─ M16-18: Conjur K8s + multi-cloud integration
+Studying offensive techniques transforms how you design PAM:
 
-PHASE 3: Cloud Security + CCSP (M19-27)
-├─ M19-22: AWS security deep dive
-├─ M23-26: Azure security deep dive
-└─ M27:    CCSP cert + 🏖️ recovery + 🚀 LAUNCH
-```
+- You know exactly which privilege escalation paths matter
+- You understand why session recording and just-in-time access are non-negotiable
+- You can defend your architectural choices with real attack scenarios
+- Your PAM reviews surface issues that pure implementers miss
 
-### Certification Timeline
+### Rate Impact
 
-| Month | Certification | Prep Time | Exam Day |
-|:-----:|:--------------|:---------:|:--------:|
-| M5 | CyberArk Defender | Weeks 9-19 | Week 20 |
-| M8 | CyberArk Sentry | Weeks 21-31 | Week 32 |
-| M11 | CyberArk Guardian | Weeks 33-43 | Week 44 |
-| M27 | CCSP | Weeks 100-107 | Week 108 |
-
----
-
-## Key Optimizations
-
-This roadmap incorporates 7 critical optimizations based on extensive analysis:
-
-### 1. Certification Timeline Restructured
-**Before**: Compressed M3/M5/M6 (high failure risk)
-**After**: Spread to M5/M8/M11 (proper lab time before exams)
-
-**Benefit**: Lower exam failure rate, deeper hands-on foundation
-
-### 2. Kubernetes Learning Extended
-**Before**: 4 months compressed (M6-9)
-**After**: 12 months continuous (M1-11)
-
-**Benefit**: Closes CKA theory → production-ready gap
-
-### 3. Recovery Months Strategically Placed
-**Location**: Month 12, Month 18, Month 27 (8 hrs/week each)
-
-**Benefit**: Prevents burnout, allows knowledge consolidation, vacation time
-
-### 4. Continuous Capstone Model
-**Before**: Separate capstone phases
-**After**: Build continuously M1-27, add components as you learn
-
-**Benefit**: Integration mastered over time, fully operational by M27
-
-### 5. Structured English Learning
-**Before**: "Naturally embedded" (vague)
-**After**: 5 phases with clear checkpoints (M6, M12, M18, M24, M27)
-
-**Benefit**: Consulting-level English fluency guaranteed
-
-### 6. Consulting Skills Scheduled
-**Before**: Mentioned but not planned
-**After**: Monthly presentations, RFP/SOW development, client simulation
-
-**Benefit**: Business-ready consultant, not just technical expert
-
-### 7. Portfolio Building Progressive
-**Before**: Rushed at end
-**After**: 8-10 projects across 27 months, increasing complexity
-
-**Benefit**: Demonstrates expertise growth, quality over quantity
-
----
-
-## Weekly Time Commitment
-
-### Standard Months (10-12 hours/week)
-**Weekdays** (Mon-Fri):
-- 1.5-2 hours/day = 7.5-10 hours total
-- Mix of study and hands-on labs
-
-**Weekends** (Sat-Sun):
-- 2.5-3 hours total
-- Focus on hands-on projects
-
-**Breakdown**:
-- **70% hands-on labs** (7-8.5 hrs/week) - Building, configuring, troubleshooting
-- **30% study/reading** (3-3.5 hrs/week) - Documentation, video courses, certification prep
-- **English practice**: 30 min/day embedded in study activities
-
-### Recovery Months (8 hours/week)
-**Months 12, 18, 27**:
-- Light review and consolidation
-- Personal time, vacation, family
-- No high-pressure activities
-- No certification exam stress
-
----
-
-## Learning Philosophy
-
-### 70/30 Rule
-**70% Hands-on Labs**: Building, breaking, fixing, implementing
-**30% Study/Reading**: Theory, documentation, exam preparation
-
-**Why**: Consulting requires practical skills, not just theoretical knowledge
-
-### Spaced Repetition
-- Monthly reviews of previous phase content
-- Quarterly deep reviews
-- Continuous capstone reinforces learning
-
-### Sustainable Pace
-- 10-12 hrs/week is maintainable for 27 months
-- Recovery months prevent burnout
-- Family-friendly schedule
+- PAM implementation alone: $150-200/hr typical
+- Pentesting alone: $175-250/hr typical
+- **Combined PAM + pentest consultant**: $200-350/hr achievable in premium niches
 
 ---
 
 ## Related Documents
 
-### Getting Started
-- **New user?** → [GETTING_STARTED.md](../GETTING_STARTED.md)
-- **Daily reference** → [QUICKSTART.md](../QUICKSTART.md)
-- **Questions?** → [FAQ.md](../FAQ.md)
-- **Stuck?** → [TROUBLESHOOTING.md](../TROUBLESHOOTING.md)
-- **Terms?** → [GLOSSARY.md](../GLOSSARY.md)
-- **Budget?** → [BUDGET.md](../BUDGET.md)
-
-### Detailed Plans
-- **Week-by-week schedule** → [MONTH_BY_MONTH_SCHEDULE.md](MONTH_BY_MONTH_SCHEDULE.md)
-- **English learning details** → [ENGLISH_LEARNING.md](ENGLISH_LEARNING.md)
-- **Consulting skills development** → [CONSULTING_SKILLS.md](CONSULTING_SKILLS.md)
-- **Complete detailed roadmap (legacy)** → [../docs/archive/CYBERROADMAP_LEGACY.md](../docs/archive/CYBERROADMAP_LEGACY.md)
-
-### Progress Tracking
-- **Track hours and deliverables** → [../27MONTH_PROGRESS_TRACKER.csv](../27MONTH_PROGRESS_TRACKER.csv)
-
----
-
-## What Makes This Roadmap Different
-
-### Realistic Timeline
-- 27 months allows proper mastery
-- Not rushed, not padded
-- Based on actual learning velocities
-
-### Consulting-Focused
-- Not just technical skills
-- Business skills integrated (presentations, proposals, RFPs)
-- English fluency for professional communication
-- Portfolio demonstrates consulting-ready expertise
-
-### Proven Optimizations
-- Based on comprehensive analysis (see `docs/archive/ULTRATHINK_ANALYSIS_2024-11.md`); reviewed and updated April 2026
-- Addresses common failure points
-- Incorporates burnout prevention
-- Higher certification pass rates
-
-### Sustainable & Family-Friendly
-- 10-12 hrs/week maintainable while working full-time
-- Recovery months built in
-- No all-nighters or weekend marathons
-- Designed for long-term success
-
----
-
-## Success Story Preview
-
-**Month 0** (Starting point):
-- Experienced sysadmin (17 years)
-- CKA certified (theory)
-- Limited K8s hands-on experience
-- Want to transition to security consulting
-
-**Month 27** (End state):
-- Expert-level PAM consultant
-- 4 major certifications (Defender, Sentry, Guardian, CCSP)
-- Production-ready Kubernetes skills
-- Conjur mastery (Docker, K8s, multi-cloud)
-- AWS + Azure security architecture expertise
-- Healthcare and banking compliance knowledge
-- Professional English fluency
-- 7-8 documented portfolio projects
-- Complete enterprise capstone project
-- **Consulting practice launched**
-- **Ready for $275-450/hour rates**
-
----
-
-**Ready to begin?** → Start with [GETTING_STARTED.md](../GETTING_STARTED.md)
-
-**Want daily guidance?** → Bookmark [QUICKSTART.md](../QUICKSTART.md)
-
-**Need the details?** → See [MONTH_BY_MONTH_SCHEDULE.md](MONTH_BY_MONTH_SCHEDULE.md)
+- [GETTING_STARTED.md](../GETTING_STARTED.md) — Onboarding
+- [QUICKSTART.md](../QUICKSTART.md) — Daily reference
+- [FAQ.md](../FAQ.md) — Questions
+- [TROUBLESHOOTING.md](../TROUBLESHOOTING.md) — Stuck
+- [GLOSSARY.md](../GLOSSARY.md) — Terminology
+- [BUDGET.md](../BUDGET.md) — Costs
+- [MONTH_BY_MONTH_SCHEDULE.md](MONTH_BY_MONTH_SCHEDULE.md) — Week-by-week
+- [ENGLISH_LEARNING.md](ENGLISH_LEARNING.md) — English plan
+- [CONSULTING_SKILLS.md](CONSULTING_SKILLS.md) — Business skills
 
 ---
 
 **Last Updated**: 2026-04-14
-**Version**: 1.1
+**Version**: 3.0
