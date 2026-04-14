@@ -58,13 +58,13 @@ Update both fields whenever a document is modified.
 - Dates: `YYYY-MM-DD` only — never `April 7, 2026` or `04/07/2026`
 - Code blocks must always specify the language identifier (` ```bash `, ` ```yaml `, etc.)
 - One `#` H1 per document
-- Internal links use relative paths: `[Text](../docs/FILE.md)`
+- Internal links use relative paths, not absolute paths (e.g., `../docs/FILENAME.md`)
 
 ## Repository Architecture
 
 Content is organized in an **18-month progressive learning path** across two parallel tracks: PAM/Conjur mastery and penetration testing.
 
-```
+```text
 README.md / GETTING_STARTED.md  ←  entry points
 QUICKSTART.md                   ←  daily reference (18-month table)
 

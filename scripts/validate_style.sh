@@ -118,9 +118,10 @@ if [[ -n "$cyberark_issues" ]]; then
     ((WARNINGS++))
 fi
 
-# Check for lowercase "kubernetes" in prose (exclude URLs, examples in style guide, subreddit names)
+# Check for lowercase "kubernetes" in prose (exclude URLs, code literals, style guide, subreddit names)
 k8s_issues=$(grep -rn --include="*.md" "[^A-Za-z/]kubernetes[^.io]" . 2>/dev/null | \
-    grep -v "\.k8s\|kubernetes.io\|kubernetes-\|STYLE_GUIDE\|r/kubernetes" | head -5)
+    grep -v "\.k8s\|kubernetes.io\|kubernetes-\|STYLE_GUIDE\|r/kubernetes" | \
+    grep -v "\"kubernetes\|kubernetes_\|kubernetes =\|kubernetes {\|kubernetes/\|kubernetes[A-Z]\|-kubernetes" | head -5)
 if [[ -n "$k8s_issues" ]]; then
     echo "$k8s_issues"
     echo -e "  ${YELLOW}WARNING${NC}: Use 'Kubernetes' (capital K) in prose"
@@ -189,7 +190,7 @@ echo "────────────────────────�
 # Skip docs/ and examples/ which have code blocks with # comments
 for file in *.md roadmap/*.md; do
     if [[ -f "$file" ]] && [[ "$file" != "STYLE_GUIDE.md" ]]; then
-        h1_count=$(grep -c "^# [^#]" "$file" 2>/dev/null || echo "0")
+        h1_count=$(awk '/^```/{in_block=!in_block;next} !in_block && /^# [^#]/{count++} END{print count+0}' "$file" 2>/dev/null || echo "0")
         if [[ "$h1_count" -gt 1 ]]; then
             echo -e "  ${YELLOW}WARNING${NC}: $file - Multiple H1 headers ($h1_count found)"
             ((WARNINGS++))
