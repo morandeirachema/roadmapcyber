@@ -3,6 +3,7 @@
 **Duration**: 11 months (44 weeks)
 **Weekly Commitment**: 10-12 hours/week
 **Focus**: Master CyberArk PAM platform + Close Kubernetes hands-on gap
+**Calendar**: May 2026 – March 2027
 
 ---
 
@@ -525,5 +526,5 @@ See [docs/CYBERARK_CERTIFICATIONS.md](../docs/CYBERARK_CERTIFICATIONS.md) for de
 
 ---
 
-**Last Updated**: 2026-04-07
+**Last Updated**: 2026-04-14
 **Version**: 1.1

@@ -45,6 +45,8 @@ A comprehensive, sustainable 27-month learning path for experienced system admin
 
 ## 📊 The 27-Month Journey
 
+> **Timeline**: May 4, 2026 → July 2028 | Phase 1: May 2026–Mar 2027 | Phase 2: Apr–Oct 2027 | Phase 3: Nov 2027–Jul 2028
+
 ### Phase 1: PAM + Kubernetes Mastery (Months 1-11)
 **Certifications**: CyberArk Defender (M5), Sentry (M8), CKS (M9-10), Guardian (M11)
 **Focus**: PAM fundamentals, 12 months continuous Kubernetes practice, 3-4 portfolio projects
@@ -179,5 +181,5 @@ This roadmap is provided as-is for educational purposes. Free to use and adapt f
 
 ---
 
-**Last Updated**: 2026-04-07
+**Last Updated**: 2026-04-14
 **Version**: 2.1

@@ -8,6 +8,8 @@
 
 **Note**: This sustainable schedule focuses on deep PAM/Conjur expertise with CCSP certification and consulting launch at Month 27. CISSP can be pursued later if specific clients require it.
 
+**Program Start**: May 4, 2026 | **Program End**: ~July 2028
+
 ---
 
 ## Visual Timeline
@@ -65,7 +67,7 @@ KEY: ██ = Active phase  ░░ = Inactive  [DEF] = Defender  [SEN] = Sentry 
 
 ### Week 1-4 Schedule
 
-> **Lab Version Note (April 2026)**: Use Kubernetes 1.35 (current stable), kubectl 1.35, Helm 3.17+, Terraform 1.10+. CKS exam tracks K8s 1.32+. Minikube 1.34+ or kind 0.27+ for local clusters.
+> **Lab Version Note (May 2026)**: Use Kubernetes 1.35 (current stable), kubectl 1.35, Helm 3.17+, Terraform 1.10+. CKS exam tracks K8s 1.32+. Minikube 1.34+ or kind 0.27+ for local clusters.
 
 | Week | Monday-Friday (1.5 hrs/day) | Weekend (2.5 hrs total) | Deliverables |
 |------|--------------------------|----------------------|--------------|
@@ -859,6 +861,6 @@ This month-by-month schedule provides **specific, actionable activities** for al
 
 ---
 
-**Last Updated**: 2026-04-07
+**Last Updated**: 2026-04-14
 **Version**: 1.1
 

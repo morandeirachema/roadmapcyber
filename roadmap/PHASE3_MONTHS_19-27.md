@@ -3,6 +3,7 @@
 **Duration**: 9 months (36 weeks, includes Month 27 recovery)
 **Weekly Commitment**: 9 hours/week (6-7 study, 2-3 labs)
 **Focus**: AWS + Azure cloud security expertise + CCSP certification + **CONSULTING LAUNCH**
+**Calendar**: November 2027 – July 2028
 
 ---
 
@@ -751,5 +752,5 @@ See MONTH_BY_MONTH_SCHEDULE.md Appendix for optional CISSP study plan.
 
 ---
 
-**Last Updated**: 2026-04-07
+**Last Updated**: 2026-04-14
 **Version**: 1.1

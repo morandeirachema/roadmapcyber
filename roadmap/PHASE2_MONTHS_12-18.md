@@ -3,6 +3,7 @@
 **Duration**: 7 months (28 weeks, includes Month 12 recovery)
 **Weekly Commitment**: 10-12 hours/week (8 hrs/week during recovery months)
 **Focus**: Master CyberArk Conjur + DevSecOps + Multi-cloud secrets management
+**Calendar**: April 2027 – October 2027
 
 ---
 
@@ -558,5 +559,5 @@
 
 ---
 
-**Last Updated**: 2026-04-07
+**Last Updated**: 2026-04-14
 **Version**: 1.1

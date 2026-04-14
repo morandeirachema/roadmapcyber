@@ -6,6 +6,8 @@ One-page quick reference for your current focus. **Bookmark this page!**
 
 ## 📍 I'm in Month ___ - What Do I Do?
 
+> **Program starts May 4, 2026.** Month 1 = May 2026, Month 5 = Sep 2026, Month 11 = Mar 2027, Month 27 = Jul 2028.
+
 | Month | Focus This Week | Daily Routine (10-12 hrs/week) | Key Deliverable |
 |-------|----------------|--------------------------------|-----------------|
 | **M1-2** | PAM basics + K8s setup | Study: PAM/K8s docs (1 hr) + Labs: VMs/K8s cluster (1 hr) | Lab environment ready |
@@ -55,4 +57,4 @@ One-page quick reference for your current focus. **Bookmark this page!**
 
 ---
 
-**Last Updated**: 2026-04-07 | **Version**: 2.1 (Simplified)
+**Last Updated**: 2026-04-14 | **Version**: 2.1 (Simplified)

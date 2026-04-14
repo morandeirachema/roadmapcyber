@@ -13,6 +13,22 @@ High-level structure of the complete 27-month journey to expert PAM/Conjur consu
 
 **Roadmap Type**: Specialized PAM/Conjur architect consulting path
 
+**Program Start**: May 4, 2026
+**Program End**: ~July 2028
+
+### Calendar Milestones
+
+| Month | Calendar | Milestone |
+|:-----:|:--------:|:----------|
+| M1 | May 2026 | Program begins — Lab setup |
+| M5 | Sep 2026 | CyberArk Defender |
+| M8 | Dec 2026 | CyberArk Sentry |
+| M11 | Mar 2027 | CyberArk Guardian |
+| M12 | Apr 2027 | Recovery month |
+| M18 | Oct 2027 | Recovery month |
+| M19 | Nov 2027 | Cloud Security phase begins |
+| M27 | Jul 2028 | CCSP + Consulting Launch |
+
 **Note**: This roadmap is NOT a general cybersecurity career path. It's designed for experienced sysadmins who want to specialize in Privileged Access Management (PAM) and secrets management consulting. For broader cybersecurity foundations, see [roadmap.sh/cyber-security](https://roadmap.sh/cyber-security).
 
 **What makes this specialized?**
@@ -384,5 +400,5 @@ This roadmap incorporates 7 critical optimizations based on extensive analysis:
 
 ---
 
-**Last Updated**: 2026-04-07
+**Last Updated**: 2026-04-14
 **Version**: 1.1

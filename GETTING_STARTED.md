@@ -8,6 +8,8 @@ Complete onboarding guide for new users of the 27-Month Cybersecurity Roadmap.
 
 You're about to embark on a 27-month journey to become an expert PAM/Conjur consultant. This guide will help you set up everything you need to succeed.
 
+**Program Start Date**: May 4, 2026 | **Program End**: ~July 2028
+
 ---
 
 ## Is This Roadmap Right for You?
@@ -541,5 +543,5 @@ Welcome to the roadmap! 🚀
 
 ---
 
-**Last Updated**: 2026-04-07
+**Last Updated**: 2026-04-14
 **Version**: 1.1
