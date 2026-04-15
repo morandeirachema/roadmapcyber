@@ -4,6 +4,8 @@
 - **Weekdays**: 1.5-2 hours/day (Mon-Fri) = ~7.5-10 hours
 - **Weekends**: 3-5 hours total across Saturday and Sunday
 - **Total Study Hours**: ~972-1,080 hours over 18 months
+- **English practice**: 30 min/day embedded in study time from M1 — see [ENGLISH_LEARNING.md](ENGLISH_LEARNING.md)
+- **Networking**: 15 min/day (LinkedIn, CyberArk Commons, community) from M1 — see [docs/NETWORKING_STRATEGY.md](../docs/NETWORKING_STRATEGY.md)
 
 **Program Start**: May 4, 2026 | **Program End**: ~October 2027
 
@@ -50,6 +52,39 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 
 ---
 
+## Cross-Program Activities (All 18 Months)
+
+These activities run every month, in parallel with the technical track. They are not optional — they are what converts technical skill into a consulting practice.
+
+### English Practice (30 min/day, every day)
+
+| Phase | Months | Focus |
+|-------|--------|-------|
+| 1 | M1-5 | 30 min/day technical reading in English (docs, blog posts, CVEs) |
+| 2 | M6-10 | Add language exchange partner (italki / Tandem) 30 min/week; monthly self-recording |
+| 3 | M11-15 | Write English articles; practice presenting out loud in English |
+| 4 | M16-18 | Client communication scenarios: discovery calls, proposals, executive summaries |
+
+### Networking (15 min/day)
+
+| Month | Activity |
+|:-----:|----------|
+| M1 | Create LinkedIn + CyberArk Commons accounts; connect with 5 PAM professionals |
+| M1–M18 | 1 LinkedIn post or comment per week; 1 CyberArk Commons reply per week |
+| M4 | Post Defender achievement; write first "lessons learned" article |
+| M6 | Post Sentry achievement; Phase 1 retrospective article |
+| M8 | Post Guardian achievement |
+| M10 | **Attend first BSides conference** (register by M9) |
+| M11 | Publish first full technical article on LinkedIn |
+| M12 | Post eJPT achievement; Phase 2 retrospective article |
+| M15 | **CyberArk Impact conference** — attend and network with partner firms |
+| M17 | Post OSCP achievement; consulting announcement preparation |
+| M18 | **Consulting launch announcement** on LinkedIn |
+
+Full month-by-month networking plan: [docs/NETWORKING_STRATEGY.md](../docs/NETWORKING_STRATEGY.md)
+
+---
+
 ## PHASE 1: Security Foundations + PAM Mastery (Months 1-6)
 
 ---
@@ -70,9 +105,12 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 ### Daily Activities
 - **Weekday evenings (1.5-2 hrs)**: Rotate PAM labs (3 days/wk) and Kali / offensive (2 days/wk)
 - **Weekend (3-4 hrs total)**: Hands-on lab work, screenshots, notes commits
+- **English (30 min/day)**: Technical reading in English — CyberArk docs, Kali tutorials, CVE writeups
+- **Networking (15 min/day)**: LinkedIn profile setup, CyberArk Commons account, first 5 connections
 
 ### Monthly Checkpoints
 - [ ] Week 1: Lab network diagram committed
+- [ ] Week 1: LinkedIn profile live + CyberArk Commons account created
 - [ ] Week 2: Vault running, first admin login
 - [ ] Week 3: CPM managing at least 1 platform
 - [ ] Week 4: PVWA accessible, GitHub repo initialized
@@ -102,6 +140,8 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 - **PAM labs**: 4 hrs/wk weekdays, 2 hrs/wk weekend
 - **Kali / enumeration**: 3 hrs/wk
 - **Study / reading**: 3-4 hrs/wk
+- **English (30 min/day)**: CyberArk official docs, Nmap reference, OffSec blog — all in English
+- **Networking (15 min/day)**: 1 LinkedIn comment on a PAM post; 1 CyberArk Commons reply
 
 ### Monthly Checkpoints
 - [ ] Week 5: PVWA authenticates to lab LDAP
@@ -133,6 +173,8 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 - **Defender study + practice**: 5 hrs/wk
 - **PAM labs**: 5 hrs/wk
 - **Offensive / web security**: 3 hrs/wk
+- **English (30 min/day)**: Defender study materials in English; OWASP Top 10 docs
+- **Networking (15 min/day)**: CyberArk Commons — read and comment on PAM implementation threads
 
 ### Monthly Checkpoints
 - [ ] Week 9: Defender course 40%
@@ -163,9 +205,12 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 ### Daily Activities
 - **Exam push week**: 13-14 hrs
 - **Other weeks**: 12-13 hrs
+- **English (30 min/day)**: Continue technical reading; draft LinkedIn post for Defender achievement
+- **Networking**: Post Defender certification on LinkedIn (Week 13); write 1 CyberArk Commons article draft
 
 ### Monthly Checkpoints
 - [ ] Week 13: Defender exam passed
+- [ ] Week 13: Defender achievement posted on LinkedIn
 - [ ] Week 14: TryHackMe Linux PrivEsc complete
 - [ ] Week 15: Project 1 draft complete
 - [ ] Week 16: Project 1 published to GitHub
@@ -194,6 +239,8 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 - **Sentry study + practice**: 5 hrs/wk
 - **Advanced PAM labs**: 4 hrs/wk
 - **DevSecOps pipeline + TryHackMe**: 4 hrs/wk
+- **English (30 min/day)**: DevSecOps and Sentry study materials in English; start drafting first technical article
+- **Networking (15 min/day)**: LinkedIn + CyberArk Commons; begin drafting "DevSecOps pipeline with CyberArk" article
 
 ### Monthly Checkpoints
 - [ ] Week 17: Semgrep running in CI
@@ -217,14 +264,18 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 | Week | Focus | Activities | Hours |
 |:----:|:------|:-----------|:-----:|
 | 21 | **SENTRY EXAM** (proctored) | Final practice test, exam, light celebration | 12-13 |
-| 22 | Recovery | Light TryHackMe for fun, rest | **8** |
-| 23 | Recovery | Conjur documentation preview reading | **8** |
-| 24 | Recovery + Portfolio 2 publish | Portfolio Project 2 (DevSecOps baseline) finalized | **8** |
+| 22 | Recovery | Light TryHackMe for fun, rest; start language exchange partner (italki/Tandem) | **8** |
+| 23 | Recovery | Conjur documentation preview reading; English self-recording #1 | **8** |
+| 24 | Recovery + Portfolio 2 publish | Portfolio Project 2 (DevSecOps baseline) finalized; Sentry achievement + Phase 1 article on LinkedIn | **8** |
 
 ### Monthly Checkpoints
 - [ ] Week 21: Sentry exam passed
+- [ ] Week 21: Sentry achievement posted on LinkedIn
+- [ ] Week 22: Language exchange partner session scheduled
 - [ ] Week 22-23: Actual rest taken
+- [ ] Week 23: Monthly self-recording #1 completed
 - [ ] Week 24: Portfolio Project 2 published
+- [ ] Week 24: Phase 1 retrospective article published on LinkedIn
 
 ### Deliverables
 - **CyberArk Sentry certification**
@@ -255,6 +306,8 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 - **Methodology + offensive**: 7 hrs/wk
 - **Guardian course**: 5 hrs/wk
 - **Review / notes**: 2 hrs/wk
+- **English (30 min/day)**: PTES documentation, OffSec blog, pentesting writeups
+- **Networking (15 min/day)**: Language exchange partner 30 min/week; LinkedIn + CyberArk Commons; research BSides events to attend in M10
 
 ### Deliverables
 - Methodology document (5-10 pages, your own words)
@@ -279,6 +332,8 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 ### Daily Activities
 - **Guardian exam push**: 13-14 hrs (Wk 29-30)
 - **Exploitation fundamentals**: 13-14 hrs (Wk 31-32)
+- **English (30 min/day)**: Exploitation technique writeups, Metasploit docs; post Guardian achievement
+- **Networking**: Post Guardian certification on LinkedIn (Week 30); CyberArk Commons Guardian exam tips article
 
 ### Deliverables
 - **CyberArk Guardian certification**
@@ -306,6 +361,8 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 - **INE PTS**: 4 hrs/wk
 - **Conjur Docker**: 2-3 hrs/wk
 - **TryHackMe AD rooms**: 2-3 hrs/wk
+- **English (30 min/day)**: AD attack writeups, BloodHound docs, Conjur docs in English
+- **Networking (15 min/day)**: Language exchange partner weekly; draft LinkedIn article on AD pentesting
 
 ### Deliverables
 - AD lab operational, BloodHound attack paths documented
@@ -332,6 +389,8 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 - **INE PTS**: 5 hrs/wk
 - **Hands-on network pentest + reporting**: 6 hrs/wk
 - **Conjur / DevSecOps continuation**: 3 hrs/wk
+- **English (30 min/day)**: Pentest report writing practice in English; read public pentest reports
+- **Networking (15 min/day)**: Register for BSides (target M10); LinkedIn engagement; language exchange partner
 
 ### Deliverables
 - Mock pentest report (10+ pages) in private repo
@@ -356,6 +415,8 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 ### Daily Activities
 - **eJPT prep**: 8-10 hrs/wk
 - **Conjur K8s**: 4-5 hrs/wk
+- **English (30 min/day)**: Write first LinkedIn technical article (Conjur + Kubernetes); eJPT exam prep materials in English
+- **Networking**: **Attend BSides** (Month 10 target); publish first LinkedIn article; eJPT achievement post planned
 
 ### Deliverables
 - eJPT exam scheduled
@@ -375,13 +436,14 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 |:----:|:-----------|:-----:|
 | 45 | Final prep + **eJPT 48-hour practical lab** | 14-15 |
 | 46 | **eJPT 20 MCQ** + exam completion + report | 14-15 |
-| 47 | Recovery — light OSCP prereq reading | **8** |
-| 48 | Recovery — Phase 2 retrospective, OSCP plan drafted | **8** |
+| 47 | Recovery — light OSCP prereq reading; eJPT achievement posted on LinkedIn | **8** |
+| 48 | Recovery — Phase 2 retrospective; OSCP plan drafted; Phase 2 retrospective article on LinkedIn | **8** |
 
 ### Deliverables
 - **eJPT certification**
 - Phase 2 retrospective
 - OSCP plan of attack document
+- Phase 2 retrospective article published on LinkedIn
 
 ---
 
@@ -406,6 +468,8 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 - **PEN-200 course**: 7 hrs/wk
 - **OSCP lab machines**: 4 hrs/wk
 - **Conjur K8s HA**: 3 hrs/wk
+- **English (30 min/day)**: PEN-200 course materials in English; write LinkedIn article on Conjur + CI/CD
+- **Networking (15 min/day)**: LinkedIn article published; language exchange partner weekly; begin registering for CyberArk Impact
 
 ### Deliverables
 - PEN-200 course 25%
@@ -431,6 +495,8 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 ### Daily Activities
 - **PEN-200 + OSCP labs**: 10 hrs/wk
 - **Cloud + Conjur multi-cloud**: 4-5 hrs/wk
+- **English (30 min/day)**: OSCP course content (English-only); cloud pentesting writeups
+- **Networking (15 min/day)**: LinkedIn article on cloud pentesting; language exchange partner
 
 ### Deliverables
 - PEN-200 course 55%
@@ -456,6 +522,8 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 ### Daily Activities
 - **PEN-200 finish + Challenge Lab**: 10 hrs/wk
 - **CloudGoat + ROADtools**: 4-5 hrs/wk
+- **English (30 min/day)**: Cloud pentesting docs; write multi-cloud architecture article for LinkedIn
+- **Networking**: **CyberArk Impact conference** (attend, meet PAM partners, collect contacts); CyberArk Commons article submitted
 
 ### Deliverables
 - PEN-200 course 100%
@@ -481,6 +549,8 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 ### Daily Activities
 - **Mock exam / drilling**: 10-11 hrs/wk
 - **Security audit of Phase 1 CI/CD**: 3-4 hrs/wk
+- **English (30 min/day)**: Practice OSCP report writing in English; consulting discovery call scripts
+- **Networking (15 min/day)**: LinkedIn article on DevSecOps audit methodology; warm outreach drafts to former employer contacts
 
 ### Deliverables
 - 2 mock 24-hour exams completed with reports
@@ -498,10 +568,10 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 
 | Week | Activities | Deliverables |
 |:----:|:-----------|:-------------|
-| 65 | Final prep: notes review, 1 HackTheBox machine, rest | Ready for exam |
+| 65 | Final prep: notes review, 1 HackTheBox machine, rest; practice 5-minute capability pitch in English | Ready for exam |
 | 66 | **OSCP 24-HOUR EXAM** + 24-hour report submission | **OSCP certification** |
-| 67 | Rest + report polish if retake needed; plan Portfolio 6 | Decompress |
-| 68 | Consulting website draft, LinkedIn update, GitHub polish, Portfolio 6 start | Website draft, LinkedIn live |
+| 67 | Rest + report polish if retake needed; plan Portfolio 6; OSCP achievement announcement written | Decompress |
+| 68 | Consulting website draft, **LinkedIn OSCP announcement**, GitHub polish, Portfolio 6 start | Website draft, LinkedIn live |
 
 ### Contingency
 If OSCP exam fails, OffSec provides one free retake within 12 months. **Launch consulting anyway** — Guardian + eJPT is a strong credential stack. Schedule the retake for later and keep moving.
@@ -523,9 +593,9 @@ If OSCP exam fails, OffSec provides one free retake within 12 months. **Launch c
 | Week | Activities | Hours |
 |:----:|:-----------|:-----:|
 | 69 | Rest after OSCP. No forced work. | **8** |
-| 70 | Rest + light Portfolio 6 writing | **8** |
-| 71 | Business entity registration, MSA / SOW templates, rate card finalized | **8** |
-| 72 | **Portfolio Project 6 final publish + GO LIVE** (website, LinkedIn announcement, first outreach) | **8** |
+| 70 | Rest + light Portfolio 6 writing; practice consulting launch announcement in English | **8** |
+| 71 | Business entity registration, MSA / SOW templates, rate card finalized; warm outreach emails drafted | **8** |
+| 72 | **Portfolio Project 6 final publish + GO LIVE** (website, **LinkedIn consulting launch announcement**, first warm outreach sent) | **8** |
 
 ### Rate Card Guidance (April 2026 North American baseline, adjust for your market)
 - **Pentesting**: $175 – $225 / hr
@@ -542,4 +612,4 @@ If OSCP exam fails, OffSec provides one free retake within 12 months. **Launch c
 ---
 
 **Last Updated**: 2026-04-14
-**Version**: 1.0
+**Version**: 1.1

@@ -1,19 +1,21 @@
 # Official Resources & External Documentation
 
-Curated collection of official documentation, training resources, and authoritative references for the 27-month roadmap. All links verified and organized by technology area.
+Curated collection of official documentation, training resources, and authoritative references for the 18-month PAM + Pentesting roadmap. Organized by track and technology.
 
 ---
 
 ## Table of Contents
 
 1. [CyberArk Resources](#cyberark-resources)
-2. [Kubernetes Resources](#kubernetes-resources)
-3. [Cloud Security (AWS/Azure/GCP)](#cloud-security)
-4. [Certification Bodies](#certification-bodies)
-5. [Compliance & Standards](#compliance--standards)
-6. [Security Tools](#security-tools)
-7. [Learning Platforms](#learning-platforms)
-8. [Community Resources](#community-resources)
+2. [Penetration Testing & Offensive Security](#penetration-testing--offensive-security)
+3. [Kubernetes Resources](#kubernetes-resources)
+4. [Cloud Security](#cloud-security)
+5. [Certification Bodies](#certification-bodies)
+6. [Compliance & Standards](#compliance--standards)
+7. [Security Tools](#security-tools)
+8. [Learning Platforms](#learning-platforms)
+9. [Community Resources](#community-resources)
+10. [Quick Reference by Roadmap Phase](#quick-reference-by-roadmap-phase)
 
 ---
 
@@ -51,6 +53,66 @@ Curated collection of official documentation, training resources, and authoritat
 
 ---
 
+## Penetration Testing & Offensive Security
+
+### Certifications
+
+| Certification | URL | Description |
+|---|---|---|
+| OffSec OSCP (PEN-200) | https://www.offsec.com/courses/pen-200/ | The primary pentesting cert in this roadmap — 90-day lab + 24h practical exam |
+| OffSec PEN-200 Syllabus | https://www.offsec.com/documentation/penetration-testing-with-kali.pdf | Full course outline |
+| INE eJPT (PTS Course) | https://ine.com/learning/certifications/internal/elearnsecurity-junior-penetration-tester-cert | Entry-level practical cert (M12) |
+| INE Platinum Pass | https://checkout.ine.com/starter-pass | Includes PTS course, lab access, eJPT exam voucher |
+| OffSec Proving Grounds | https://www.offensive-security.com/labs/ | Practice machines for OSCP prep (optional supplement) |
+
+### Practice Platforms
+
+| Platform | URL | Phase | Description |
+|---|---|---|---|
+| TryHackMe | https://tryhackme.com | M5-M11 | Best guided learning platform; strong AD and web app paths |
+| TryHackMe Jr Pentester Path | https://tryhackme.com/path/outline/jrpenetrationtester | M7-M10 | Core path for eJPT preparation |
+| HackTheBox | https://www.hackthebox.com | M9-M17 | OSCP-style boxes; public profile ranks as a credential |
+| HackTheBox Starting Point | https://app.hackthebox.com/starting-point | M9-M10 | Guided boxes for early practice |
+| PortSwigger Web Security Academy | https://portswigger.net/web-security | M3-M8 | Best free web application security training available |
+| OffSec Proving Grounds Practice | https://www.offensive-security.com/labs/ | M15-M17 | OSCP-quality practice machines |
+| DVWA (GitHub) | https://github.com/digininja/DVWA | M3-M5 | Deliberately vulnerable web app for local lab |
+| VulnHub | https://www.vulnhub.com | M8-M12 | Downloadable vulnerable VMs for offline practice |
+
+### Key Tools Documentation
+
+| Tool | URL | Description |
+|---|---|---|
+| Kali Linux | https://www.kali.org | Primary attack platform; official docs and tool lists |
+| Kali Tools Documentation | https://www.kali.org/tools/ | Full tool index |
+| Metasploit Documentation | https://docs.metasploit.com | Framework docs |
+| Metasploit Unleashed | https://www.offsec.com/metasploit-unleashed/ | Free Metasploit course by OffSec |
+| Impacket (GitHub) | https://github.com/fortra/impacket | Python tools for Windows/AD attacks |
+| BloodHound CE (GitHub) | https://github.com/SpecterOps/BloodHound | AD attack path enumeration |
+| CrackMapExec / NetExec | https://github.com/Pennyw0rth/NetExec | SMB, WMI, and AD Swiss Army knife |
+| Chisel (GitHub) | https://github.com/jpillora/chisel | TCP tunneling for pivoting |
+| Burp Suite | https://portswigger.net/burp | Web application proxy and scanner |
+| Gobuster / Feroxbuster | https://github.com/OJ/gobuster | Directory and subdomain brute forcing |
+| GTFOBins | https://gtfobins.github.io | Unix binaries for privilege escalation and bypass |
+| LOLBAS | https://lolbas-project.github.io | Windows Living Off the Land Binaries |
+| linpeas / winPEAS | https://github.com/peass-ng/PEASS-ng | Automated privilege escalation checks |
+| CloudGoat | https://github.com/RhinoSecurityLabs/cloudgoat | Intentionally vulnerable AWS environments |
+| ROADtools | https://github.com/dirkjanm/ROADtools | Azure AD / Entra ID enumeration |
+| SearchSploit / ExploitDB | https://www.exploit-db.com | Public exploit database |
+
+### Methodology and Reference
+
+| Resource | URL | Description |
+|---|---|---|
+| PTES (Penetration Testing Execution Standard) | http://www.pentest-standard.org | The methodology framework used in this roadmap |
+| MITRE ATT&CK | https://attack.mitre.org | Adversary tactics and techniques framework |
+| OWASP Top 10 | https://owasp.org/www-project-top-ten/ | Web application vulnerability classification |
+| OWASP Testing Guide | https://owasp.org/www-project-web-security-testing-guide/ | Comprehensive web pentesting methodology |
+| HackTricks | https://book.hacktricks.xyz | Community pentesting knowledge base |
+| PayloadsAllTheThings | https://github.com/swisskyrepo/PayloadsAllTheThings | Payloads and bypass techniques |
+| IppSec YouTube | https://www.youtube.com/@ippsec | HackTheBox video walkthroughs (after machine retires) |
+
+---
+
 ## Kubernetes Resources
 
 ### Official Documentation
@@ -73,22 +135,10 @@ Curated collection of official documentation, training resources, and authoritat
 | Service Accounts | [Service Accounts](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/) |
 | Security Best Practices | [Securing a Cluster](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/) |
 
-### CKS Certification
+### Community Resources
 
 | Resource | URL |
 |----------|-----|
-| CNCF CKS Curriculum | [CKS Curriculum (GitHub)](https://github.com/cncf/curriculum) | Check repo for current version |
-| CKS Exam Registration | [Linux Foundation CKS](https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/) |
-| Killer.sh Practice | [killer.sh](https://killer.sh/) | Included free with exam purchase |
-| KodeKloud CKS Course | [kodekloud.com](https://kodekloud.com/courses/certified-kubernetes-security-specialist-cks/) |
-| CNCF Kubernetes Security Audit | [CNCF Security Audits](https://github.com/cncf/tag-security/tree/main/assessments) | Third-party security assessments |
-
-### Community Study Resources
-
-| Resource | URL |
-|----------|-----|
-| CKS Study Guide (GitHub) | [walidshaari/Certified-Kubernetes-Security-Specialist](https://github.com/walidshaari/Certified-Kubernetes-Security-Specialist) |
-| CKS Crash Course | [spurin/cks-crash-course](https://github.com/spurin/cks-crash-course) |
 | Kubernetes Slack | [slack.kubernetes.io](https://slack.kubernetes.io/) |
 
 ---
@@ -129,25 +179,42 @@ Curated collection of official documentation, training resources, and authoritat
 
 ## Certification Bodies
 
-### ISC² (CCSP, CISSP)
+### OffSec
 
 | Resource | URL |
 |----------|-----|
-| ISC2 Official Site | [isc2.org](https://www.isc2.org/) | Note: rebranded from (ISC)² to ISC2 in 2023 |
-| CCSP Certification | [CCSP Overview](https://www.isc2.org/certifications/ccsp) |
-| CCSP Exam Outline | [CCSP Exam Outline (2024 CBK)](https://www.isc2.org/certifications/ccsp/ccsp-certification-exam-outline) |
-| CISSP Certification | [CISSP Overview](https://www.isc2.org/certifications/cissp) |
-| ISC2 Study Resources | [ISC2 Learning](https://www.isc2.org/training) |
-| ISC2 Member Portal | [ISC2 CPE Portal](https://www.isc2.org/mymembership) | CPE submission and AMF payment |
+| OffSec Official Site | https://www.offsec.com |
+| OSCP (PEN-200) | https://www.offsec.com/courses/pen-200/ |
+| OffSec Learning Library | https://www.offsec.com/library/ |
+| OffSec Discord | https://discord.gg/offsec |
 
-### Linux Foundation (CKA, CKS)
+### INE Security
 
 | Resource | URL |
 |----------|-----|
-| Linux Foundation Training | [training.linuxfoundation.org](https://training.linuxfoundation.org/) |
-| CKA Certification | [CKA Exam](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/) |
-| CKS Certification | [CKS Exam](https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/) |
-| CKAD Certification | [CKAD Exam](https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/) |
+| INE Official Site | https://ine.com |
+| eJPT Certification | https://ine.com/learning/certifications/internal/elearnsecurity-junior-penetration-tester-cert |
+| Penetration Testing Student (PTS) Course | https://ine.com/learning/paths/penetration-testing-student |
+| INE Platinum Pass | https://checkout.ine.com/starter-pass |
+
+### Linux Foundation (CKA)
+
+| Resource | URL |
+|----------|-----|
+| Linux Foundation Training | https://training.linuxfoundation.org/ |
+| CKA Certification | https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/ |
+
+Note: CKS is an optional post-M18 enhancement; it is not in the primary cert path. See `docs/archive/CKS_CERTIFICATION_GUIDE.md`.
+
+### ISC² (Optional Post-M18)
+
+| Resource | URL |
+|----------|-----|
+| ISC2 Official Site | https://www.isc2.org/ |
+| CISSP | https://www.isc2.org/certifications/cissp |
+| CCSP | https://www.isc2.org/certifications/ccsp |
+
+Note: Neither CCSP nor CISSP is in the 18-month primary path. Consider post-M18 based on client demand. CCSP is archived at `docs/archive/CCSP_CERTIFICATION_GUIDE.md`.
 
 ---
 
@@ -218,25 +285,29 @@ Curated collection of official documentation, training resources, and authoritat
 
 ## Learning Platforms
 
-### Free Resources
+### Free
 
-| Platform | URL | Topics |
-|----------|-----|--------|
-| Kubernetes.io Tutorials | [kubernetes.io/docs/tutorials](https://kubernetes.io/docs/tutorials/) | Kubernetes basics |
-| AWS Skill Builder | [skillbuilder.aws](https://skillbuilder.aws/) | AWS training |
-| Microsoft Learn | [learn.microsoft.com](https://learn.microsoft.com/) | Azure training |
-| Google Cloud Skills Boost | [cloudskillsboost.google](https://www.cloudskillsboost.google/) | GCP training |
-| CyberArk Campus | [cyberark.com/services-support/cyberark-campus](https://www.cyberark.com/services-support/cyberark-campus/) | CyberArk training |
+| Platform | URL | Primary Use |
+|----------|-----|-------------|
+| CyberArk Campus | https://www.cyberark.com/services-support/cyberark-campus/ | CyberArk certification courses and labs |
+| PortSwigger Web Security Academy | https://portswigger.net/web-security | Burp Suite and web application security |
+| Metasploit Unleashed | https://www.offsec.com/metasploit-unleashed/ | Metasploit framework |
+| TryHackMe (free tier) | https://tryhackme.com | Guided pentesting rooms (premium needed for full paths) |
+| AWS Skill Builder | https://skillbuilder.aws/ | AWS training |
+| Microsoft Learn | https://learn.microsoft.com/ | Azure and Entra ID training |
+| Google Cloud Skills Boost | https://www.cloudskillsboost.google/ | GCP training |
 
-### Paid Platforms
+### Paid (in the Program Budget)
 
-| Platform | URL | Best For |
-|----------|-----|----------|
-| KodeKloud | [kodekloud.com](https://kodekloud.com/) | Kubernetes, DevOps |
-| A Cloud Guru | [acloudguru.com](https://acloudguru.com/) | Cloud certifications |
-| Linux Academy | [linuxacademy.com](https://linuxacademy.com/) | Linux, Cloud *(Note: merged into A Cloud Guru; URL may redirect or be inactive)* |
-| Udemy | [udemy.com](https://www.udemy.com/) | Various topics |
-| Pluralsight | [pluralsight.com](https://www.pluralsight.com/) | Technology skills |
+| Platform | URL | Phase | Cost |
+|----------|-----|-------|------|
+| TryHackMe Premium | https://tryhackme.com | M5-M11 | ~$14/month |
+| INE Platinum Pass | https://ine.com | M7-M12 | $199-299/year |
+| HackTheBox VIP | https://www.hackthebox.com | M9-M17 | $14/month |
+| OffSec PEN-200 (90-day) | https://www.offsec.com/courses/pen-200/ | M13 | $1,499 |
+| OffSec Proving Grounds Practice | https://www.offensive-security.com/labs/ | M15-M17 | $19/month |
+| KodeKloud | https://kodekloud.com/ | Optional | Various |
+| Udemy | https://www.udemy.com/ | As needed | Per course |
 
 ---
 
@@ -246,50 +317,87 @@ Curated collection of official documentation, training resources, and authoritat
 
 | Community | URL |
 |-----------|-----|
-| CyberArk Community | [community.cyberark.com](https://community.cyberark.com) |
-| Kubernetes Slack | [slack.kubernetes.io](https://slack.kubernetes.io/) |
-| Reddit r/kubernetes | [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes/) |
-| Reddit r/cybersecurity | [reddit.com/r/cybersecurity](https://www.reddit.com/r/cybersecurity/) |
-| Reddit r/netsec | [reddit.com/r/netsec](https://www.reddit.com/r/netsec/) |
-| Stack Overflow | [stackoverflow.com](https://stackoverflow.com/) |
+| CyberArk Commons | https://community.cyberark.com |
+| OffSec Discord | https://discord.gg/offsec |
+| TryHackMe Discord | https://discord.com/invite/tryhackme |
+| HackTheBox Discord | https://discord.com/invite/hackthebox |
+| Reddit r/oscp | https://www.reddit.com/r/oscp/ |
+| Reddit r/netsec | https://www.reddit.com/r/netsec/ |
+| Reddit r/cybersecurity | https://www.reddit.com/r/cybersecurity/ |
+| Reddit r/kubernetes | https://www.reddit.com/r/kubernetes/ |
+| Kubernetes Slack | https://slack.kubernetes.io/ |
 
-### Blogs & News
+### Security News & Blogs
 
 | Resource | URL |
 |----------|-----|
-| CyberArk Blog | [cyberark.com/blog](https://www.cyberark.com/blog/) |
-| Kubernetes Blog | [kubernetes.io/blog](https://kubernetes.io/blog/) |
-| The Hacker News | [thehackernews.com](https://thehackernews.com/) |
-| Dark Reading | [darkreading.com](https://www.darkreading.com/) |
-| Krebs on Security | [krebsonsecurity.com](https://krebsonsecurity.com/) |
+| CyberArk Blog | https://www.cyberark.com/blog/ |
+| OffSec Blog | https://www.offsec.com/blog/ |
+| The Hacker News | https://thehackernews.com/ |
+| Dark Reading | https://www.darkreading.com/ |
+| Krebs on Security | https://krebsonsecurity.com/ |
+| Bleeping Computer | https://www.bleepingcomputer.com/ |
+
+### Conferences
+
+| Conference | URL | Relevance |
+|------------|-----|-----------|
+| CyberArk Impact (Annual) | https://www.cyberark.com/impact/ | Primary PAM networking event; attend M15 (May 2027) |
+| DEF CON | https://defcon.org | Offensive security; attend M16 (Aug 2027) if budget allows |
+| BSides (local) | https://securitybsides.com | Low-cost practitioner events; attend from M10 onward |
+| Black Hat | https://www.blackhat.com | Enterprise security briefings |
+| RSA Conference | https://www.rsaconference.com | Broad enterprise security |
 
 ---
 
 ## Quick Reference by Roadmap Phase
 
-### Phase 1 (Months 1-11): PAM + Kubernetes
+### Phase 1 (Months 1-6): PAM + Offensive Foundation
 
-**Primary Resources**:
+**PAM Track**:
 - [CyberArk Documentation](https://docs.cyberark.com)
-- [Kubernetes Security Docs](https://kubernetes.io/docs/concepts/security/)
-- [CKS Curriculum](https://github.com/cncf/curriculum)
+- [CyberArk Campus (free training)](https://www.cyberark.com/services-support/cyberark-campus/)
+- [CyberArk Commons (community)](https://community.cyberark.com)
 
-### Phase 2 (Months 12-18): Conjur + DevSecOps
+**Offensive Track**:
+- [Kali Linux](https://www.kali.org)
+- [TryHackMe (Intro to Offensive Security)](https://tryhackme.com/path/outline/introtooffensivesecurity)
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security)
+- [DVWA](https://github.com/digininja/DVWA)
 
-**Primary Resources**:
+### Phase 2 (Months 7-12): Pentesting + Advanced PAM + Conjur
+
+**Pentesting Track**:
+- [INE PTS Course (eJPT prep)](https://ine.com/learning/paths/penetration-testing-student)
+- [TryHackMe Jr Pentester Path](https://tryhackme.com/path/outline/jrpenetrationtester)
+- [HackTheBox](https://www.hackthebox.com)
+- [BloodHound CE](https://github.com/SpecterOps/BloodHound)
+- [Impacket](https://github.com/fortra/impacket)
+- [GTFOBins](https://gtfobins.github.io)
+
+**PAM/Conjur Track**:
 - [Conjur Documentation](https://docs.cyberark.com/conjur-cloud/latest/en/content/landing/landingpgs/landing-conjur.htm)
-- [HashiCorp Vault Docs](https://developer.hashicorp.com/vault/docs)
-- [External Secrets Operator](https://external-secrets.io/)
+- [Conjur OSS (GitHub)](https://github.com/cyberark/conjur)
 
-### Phase 3 (Months 19-27): Cloud Security + CCSP
+### Phase 3 (Months 13-18): OSCP + Cloud Pentesting + Consulting Launch
 
-**Primary Resources**:
-- [AWS Security Best Practices](https://aws.amazon.com/architecture/security-identity-compliance/)
-- [Azure Security Benchmark](https://learn.microsoft.com/en-us/security/benchmark/azure/)
-- [ISC² CCSP Exam Outline](https://www.isc2.org/Certifications/CCSP/Certification-Exam-Outline)
-- [NIST SP 800-207 Zero Trust](https://csrc.nist.gov/pubs/sp/800/207/final)
+**OSCP Track**:
+- [OffSec PEN-200](https://www.offsec.com/courses/pen-200/)
+- [OffSec Proving Grounds](https://www.offensive-security.com/labs/)
+- [HackTheBox](https://www.hackthebox.com)
+- [MITRE ATT&CK](https://attack.mitre.org)
+
+**Cloud Pentesting**:
+- [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat)
+- [ROADtools](https://github.com/dirkjanm/ROADtools)
+- [AWS IAM Documentation](https://docs.aws.amazon.com/iam/)
+- [Azure Entra ID Docs](https://learn.microsoft.com/en-us/entra/identity/)
+
+**Consulting Launch**:
+- [CyberArk Partner Program](https://www.cyberark.com/partners/)
+- [NETWORKING_STRATEGY.md](NETWORKING_STRATEGY.md)
 
 ---
 
-**Last Updated**: 2026-04-07
-**Version**: 1.1
+**Last Updated**: 2026-04-15
+**Version**: 2.0

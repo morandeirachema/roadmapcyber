@@ -2570,18 +2570,18 @@ Year 8+: Director / VP of Identity Security
 
 ---
 
-## APPENDIX A: Integrated Study Schedules (27-Month Roadmap)
+## APPENDIX A: Integrated Study Schedules (18-Month Roadmap)
 
 ### Overview
 
-This appendix provides **detailed week-by-week study schedules** for each CyberArk certification, integrated with the 27-month roadmap timeline. These schedules are optimized for sustainable, family-friendly learning (10-12 hrs/week) while maintaining full-time employment.
+This appendix provides **detailed week-by-week study schedules** for each CyberArk certification, integrated with the 18-month roadmap timeline. These schedules are optimized for 12-15 hrs/week while maintaining full-time employment.
 
 ---
 
-### Defender Certification Study Plan (Month 3-5)
+### Defender Certification Study Plan (Month 3-4)
 
-**Timeline**: Weeks 9-20 (12 weeks total)
-**Target Exam**: Week 20 (Month 5)
+**Timeline**: Weeks 9-16 (8 weeks total)
+**Target Exam**: Week 16 (Month 4)
 **Total Study Hours**: 40-60 hours
 
 #### Phase 1: Weeks 9-12 (Month 3) - Foundation + Exam Prep
@@ -2767,7 +2767,7 @@ This appendix provides **detailed week-by-week study schedules** for each CyberA
 **Target Exam**: Week 28 (Month 8)
 **Total Study Hours**: 60-80 hours
 
-**Note**: In the 27-month roadmap, Sentry exam is at Month 8 (Week 28), but preparation extends from Month 6-8.
+**Note**: In the 18-month roadmap, Sentry exam is at Month 6 (Week 24), but preparation extends from Month 5-6.
 
 #### Phase 1: Weeks 21-24 (Month 6) - Guardian Prep Begins
 
@@ -2817,9 +2817,9 @@ This appendix provides **detailed week-by-week study schedules** for each CyberA
 - ✅ Guardian course completion
 - ✅ K8s security guide created
 - ✅ Portfolio Project 2 core complete
-- ✅ Ready for Month 7 Guardian exam intensive
+- ✅ Ready for Month 8 Guardian exam intensive
 
-#### Phase 2: Weeks 25-28 (Month 7) - Guardian Certification
+#### Phase 2: Weeks 29-32 (Month 8) - Guardian Certification
 
 **Week 25**:
 - **Study** (3 hrs): Guardian practice tests intensive
@@ -3134,7 +3134,7 @@ This appendix provides **detailed week-by-week study schedules** for each CyberA
   - Defender: 4 months hands-on BEFORE exam prep
   - Sentry: 7 months hands-on BEFORE exam
   - Guardian: 10 months hands-on BEFORE exam
-- **Roadmap Integration**: The 27-month roadmap spaces certifications optimally (M5, M8, M11)
+- **Roadmap Integration**: The 18-month roadmap spaces certifications optimally (M4, M6, M8)
 
 **Mistake #2: Theory Only, No Hands-On**
 - ❌ **Problem**: Can't apply knowledge to real scenarios
@@ -3382,7 +3382,7 @@ Can you...
 
 **Within 1 Month:**
 ```
-□ Begin Sentry preparation (if following 27-month roadmap)
+□ Begin Sentry preparation (if following 18-month roadmap)
 □ Volunteer for more complex PAM tasks at work
 □ Join CyberArk community forums actively
 □ Help colleagues with PAM questions (reinforce your knowledge)
@@ -3479,7 +3479,7 @@ Can you...
 
 ---
 
-**Version**: 2.1 (Expanded Edition)
-**Last Updated**: 2026-04-07
+**Version**: 2.2 (Expanded Edition)
+**Last Updated**: 2026-04-14
 **Additions**: Appendices A-E with integrated study schedules, exam preparation, common mistakes, success metrics, and post-certification guidance.
 

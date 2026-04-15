@@ -1,6 +1,6 @@
 # Troubleshooting Guide
 
-Solutions for common problems encountered during the 27-Month Cybersecurity Roadmap.
+Solutions for common problems encountered during the 18-Month Cybersecurity Roadmap.
 
 ---
 
@@ -327,7 +327,7 @@ Solutions for common problems encountered during the 27-Month Cybersecurity Road
 
 3. **Revisit motivation**:
    - Remember why you started ($250-400/hr consulting!)
-   - Visualize Month 27 success
+   - Visualize Month 18 success
    - Review success stories
 
 **Prevention**:
@@ -419,8 +419,7 @@ Solutions for common problems encountered during the 27-Month Cybersecurity Road
 
 **Symptoms**:
 - At Month 12 but can't write clear technical docs
-- At Month 18 but struggle to understand training videos
-- At Month 24 but not ready for client communication
+- At Month 18 but struggle to present to clients
 
 **Root Causes**:
 
@@ -470,16 +469,12 @@ Solutions for common problems encountered during the 27-Month Cybersecurity Road
 - Consider online tutor (italki.com, $10-20/hr)
 
 **If behind at Month 18**:
-- Critical: You need professional English for consulting
+- Critical: You need professional English for consulting launch
 - Consider intensive English course (2-4 weeks)
 - Daily 1-hour English practice (in addition to roadmap)
-- May need to extend timeline by 6 months for English catch-up
-
-**If behind at Month 24**:
-- **Stop and reassess**: Consulting requires fluent English
-- Options:
-  1. Extend timeline by 6-12 months, focus heavily on English
-  2. Target local market only (if non-English speaking)
+- Options if not ready:
+  1. Extend consulting launch by 2-3 months to close the gap
+  2. Target local market first (if non-English speaking)
   3. Partner with English-speaking consultant for client-facing work
 
 **Resources for Accelerated English Learning**:
@@ -490,10 +485,9 @@ Solutions for common problems encountered during the 27-Month Cybersecurity Road
 - **YouTube**: "English Speeches" channel for executive communication practice
 
 **Minimum English Levels by Phase**:
-- **Month 6**: CEFR B1 (Intermediate) - read technical docs
-- **Month 12**: CEFR B2 (Upper Intermediate) - write clear docs
-- **Month 18**: CEFR C1 (Advanced) - professional communication
-- **Month 24-27**: CEFR C1-C2 - consulting-level fluency
+- **Month 6**: CEFR B1 (Intermediate) — read technical docs
+- **Month 12**: CEFR B2 (Upper Intermediate) — write clear docs
+- **Month 18**: CEFR C1 (Advanced) — consulting-level communication
 
 ---
 
@@ -1201,5 +1195,5 @@ git commit --no-verify -m "Emergency fix: documented false positive"
 
 ---
 
-**Last Updated**: 2026-04-07
-**Version**: 2.1
+**Last Updated**: 2026-04-14
+**Version**: 2.2
