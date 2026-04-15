@@ -19,6 +19,11 @@ The only "build" step is the style validation script:
 
 This validates: footer presence, terminology capitalization, internal link integrity, header hierarchy, code block language identifiers, date formats, and file naming conventions. Exit code 0 with warnings is acceptable; exit code 1 (errors) must be fixed before committing.
 
+**Errors** (exit 1 — must fix): missing `Last Updated` footer, wrong date format in footer, use of banned month terms (`light`/`break`) instead of `recovery month`.
+**Warnings** (exit 0 — acceptable): file naming deviations, wrong product capitalization (e.g. lowercase vendor names), broken internal links, multiple H1 headers, code blocks missing language identifiers.
+
+Files under `docs/archive/` are excluded from all validation checks.
+
 ## Documentation Standards
 
 ### File Naming
@@ -89,7 +94,7 @@ docs/archive/     Archived docs (CKS, CCSP — no longer in primary cert path)
 - `roadmap/PHASE2_MONTHS_7-12.md`
 - `roadmap/PHASE3_MONTHS_13-18.md`
 
-`18MONTH_PROGRESS_TRACKER.csv` is the canonical progress tracker.
+`18MONTH_PROGRESS_TRACKER.csv` is the canonical progress tracker. It has one row per week (72 weeks total) plus monthly summary rows. Update `Study_Hours_Actual`, `Lab_Hours_Actual`, `Status`, and `Notes` columns as work is completed. `Status` values used: `Pending`, `In Progress`, `Complete`.
 
 ## Adding or Updating Documents
 

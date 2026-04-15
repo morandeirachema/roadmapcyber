@@ -9,7 +9,7 @@
 
 ## Overview
 
-Phase 2 is the hinge of the program. You have the CyberArk defender's view from Phase 1 — now you learn to attack what you later protect. By the end of Phase 2 you will have earned the top CyberArk certification (Guardian) and the eJPT, proving you can execute a full internal network pentest. In parallel you stand up Conjur, which becomes the spine of Phase 3's secrets work.
+Phase 2 is the hinge of the program. You arrive with two CyberArk certifications, three portfolio projects published, and a TryHackMe Jr Pentester path that is 65%+ complete — significantly ahead of a standard Phase 1 exit. The Wallix project also ends in November 2026 (Month 7), freeing up time and mental energy exactly when the pentesting and Conjur work intensifies. Now you learn to attack what you defend. By the end of Phase 2 you will have earned the top CyberArk certification (Guardian) and the eJPT, proving you can execute a full internal network pentest. In parallel you stand up Conjur, which becomes the spine of Phase 3's secrets work.
 
 ### Primary Objectives
 
@@ -38,36 +38,40 @@ A PAM consultant who cannot articulate these attacks is reciting marketing slide
 
 - [ ] CyberArk Guardian certification passed
 - [ ] eJPT certification passed
-- [ ] Capable of executing a full internal network pentest end-to-end
+- [ ] Capable of executing a full internal network pentest end-to-end (AD attacks, web exploitation, reporting)
 - [ ] Conjur operational in Docker and in Kubernetes
-- [ ] Portfolio Project 3 (CyberArk Guardian Enterprise Architecture) published
-- [ ] 3 portfolio projects total published to GitHub
+- [ ] Portfolio Project 4 (CyberArk Guardian Enterprise Architecture) published
+- [ ] **5 portfolio projects total** published to GitHub (3 from Phase 1 + 2 from Phase 2)
+- [ ] TryHackMe Jr Pentester path 100% complete
+- [ ] Mock pentest report written and peer-reviewed
 
 ---
 
 ## Phase Structure
 
-### Month 7: Pentesting Methodology + Kali Mastery + Guardian Prep
+### Month 7: Pentesting Methodology + AD Lab Build + Guardian Prep
 
-**Objective**: Learn pentesting methodology rigorously. PTES (Penetration Testing Execution Standard) is not ad-hoc hacking — it is a repeatable process you will sell to clients. In parallel, push Guardian course to 40% completion.
+**Objective**: The Wallix project ends this month — use that freed energy. Learn pentesting methodology rigorously (PTES), build the AD lab that you will attack in Month 8-9, and push Guardian course to 50% completion. You arrive with TryHackMe Jr Pentester 65% done, so methodology and AD lab build replace the beginner rooms that would have been here.
 
 **Time Allocation**: 13-14 hrs/week
-- Methodology + OSINT + Nmap NSE: 5 hrs/week
+- Methodology + AD lab build: 5 hrs/week
 - Guardian course + labs: 5 hrs/week
-- TryHackMe Jr Pentester path: 3-4 hrs/week
+- TryHackMe: AD-specific and network rooms: 3-4 hrs/week
 
 **Key Activities**:
 - PTES methodology study — read all 7 phases (pre-engagement to reporting) end to end
 - Write your own methodology notes document (this becomes a consulting deliverable template)
-- Nmap NSE scripting — write one custom NSE script for a service in your lab
+- **Build the AD lab now** (Windows Server 2022 DC + 2 member servers + 1 workstation) — you will attack it in M8-9. Building it in M7 gives you a full month to get comfortable with it before the attacks start.
+- Nmap NSE scripting — write one custom NSE script against your AD lab
 - theHarvester + Maltego Community for OSINT phase walkthroughs
-- Guardian course on CyberArk Campus: enterprise architecture modules
-- TryHackMe Jr Pentester path begins (complete Nmap, enumeration rooms)
+- Guardian course on CyberArk Campus: enterprise architecture modules — target 50% completion
+- TryHackMe: Active Directory Basics, Attacktive Directory, Breaching AD rooms
 
 **Deliverables**:
-- Methodology document (written in your own words, 5-10 pages)
-- Guardian course 40% complete with notes
-- 5+ TryHackMe Jr Pentester rooms finished
+- Methodology document (5-10 pages, your own words — becomes a consulting template)
+- Guardian course 50% complete with notes
+- AD lab operational (domain `lab.local`, 4 VMs, users and groups configured)
+- TryHackMe: AD rooms complete + Jr Pentester path 80%+
 - Custom NSE script committed to repo
 
 ---
@@ -85,13 +89,13 @@ A PAM consultant who cannot articulate these attacks is reciting marketing slide
 - Burp Suite intermediate — Intruder (sniper, pitchfork, clusterbomb), Repeater workflows
 - SQLmap automated SQL injection against DVWA and vulnerable WordPress lab
 - Gobuster / ffuf for directory and vhost brute-forcing
-- Portfolio Project 3 drafted: CyberArk Guardian Enterprise Architecture (HA/DR design, multi-site vault, integration patterns)
+- Portfolio Project 4 drafted: CyberArk Guardian Enterprise Architecture (HA/DR design, multi-site vault, integration patterns)
 
 **Deliverables**:
 - **CyberArk Guardian certification**
 - Web exploitation lab notes covering SQLi, XSS, LFI/RFI, file upload bypass
 - 8+ TryHackMe Jr Pentester rooms cumulative
-- Portfolio Project 3 draft complete (publishes M9)
+- Portfolio Project 4 draft complete (publishes M9)
 
 ---
 
@@ -119,7 +123,7 @@ A PAM consultant who cannot articulate these attacks is reciting marketing slide
 - AD lab operational and documented
 - BloodHound attack paths screenshot + written explanation of at least 3 paths
 - Conjur running in Docker with a sample policy and secret
-- **Portfolio Project 3 (CyberArk Guardian Enterprise Architecture) published**
+- **Portfolio Project 4 (CyberArk Guardian Enterprise Architecture) published**
 - INE PTS course 30% complete
 
 ---
@@ -209,5 +213,5 @@ A PAM consultant who cannot articulate these attacks is reciting marketing slide
 
 ---
 
-**Last Updated**: 2026-04-14
-**Version**: 1.0
+**Last Updated**: 2026-04-15
+**Version**: 2.0

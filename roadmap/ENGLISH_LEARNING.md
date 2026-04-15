@@ -73,6 +73,53 @@ This English learning plan is **integrated** into your technical studies, not se
 - Record yourself explaining one lab concept per month using OBS Studio or Loom (5-10 min); do not publish — listen back and identify areas to improve
 - Join CyberArk Commons and write at least one answer per month in English
 
+---
+
+### Speaking Practice Protocol (Month 6 Onward)
+
+Speaking is the hardest English skill to develop in isolation. Use this protocol to build it systematically without waiting for a live audience.
+
+**Daily 5-Minute Recording (Month 6 onward)**:
+
+Every evening after labs, record yourself for exactly 5 minutes — no preparation, no script. Pick one thing you did or learned that day and explain it as if talking to a colleague. Examples:
+
+- "Today I configured CPM platform policies. Here is what it does and why it matters."
+- "I ran BloodHound on the AD lab. I found three attack paths. Let me walk through them."
+- "I got stuck on the Conjur Docker policy syntax. Here is what went wrong and how I fixed it."
+
+Do not listen back to every recording. Save them. Review one per week — you will hear your own improvement over months. The goal is to make spoken English automatic, not perfect.
+
+**Shadow-Reading from Security YouTube (Month 1 onward)**:
+
+Shadow-reading means playing a video and speaking along with the presenter — same pace, same intonation. Start with 5-10 minutes per week.
+
+Strong channels for this:
+- **John Hammond** (CTF walkthroughs, clear pacing, good for beginner-to-intermediate)
+- **IppSec** (HackTheBox machine walkthroughs — the gold standard for OSCP prep English)
+- **TCM Security** (network pentesting, Active Directory courses — consulting-level vocabulary)
+- **CyberArk YouTube** (product demos, webinars — exact vocabulary your PAM clients use)
+- **Cloud Security Podcast** (consulting tone, enterprise language, longer form)
+
+Shadow-reading builds pronunciation and pace simultaneously. You absorb professional delivery patterns you can use in client calls.
+
+**Discovery Call Script Practice (Month 10 onward)**:
+
+Learn these sentences until you can say them without thinking. They are the core vocabulary of every consulting conversation:
+
+```text
+"Can you walk me through how admin credentials are managed today?"
+"What compliance requirement is driving this conversation?"
+"Are you on-prem, cloud, or hybrid? Is Active Directory in scope?"
+"Has there been a specific audit finding or incident that's making this urgent?"
+"What I typically see in environments like yours is..."
+"Based on what you've described, my approach would be..."
+"I've done something very similar for a [industry] company. The result was..."
+"Would it be helpful if I sent you a case study after this call?"
+"I can have a proposal to you by [day]. What information can you share with me in the meantime?"
+```
+
+Practice these out loud — not silently. The muscle memory is in the mouth, not the brain. Start with one sentence per day, say it 10 times at normal speaking pace, then use it in your next recording session.
+
 **Monthly Milestones**:
 - **Month 6**: Study notes primarily in English; language exchange partner found; first self-recording done
 - **Month 7**: Project documentation clear and professional; posting regularly in CyberArk Commons
@@ -355,5 +402,5 @@ This English learning plan is **integrated** into your technical studies, not se
 
 ---
 
-**Last Updated**: 2026-04-14
-**Version**: 2.0
+**Last Updated**: 2026-04-15
+**Version**: 2.1

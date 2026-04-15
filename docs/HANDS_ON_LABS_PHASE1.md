@@ -16,6 +16,64 @@ Step-by-step lab exercises for Months 1-6, covering the full CyberArk PAM stack 
 
 ---
 
+## Lab 0: Wallix → CyberArk Architecture Translation
+
+**Month 1, Week 1 — before touching any CyberArk installer**
+
+You already know PAM. This lab is a mental mapping exercise that will save you 10-15 hours of confused reading during installation. Complete this reference table before starting Lab 1.
+
+### Component Mapping Table
+
+| Wallix Component | CyberArk Equivalent | Key Differences |
+|-----------------|---------------------|-----------------|
+| Wallix Bastion (WALLIX Bastion) | PSM (Privileged Session Manager) | CyberArk PSM is a separate Windows Server component; Wallix Bastion is the appliance. Both proxy sessions and record. CyberArk stores recordings in the Vault safe. |
+| WALLIX Password Manager | CPM (Central Policy Manager) | Both rotate passwords automatically. CPM uses "platforms" to define rotation logic. CPM runs as a Windows service on a dedicated server. |
+| WALLIX Web Interface | PVWA (Password Vault Web Access) | PVWA is an IIS web application on a dedicated Windows Server. No built-in appliance. |
+| WALLIX Access Manager | No direct equivalent | CyberArk handles access control through safe permissions and PVWA policies, not a separate Access Manager tier. |
+| WALLIX Session Manager | PSM (same as Bastion) | In Wallix, Session Manager and Bastion are sometimes separate; in CyberArk, PSM handles both. |
+| Target device account | Managed account in a Safe | CyberArk stores accounts in "Safes" (encrypted containers inside the Vault). Each Safe has its own ACL. |
+| Policy (access rule) | Platform + Master Policy | CyberArk "Platforms" define behavior per account type (Windows, Linux, DB). "Master Policy" is the global override hierarchy. |
+| Approval workflow | Dual Control in Master Policy | CyberArk dual control requires a second approver before the session is permitted. Configured per Safe. |
+| Audit trail / session recording | PSM recordings + Vault audit | CyberArk audit log is in the Vault. Recordings live in a dedicated safe (PSMRecordings). |
+
+### MFA Integration Pattern
+
+You have configured FortiAuthenticator with Wallix via RADIUS. CyberArk PVWA uses the exact same RADIUS flow:
+
+```text
+User → PVWA login page
+PVWA → sends RADIUS Access-Request to FortiAuthenticator (UDP 1812)
+FortiAuthenticator → sends push/OTP challenge to user
+User completes MFA → FortiAuthenticator sends Access-Accept
+PVWA → grants session
+```
+
+The RADIUS secret, server IP, and timeout parameters in PVWA are configured in:
+`PVWA → Administration → Authentication Methods → RADIUS`
+
+Your existing FortiAuthenticator policy can be reused — just add the PVWA server IP as a RADIUS client.
+
+### What CyberArk Does That Wallix Does Not (in standard deployments)
+
+- **Conjur** — machine identity and DevSecOps secrets management. No Wallix equivalent.
+- **CPM platform plugins** — fully scriptable password changers for any target (databases, network devices, custom applications). More flexible than Wallix Password Manager policies.
+- **CyberArk DNA** (discovery) — automated privileged account discovery scan. Wallix has discovery but CyberArk DNA goes deeper on Windows.
+- **AAM (Application Access Manager)** — application-to-application password retrieval without embedding credentials. No Wallix equivalent at this level.
+
+### What Wallix Does Differently (note for your comparison document)
+
+- **Appliance-based** — Wallix ships as a hardened appliance (virtual or physical). CyberArk is software-on-Windows-Server. Wallix is faster to deploy; CyberArk is more customizable.
+- **PEDM (Endpoint Privilege Management)** — Wallix PEDM is integrated. CyberArk EPM is a separate licensed product.
+- **Licensing model** — Wallix licenses by number of targets (devices). CyberArk licenses by number of accounts. This is the single most important factor in "which product fits this client."
+
+### Deliverable
+
+Commit a file `comparisons/wallix_vs_cyberark_mapping.md` to your GitHub repo with the completed table above (filled in with your own notes and corrections from real experience). This is the seed of Portfolio Project 2.
+
+---
+
+---
+
 ## Lab 1: Lab Network Architecture
 
 **Month 1, Week 1**
@@ -308,6 +366,65 @@ Repeat the service and UDP scans for 192.168.100.20 (CPM01), .30 (PVWA01), and .
 
 ---
 
+## Lab 6b: TryHackMe Phase 1 Track
+
+**Months 1-6 (parallel with PAM labs) — explicit room list with hours**
+
+Do not treat TryHackMe as optional or "when I have time." Start Week 1 and do at least 3 rooms per week. The offensive track is not a Phase 2 thing — it starts now.
+
+### Month 1-2: Foundations (~18 hrs)
+
+| Room | Path | Estimated Hours | Priority |
+|------|------|:---:|:---:|
+| Linux Fundamentals Part 1 | Pre-Security | 1.5 | Required |
+| Linux Fundamentals Part 2 | Pre-Security | 1.5 | Required |
+| Linux Fundamentals Part 3 | Pre-Security | 1.5 | Required |
+| Intro to Networking | Pre-Security | 1.5 | Required |
+| Intro to LAN | Pre-Security | 1 | Required |
+| Nmap | Jr Pentester | 2 | Required |
+| Network Services | Jr Pentester | 2 | Required |
+| Network Services 2 | Jr Pentester | 2 | Required |
+| Passive Recon | Jr Pentester | 1.5 | Required |
+| Active Recon | Jr Pentester | 1.5 | Required |
+| Vulnversity | Jr Pentester | 1.5 | Required |
+
+### Month 3-4: Web + Exploitation (~20 hrs)
+
+| Room | Path | Estimated Hours | Priority |
+|------|------|:---:|:---:|
+| Burp Suite: The Basics | Jr Pentester | 2 | Required |
+| Burp Suite: Repeater | Jr Pentester | 1.5 | Required |
+| Burp Suite: Intruder | Jr Pentester | 1.5 | Required |
+| OWASP Top 10 – 2021 | Jr Pentester | 3 | Required |
+| OWASP Juice Shop | Jr Pentester | 2 | Required |
+| Basic Pentesting | Jr Pentester | 1.5 | Required |
+| Linux PrivEsc | Jr Pentester | 3 | Required |
+| Windows PrivEsc | Jr Pentester | 3 | Required |
+| Steel Mountain | Extra | 2 | Recommended |
+
+### Month 5-6: Consolidation (~15 hrs)
+
+| Room | Path | Estimated Hours | Priority |
+|------|------|:---:|:---:|
+| Metasploit: Introduction | Jr Pentester | 2 | Required |
+| Metasploit: Exploitation | Jr Pentester | 2 | Required |
+| Metasploit: Meterpreter | Jr Pentester | 1.5 | Required |
+| Blue | Jr Pentester | 1.5 | Required |
+| Ice | Extra | 1.5 | Recommended |
+| Kenobi | Jr Pentester | 1.5 | Required |
+| Simple CTF | Extra | 1 | Recommended |
+| Pickle Rick | Extra | 1 | Fun — do it |
+
+**Target by end of Month 6**: Jr Pentester path 65%+ complete. You will enter Phase 2 with real offensive skills, not just PAM theory.
+
+```bash
+# Check your TryHackMe progress via the profile page
+# Set your daily streak goal: 1 room per day minimum
+# Recommended session structure: 45 min TryHackMe, then switch to PAM lab
+```
+
+---
+
 ## Lab 7: DVWA Setup and OWASP Top 10 Labs
 
 **Month 3**
@@ -586,5 +703,5 @@ sudo find /usr -name "<tool-name>" 2>/dev/null
 
 ---
 
-**Last Updated**: 2026-04-14
-**Version**: 2.0
+**Last Updated**: 2026-04-15
+**Version**: 3.0

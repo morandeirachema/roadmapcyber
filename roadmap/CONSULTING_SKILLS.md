@@ -16,6 +16,22 @@ This plan runs **integrated** with your technical roadmap. You build business sk
 
 ---
 
+## Case Study 0: Your Wallix Deployment (Available Now — Before Month 1)
+
+Before you build a single CyberArk lab, you already have the most powerful case study in this entire program. The Wallix PAM + FortiAuthenticator MFA deployment for a multinational company is a real, production, enterprise-scale engagement. You designed the architecture, implemented every component, and own the technical outcome.
+
+Write this case study before Month 1 ends, using the template in [templates/CASE_STUDY_TEMPLATE.md](../templates/CASE_STUDY_TEMPLATE.md). Sanitize the client name. This is Case Study 0 because it pre-dates the formal program.
+
+**Why this is your strongest asset**:
+- Every other consultant building a CyberArk practice from scratch has zero real client deployments at Month 1. You have one.
+- Multi-vendor PAM experience (Wallix + CyberArk) is explicitly rare. Most implementation consultants know one product.
+- FortiAuthenticator MFA integration experience maps directly to CyberArk RADIUS integration — you can speak to both sides of the same conversation.
+- "Architect, consultant, and implementer for a multinational enterprise PAM deployment" is the opening sentence of your LinkedIn About section and your discovery call introduction.
+
+**How to position it in sales conversations**: *"Before specializing in CyberArk, I was the lead architect for an enterprise PAM + MFA deployment at a multinational company using a different vendor. I know what PAM implementations look like from the inside — both the wins and the failure modes — independent of product branding. That experience is what I bring to CyberArk engagements."*
+
+---
+
 ## Three-Phase Progression
 
 ### Phase 1: Presentation Foundation (Months 1-6)
@@ -66,7 +82,8 @@ This plan runs **integrated** with your technical roadmap. You build business sk
 
 **Months 7-12 — Portfolio Building**:
 - Portfolio Project 1 (PAM Lab) should be fully documented by M4
-- Portfolio Project 2 (Guardian Architecture) by M9
+- Portfolio Projects 2 and 3 (Wallix Comparison + DevSecOps Pipeline) published M6
+- Portfolio Project 4 (Guardian Architecture) by M9
 - Each project: README, architecture diagram, challenge/solution narrative, lessons learned
 
 **Skills developed**: proposal writing, RFP responses, SOW creation, service definition, business writing
@@ -77,7 +94,7 @@ This plan runs **integrated** with your technical roadmap. You build business sk
 - [ ] Pentest SOW template (reusable)
 - [ ] Sample proposal (PAM implementation, fully drafted)
 - [ ] Service offerings defined (at least PAM implementation + internal network pentest)
-- [ ] Portfolio Projects 1 and 2 published with professional documentation
+- [ ] Portfolio Projects 1-4 published with professional documentation
 - [ ] 8 presentations delivered
 
 ---
@@ -114,7 +131,7 @@ This plan runs **integrated** with your technical roadmap. You build business sk
 
 **Month 17-18 — Launch Preparation**:
 - Define service packages (use the rate card below)
-- Finalize all 4 case studies; polish all 6 portfolio projects on GitHub
+- Finalize all 4 case studies; polish all 7 portfolio projects on GitHub
 - Finalize consulting narrative: your journey (sysadmin → dual-track consultant), your value proposition
 - Announce practice on LinkedIn the week after OSCP result is confirmed
 
@@ -122,7 +139,7 @@ This plan runs **integrated** with your technical roadmap. You build business sk
 
 **Deliverables by Month 18**:
 - [ ] 4 case studies written and published
-- [ ] All 6 portfolio projects on GitHub with professional documentation
+- [ ] All 7 portfolio projects on GitHub with professional documentation
 - [ ] Discovery call framework practiced (10+ dry runs)
 - [ ] 5-minute capability pitch ready
 - [ ] Service packages and rate card finalized
@@ -185,9 +202,9 @@ Month 12 and M17 are ideal BSides talk candidates — a retrospective with real 
 - [ ] PAM + Pentest Combined Assessment (flagship premium offering)
 
 ### Portfolio (Complete by Month 18)
-- [ ] 6 portfolio projects published on GitHub
+- [ ] 7 portfolio projects published on GitHub
 - [ ] Each project: README, architecture diagram, challenge/solution narrative
-- [ ] Enterprise Capstone (Project 6): PAM + Conjur + Pentest combined — the anchor piece
+- [ ] Enterprise Capstone (Project 7): PAM + Conjur + Pentest combined — the anchor piece
 
 ### Professional Presence (Complete by Month 18)
 - [ ] LinkedIn profile optimized (see [NETWORKING_STRATEGY.md](../docs/NETWORKING_STRATEGY.md))
@@ -263,6 +280,148 @@ Month 12 and M17 are ideal BSides talk candidates — a retrospective with real 
 - Certifications listed
 - Relevant portfolio project or case study (one paragraph)
 - One or two testimonials if available
+
+---
+
+## Objection Handling
+
+These are the six objections you will hear most often. Prepare a response for each before your first discovery call. Practice them out loud — they must sound natural, not rehearsed.
+
+### "Your rate is too high."
+
+Do not apologize. Do not lower your rate immediately.
+
+**Response**: *"I understand. Let me ask — is the total investment outside your budget, or is it the hourly rate that feels high? If it's total investment, I can propose a phased approach where we start with an assessment so you can validate the value before committing to a full implementation. If it's the hourly rate, I'm happy to explain what drives it — I bring both PAM architecture experience at the enterprise level and offensive security skills, which means you're not hiring two separate consultants."*
+
+If they push again: offer a fixed-fee discovery phase ($3,000-5,000) that de-risks their commitment. If they won't pay for a bounded discovery engagement, they were never a real buyer.
+
+### "We already have an integrator / we're working with [big firm]."
+
+**Response**: *"That's common — most enterprises use a large integrator for the main deployment. Where I tend to add value alongside those engagements is in the areas large firms typically skip: the offensive security review of the PAM architecture itself (finding the attack paths your PAM rollout needs to close), and the Conjur / DevSecOps secrets management work that larger firms often treat as out of scope. Are either of those relevant to where you are right now?"*
+
+This positions you as complementary, not competitive.
+
+### "We need someone on-site full-time."
+
+**Response**: *"I work primarily remote with on-site availability for key phases — architecture workshops, go-live support, and knowledge transfer sessions. For most CyberArk implementations, that covers 80% of the value at 30-40% of the cost of a full-time on-site engagement. Would a hybrid model work, or is on-site every day a hard requirement?"*
+
+If full-time on-site is non-negotiable: either decline or add a 25% on-site premium to the rate and negotiate scope.
+
+### "You don't have enough client references yet."
+
+This is the hardest objection early in your practice. Answer it directly and without apology.
+
+**Response**: *"That's fair to raise. What I can offer instead of multiple client references is: a production enterprise PAM deployment I architected and delivered (which I can walk you through in detail), five certifications including OSCP and all three CyberArk certifications, and six portfolio projects on GitHub that document exactly how I approach these engagements. I'd suggest a paid discovery phase — three to four days — as a low-risk way for both of us to validate the fit before committing to a larger engagement."*
+
+The paid discovery phase converts the objection into a revenue event and a reference simultaneously.
+
+### "We need to think about it / we'll get back to you."
+
+**Response**: *"Of course — take the time you need. Can I ask: is there a specific concern I haven't addressed, or is this primarily about timing? If it's timing, I'm happy to schedule a follow-up call in two weeks. If there's a technical or commercial question I didn't cover, I'd rather handle it now while we're talking."*
+
+If they give a vague answer, offer a specific next step: *"How about I send the case study we discussed and a brief outline of what a scoped discovery engagement would look like — say by Thursday. You can review it and we can touch base the following week."*
+
+### "We have OSCP candidates offering lower rates."
+
+**Response**: *"OSCP shows offensive skill — that's the floor, not the ceiling. What I bring on top of that is enterprise CyberArk PAM architecture experience, including a production multinational deployment. Most OSCP candidates can find vulnerabilities. Fewer can tell you which CyberArk configuration closes each one and then implement it. The combined assessment + remediation is where the value is — and it's a service a pure pentester can't deliver."*
+
+---
+
+## First Client Outreach Templates
+
+Use these when you are ready to reach out. The goal of every first message is a conversation — not a sale. Never pitch in the first message.
+
+### Template 1: Former Colleague (Email or LinkedIn)
+
+```text
+Subject: Catching up — and a quick question
+
+Hi [Name],
+
+Hope you're well. I've been heads-down for the past year earning CyberArk
+certifications (Defender, Sentry, Guardian) and working toward OSCP while
+finishing a PAM deployment project. I'm getting close to launching a small
+consulting practice focused on CyberArk PAM implementation and penetration
+testing.
+
+I'd love to catch up — and honestly, I'd value your perspective on the market
+from where you sit. Would you have 20-30 minutes for a call sometime in the
+next few weeks?
+
+No agenda beyond reconnecting and getting your thoughts.
+
+[Your name]
+```
+
+**What this does**: Asks for advice, not business. People are far more willing to give advice than to buy. The conversation will naturally surface whether they have a need — you don't have to push.
+
+### Template 2: LinkedIn Connection → Conversation
+
+Send after connecting with someone who posts about CyberArk or PAM:
+
+```text
+Hi [Name],
+
+Your post on [specific topic they posted about] was exactly on point — I ran
+into the same issue with [briefly relate your experience]. 
+
+I'm building toward launching a CyberArk PAM + pentesting consulting practice.
+Always glad to connect with others in the PAM space.
+
+[Your name]
+```
+
+**Follow up two weeks later** if they engage with your content:
+
+```text
+Hi [Name],
+
+Good to be connected. I've been reading your posts — your take on [topic] is
+interesting, especially the point about [specific detail].
+
+I'm curious: is [problem area they mentioned] something your team is actively
+working on right now, or more of a future concern?
+```
+
+### Template 3: CyberArk Partner Subcontracting Introduction
+
+```text
+Subject: CyberArk implementation subcontract availability — [Month Year]
+
+Hi [Name],
+
+I'm a CyberArk-certified consultant (Defender, Sentry, Guardian, OSCP) with
+hands-on enterprise PAM deployment experience. I'm building my consulting
+practice and available for subcontracting work — specifically CyberArk
+implementation, Conjur/secrets management, and PAM security assessments.
+
+I'm reaching out to a small number of CyberArk partner firms to explore
+subcontracting relationships. If you have overflow implementation capacity
+needs — now or in the coming months — I'd welcome a brief conversation.
+
+My portfolio: [GitHub link]
+My LinkedIn: [URL]
+
+[Your name]
+```
+
+Send to 10-15 CyberArk authorized partner firms. Search LinkedIn for "CyberArk partner" + your region. Target firms with 20-200 employees — large enough to have overflow, small enough that your message reaches a decision-maker.
+
+### Template 4: Inbound Lead from LinkedIn Content
+
+When someone comments on or messages you about a post:
+
+```text
+Hi [Name],
+
+Glad the post was useful — [one sentence related to their comment].
+
+Are you working through this problem right now, or exploring options for the
+future? Happy to share what I've seen work in similar environments if it'd be
+helpful.
+```
+
+Keep it short. Ask one question. Let them drive the pace.
 
 ---
 
@@ -351,5 +510,5 @@ For the M8 employment fork decision (working at a CyberArk partner vs. continuin
 
 ---
 
-**Last Updated**: 2026-04-14
-**Version**: 2.0
+**Last Updated**: 2026-04-15
+**Version**: 3.0

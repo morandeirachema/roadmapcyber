@@ -16,13 +16,33 @@ The mistake most consultants make: treating networking as something you do after
 
 LinkedIn is the primary B2B platform for consultants targeting enterprise security buyers — CISOs, security architects, and IT directors. This is where PAM buyers are. For anyone transitioning into consulting, it is the highest-leverage platform to invest time in during the entire 18 months.
 
-**What to publish and when:**
+**What to publish and when — unified content calendar:**
 
-- M1-8: No articles yet. Optimize your profile (professional photo, headline: "CyberArk PAM | Pentesting | DevSecOps | 18-Month Specialization in Progress"). Connect with CyberArk partners, security professionals, and people who post about PAM and identity security.
-- M9: First post — a short lab note such as "What I learned deploying CyberArk Vault for the first time." Keep it 200-300 words. This is not a long article, just a post. Authenticity matters more than polish at this stage.
-- M11 onward: One LinkedIn article every 6-8 weeks. Topic ideas: Conjur Docker setup lessons learned, Active Directory attack paths that CyberArk PAM would have blocked, eJPT preparation insights, Conjur + Kubernetes architecture decisions. Each article should end with a note that you are working toward OSCP — this signals ongoing active learning to readers.
-- M15 onward: Increase to one post per week. These should be shorter and more conversational — a finding from a HackTheBox machine, a PAM architecture decision, a Conjur configuration tip.
-- M18: Profile complete, 6+ articles published, 500+ relevant connections.
+There are two types of LinkedIn content. Keep them separate in your mind:
+
+- **Short posts** (200-400 words, no formatting required): observations, lab findings, quick lessons, questions. Low effort, high frequency.
+- **Long-form articles** (800-1,500 words, structured with headers): technical walkthroughs, lessons learned, methodology explanations. High effort, low frequency.
+
+| Period | Short Posts | Long Articles | Total effort/week |
+|:------:|:-----------:|:-------------:|:-----------------:|
+| M1-8 | 0 (profile building only) | 0 | ~15 min/day profile optimization |
+| M9-10 | 1 per week | 0 | ~30 min/week |
+| M11-14 | 1-2 per week | 1 per 6-8 weeks | ~45 min/week |
+| M15-18 | 2-3 per week | 1 per month | ~60-90 min/week |
+
+This resolves the conflict between documents that said "2-3 times per week" (short posts, correct for M15+) and "one article every 6-8 weeks" (long articles, correct throughout). Both are right — they describe different content types.
+
+**M9**: First post — short lab note: *"What surprised me about CyberArk CPM vs Wallix Password Manager."* Keep it authentic and specific. Authenticity outperforms polish at this stage.
+
+**M11**: First long-form article. Suggested topics (in order of audience interest):
+1. "Active Directory attack paths that CyberArk PAM would have blocked" — resonates with both security teams and PAM buyers
+2. "Wallix vs CyberArk: what I learned deploying both" — unique, high credibility
+3. "Conjur Docker setup: what the documentation doesn't tell you" — DevOps audience
+4. "eJPT preparation: honest breakdown of what worked"
+
+**M15 onward**: Post 2-3 times per week. Short posts only at this frequency — a HackTheBox finding, a PAM configuration tip, a question to your network. Save long articles for every 4-6 weeks.
+
+**M18**: Profile complete, 6+ long articles published, 500+ relevant connections.
 
 **Profile optimization:**
 
@@ -143,5 +163,5 @@ HackTheBox maintains a public profile showing your ranking, completed machines, 
 
 ---
 
-**Last Updated**: 2026-04-14
-**Version**: 1.0
+**Last Updated**: 2026-04-15
+**Version**: 2.0

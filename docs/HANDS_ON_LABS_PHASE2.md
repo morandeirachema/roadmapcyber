@@ -461,6 +461,83 @@ spec:
 
 ---
 
+## Lab 11: HackTheBox Machine Progression (Phase 2 Track)
+
+**Months 8-12 — runs in parallel with all other labs**
+
+These machines are selected specifically because they teach the techniques that appear on the OSCP exam and in real AD engagements. All are retired — full writeups exist if you need them, but attempt each machine without hints first. Document every machine the same way you will on the OSCP exam (see HANDS_ON_LABS_PHASE3.md for the note template).
+
+**Rule**: Write a short report for every machine you complete. 1-2 pages: what you found, how you got in, how you escalated, what you would remediate. This builds the report-writing habit before OSCP demands it at 2am.
+
+### Month 8: Windows Foundations (4 machines, ~10 hrs)
+
+| Machine | OS | Difficulty | Key Technique | OSCP Relevance |
+|---------|----|:----------:|---------------|----------------|
+| Blue | Windows | Easy | EternalBlue (MS17-010) | Classic Windows SMB — enumerate → run exploit → SYSTEM |
+| Legacy | Windows | Easy | MS08-067 | Older Windows service exploitation workflow |
+| Jerry | Windows | Easy | Tomcat default creds → WAR shell | Web app foothold on Windows |
+| Devel | Windows | Easy | FTP anonymous + ASPX webshell | File upload → foothold → local privesc |
+
+### Month 9: Linux Foundations + First AD Machine (5 machines, ~14 hrs)
+
+| Machine | OS | Difficulty | Key Technique | OSCP Relevance |
+|---------|----|:----------:|---------------|----------------|
+| Shocker | Linux | Easy | Shellshock (CGI script) | Web app → OS command injection |
+| Bashed | Linux | Easy | Webshell discovery | Enumeration-first methodology |
+| Nibbles | Linux | Easy | Web app → credential spray → sudo | Low-privilege enumeration + sudo escalation |
+| Beep | Linux | Easy | Multi-service enumeration | Don't tunnel-vision — explore all services |
+| Forest | Windows AD | Medium | AS-REP roasting → DCSync | **Critical** — full AD chain, directly maps to OSCP AD set |
+
+Forest is the most important machine in Phase 2. It runs the exact attack chain you will face in the OSCP AD set: AS-REP roast a service account, get a hash, crack it, establish a foothold, enumerate with BloodHound, find a privilege escalation path (WriteDACL → DCSync), dump domain hashes. Do it twice.
+
+### Month 10: AD Focus (4 machines, ~14 hrs)
+
+| Machine | OS | Difficulty | Key Technique | OSCP Relevance |
+|---------|----|:----------:|---------------|----------------|
+| Active | Windows AD | Easy | Kerberoasting GPP password | Kerberoastable service account — core OSCP pattern |
+| Resolute | Windows AD | Medium | DNS Admin → DLL injection | AD privesc via group membership abuse |
+| Sauna | Windows AD | Easy | AS-REP roasting + WinPEAS privesc | Second full AD chain — different path than Forest |
+| Optimum | Windows | Easy | HFS exploit + Windows privesc | Local exploit enumeration workflow |
+
+### Month 11-12: Consolidation + Hard Machines (4 machines, ~16 hrs)
+
+| Machine | OS | Difficulty | Key Technique | OSCP Relevance |
+|---------|----|:----------:|---------------|----------------|
+| Arctic | Windows | Easy | ColdFusion file upload | Web app on Windows — always check obscure services |
+| Return | Windows AD | Easy | LDAP credential leak → privileged group | Credential hunting in services |
+| Escape | Windows AD | Medium | MSSQL → Silver Ticket | Service account abuse beyond basic Kerberoasting |
+| Cascade | Windows AD | Medium | LDAP + AD Recycle Bin | Deeper AD enumeration required |
+
+**Phase 2 exit target**: 17 HackTheBox machines completed, all documented. By this point the AD attack chain should feel mechanical, not exploratory.
+
+### HackTheBox Report Template (1-2 pages per machine)
+
+```text
+MACHINE: <name>   OS: <Windows/Linux>   Difficulty: <Easy/Medium>
+Date: <YYYY-MM-DD>   Time to root: <hours>
+
+FOOTHOLD
+- Service: <what you found>
+- Vulnerability: <CVE or technique name>
+- How I found it: <enumeration step that revealed it>
+- Commands:
+  <paste key commands>
+
+PRIVILEGE ESCALATION
+- From: <user>  To: <user/SYSTEM/root>
+- Method: <SUID/sudo/token impersonation/etc.>
+- Commands:
+  <paste key commands>
+
+WHAT WOULD I REMEDIATE
+- <one or two specific fixes an admin should apply>
+
+WHAT I WOULD DO DIFFERENTLY
+- <one honest lesson from this machine>
+```
+
+---
+
 ## Troubleshooting
 
 ### AD Lab — DC Unreachable from Kali
@@ -500,5 +577,5 @@ kubectl -n conjur logs <pod-name>
 
 ---
 
-**Last Updated**: 2026-04-14
-**Version**: 2.0
+**Last Updated**: 2026-04-15
+**Version**: 3.0

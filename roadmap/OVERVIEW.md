@@ -23,22 +23,22 @@ Complete high-level structure of the 18-month journey from experienced sysadmin 
 |:-----:|:--------:|:----------|
 | M1 | May 2026 | Program begins — PAM + Kali lab setup |
 | M2 | Jun 2026 | Linux security + PAM fundamentals |
-| M3 | Jul 2026 | Defender cert prep, web app security (DVWA, Burp Suite) |
-| M4 | Aug 2026 | **CyberArk Defender cert** + Portfolio Project 1 (PAM Lab) |
-| M5 | Sep 2026 | Sentry prep + OWASP Top 10 + DevSecOps pipeline |
-| M6 | Oct 2026 | **CyberArk Sentry cert** + Recovery (8 hrs/week) |
+| M3 | Jul 2026 | **CyberArk Defender cert** + TryHackMe Jr Pentester launch + DVWA, Burp Suite |
+| M4 | Aug 2026 | Pentesting acceleration + Portfolio Projects 1 (PAM Lab) and 2 (Wallix Comparison) drafts |
+| M5 | Sep 2026 | **CyberArk Sentry cert** + DevSecOps pipeline + Portfolio Project 3 (DevSecOps) |
+| M6 | Oct 2026 | Recovery (8 hrs/week) + Portfolio Projects 2 and 3 published |
 | M7 | Nov 2026 | Network pentesting, Nmap advanced, Guardian prep |
 | M8 | Dec 2026 | **CyberArk Guardian cert** + Metasploit, web exploitation |
-| M9 | Jan 2027 | AD attacks (BloodHound, Kerberoasting) + Portfolio Project 2 (Guardian architecture) |
+| M9 | Jan 2027 | AD attacks (BloodHound, Kerberoasting) + Portfolio Project 4 (Guardian architecture) |
 | M10 | Feb 2027 | Post-exploitation, privilege escalation, eJPT prep |
 | M11 | Mar 2027 | eJPT intensive prep, Conjur on K8s, HackTheBox |
 | M12 | Apr 2027 | **eJPT cert** + Recovery (8 hrs/week) |
-| M13 | May 2027 | OSCP PEN-200 begins + Portfolio Project 3 (Conjur + CI/CD) |
+| M13 | May 2027 | OSCP PEN-200 begins + Portfolio Project 5 (Conjur + CI/CD) |
 | M14 | Jun 2027 | OSCP exploitation + AD at OSCP level + multi-cloud secrets |
-| M15 | Jul 2027 | OSCP challenge labs + CloudGoat + Azure AD attacks + Portfolio Project 4 (Multi-Cloud Secrets) |
-| M16 | Aug 2027 | OSCP exam simulation + Portfolio Project 5 (DevSecOps Audit) |
+| M15 | Jul 2027 | OSCP challenge labs + CloudGoat + Azure AD attacks + Portfolio Project 6 (Multi-Cloud Secrets) |
+| M16 | Aug 2027 | OSCP exam simulation + DevSecOps security audit (consulting deliverable) |
 | M17 | Sep 2027 | **OSCP exam** + consulting pre-launch |
-| M18 | Oct 2027 | **Consulting Launch** + Recovery + Portfolio Project 6 (Capstone) |
+| M18 | Oct 2027 | **Consulting Launch** + Recovery + Portfolio Project 7 (Capstone) |
 
 ---
 
@@ -58,8 +58,8 @@ Complete high-level structure of the 18-month journey from experienced sysadmin 
 
 **Certifications**:
 
-- **CyberArk Defender** (Month 4, Aug 2026)
-- **CyberArk Sentry** (Month 6, Oct 2026)
+- **CyberArk Defender** (Month 3, Jul 2026)
+- **CyberArk Sentry** (Month 5, Sep 2026)
 
 **Key Activities**:
 
@@ -73,8 +73,10 @@ Complete high-level structure of the 18-month journey from experienced sysadmin 
 
 - Fully functional PAM lab
 - **Portfolio Project 1 — PAM Lab Documentation** (M4)
+- **Portfolio Project 2 — Wallix vs CyberArk Multi-Vendor Comparison** (M6)
+- **Portfolio Project 3 — DevSecOps CI/CD Security Pipeline** (M6)
 - 2 CyberArk certifications obtained
-- Baseline offensive skills (Linux privesc, web basics)
+- Baseline offensive skills (Linux privesc, web basics, TryHackMe Jr Pentester 65%+)
 
 **Success Metrics** (by Month 6):
 
@@ -113,7 +115,7 @@ Complete high-level structure of the 18-month journey from experienced sysadmin 
 
 **Deliverables**:
 
-- **Portfolio Project 2 — CyberArk Guardian Enterprise Architecture** (M9)
+- **Portfolio Project 4 — CyberArk Guardian Enterprise Architecture** (M9)
 - Guardian + eJPT certifications obtained
 - Conjur running in Docker and K8s
 - Consistent TryHackMe / HackTheBox activity
@@ -155,17 +157,17 @@ Complete high-level structure of the 18-month journey from experienced sysadmin 
 
 **Deliverables**:
 
-- **Portfolio Project 3 — Conjur + CI/CD Secrets Management** (M13)
-- **Portfolio Project 4 — Multi-Cloud Secrets Architecture** (M15)
-- **Portfolio Project 5 — DevSecOps Security Audit** (M16)
-- **Portfolio Project 6 — Enterprise Capstone: PAM + Conjur + Pentest Assessment** (M18)
+- **Portfolio Project 5 — Conjur + CI/CD Secrets Management** (M13)
+- **Portfolio Project 6 — Multi-Cloud Secrets Architecture** (M15)
+- DevSecOps Security Audit (M16) — consulting methodology deliverable
+- **Portfolio Project 7 — Enterprise Capstone: PAM + Conjur + Pentest Assessment** (M18)
 - OSCP certification obtained
 - **Consulting practice launched**
 
 **Success Metrics** (by Month 18):
 
 - OSCP obtained
-- All 6 portfolio projects published
+- All 7 portfolio projects published
 - Consulting practice launched with offerings and pricing defined
 - Dual-track positioning (PAM remediation + attack surface assessment) established
 
@@ -177,8 +179,8 @@ This roadmap runs two skill tracks in parallel, every month, throughout all 18 m
 
 ### PAM Track
 
-- **M1-4**: CyberArk fundamentals → Defender
-- **M5-6**: Advanced administration → Sentry
+- **M1-3**: CyberArk fundamentals → Defender
+- **M4-5**: Advanced administration → Sentry
 - **M7-8**: Expert architecture → Guardian
 - **M9-12**: Conjur in Docker and Kubernetes
 - **M13-15**: Conjur in CI/CD + multi-cloud secrets architecture
@@ -218,6 +220,30 @@ See [docs/NETWORKING_STRATEGY.md](../docs/NETWORKING_STRATEGY.md) for the full m
 After Guardian you qualify for junior PAM consultant roles at CyberArk authorized partner firms. Option A (stay independent) preserves OSCP study time and schedule flexibility. Option B (get employed) generates income, builds real client references, and makes the first consulting engagement far easier to close.
 
 Neither is wrong. Decide based on your financial situation and how much you value real client experience versus controlled lab time for OSCP.
+
+### Month 9-10 — Early Employment Path (If Financial Pressure)
+
+**Decision**: Do you need income before Month 18, and is the consulting launch timeline under financial pressure?
+
+After earning Guardian (M8) you have 3 CyberArk certifications and demonstrable lab experience. This is enough to qualify for a **junior PAM consultant role** at most CyberArk partner firms. If you need income sooner than Month 18, pursuing employment at this point is the right move — not a detour.
+
+**What to target**:
+- Job titles: "CyberArk implementation consultant", "PAM consultant", "identity security consultant"
+- Firms: CyberArk authorized partner firms (Deloitte, Accenture, Optiv, regional system integrators)
+- Location: Your region first; remote roles if available
+- Credential minimum: Guardian + 2 portfolio projects + GitHub with documented lab work
+
+**How this changes the roadmap**:
+- You get paid while finishing Phase 3 — financial pressure removed
+- Real client engagements replace simulated labs. Case studies become real.
+- OSCP timeline extends to M24 instead of M17 (acceptable — "OSCP candidate" is a credible status while employed)
+- Consulting launch at M24 instead of M18, but from a position of real client references
+
+**This is Option C** (alongside Option A: sole proprietor → M18 launch, and Option B: CyberArk partner employment starting M8 which is covered in the Month 8 Employment Fork above). The difference: Option B is opportunistic ("should I apply if I'm on track?"), Option C is a pressure-driven pivot ("I need income now"). Both lead to the same destination — they just differ in urgency and timing.
+
+See [docs/NETWORKING_STRATEGY.md](../docs/NETWORKING_STRATEGY.md) for how to position yourself to partner firms.
+
+---
 
 ### Month 12 — OSCP Readiness Check
 
@@ -275,5 +301,5 @@ Studying offensive techniques transforms how you design PAM:
 
 ---
 
-**Last Updated**: 2026-04-14
-**Version**: 3.1
+**Last Updated**: 2026-04-15
+**Version**: 3.2

@@ -26,8 +26,8 @@ PHASE 1  ███████████████║    ░░░░░░�
 PHASE 2  ░░░░░░░░░░░░░░░║    █████████████████ ║   ░░░░░░░░░░░░░░░░░░
 PHASE 3  ░░░░░░░░░░░░░░░║    ░░░░░░░░░░░░░░░░░ ║   ██████████████████
 
-CERTS    │    [DEF] [SEN]│  [GUA]       [eJPT] │         [OSCP] [GO!]
-         │     M4    M6  │   M8           M12  │           M17    M18
+CERTS    │  [DEF] [SEN]  │  [GUA]       [eJPT] │         [OSCP] [GO!]
+         │   M3    M5    │   M8           M12  │           M17    M18
 
 RECOVERY │            🏖 │                 🏖  │                 🏖🚀
          │            M6 │                M12  │                M18
@@ -41,9 +41,10 @@ KEY: ██ = Active phase  ░░ = Inactive   [DEF]=Defender [SEN]=Sentry [GUA
 
 | Month | Week  | Milestone                                         | Hours/Week |
 |:-----:|:-----:|:--------------------------------------------------|:----------:|
-| M1    | 1-4   | Lab built (PAM stack + Kali Linux)                | 12-13      |
-| M4    | 13-16 | **CyberArk Defender certification**               | 13-14      |
-| M6    | 21-24 | **CyberArk Sentry certification + recovery**      | **8**      |
+| M1    | 1-4   | Lab built (PAM stack + Kali Linux + Lab 0 Wallix translation) | 12-13 |
+| M3    | 9-12  | **CyberArk Defender certification**               | 13-14      |
+| M5    | 17-20 | **CyberArk Sentry certification**                 | 13-14      |
+| M6    | 21-24 | **Recovery + Portfolio Projects 2 and 3 published** | **8**    |
 | M8    | 29-32 | **CyberArk Guardian certification**               | 13-14      |
 | M12   | 45-48 | **eJPT certification + recovery**                 | **8**      |
 | M13   | 49-52 | OSCP PEN-200 begins (90-day lab purchase)         | 14-15      |
@@ -71,8 +72,9 @@ These activities run every month, in parallel with the technical track. They are
 |:-----:|----------|
 | M1 | Create LinkedIn + CyberArk Commons accounts; connect with 5 PAM professionals |
 | M1–M18 | 1 LinkedIn post or comment per week; 1 CyberArk Commons reply per week |
-| M4 | Post Defender achievement; write first "lessons learned" article |
-| M6 | Post Sentry achievement; Phase 1 retrospective article |
+| M3 | Post Defender achievement; write first "lessons learned" note |
+| M5 | Post Sentry achievement |
+| M6 | Phase 1 retrospective article; publish Portfolio Projects 2 and 3 |
 | M8 | Post Guardian achievement |
 | M10 | **Attend first BSides conference** (register by M9) |
 | M11 | Publish first full technical article on LinkedIn |
@@ -89,21 +91,21 @@ Full month-by-month networking plan: [docs/NETWORKING_STRATEGY.md](../docs/NETWO
 
 ---
 
-## MONTH 1 (May 2026): Lab Architecture + PAM Foundations
+## MONTH 1 (May 2026): Lab Architecture + PAM Foundations + Lab 0 (Wallix Translation)
 
-**Monthly Objective**: Build the lab environment (PAM stack on Windows Server 2022 + Kali Linux attack host) and install Vault + CPM + PVWA. Start offensive mindset from Day 1.
+**Monthly Objective**: Build the lab environment (PAM stack + Kali Linux). Complete Lab 0: translate your existing Wallix knowledge into CyberArk terms. You are not a PAM beginner — you are a multi-vendor expert learning a new product. That distinction changes how you use this month.
 
 ### Week 1-4 Schedule
 
 | Week | Monday–Friday (1.5-2 hrs/day) | Weekend (3-4 hrs total) | Deliverables |
 |:----:|:------------------------------|:------------------------|:-------------|
 | 1 | VirtualBox / VMware install, lab network planning, Windows Server 2022 eval install, Kali Linux VM install | Kali update + tooling inventory, lab network diagram in draw.io | Lab VMs created, network diagram |
-| 2 | CyberArk Vault installation on Windows Server, hardening checklist | Kali: Nmap install, first scans of lab network, nmap output review | Vault installed |
-| 3 | CPM installation and integration with Vault, first platform onboarded | Kali: Netcat / socat fundamentals, Wireshark capture of PAM auth traffic | CPM operational |
-| 4 | PVWA installation and IIS config, auth method setup | GitHub repo initialized with /labs, /notes, /reports structure | PVWA live, repo created |
+| 2 | CyberArk Vault + CPM install; **Lab 0**: build Wallix→CyberArk component mapping (Bastion→PSM, Password Manager→CPM, Web Interface→PVWA) | Kali: Nmap scan lab network; Lab 0 continued — document FortiAuthenticator→PVWA RADIUS mapping | Vault + CPM installed; Lab 0 component map drafted |
+| 3 | PVWA install + IIS config; Lab 0: document what CyberArk has that Wallix does not (Conjur, CPM platform plugins, DNA, AAM) | Kali: Netcat / Wireshark capture of PAM auth traffic; Lab 0: commit `comparisons/wallix_vs_cyberark_mapping.md` | PVWA live; Lab 0 mapping committed |
+| 4 | PSM installation + first RDP / SSH connector; GitHub repo initialized | Lab 0 final: document what Wallix does differently (appliance-based, PEDM integrated, target-based licensing) | Full PAM stack running; Lab 0 complete |
 
 ### Daily Activities
-- **Weekday evenings (1.5-2 hrs)**: Rotate PAM labs (3 days/wk) and Kali / offensive (2 days/wk)
+- **Weekday evenings (1.5-2 hrs)**: Rotate PAM labs (3 days/wk) and Kali / Lab 0 writing (2 days/wk)
 - **Weekend (3-4 hrs total)**: Hands-on lab work, screenshots, notes commits
 - **English (30 min/day)**: Technical reading in English — CyberArk docs, Kali tutorials, CVE writeups
 - **Networking (15 min/day)**: LinkedIn profile setup, CyberArk Commons account, first 5 connections
@@ -111,177 +113,179 @@ Full month-by-month networking plan: [docs/NETWORKING_STRATEGY.md](../docs/NETWO
 ### Monthly Checkpoints
 - [ ] Week 1: Lab network diagram committed
 - [ ] Week 1: LinkedIn profile live + CyberArk Commons account created
-- [ ] Week 2: Vault running, first admin login
-- [ ] Week 3: CPM managing at least 1 platform
-- [ ] Week 4: PVWA accessible, GitHub repo initialized
+- [ ] Week 2: Vault + CPM running; Lab 0 component mapping started
+- [ ] Week 3: PVWA live; Lab 0 `wallix_vs_cyberark_mapping.md` committed
+- [ ] Week 4: Full PAM stack (Vault + CPM + PVWA + PSM) operational; Lab 0 complete
 
 ### Deliverables
-- Lab environment (4+ VMs: Vault, CPM, PVWA, Kali) on an isolated network
+- Lab environment (4+ VMs: Vault, CPM, PVWA + PSM, Kali) on an isolated network
 - Architecture diagram
+- **Lab 0: `comparisons/wallix_vs_cyberark_mapping.md`** committed to GitHub repo
 - GitHub repository scaffolded
 - 10+ pages of study notes
 
 ---
 
-## MONTH 2 (June 2026): PVWA Advanced + PSM Install + Nmap NSE
+## MONTH 2 (June 2026): Advanced PAM Config + TryHackMe Foundations + Nmap NSE
 
-**Monthly Objective**: Complete the core PAM stack (add PSM) and deepen Nmap / enumeration skills.
+**Monthly Objective**: Advanced CyberArk configuration (LDAP auth, CPM policies, PSM recording). Launch the TryHackMe Jr Pentester path in parallel. Your Wallix background means PAM concepts are not new — this month is about product-specific configuration depth, not fundamentals.
 
 ### Week 5-8 Schedule
 
-| Week | Monday–Friday Focus | Weekend Lab | Deliverables |
-|:----:|:--------------------|:------------|:-------------|
-| 5 | PVWA advanced config: auth methods, LDAP integration | Kali: Nmap NSE scripts against lab | PVWA with LDAP auth |
-| 6 | PSM installation and connector config (RDP, SSH) | Kali: Service enumeration techniques (smbclient, enum4linux) | PSM operational |
-| 7 | CPM platform policies, password rotation rules | Kali: Custom NSE script draft | Policy documentation |
-| 8 | PSM recording safe and first recorded session | Weekend review + notes cleanup | First PSM recording |
+| Week | PAM Config | TryHackMe / Kali | Deliverables |
+|:----:|:-----------|:-----------------|:-------------|
+| 5 | PVWA advanced config: LDAP integration, auth methods, RADIUS (maps to FortiAuthenticator pattern) | TryHackMe: Linux Fundamentals 1 + 2 | PVWA with LDAP auth |
+| 6 | CPM platform policies, password rotation rules, custom platform draft | TryHackMe: Linux Fundamentals 3 + Pre-Security path | CPM rotating passwords |
+| 7 | PSM recording safe: first RDP + SSH recorded sessions; connector hardening | Kali: Nmap NSE scripts against lab; TryHackMe: Nmap room | PSM recording demo |
+| 8 | CyberArk DNA (Discovery and Audit) — scan lab for unmanaged accounts | Kali: Custom NSE script draft; TryHackMe: Network Services 1 | DNA scan report |
 
 ### Daily Activities
 - **PAM labs**: 4 hrs/wk weekdays, 2 hrs/wk weekend
-- **Kali / enumeration**: 3 hrs/wk
-- **Study / reading**: 3-4 hrs/wk
+- **TryHackMe + Kali**: 4 hrs/wk
+- **Study / reading**: 2-3 hrs/wk
 - **English (30 min/day)**: CyberArk official docs, Nmap reference, OffSec blog — all in English
 - **Networking (15 min/day)**: 1 LinkedIn comment on a PAM post; 1 CyberArk Commons reply
 
 ### Monthly Checkpoints
-- [ ] Week 5: PVWA authenticates to lab LDAP
-- [ ] Week 6: PSM connector working
-- [ ] Week 7: CPM rotating passwords on schedule
-- [ ] Week 8: Session recording demonstrated
+- [ ] Week 5: PVWA with LDAP integration working
+- [ ] Week 6: CPM rotating passwords on schedule
+- [ ] Week 7: PSM recording demonstrated for RDP and SSH
+- [ ] Week 8: DNA scan run against lab; custom NSE script committed; TryHackMe Linux Fundamentals 1-3 + Nmap done
 
 ### Deliverables
-- Full PAM stack operational (Vault + CPM + PVWA + PSM)
+- Full PAM stack operational with LDAP auth + CPM policies + PSM recording
+- CyberArk DNA scan report (even if just the lab — documents unmanaged accounts)
 - Custom Nmap NSE script in repo
-- 5+ onboarded accounts under rotation
+- TryHackMe: Linux Fundamentals 1-3, Nmap, Network Services 1 rooms completed
 
 ---
 
-## MONTH 3 (July 2026): Defender Prep + Web Security Intro + DVWA
+## MONTH 3 (July 2026): Defender EXAM + Web Security + TryHackMe Acceleration
 
-**Monthly Objective**: Drive Defender practice tests to 85%+ and open the web application security track with DVWA and Burp Suite Community.
+**Monthly Objective**: Pass the Defender exam. Your Wallix background means the PAM concepts are already internalized — use the freed study time for offensive content (DVWA, Burp Suite, TryHackMe Jr Pentester path). Exam is targeted for Week 9-10.
 
-### Week 9-12 Schedule
+### Week 9-12 Schedule — **EXAM WEEK: Week 9-10**
 
-| Week | PAM Study | Offensive Lab | Deliverables |
-|:----:|:----------|:--------------|:-------------|
-| 9  | CyberArk Defender course: core modules | DVWA deployed on Kali, OWASP Top 10 reading | Defender 40% |
-| 10 | Defender: platform management, safes | DVWA: SQLi + XSS (Low/Medium) | Defender 65% |
-| 11 | Defender practice tests (target 75%+) | Burp Suite Community: proxy, intercept, Repeater | Defender 85% |
-| 12 | Defender practice tests (target 85%+) + weak areas | DVWA: CSRF + file upload + command injection | Practice test log ≥85% |
-
-### Daily Activities
-- **Defender study + practice**: 5 hrs/wk
-- **PAM labs**: 5 hrs/wk
-- **Offensive / web security**: 3 hrs/wk
-- **English (30 min/day)**: Defender study materials in English; OWASP Top 10 docs
-- **Networking (15 min/day)**: CyberArk Commons — read and comment on PAM implementation threads
-
-### Monthly Checkpoints
-- [ ] Week 9: Defender course 40%
-- [ ] Week 10: DVWA SQLi walkthroughs in notes
-- [ ] Week 11: Burp Suite proxy chain working
-- [ ] Week 12: Defender practice tests ≥85%
-
-### Deliverables
-- Defender practice test log
-- DVWA walkthrough notes
-- Burp Suite proxy chain documented
-
----
-
-## MONTH 4 (August 2026): Defender EXAM + CI/CD Security + Portfolio Project 1
-
-**Monthly Objective**: Pass the Defender exam. Publish Portfolio Project 1 (PAM Lab Documentation). Start Linux privilege escalation on TryHackMe.
-
-### Week 13-16 Schedule — **EXAM WEEK: Week 13**
-
-| Week | PAM / Exam | Offensive / Portfolio | Deliverables |
-|:----:|:-----------|:----------------------|:-------------|
-| 13 | **DEFENDER EXAM** (proctored) | Light TryHackMe | **Defender certification** |
-| 14 | PSM session recording deep dive | TryHackMe: Linux PrivEsc room (SUID, sudo, cron) | PSM recording demo |
-| 15 | Start Portfolio Project 1 write-up | TryHackMe: Linux PrivEsc continued | Project 1 draft |
-| 16 | Portfolio Project 1 polish and publish | TryHackMe: Linux Fundamentals review | **Portfolio Project 1 published** |
+| Week | Defender / PAM | Offensive / TryHackMe | Deliverables |
+|:----:|:---------------|:----------------------|:-------------|
+| 9  | Defender practice tests: target 90%+; book the exam | DVWA deployed + OWASP Top 10 reading; TryHackMe: Passive Recon + Active Recon | Exam booked, DVWA live |
+| 10 | **DEFENDER EXAM** (proctored); light PAM review | TryHackMe: Vulnversity + Network Services 2; DVWA: SQLi Low/Medium | **Defender certification** |
+| 11 | CyberArk AAM (Application Access Manager) overview — key for Conjur comparison | Burp Suite Community: proxy, intercept, Repeater; TryHackMe: Burp Suite Basics | Burp Suite proxy chain working |
+| 12 | CPM custom platform plugin walkthrough (the feature Wallix lacks) | DVWA: CSRF + file upload + command injection; TryHackMe: Burp Suite Repeater | DVWA walkthrough notes |
 
 ### Daily Activities
-- **Exam push week**: 13-14 hrs
-- **Other weeks**: 12-13 hrs
-- **English (30 min/day)**: Continue technical reading; draft LinkedIn post for Defender achievement
-- **Networking**: Post Defender certification on LinkedIn (Week 13); write 1 CyberArk Commons article draft
+- **Defender final prep + exam**: 5 hrs/wk (weeks 9-10)
+- **PAM labs + AAM reading**: 4 hrs/wk (weeks 11-12)
+- **Offensive / web security / TryHackMe**: 5-6 hrs/wk
+- **English (30 min/day)**: Defender study materials in English; OWASP Top 10 docs; post Defender achievement
+- **Networking (15 min/day)**: Post Defender certification on LinkedIn (Week 10); CyberArk Commons — answer 1 question about Vault configuration
 
 ### Monthly Checkpoints
-- [ ] Week 13: Defender exam passed
-- [ ] Week 13: Defender achievement posted on LinkedIn
-- [ ] Week 14: TryHackMe Linux PrivEsc complete
-- [ ] Week 15: Project 1 draft complete
-- [ ] Week 16: Project 1 published to GitHub
+- [ ] Week 9: Defender practice tests ≥90%; exam booked
+- [ ] Week 10: **Defender exam passed**; achievement posted on LinkedIn
+- [ ] Week 11: TryHackMe Burp Suite Basics complete
+- [ ] Week 12: DVWA SQLi + XSS + file upload walkthroughs in notes; TryHackMe Jr Pentester path ~30%
 
 ### Deliverables
 - **CyberArk Defender certification**
-- **Portfolio Project 1: PAM Lab Documentation** (20+ page write-up, diagrams, troubleshooting scenarios)
-- TryHackMe Linux PrivEsc room completion
+- DVWA walkthrough notes
+- Burp Suite proxy chain documented
+- TryHackMe Jr Pentester path ~30% complete
 
 ---
 
-## MONTH 5 (September 2026): Sentry Prep + DevSecOps Pipeline
+## MONTH 4 (August 2026): Pentesting Acceleration + Portfolio Projects 1 and 2
 
-**Monthly Objective**: Sentry practice tests to 85%+. Build the DevSecOps baseline pipeline (Semgrep + gitleaks + Trivy). Enter TryHackMe Intro to Offensive Security path.
+**Monthly Objective**: Defender is already earned. This month is pentesting push + portfolio writing. Publish Portfolio Project 1 (PAM Lab). Draft Portfolio Project 2 (Wallix vs CyberArk comparison — your strongest differentiator). Advance TryHackMe Jr Pentester path to 55%+.
 
-### Week 17-20 Schedule
+### Week 13-16 Schedule
 
-| Week | Sentry Study | DevSecOps / Offensive | Deliverables |
-|:----:|:-------------|:----------------------|:-------------|
-| 17 | Sentry course: advanced admin | Semgrep installed, first rule set | Semgrep in GitHub Actions |
-| 18 | Sentry: policy inheritance, CPM plugins | gitleaks scanning commit history | gitleaks workflow |
-| 19 | Sentry practice tests (target 80%+) | Trivy container scanning | Trivy workflow |
-| 20 | Sentry practice tests (target 85%+) | TryHackMe Intro to OffSec path rooms | Sentry practice log ≥85% |
+| Week | Portfolio Work | TryHackMe / Offensive | Deliverables |
+|:----:|:---------------|:----------------------|:-------------|
+| 13 | Portfolio Project 1 draft: PAM lab documentation (architecture, install notes, troubleshooting) | TryHackMe: OWASP Top 10 (2021) — 10-challenge room | Project 1 50% |
+| 14 | Portfolio Project 1 polish + publish to GitHub | TryHackMe: OWASP Juice Shop; Linux PrivEsc (SUID, sudo, cron) | **Portfolio Project 1 published** |
+| 15 | Portfolio Project 2 draft: Wallix vs CyberArk comparison — write from memory, then fill gaps from lab | TryHackMe: Windows PrivEsc; Steel Mountain (guided Metasploit) | Project 2 draft |
+| 16 | Portfolio Project 2 continued: add FortiAuthenticator→PVWA RADIUS comparison, architecture diagrams | TryHackMe: Blue (EternalBlue — foundational Windows exploitation) | Project 2 structural draft |
 
 ### Daily Activities
-- **Sentry study + practice**: 5 hrs/wk
-- **Advanced PAM labs**: 4 hrs/wk
-- **DevSecOps pipeline + TryHackMe**: 4 hrs/wk
-- **English (30 min/day)**: DevSecOps and Sentry study materials in English; start drafting first technical article
-- **Networking (15 min/day)**: LinkedIn + CyberArk Commons; begin drafting "DevSecOps pipeline with CyberArk" article
+- **Portfolio writing**: 4 hrs/wk
+- **TryHackMe**: 6 hrs/wk
+- **CyberArk lab continued**: 3 hrs/wk
+- **English (30 min/day)**: Portfolio documentation writing; review Defender achievement LinkedIn post
+- **Networking (15 min/day)**: CyberArk Commons — answer 2 questions; connect with 10 new PAM practitioners
 
 ### Monthly Checkpoints
-- [ ] Week 17: Semgrep running in CI
-- [ ] Week 18: gitleaks running in CI
-- [ ] Week 19: Trivy running in CI
-- [ ] Week 20: Sentry practice tests ≥85%
+- [ ] Week 14: Portfolio Project 1 published to GitHub (20+ pages, architecture diagrams)
+- [ ] Week 15: Portfolio Project 2 structural draft committed
+- [ ] Week 16: TryHackMe Jr Pentester path ≥50%; Blue machine completed
 
 ### Deliverables
-- Working CI/CD security pipeline (SAST + secret scan + container scan)
-- Sentry practice test log
-- TryHackMe Intro to OffSec path progress
+- **Portfolio Project 1: PAM Lab Documentation** published (20+ pages, diagrams, troubleshooting scenarios)
+- Portfolio Project 2: Wallix vs CyberArk Comparison — structural draft committed to GitHub (publishes M6)
+- TryHackMe Jr Pentester path ≥50% complete
 
 ---
 
-## MONTH 6 (October 2026): Sentry EXAM + RECOVERY
+## MONTH 5 (September 2026): Sentry EXAM + DevSecOps Pipeline + Portfolio Project 3
 
-**Monthly Objective**: Pass Sentry exam in the first week, then recover at 8 hrs/week.
+**Monthly Objective**: Pass the Sentry exam. Build the DevSecOps CI/CD pipeline (Portfolio Project 3: Semgrep + gitleaks + Trivy in GitHub Actions). Complete TryHackMe Jr Pentester path to 65%+. Exam is targeted for Week 17-18.
 
-### Week 21-24 Schedule — **EXAM WEEK: Week 21** — then **RECOVERY**
+### Week 17-20 Schedule — **EXAM WEEK: Week 17-18**
 
-| Week | Focus | Activities | Hours |
-|:----:|:------|:-----------|:-----:|
-| 21 | **SENTRY EXAM** (proctored) | Final practice test, exam, light celebration | 12-13 |
-| 22 | Recovery | Light TryHackMe for fun, rest; start language exchange partner (italki/Tandem) | **8** |
-| 23 | Recovery | Conjur documentation preview reading; English self-recording #1 | **8** |
-| 24 | Recovery + Portfolio 2 publish | Portfolio Project 2 (DevSecOps baseline) finalized; Sentry achievement + Phase 1 article on LinkedIn | **8** |
+| Week | Sentry / PAM | DevSecOps / TryHackMe | Deliverables |
+|:----:|:-------------|:----------------------|:-------------|
+| 17 | Sentry practice tests: target 90%+; book the exam | Semgrep installed in GitHub Actions with custom rule set | Exam booked; Semgrep CI working |
+| 18 | **SENTRY EXAM** (proctored) | gitleaks scanning commit history + Trivy container scanning | **Sentry certification** + CI pipeline running |
+| 19 | CyberArk Sentry lab: policy inheritance, CPM custom platform plugins | TryHackMe: Metasploit Introduction + Blue (unguided); Portfolio Project 3 write-up start | Portfolio Project 3 draft |
+| 20 | Portfolio Project 3 polish: document pipeline + findings + what it detected | TryHackMe: Ice + Kenobi + Simple CTF; Portfolio Project 3 draft ≥80% | Portfolio Project 3 ready for M6 publish |
+
+### Daily Activities
+- **Sentry final prep + exam**: 5 hrs/wk (weeks 17-18)
+- **DevSecOps pipeline + Portfolio writing**: 5 hrs/wk
+- **TryHackMe**: 4 hrs/wk
+- **English (30 min/day)**: Sentry and DevSecOps study materials in English; draft "DevSecOps pipeline security" content
+- **Networking (15 min/day)**: Post Sentry achievement on LinkedIn (Week 18); CyberArk Commons — answer 2+ questions this month
 
 ### Monthly Checkpoints
-- [ ] Week 21: Sentry exam passed
-- [ ] Week 21: Sentry achievement posted on LinkedIn
-- [ ] Week 22: Language exchange partner session scheduled
-- [ ] Week 22-23: Actual rest taken
-- [ ] Week 23: Monthly self-recording #1 completed
-- [ ] Week 24: Portfolio Project 2 published
-- [ ] Week 24: Phase 1 retrospective article published on LinkedIn
+- [ ] Week 17: Sentry practice tests ≥90%; exam booked
+- [ ] Week 18: **Sentry exam passed**; achievement posted on LinkedIn
+- [ ] Week 19: Full CI pipeline (Semgrep + gitleaks + Trivy) operational in GitHub Actions
+- [ ] Week 20: Portfolio Project 3 draft ≥80% complete; TryHackMe Jr Pentester path ≥65%
 
 ### Deliverables
 - **CyberArk Sentry certification**
-- **Portfolio Project 2: DevSecOps Baseline Pipeline** (public GitHub repo)
+- Working CI/CD security pipeline (SAST + secret scan + container scan) committed to GitHub
+- Portfolio Project 3 (DevSecOps Pipeline) draft ready to publish in M6
+- TryHackMe Jr Pentester path ≥65% complete
+
+---
+
+## MONTH 6 (October 2026): RECOVERY + Publish Portfolio Projects 2 and 3
+
+**Monthly Objective**: Recovery at 8 hrs/week. Finalize and publish Portfolio Projects 2 (Wallix vs CyberArk Comparison) and 3 (DevSecOps Pipeline). Start language exchange partner. Phase 1 retrospective article on LinkedIn.
+
+### Week 21-24 Schedule — **RECOVERY** (8 hrs/week)
+
+| Week | Focus | Activities | Hours |
+|:----:|:------|:-----------|:-----:|
+| 21 | Recovery | Rest. Light TryHackMe for fun. Start language exchange partner search on italki / Tandem | **8** |
+| 22 | Recovery + language | Language exchange partner first session; English self-recording #1 (5 min — explain one PAM concept) | **8** |
+| 23 | Portfolio Project 2 polish | Finalize Wallix vs CyberArk comparison: add architecture diagrams, comparison tables, "what I learned" narrative; Conjur documentation preview reading | **8** |
+| 24 | Portfolio Projects 2 + 3 publish | **Publish both projects to GitHub**; write Phase 1 retrospective article for LinkedIn; plan Phase 2 | **8** |
+
+### Monthly Checkpoints
+- [ ] Week 21: Language exchange partner session scheduled; actual rest taken
+- [ ] Week 22: First language exchange session completed; self-recording #1 done
+- [ ] Week 23: Portfolio Project 2 polished with diagrams and comparison tables
+- [ ] Week 24: **Portfolio Projects 2 and 3 published to GitHub**
+- [ ] Week 24: Phase 1 retrospective article published on LinkedIn
+
+### Deliverables
+- **Portfolio Project 2: Wallix vs CyberArk Multi-Vendor Comparison** (public GitHub repo)
+- **Portfolio Project 3: DevSecOps CI/CD Security Pipeline** (public GitHub repo)
 - Phase 1 retrospective notes
-- Phase 1 closeout: 2 certs + 2 portfolio projects
+- Language exchange partner found; first session completed
+- Phase 1 closeout: 2 CyberArk certifications + 3 portfolio projects
 
 ---
 
@@ -339,7 +343,7 @@ Full month-by-month networking plan: [docs/NETWORKING_STRATEGY.md](../docs/NETWO
 - **CyberArk Guardian certification**
 - Web exploitation lab notes
 - 8+ TryHackMe Jr Pentester rooms cumulative
-- Portfolio Project 3 draft started
+- Portfolio Project 4 draft started
 
 ---
 
@@ -354,7 +358,7 @@ Full month-by-month networking plan: [docs/NETWORKING_STRATEGY.md](../docs/NETWO
 | 33 | AD lab: DC + 2 members + 1 workstation; BloodHound + SharpHound | Conjur OSS in Docker install | AD lab up, Conjur running |
 | 34 | Kerberoasting (GetUserSPNs.py), AS-REP Roasting (GetNPUsers.py), Hashcat cracking | Conjur: first policy + secret | Kerberoast demo |
 | 35 | Pass-the-Hash: psexec.py / wmiexec.py / smbexec.py; LDAP enum | Conjur host factories | PtH demo |
-| 36 | INE PTS sections 1-3 (info gathering, footprinting, scanning) | Portfolio Project 3 final polish | **Portfolio Project 3 published** |
+| 36 | INE PTS sections 1-3 (info gathering, footprinting, scanning) | Portfolio Project 4 final polish | **Portfolio Project 4 published** |
 
 ### Daily Activities
 - **AD attacks + offensive**: 6 hrs/wk
@@ -367,7 +371,7 @@ Full month-by-month networking plan: [docs/NETWORKING_STRATEGY.md](../docs/NETWO
 ### Deliverables
 - AD lab operational, BloodHound attack paths documented
 - Conjur running in Docker with sample policy
-- **Portfolio Project 3: CyberArk Guardian Enterprise Architecture** published
+- **Portfolio Project 4: CyberArk Guardian Enterprise Architecture** published
 - INE PTS course ~30%
 
 ---
@@ -453,16 +457,16 @@ Full month-by-month networking plan: [docs/NETWORKING_STRATEGY.md](../docs/NETWO
 
 ## MONTH 13 (May 2027): OSCP PEN-200 Begins + Conjur K8s HA
 
-**Monthly Objective**: Buy OSCP 90-day lab access at the start of May 2027. PEN-200 modules 1-5. Conjur K8s HA. Publish Portfolio Project 3's CI/CD secrets integration.
+**Monthly Objective**: Buy OSCP 120-day lab access at the start of May 2027. PEN-200 modules 1-5. Conjur K8s HA. Publish Portfolio Project 5 (Conjur + CI/CD secrets integration).
 
 ### Week 49-52 Schedule
 
 | Week | PEN-200 | Conjur / Portfolio | Deliverables |
 |:----:|:--------|:-------------------|:-------------|
-| 49 | Purchase OSCP 90-day; PEN-200 Module 1 (Report Writing) + Module 2 (Info Gathering) | Conjur HA cluster on K8s | PEN-200 10% |
+| 49 | Purchase OSCP **120-day**; PEN-200 Module 1 (Report Writing) + Module 2 (Info Gathering) | Conjur HA cluster on K8s | PEN-200 10% |
 | 50 | Module 3 (Vuln Scanning) + Module 4 (Web Attacks) | Conjur cluster LB + Postgres backup | PEN-200 15% |
 | 51 | Module 5 (SQLi); first 2 OSCP lab machines | Portfolio 3 polish | PEN-200 20%, 2 OSCP machines |
-| 52 | 3 more OSCP lab machines | **Portfolio Project 3 CI/CD integration published** | PEN-200 25%, 5 OSCP machines |
+| 52 | 3 more OSCP lab machines | **Portfolio Project 5 (Conjur + CI/CD) published** | PEN-200 25%, 5 OSCP machines |
 
 ### Daily Activities
 - **PEN-200 course**: 7 hrs/wk
@@ -475,7 +479,7 @@ Full month-by-month networking plan: [docs/NETWORKING_STRATEGY.md](../docs/NETWO
 - PEN-200 course 25%
 - 5 OSCP lab machines documented
 - Conjur K8s HA working
-- **Portfolio Project 3 (Conjur + CI/CD Secrets Management) published**
+- **Portfolio Project 5 (Conjur + CI/CD Secrets Management) published**
 
 ---
 
@@ -517,7 +521,7 @@ Full month-by-month networking plan: [docs/NETWORKING_STRATEGY.md](../docs/NETWO
 | 57 | PEN-200 modules 11-12 + privesc finish | CloudGoat scenario 1 (IAM privesc) | PEN-200 75% |
 | 58 | OSCP-A Challenge Lab — enumeration + foothold | CloudGoat scenario 2 (SSRF-to-IMDS) | Challenge Lab 50% |
 | 59 | OSCP-A — AD chain + full report | ROADtools Azure AD enumeration | Challenge Lab 100% |
-| 60 | PEN-200 capstone complete; Portfolio 4 publish | Entra ID service principal abuse | **PEN-200 100%** |
+| 60 | PEN-200 capstone complete; Portfolio 6 publish | Entra ID service principal abuse | **PEN-200 100%** |
 
 ### Daily Activities
 - **PEN-200 finish + Challenge Lab**: 10 hrs/wk
@@ -529,13 +533,13 @@ Full month-by-month networking plan: [docs/NETWORKING_STRATEGY.md](../docs/NETWO
 - PEN-200 course 100%
 - 1 Challenge Lab network completed end-to-end
 - 2 CloudGoat scenarios documented
-- **Portfolio Project 4: Multi-Cloud Secrets Architecture** published
+- **Portfolio Project 6: Multi-Cloud Secrets Architecture** published
 
 ---
 
 ## MONTH 16 (August 2027): OSCP Exam Prep + DevSecOps Security Audit
 
-**Monthly Objective**: Two full 24-hour mock exam attempts. Publish Portfolio Project 5 (DevSecOps security audit of Phase 1 pipeline).
+**Monthly Objective**: Two full 24-hour mock exam attempts. Publish the DevSecOps security audit of Phase 1 CI/CD pipeline (consulting methodology deliverable).
 
 ### Week 61-64 Schedule
 
@@ -555,7 +559,7 @@ Full month-by-month networking plan: [docs/NETWORKING_STRATEGY.md](../docs/NETWO
 ### Deliverables
 - 2 mock 24-hour exams completed with reports
 - 3 additional pentest reports written
-- **Portfolio Project 5: DevSecOps Security Audit** published
+- **DevSecOps Security Audit published** (consulting methodology deliverable)
 - OSCP exam scheduled for M17
 
 ---
@@ -570,8 +574,8 @@ Full month-by-month networking plan: [docs/NETWORKING_STRATEGY.md](../docs/NETWO
 |:----:|:-----------|:-------------|
 | 65 | Final prep: notes review, 1 HackTheBox machine, rest; practice 5-minute capability pitch in English | Ready for exam |
 | 66 | **OSCP 24-HOUR EXAM** + 24-hour report submission | **OSCP certification** |
-| 67 | Rest + report polish if retake needed; plan Portfolio 6; OSCP achievement announcement written | Decompress |
-| 68 | Consulting website draft, **LinkedIn OSCP announcement**, GitHub polish, Portfolio 6 start | Website draft, LinkedIn live |
+| 67 | Rest + report polish if retake needed; plan Portfolio 7; OSCP achievement announcement written | Decompress |
+| 68 | Consulting website draft, **LinkedIn OSCP announcement**, GitHub polish, Portfolio 7 start | Website draft, LinkedIn live |
 
 ### Contingency
 If OSCP exam fails, OffSec provides one free retake within 12 months. **Launch consulting anyway** — Guardian + eJPT is a strong credential stack. Schedule the retake for later and keep moving.
@@ -580,7 +584,7 @@ If OSCP exam fails, OffSec provides one free retake within 12 months. **Launch c
 - **OSCP certification** (expected)
 - Consulting website draft
 - Updated LinkedIn
-- Portfolio Project 6 (Enterprise Capstone) started
+- Portfolio Project 7 (Enterprise Capstone) started
 
 ---
 
@@ -593,9 +597,9 @@ If OSCP exam fails, OffSec provides one free retake within 12 months. **Launch c
 | Week | Activities | Hours |
 |:----:|:-----------|:-----:|
 | 69 | Rest after OSCP. No forced work. | **8** |
-| 70 | Rest + light Portfolio 6 writing; practice consulting launch announcement in English | **8** |
+| 70 | Rest + light Portfolio 7 writing; practice consulting launch announcement in English | **8** |
 | 71 | Business entity registration, MSA / SOW templates, rate card finalized; warm outreach emails drafted | **8** |
-| 72 | **Portfolio Project 6 final publish + GO LIVE** (website, **LinkedIn consulting launch announcement**, first warm outreach sent) | **8** |
+| 72 | **Portfolio Project 7 final publish + GO LIVE** (website, **LinkedIn consulting launch announcement**, first warm outreach sent) | **8** |
 
 ### Rate Card Guidance (April 2026 North American baseline, adjust for your market)
 - **Pentesting**: $175 – $225 / hr
@@ -604,12 +608,12 @@ If OSCP exam fails, OffSec provides one free retake within 12 months. **Launch c
 
 ### Deliverables
 - Consulting practice **launched**
-- 6 portfolio projects published
-- **Portfolio Project 6: Enterprise Capstone (PAM + Conjur + Pentest Assessment)** published
+- 7 portfolio projects published
+- **Portfolio Project 7: Enterprise Capstone (PAM + Conjur + Pentest Assessment)** published
 - Business entity registered, rate card published, contracts templated
 - First outreach emails sent
 
 ---
 
-**Last Updated**: 2026-04-14
-**Version**: 1.1
+**Last Updated**: 2026-04-15
+**Version**: 2.0

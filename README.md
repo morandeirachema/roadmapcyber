@@ -50,7 +50,7 @@ A focused 18-month learning path for experienced system administrators to become
 
 | Phase | Months | Calendar | Focus | Certifications |
 |:-----:|:------:|:--------:|:------|:---------------|
-| Phase 1 | M1-6 | May–Oct 2026 | Security Foundations + PAM Mastery | CyberArk Defender (M4), CyberArk Sentry (M6) |
+| Phase 1 | M1-6 | May–Oct 2026 | Security Foundations + PAM Mastery | CyberArk Defender (M3), CyberArk Sentry (M5) |
 | Phase 2 | M7-12 | Nov 2026–Apr 2027 | Pentesting Foundations + Advanced PAM | CyberArk Guardian (M8), eJPT (M12) |
 | Phase 3 | M13-18 | May–Oct 2027 | Cloud Security + Advanced Pentesting + Launch | OSCP (M17) + Consulting Launch (M18) |
 
@@ -86,8 +86,8 @@ A focused 18-month learning path for experienced system administrators to become
 
 ## Certifications Earned
 
-1. **CyberArk Defender** — Month 4 (Aug 2026)
-2. **CyberArk Sentry** — Month 6 (Oct 2026)
+1. **CyberArk Defender** — Month 3 (Jul 2026)
+2. **CyberArk Sentry** — Month 5 (Sep 2026)
 3. **CyberArk Guardian** — Month 8 (Dec 2026)
 4. **eJPT** (eLearnSecurity Junior Penetration Tester) — Month 12 (Apr 2027)
 5. **OSCP** (Offensive Security Certified Professional) — Month 17 (Sep 2027)

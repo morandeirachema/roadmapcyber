@@ -19,9 +19,7 @@ Step-by-step lab exercises for Months 13-18, covering OSCP methodology, AWS and 
 
 Documenting OSCP lab machines is the skill that separates passing from failing on exam day. Every machine you practice on should be documented as if the exam grader will read it — because on exam day, they will.
 
-### Note-Taking Template
-
-Use CherryTree or Obsidian. Create one node/page per machine using this template:
+### Machine Note Template (Obsidian or CherryTree)
 
 ```text
 Machine: <name>
@@ -53,7 +51,7 @@ Commands:
 ## Proof
 local.txt: <hash>
 proof.txt: <hash>
-Screenshot: [attached]
+Screenshot: [attached — must show hostname + whoami in same frame as hash]
 
 ## Lessons Learned
 [what would you do differently]
@@ -75,6 +73,127 @@ sudo nmap -sU --top-ports 200 -oA ~/oscp/scans/<IP>_udp <IP>
 ### The 5-Minute Rule
 
 If you have not found a meaningful lead in 5 minutes of enumerating a service, move to the next service. Do not tunnel-vision. Experienced OSCP candidates fail not because they lack skill — they fail because they spend 3 hours on a rabbit hole while two other machines sit untouched.
+
+---
+
+## Lab 1b: HackTheBox Phase 3 Track — Harder Machines (Month 13-15)
+
+These machines are harder than Phase 2 and closer to OSCP exam difficulty. Do them alongside OSCP labs to maintain variety and prevent burnout from grinding the same environment. All are retired.
+
+### Month 13-14: Intermediate Windows + AD (6 machines, ~20 hrs)
+
+| Machine | OS | Difficulty | Key Technique | Why It Matters |
+|---------|----|:----------:|---------------|----------------|
+| Monteverde | Windows AD | Medium | Azure AD Sync service → credential extraction | Cloud-integrated AD — mirrors modern enterprise targets |
+| Support | Windows AD | Easy | LDAP anonymous bind → Kerberos RBCD | RBCD attack chain — appears on harder OSCP AD sets |
+| Querier | Windows AD | Medium | MSSQL NTLMv2 capture → Kerberoasting | Hash capture via service connection |
+| Grandpa | Windows | Easy | WebDAV + token impersonation | Windows IIS token privesc — core Windows pattern |
+| Granny | Windows | Easy | WebDAV + local exploit | Same privesc, different foothold |
+| Driver | Windows | Easy | SCF file + Responder → NTLMv2 capture | Credential theft via file share |
+
+### Month 15: Exam-Level Machines (4 machines, ~16 hrs)
+
+| Machine | OS | Difficulty | Key Technique | Why It Matters |
+|---------|----|:----------:|---------------|----------------|
+| StreamIO | Windows AD | Medium | SQL injection → LFI → AD enumeration | Multi-stage web + AD chain |
+| Manager | Windows AD | Medium | MSSQL xp_dirtree → ESC7 ADCS abuse | Certificate abuse — increasingly common |
+| Scrambled | Windows AD | Medium | Kerberos-only auth → silver ticket | Silver ticket attack — OSCP hard AD sets |
+| Timelapse | Windows AD | Easy | LAPS password leak → WinRM + pfx cracking | Credential hunting methodology |
+
+**Phase 3 HackTheBox exit target**: 27 total machines across Phases 2 and 3. Pro Hacker rank (top 25%) unlocked. OSCP AD chain executed without hesitation.
+
+---
+
+## Lab 1c: The Stuck Protocol
+
+When you cannot find a foothold after 30-45 minutes of enumeration, follow this exact sequence before doing anything else. Most OSCP failures come from skipping steps or assuming a service is not interesting.
+
+```text
+STUCK PROTOCOL — run through this in order
+
+1. Did you scan ALL ports, including UDP top-100?
+   sudo nmap -sU --top-ports 100 <IP>
+
+2. Did you enumerate every web service manually (not just run gobuster)?
+   - Browse every page, view source, check robots.txt, check /cgi-bin/
+   - Try: nikto -h <IP>
+
+3. Did you try every credential you have found so far on every service?
+   - Found a password in one place? Try it everywhere.
+   - crackmapexec smb / ssh / rdp / winrm
+
+4. Did you check the version of every service against searchsploit?
+   searchsploit <service_name> <version>
+   searchsploit -x <exploit_path>
+
+5. Did you enumerate SMB shares and read every file?
+   smbclient -L //<IP> -N
+   smbclient //<IP>/<share> -N
+   recurse; ls; mget *
+
+6. Did you check for LFI / RFI on every parameter of every web form?
+   Add ?page=../../../etc/passwd to every URL parameter.
+
+7. Did you run enum4linux-ng on Windows targets?
+   enum4linux-ng -A <IP>
+
+8. Did you check SNMP (UDP 161)?
+   snmpwalk -c public -v1 <IP>
+
+9. If Windows: did you run impacket-rpcdump?
+   impacket-rpcdump <IP> | grep -i ncacn_ip_tcp
+
+10. If nothing after all of the above: sleep. Come back with fresh eyes.
+    Time pressure is the enemy — rested enumeration beats tired exploitation every time.
+```
+
+---
+
+## Lab 1d: Report-Per-Machine Habit (Months 13-16)
+
+Every machine you complete in OSCP labs and Proving Grounds gets a written report. Not notes — a report. 1-2 pages, written as if you are handing it to a client who hired you to test that machine.
+
+**Why this matters**: The OSCP exam is 24 hours hacking + 24 hours writing. Candidates who write during the hacking phase (not after) consistently perform better. You cannot build that habit on exam day.
+
+```bash
+# After each machine: commit your report to a private repo
+mkdir -p ~/oscp/reports/<machine_name>
+cd ~/oscp/reports/<machine_name>
+# Write report in Markdown, save as REPORT.md
+git add REPORT.md && git commit -m "Machine: <name> - rooted <date>"
+```
+
+**Report structure** (keep it short — speed matters on exam day):
+
+```text
+# <Machine Name> — Pentest Report
+
+## Summary
+One paragraph: what you found, how you got root/SYSTEM, severity.
+
+## Enumeration
+- Ports found: <list>
+- Services: <list with versions>
+- Key finding: <the thing that led to the foothold>
+
+## Exploitation
+- Vulnerability: <name or CVE>
+- Steps:
+  1. <step>
+  2. <step>
+- Screenshot: [proof.txt / local.txt with hostname + whoami visible]
+
+## Privilege Escalation
+- From: <user>
+- To: <root/SYSTEM>
+- Method: <one line>
+- Commands: <paste>
+
+## Remediation
+- <1-2 concrete fixes>
+```
+
+Writing 30 of these reports turns the OSCP exam report into a 3-hour task instead of an 8-hour panic.
 
 ---
 
@@ -431,5 +550,5 @@ ip a show tun0
 
 ---
 
-**Last Updated**: 2026-04-14
-**Version**: 2.0
+**Last Updated**: 2026-04-15
+**Version**: 3.0

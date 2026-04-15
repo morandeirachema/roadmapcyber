@@ -9,7 +9,7 @@
 
 ## Overview
 
-Phase 3 is the hardest and most rewarding stretch. You will spend five months grinding on OSCP (the industry-standard offensive certification), stand up Conjur across AWS and Azure, learn cloud pentesting by actually attacking AWS and Azure AD labs, and finally launch your consulting practice. By Month 18 you have 3 CyberArk certifications, eJPT, OSCP, and 6 portfolio projects — a rare and defensible credential stack.
+Phase 3 is the hardest and most rewarding stretch. You will spend five months grinding on OSCP (the industry-standard offensive certification), stand up Conjur across AWS and Azure, learn cloud pentesting by actually attacking AWS and Azure AD labs, and finally launch your consulting practice. By Month 18 you have 3 CyberArk certifications, eJPT, OSCP, and 7 portfolio projects — a rare and defensible credential stack.
 
 ### Primary Objectives
 
@@ -35,7 +35,7 @@ The fastest way to learn AWS and Azure security is to attack it. CloudGoat (Rhin
 By Month 18 you will hold:
 - 3 CyberArk certifications (Defender, Sentry, Guardian)
 - 2 offensive certifications (eJPT, OSCP)
-- 6 portfolio projects on GitHub
+- 7 portfolio projects on GitHub
 - 18 months of documented deliberate practice
 
 This unlocks **two revenue streams in one** — PAM consulting and penetration testing services. Few independent consultants can credibly sell both. The M17-M18 launch sequence converts this into a live business.
@@ -44,7 +44,7 @@ This unlocks **two revenue streams in one** — PAM consulting and penetration t
 
 - [ ] OSCP certification passed
 - [ ] Conjur multi-cloud (AWS + Azure) operational
-- [ ] 6 portfolio projects published
+- [ ] 7 portfolio projects published
 - [ ] Consulting practice launched (entity + contracts + website + first outreach)
 - [ ] First paying engagement in pipeline or signed
 
@@ -54,59 +54,64 @@ This unlocks **two revenue streams in one** — PAM consulting and penetration t
 
 ### Month 13: OSCP PEN-200 Begins + Conjur in Kubernetes HA
 
-**Objective**: Buy OSCP 90-day lab access at the start of May 2027 (the window expires roughly late August, which lines up with M16 exam prep). Start the PEN-200 course. Build a Conjur HA deployment on Kubernetes and publish Portfolio Project 3's CI/CD secrets integration.
+**Objective**: Buy OSCP **120-day** lab access at the start of May 2027 (+$200 vs 90-day, eliminates the cliff at Month 16). Start PEN-200 course. Machine grinding starts Week 1 — the course is reference material, not a gate. Build Conjur HA on Kubernetes.
 
-**Purchase timing**: Buy OSCP at the **start of May 2027**. This maximizes the 90-day lab window so it is still active during exam prep in M16.
+**Purchase timing**: Buy OSCP at the **start of May 2027** with **120-day** lab access. Window expires mid-September, giving buffer for exam prep and a potential retake window.
 
-**Time Allocation**: 14-15 hrs/week
-- PEN-200 course: 7 hrs/week
-- OSCP lab machines: 4 hrs/week
+**Time Allocation**: 14-15 hrs/week — **70% hands-on, 30% course reading**
+- OSCP lab machines: **8 hrs/week**
+- PEN-200 course: 4 hrs/week (read chapters that match what you're stuck on, not cover-to-cover)
 - Conjur K8s HA: 3 hrs/week
 
 **Key Activities**:
-- PEN-200 modules 1-5: Report Writing, Information Gathering, Vulnerability Scanning, Introduction to Web Application Attacks, SQL Injection
+- Start with PEN-200 Report Writing module first — understand exactly what the grader expects before you touch a machine
+- PEN-200 modules 1-5 as reference: Information Gathering, Vulnerability Scanning, Web Attacks, SQL Injection
+- **OSCP lab machines Week 1**: start immediately. Read the PEN-200 chapter only if you get stuck on a specific technique
 - Conjur Kubernetes authenticator with pod-level secrets injection (secretless broker pattern or sidecar)
 - HA considerations: Conjur cluster, load balancer, PostgreSQL backup/restore
-- 5 OSCP lab machines documented (Obsidian / CherryTree notes)
-- Portfolio Project 3 final polish and publish: Conjur + CI/CD Secrets Management
+- 8 OSCP lab machines documented (Obsidian / CherryTree — see HANDS_ON_LABS_PHASE3.md for the machine note template and stuck protocol)
+- Portfolio Project 5 final polish and publish: Conjur + CI/CD Secrets Management
 
 **Deliverables**:
 - PEN-200 course 25% complete
-- 5 OSCP lab machines in notes
+- **8 OSCP lab machines documented** (increased from 5 — lab grinding starts immediately)
 - Conjur K8s HA deployment working
-- **Portfolio Project 3 (Conjur + CI/CD Secrets Management) published**
+- **Portfolio Project 5 (Conjur + CI/CD Secrets Management) published**
 
 ---
 
-### Month 14: OSCP Deep Dive + Multi-Cloud Secrets
+### Month 14: OSCP Lab Grinding + AD Chain Mastery + Multi-Cloud Secrets
 
-**Objective**: Power through the core PEN-200 modules including the AD chain. Stand up AWS IAM integration with Conjur.
+**Objective**: This month is machine grinding first, course second. The AD chain (40 of 70 exam points) is all-or-nothing — master it here. Stand up AWS IAM integration with Conjur in the remaining hours.
 
-**Time Allocation**: 14-15 hrs/week
-- PEN-200 + OSCP labs: 10 hrs/week
-- Cloud / Conjur multi-cloud: 4-5 hrs/week
+**Time Allocation**: 14-15 hrs/week — **70% hands-on, 30% course**
+- OSCP lab machines + AD chain practice: **10 hrs/week**
+- PEN-200 course modules: 4-5 hrs/week
+- AWS + Conjur multi-cloud: 3 hrs/week (reduced from plan to protect lab time)
 
 **Key Activities**:
-- PEN-200 modules 6-10: Client-Side Attacks / Antivirus Evasion, Fixing Exploits, Locating Public Exploits, SSH Tunneling, Advanced Tunneling, Metasploit Framework, Password Attacks
-- OSCP AD modules: Active Directory Introduction and Enumeration, Attacking AD Authentication, Lateral Movement in AD, AD Persistence
-- 15 OSCP lab machines cumulative (10 more this month)
-- AWS IAM roles + instance profile + Conjur integration (Conjur as secret broker for AWS resources)
+- PEN-200 AD modules as primary focus: Active Directory Introduction and Enumeration, Attacking AD Authentication, Lateral Movement in AD — read these chapters AND immediately replicate every technique in your own AD lab
+- PEN-200 modules 6-10 as reference: Tunneling, AV Evasion, Password Attacks — read when you encounter these in lab machines
+- **AD chain practice**: run the full attack chain (foothold → AS-REP/Kerberoasting → lateral movement → DCSync) in your own lab 3+ times until it is muscle memory
+- 20 OSCP lab machines cumulative (12 more this month — push harder than M13)
+- AWS IAM roles + instance profile + Conjur integration
 
 **Deliverables**:
 - PEN-200 course 55% complete
-- 15 OSCP lab machines cumulative
+- **20 OSCP lab machines cumulative** (aggressive but achievable at 10 hrs/week)
 - AWS + Conjur integration working and documented
-- AD chain practiced at least twice in lab
+- AD chain executed from scratch 3+ times, notes capturing every step
 
 ---
 
 ### Month 15: OSCP Challenge Labs + Cloud Pentesting
 
-**Objective**: Finish PEN-200 course content. Complete one OSCP Challenge Lab network under exam conditions. Attack CloudGoat and Azure AD with ROADtools.
+**Objective**: Finish PEN-200 course content. Complete one OSCP Challenge Lab network under exam conditions — this is your first real exam simulation. Attack CloudGoat and Azure AD with ROADtools.
 
-**Time Allocation**: 14-15 hrs/week
-- PEN-200 finish + Challenge Lab: 10 hrs/week
-- CloudGoat + ROADtools: 4-5 hrs/week
+**Time Allocation**: 14-15 hrs/week — **70% hands-on, 30% course**
+- OSCP Challenge Lab + OffSec Proving Grounds machines: **8 hrs/week**
+- PEN-200 finish (remaining modules): 3 hrs/week
+- CloudGoat + ROADtools: 4 hrs/week
 
 **Key Activities**:
 - PEN-200 modules 11-end (remaining Windows/Linux privesc + capstone)
@@ -114,19 +119,19 @@ This unlocks **two revenue streams in one** — PAM consulting and penetration t
 - CloudGoat AWS scenarios (at least 2): S3 exposure, IAM privilege escalation, SSRF to IMDS
 - Azure AD enumeration with ROADtools and ROADrecon
 - Entra ID service principal abuse walkthrough
-- Portfolio Project 4 drafted: Multi-Cloud Secrets Architecture (AWS + Azure + Conjur)
+- Portfolio Project 6 drafted: Multi-Cloud Secrets Architecture (AWS + Azure + Conjur)
 
 **Deliverables**:
 - PEN-200 course 100% complete
 - 1 Challenge Lab network completed end-to-end with a written report
 - 2 CloudGoat scenarios documented
-- **Portfolio Project 4 (Multi-Cloud Secrets Architecture) published**
+- **Portfolio Project 6 (Multi-Cloud Secrets Architecture) published**
 
 ---
 
 ### Month 16: OSCP Exam Prep + DevSecOps Security Audit
 
-**Objective**: Two full 24-hour mock exam attempts. Write Portfolio Project 5: a DevSecOps security audit of your own Phase 1 CI/CD pipeline.
+**Objective**: Two full 24-hour mock exam attempts. Write the DevSecOps security audit of your own Phase 1 CI/CD pipeline — this is a consulting methodology deliverable, not a numbered portfolio project.
 
 **Time Allocation**: 14-15 hrs/week
 
@@ -142,7 +147,7 @@ This unlocks **two revenue streams in one** — PAM consulting and penetration t
 **Deliverables**:
 - 2 mock 24-hour exams completed with reports
 - 3 additional pentest reports written
-- **Portfolio Project 5 (DevSecOps Security Audit) published**
+- **DevSecOps Security Audit published** (consulting methodology deliverable — not a numbered portfolio project)
 - OSCP exam scheduled
 
 ---
@@ -165,8 +170,8 @@ OffSec provides one free retake within 12 months. **Launch consulting anyway** �
 - **OSCP certification** (expected; retake plan if not)
 - Consulting website draft
 - Updated LinkedIn profile
-- Polished GitHub portfolio landing page (index of all 6 projects)
-- Portfolio Project 6 (Enterprise Capstone) started
+- Polished GitHub portfolio landing page (index of all 7 projects)
+- Portfolio Project 7 (Enterprise Capstone) started
 
 ---
 
@@ -182,7 +187,7 @@ OffSec provides one free retake within 12 months. **Launch consulting anyway** �
   - PAM implementation (CyberArk Defender / Sentry / Guardian work)
   - Security assessment (internal network + AD pentest)
   - DevSecOps pipeline security audits
-- **Week 4**: Portfolio Project 6 (Enterprise Capstone: PAM + Conjur + Pentest Assessment) final publish. **GO LIVE** — website published, LinkedIn announcement, first outreach to network.
+- **Week 4**: Portfolio Project 7 (Enterprise Capstone: PAM + Conjur + Pentest Assessment) final publish. **GO LIVE** — website published, LinkedIn announcement, first outreach to network.
 
 **Rate Card Guidance** (North American market, April 2026 baseline, adjust for your market):
 - Pentesting: **$175 – $225 / hr**
@@ -191,10 +196,10 @@ OffSec provides one free retake within 12 months. **Launch consulting anyway** �
 
 **Deliverables**:
 - Consulting practice **launched**
-- 6 portfolio projects published
+- 7 portfolio projects published
 - OSCP certification
 - Business entity registered, rate card published, contracts templated
-- **Portfolio Project 6 (Enterprise Capstone: PAM + Conjur + Pentest Assessment) published**
+- **Portfolio Project 7 (Enterprise Capstone: PAM + Conjur + Pentest Assessment) published**
 
 ---
 
@@ -213,5 +218,5 @@ OffSec provides one free retake within 12 months. **Launch consulting anyway** �
 
 ---
 
-**Last Updated**: 2026-04-14
-**Version**: 1.0
+**Last Updated**: 2026-04-15
+**Version**: 2.0
