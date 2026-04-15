@@ -14,13 +14,13 @@ You're about to embark on an 18-month journey to become a dual-track PAM + pente
 
 By the end of Month 18 (October 2027) you will have earned:
 
-1. **CyberArk Defender** — Month 4 (Aug 2026)
-2. **CyberArk Sentry** — Month 6 (Oct 2026)
+1. **CyberArk Defender** — Month 3 (Jul 2026)
+2. **CyberArk Sentry** — Month 5 (Sep 2026)
 3. **CyberArk Guardian** — Month 8 (Dec 2026)
 4. **eJPT** (eLearnSecurity Junior Penetration Tester) — Month 12 (Apr 2027)
 5. **OSCP** (Offensive Security Certified Professional) — Month 17 (Sep 2027)
 
-Plus 6 portfolio projects, Conjur mastery in Docker/Kubernetes/multi-cloud, cloud pentesting skills, and a launched consulting practice targeting $175-350/hour.
+Plus 7 portfolio projects, Conjur mastery in Docker/Kubernetes/multi-cloud, cloud pentesting skills, and a launched consulting practice targeting $175-350/hour.
 
 ---
 
@@ -160,6 +160,22 @@ Total investment: **$3,400-4,500** over 18 months (~$189-250/month average)
 **See [BUDGET.md](BUDGET.md) for detailed breakdown and cost-saving strategies**
 
 Can you afford this? _____ (Yes / Need to adjust)
+
+---
+
+## Day 1 Launch Protocol
+
+Complete these 9 actions on your first day. Do not start any course material yet — just launch.
+
+- [ ] Install VirtualBox (or VMware Workstation Player) and boot a test VM to confirm it works
+- [ ] Install Docker Desktop and run `docker run hello-world`
+- [ ] Create a GitHub account (or log in) — initialize a private repo called `cyberark-roadmap` for notes and projects
+- [ ] Create a **CyberArk Campus** account at [cyberark.com/services-support/cyberark-campus](https://www.cyberark.com) — free training and lab access
+- [ ] Download the **Kali Linux ISO** (Installer or VM image) at [kali.org/get-kali](https://www.kali.org/get-kali/) — used from Month 2 onward
+- [ ] Update your **LinkedIn headline** to reflect your security consulting direction (e.g., "Systems Engineer → PAM + Security Consultant")
+- [ ] Open `18MONTH_PROGRESS_TRACKER.csv` in a spreadsheet app (Google Sheets, LibreOffice Calc, Excel) and confirm it loads correctly — this is your weekly tracking tool
+- [ ] Block **12-15 hours/week** in your calendar for the next 4 weeks as recurring study blocks
+- [ ] If you have existing PAM experience (Wallix, BeyondTrust, Delinea): note this down — Week 2 of Month 1 starts Lab 0 (Wallix→CyberArk architecture translation) which accelerates your first 3 months significantly
 
 ---
 
@@ -307,7 +323,7 @@ Use the **Weekly Checklist** from [QUICKSTART.md](QUICKSTART.md):
 - [ ] Took all notes in English
 - [ ] (If Month 7+) Wrote technical content in English
 
-### Certification Prep (if certification month: M4, M6, M8, M12, M17)
+### Certification Prep (if certification month: M3, M5, M8, M12, M17)
 - [ ] Completed course modules on schedule
 - [ ] Practice tests score 80%+ (aim for 90%+ before exam)
 - [ ] Reviewed weak areas from practice tests
@@ -407,11 +423,11 @@ After:  Week 9, Status: In Progress, Study_Actual: 5.5, Lab_Actual: 4, Notes: "D
 
 **End of Phase 1 (Month 6)**:
 
-- [ ] CyberArk Defender and Sentry certifications obtained
+- [ ] CyberArk Defender (M3) and Sentry (M5) certifications obtained
 - [ ] PAM lab fully operational and documented
 - [ ] Linux security + web app security (DVWA, Burp Suite) foundations in place
 - [ ] DevSecOps pipeline running with security scanners
-- [ ] Portfolio Project 1 (PAM Lab Documentation) published
+- [ ] Portfolio Projects 1-3 published (PAM Lab, Wallix vs CyberArk comparison, DevSecOps pipeline)
 
 **End of Phase 2 (Month 12)**:
 
@@ -419,15 +435,15 @@ After:  Week 9, Status: In Progress, Study_Actual: 5.5, Lab_Actual: 4, Notes: "D
 - [ ] eJPT certification obtained
 - [ ] Conjur deployed in Docker and Kubernetes
 - [ ] Comfortable pentesting networks, web apps, and Active Directory
-- [ ] Portfolio Project 2 (CyberArk Guardian Enterprise Architecture) published
+- [ ] Portfolio Project 4 (CyberArk Guardian Enterprise Architecture) published
 
 **End of Phase 3 (Month 18)**:
 
 - [ ] OSCP certification obtained
 - [ ] Cloud pentesting skills (CloudGoat AWS, Azure AD attacks)
 - [ ] Multi-cloud secrets architecture designed and deployed
-- [ ] DevSecOps security audit methodology applied
-- [ ] Portfolio Projects 3-6 published (Conjur + CI/CD, Multi-Cloud Secrets, DevSecOps Audit, Enterprise Capstone)
+- [ ] DevSecOps Security Audit (consulting methodology deliverable) published
+- [ ] Portfolio Projects 5-7 published (Conjur + CI/CD, Multi-Cloud Secrets, Enterprise Capstone)
 - [ ] **Consulting practice launched**
 
 ### Update Professional Materials
@@ -562,5 +578,5 @@ Welcome to the roadmap.
 
 ---
 
-**Last Updated**: 2026-04-14
-**Version**: 3.0
+**Last Updated**: 2026-04-15
+**Version**: 3.1

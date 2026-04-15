@@ -22,31 +22,30 @@ Complete financial breakdown for the 18-month PAM + DevSecOps + Pentesting roadm
 
 | Month | Calendar | Major Expense | Amount |
 |:-----:|:--------:|:--------------|:-------|
-| M1-2 | May-Jun 2026 | Lab setup, domain | $15-30 |
-| M3 | Jul 2026 | Defender study materials, books | $75-100 |
-| M4 | Aug 2026 | **CyberArk Defender exam** | $250-500 |
-| M5 | Sep 2026 | TryHackMe Premium begins | $14/mo |
-| M6 | Oct 2026 | **CyberArk Sentry exam** | $250-500 |
+| M1-2 | May-Jun 2026 | Lab setup, domain, Defender study materials | $90-130 |
+| M3 | Jul 2026 | **CyberArk Defender exam** | $250-500 |
+| M4 | Aug 2026 | TryHackMe Premium begins | $14/mo |
+| M5 | Sep 2026 | **CyberArk Sentry exam** | $250-500 |
 | M7 | Nov 2026 | **INE Platinum Annual Pass** (includes eJPT) | $199-299 |
 | M8 | Dec 2026 | **CyberArk Guardian exam** | $250-500 |
 | M9 | Jan 2027 | HackTheBox VIP begins | $14/mo |
 | M10-11 | Feb-Mar 2027 | Pentesting books | $75-135 |
 | M12 | Apr 2027 | **eJPT exam** (free with Platinum) | $0-200 |
-| M13 | May 2027 | **OSCP PEN-200** (90-day + 1 attempt) | $1,499 |
+| M13 | May 2027 | **OSCP PEN-200** (120-day + 1 attempt) | $1,499 |
 | M14-16 | Jun-Aug 2027 | Cloud costs, Proving Grounds (optional) | $60-300 |
 | M17 | Sep 2027 | **OSCP exam** (included with PEN-200) | $0 |
 | M18 | Oct 2027 | Consulting launch (website, branding) | $50-150 |
 
-**Peak spending months**: M4, M6, M7, M8, M13 (the OSCP at $1,499 is the single largest line item — plan cash flow around Month 13).
+**Peak spending months**: M3, M5, M7, M8, M13 (the OSCP at $1,499 is the single largest line item — plan cash flow around Month 13).
 
 ---
 
 ## CyberArk Certifications (~$750-1,500)
 
-- **CyberArk Defender** (Month 4, Aug 2026): **$250-500**
+- **CyberArk Defender** (Month 3, Jul 2026): **$250-500**
   - Free training via CyberArk Campus
   - Exam fees vary by region
-- **CyberArk Sentry** (Month 6, Oct 2026): **$250-500**
+- **CyberArk Sentry** (Month 5, Sep 2026): **$250-500**
   - Advanced administration
 - **CyberArk Guardian** (Month 8, Dec 2026): **$250-500**
   - Expert architect level
@@ -62,8 +61,8 @@ Complete financial breakdown for the 18-month PAM + DevSecOps + Pentesting roadm
   - This is by far the most cost-effective way to prepare for eJPT
 - **eJPT Exam** (Month 12, Apr 2027): **$0 with Platinum, $200 standalone**
 - **OSCP PEN-200** (Month 13, May 2027): **$1,499**
-  - 90-day lab access + 1 exam attempt
-  - 60-day option available at **$999** if budget is tight (less comfortable but doable)
+  - 120-day lab access + 1 exam attempt (buy 120-day, not 90-day — the extra $200 eliminates the end-of-lab cliff during exam prep)
+  - 90-day option available at **$1,299** if budget is tight (reduces buffer; not recommended)
 - **OSCP Retake Contingency**: **$249** (budget for this even if you hope you won't need it)
 - **OffSec Proving Grounds Practice** (optional, M15-17): **$19/month × 3 = $57**
   - Excellent extra boxes for OSCP prep; optional but recommended
@@ -140,5 +139,5 @@ These are NOT included in the core budget but are worth planning for once consul
 
 ---
 
-**Last Updated**: 2026-04-14
-**Version**: 3.0
+**Last Updated**: 2026-04-15
+**Version**: 3.1

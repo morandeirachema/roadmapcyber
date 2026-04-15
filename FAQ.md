@@ -30,7 +30,7 @@ Common questions about the 18-Month Cybersecurity Roadmap.
 
 **Why 18 months is optimal**:
 - Certifications need lab time before exams (rushing = higher failure rate)
-- OSCP preparation cannot be rushed — it requires 90-day lab access plus a 24-hour hands-on exam
+- OSCP preparation cannot be rushed — it requires 120-day lab access plus a 24-hour hands-on exam
 - Consulting skills require practice, not just knowledge
 - 12-15 hrs/week is sustainable for 18 months; 20+ hrs/week risks burnout
 - Recovery months prevent knowledge atrophy and burnout
@@ -50,7 +50,7 @@ Common questions about the 18-Month Cybersecurity Roadmap.
 
 **Adjust by**:
 - Adding 1-2 weeks to each month's activities
-- Extending certification prep periods (e.g., Defender at Month 5 instead of Month 4)
+- Extending certification prep periods (e.g., Defender at Month 4 instead of Month 3)
 - Adding extra recovery time between phases
 
 **The math**: Total roadmap hours = 864-1,080 hours (18 months × 12-15 hrs/week). Your hours/week ÷ 13.5 (average) = timeline multiplier
@@ -327,6 +327,46 @@ To find firms: search LinkedIn for "CyberArk partner" and "PAM consultant" in yo
 
 ---
 
+### Q: What if I need income before Month 18 due to financial pressure?
+
+**A**: This is Option C — the early employment path. It exists for real, and it is not a failure.
+
+After earning Guardian in Month 8, you have 3 CyberArk certifications, a documented PAM lab, and 4 portfolio projects. This qualifies you for **junior/mid-level PAM consultant roles** at CyberArk authorized partner firms — even before OSCP.
+
+**What to do**:
+- Search LinkedIn for "CyberArk implementation consultant," "PAM consultant," or "identity security consultant" in your region
+- Target CyberArk authorized partner firms (Deloitte, Accenture, Optiv, regional SIs with 20-200 employees)
+- Apply with your Guardian cert, portfolio projects on GitHub, and Lab 0 (Wallix vs CyberArk comparison) as your differentiator
+- The Wallix enterprise deployment experience is a genuine hiring signal — not just a lab project
+
+**How the roadmap changes**:
+- Income starts at Month 9 instead of Month 18
+- OSCP timeline extends to Month 24 (instead of 17) — acceptable, "OSCP candidate" is a credible status
+- Real client engagements replace simulated labs — your case studies become genuine references
+- Consulting launch at Month 24-26 from a stronger position (real references vs. cold outreach)
+
+Option B (covered in the Employment Fork question below) and Option C differ in urgency: Option B is "should I apply if things are going well?", Option C is "I need income now." Both paths lead to the same destination.
+
+See [roadmap/OVERVIEW.md](roadmap/OVERVIEW.md) Key Decision Points for the full Option C framework.
+
+---
+
+### Q: I already have enterprise PAM deployment experience with a different vendor. Does that change the plan?
+
+**A**: **Significantly.** If you have production PAM deployment experience (Wallix, BeyondTrust, CyberPark, Delinea, etc.), you are not starting from zero. You are a multi-vendor expert adding a new product to an existing skillset.
+
+**What changes**:
+- Month 1-2: Skip PAM fundamentals — go directly to product-specific CyberArk differences. Complete Lab 0 (architecture translation) in Week 2-3 of Month 1.
+- Month 3: Defender exam is realistic without 2 months of PAM study first. Your existing knowledge compresses this.
+- Month 4: Use the freed time for TryHackMe Jr Pentester path and portfolio writing — not additional PAM review.
+- Portfolio Project 2: Your prior PAM deployment becomes your strongest asset. The Wallix/CyberArk comparison write-up (or equivalent) is more compelling than any lab simulation.
+
+**Your key differentiator in sales conversations**: Most consultants know one PAM product. Multi-vendor experience — especially with documented architecture tradeoffs — is explicitly rare and valuable to enterprise buyers evaluating or migrating products.
+
+**Positioning**: *"Before specializing in CyberArk, I served as architect and implementer for a production enterprise PAM deployment using a different vendor. I can speak to both the technical tradeoffs and the real-world failure modes — independent of product branding."*
+
+---
+
 ### Q: When should I start networking and how?
 
 **A**: Month 1 — not Month 18.
@@ -359,7 +399,7 @@ The full month-by-month networking calendar is in [docs/NETWORKING_STRATEGY.md](
 - **Industry**: Banking/healthcare = higher, SMB = lower
 - **Certifications**: OSCP + CyberArk stack = command top rates
 - **English fluency**: Professional English = 50-100% rate increase
-- **Portfolio**: 6 portfolio projects = credibility = higher rates
+- **Portfolio**: 7 portfolio projects = credibility = higher rates
 - **Dual specialization**: PAM + pentesting = niche = premium rates vs. single-track consultants
 
 **Realistic expectations by market**:
@@ -398,7 +438,7 @@ The full month-by-month networking calendar is in [docs/NETWORKING_STRATEGY.md](
 
 **Key readiness indicators**:
 - [ ] All certifications obtained (including OSCP at M17)
-- [ ] 6 portfolio projects documented
+- [ ] 7 portfolio projects documented
 - [ ] Professional English fluency
 - [ ] Consulting materials ready (proposals, SOWs, presentations)
 - [ ] 2-3 case studies prepared
@@ -412,7 +452,7 @@ The full month-by-month networking calendar is in [docs/NETWORKING_STRATEGY.md](
 **Most likely scenario**: You WILL find work because:
 - PAM/Conjur + pentesting consultants are in high demand
 - 5 certifications (Defender, Sentry, Guardian, eJPT, OSCP) = strong credibility
-- 6 portfolio projects = proof of expertise
+- 7 portfolio projects = proof of expertise
 - Healthcare and banking need PAM (regulatory requirements); OSCP opens pentesting engagements
 
 **If struggling to find consulting clients**:
@@ -449,7 +489,7 @@ The full month-by-month networking calendar is in [docs/NETWORKING_STRATEGY.md](
 **A**: **Neither is in the primary 18-month path. OSCP is the primary certification for the pentesting track.**
 
 **Current primary certification path** (M1-M18):
-- CyberArk Defender (M4) → Sentry (M6) → Guardian (M8) → eJPT (M12) → OSCP (M17)
+- CyberArk Defender (M3) → Sentry (M5) → Guardian (M8) → eJPT (M12) → OSCP (M17)
 
 **CCSP — archived from primary path**:
 - No longer included in the 18-month roadmap
@@ -473,7 +513,7 @@ The full month-by-month networking calendar is in [docs/NETWORKING_STRATEGY.md](
 
 ### Q: What exactly are recovery months and why are they important?
 
-**A**: Recovery months (M12, M18, M27) are designed to prevent burnout and consolidate learning.
+**A**: Recovery months (M6, M12, M18) are designed to prevent burnout and consolidate learning.
 
 **What happens during recovery months**:
 - **50% reduced study hours**: 6-8 hrs/week instead of 12-15
@@ -524,8 +564,8 @@ The full month-by-month networking calendar is in [docs/NETWORKING_STRATEGY.md](
 **A**: **AWS and Azure deeply; GCP awareness level.**
 
 **Roadmap approach**:
-- **AWS (Months 19-22)**: Deep dive - most market demand
-- **Azure (Months 23-26)**: Deep dive - strong enterprise presence
+- **AWS (Month 13-15)**: Deep dive — CloudGoat, IAM privilege escalation, Conjur AWS integration
+- **Azure (Month 14-16)**: Deep dive — ROADtools, Entra ID attacks, Conjur Azure integration
 - **GCP**: Awareness only (mentioned but not primary focus)
 
 **Why this prioritization**:
@@ -1089,5 +1129,5 @@ Portfolio Project: Healthcare PAM Implementation
 
 ---
 
-**Last Updated**: 2026-04-14
-**Version**: 2.1
+**Last Updated**: 2026-04-15
+**Version**: 2.2

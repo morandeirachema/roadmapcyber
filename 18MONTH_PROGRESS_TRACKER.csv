@@ -9,27 +9,27 @@ Month,Week,Phase,Focus_Area,Study_Hours_Planned,Lab_Hours_Planned,Total_Hours,St
 2,6,Phase 1,Week 6,1.5,2,3.5,,,CPM integration tested with AD targets,Pending,End-to-end rotation,,,,"CPM configuration",1,1,0,0
 2,7,Phase 1,Week 7,1.5,2,3.5,,,PVWA web interface deployed,Pending,PVWA live,Reading + watching videos,Prepare Month 3 presentation,"","PVWA deployment",1,0,0,0
 2,8,Phase 1,Week 8,1.5,2,3.5,,,PAM lab end-to-end (Vault + CPM + PVWA),Pending,PAM lab complete,Reading + video notes,Presentation slides ready,,"PAM lab ✓",0,0,0,0
-3,9-12,Phase 1,Defender Cert Prep + PSM,6,4,10,,,CyberArk Defender certification achieved,Pending,"Exam passed, 90%+ practice","Reading docs, taking notes",First presentation (PAM Fundamentals),Defender Certified (M4),,2,1,0,0
-3,9,Phase 1,Week 9,6,4,10,,,Defender course 75% + PSM install,In Progress,Core concepts studied,"Reading, video watching",First presentation delivered,Studying,Presentation 1,1,0,0,0
-3,10,Phase 1,Week 10,6,4,10,,,Defender course 100% + PSM connectors,In Progress,Advanced topics covered,"Reading, documentation","Refine presentation, lab exercises",,,1,1,0,0
-3,11,Phase 1,Week 11,6,4,10,,,Defender practice tests 90%+,In Progress,Ready for exam,"Reading, practice tests","Lab review, exam prep",,,0,0,0,0
-3,12,Phase 1,Week 12,6,4,10,,,DEFENDER CERTIFICATION ACHIEVED,Complete,"Exam passed ✓",Documentation review,Celebrate,Defender Certified (M4),,0,0,0,0
-4,13-16,Phase 1,Sentry Prep + Portfolio Project 1,4,6,10,,,Advanced PAM scenarios + Portfolio 1 started,Pending,Sentry prep 70%,"Reading docs, writing notes",Second presentation (PAM Architecture),"","Project 1: PAM Lab Documentation",2,1,0,0
-4,13,Phase 1,Week 13,4,6,10,,,Sentry fundamentals + advanced CPM,In Progress,Started Sentry,Reading Sentry course,"Project 1 started",Studying,,1,1,0,0
-4,14,Phase 1,Week 14,4,6,10,,,Sentry advanced admin + HA prep,In Progress,Sentry 50% complete,"Reading, practice labs",Build Project 1 core,,,1,0,0,0
-4,15,Phase 1,Week 15,4,6,10,,,Sentry scenarios + PSM tuning,In Progress,Sentry 70% complete,"Reading, troubleshooting practice",Document Project 1,,,0,0,0,0
-4,16,Phase 1,Week 16,4,6,10,,,Sentry practice tests + Project 1 polish,In Progress,Sentry 90%+,"Practice tests, lab review",Polish Project 1,Sentry Prep,,0,0,0,0
-5,17-20,Phase 1,Sentry Exam + Portfolio 1 Publish,4,6,10,,,SENTRY CERTIFICATION + Project 1 published,Pending,Exam passed + project published,Writing English documentation,First LinkedIn article published,Sentry Certified (M7),"Project 1: PAM Lab published",2,1,0,0
-5,17,Phase 1,Week 17,4,6,10,,,Sentry course completion + Project 1 README,In Progress,Sentry 100%,Writing in English,Article preparation,,,1,0,0,0
-5,18,Phase 1,Week 18,4,6,10,,,Sentry practice tests 85%+,In Progress,Getting ready,"Writing, practicing",LinkedIn article draft,,,0,0,0,0
-5,19,Phase 1,Week 19,4,6,10,,,Sentry weak areas mastery,In Progress,90%+ tests,Writing articles,Final review,,,0,0,0,0
-5,20,Phase 1,Week 20,4,6,10,,,SENTRY EXAM DAY,Complete,"Exam passed ✓","Writing, publishing",LinkedIn article published,Sentry Certified,Published Project 1,1,1,0,0
-6,21-24,Phase 1,Guardian Prep + Conjur Intro,4,6,10,,,Guardian exam prep + Conjur basics,Pending,"Guardian course, Conjur",Reading Conjur docs,Recovery consolidation,,,2,1,0,0
-6,21,Phase 1,Week 21,4,6,10,,,Guardian advanced architecture + Conjur install,In Progress,Started Guardian,Documentation reading,Monthly review,,,1,0,0,0
-6,22,Phase 1,Week 22,4,6,10,,,Guardian HA/DR + Conjur policy intro,In Progress,HA/DR study,"Reading, practice labs",Knowledge check,,,1,1,0,0
-6,23,Phase 1,Week 23,4,6,10,,,Guardian advanced scenarios + Conjur hosts,In Progress,Advanced scenarios,"Reading, practice tests","Practice tests, lab exercises",,,0,0,0,0
-6,24,Phase 1,Week 24,4,6,10,,,GUARDIAN EXAM PREP COMPLETE,In Progress,Ready for exam,Documentation review,"Ready for certification, Month summary",,,0,0,0,0
-7,25-28,Phase 2,Guardian Exam + Pentest Foundations Begin,3,7,10,,,GUARDIAN CERTIFIED + offensive security begins,Pending,"Guardian passed, pentest foundations","Reading pentest docs, writing notes","Presentation: PAM + Offensive Security",Guardian Certified (M10),"Project 2: Conjur + K8s DevSecOps started",3,2,0,0
+3,9-12,Phase 1,Defender EXAM + TryHackMe + DVWA,2,8,10,,,CyberArk Defender certification achieved,Pending,"Exam in Week 10; 90%+ practice score required","Reading docs, taking notes",First presentation (PAM Fundamentals),Defender Certified (M3),"Lab 0 complete",3,3,0,0
+3,9,Phase 1,Week 9,2,8,10,,,Defender final review + DVWA deployed + TryHackMe Passive/Active Recon,Pending,Exam booked,Reading English docs + OWASP,Presentation 1 prep,Studying,,2,0,0,0
+3,10,Phase 1,Week 10,2,8,10,,,DEFENDER EXAM + TryHackMe Vulnversity + Network Services 2,Pending,Exam taken,"Reading, video watching",Presentation 1 delivered,Defender Certified (M3),,2,1,0,0
+3,11,Phase 1,Week 11,2,8,10,,,TryHackMe Burp Suite Basics + DVWA SQLi/XSS + CyberArk AAM overview,Pending,Burp proxy chain working,Reading + labs,,,"Burp Suite setup",2,1,0,0
+3,12,Phase 1,Week 12,2,8,10,,,DVWA CSRF + file upload + command injection + CPM custom platform plugin walkthrough,Pending,DVWA walkthroughs committed,"Reading, practice",Post Defender achievement on LinkedIn,,"DVWA notes",0,0,0,0
+4,13-16,Phase 1,Pentesting Acceleration + Portfolio Projects 1 and 2,2,8,10,,,Portfolio Project 1 published + Project 2 draft,Pending,TryHackMe Jr Pentester 50%+,"Reading docs, writing portfolio","Second presentation (PAM Architecture)","","Projects 1 + 2 in progress",6,3,0,0
+4,13,Phase 1,Week 13,2,8,10,,,Portfolio Project 1 draft (PAM lab documentation) + TryHackMe OWASP Top 10,Pending,Project 1 50% drafted,Writing English docs,"Project 1 writing started",,,2,1,0,0
+4,14,Phase 1,Week 14,2,8,10,,,Portfolio Project 1 polish + publish to GitHub + TryHackMe OWASP Juice Shop,Pending,Project 1 published,Writing in English,PAM Architecture presentation prep,,"Project 1: PAM Lab published",2,1,0,0
+4,15,Phase 1,Week 15,2,8,10,,,Portfolio Project 2 draft: Wallix vs CyberArk comparison + TryHackMe Linux PrivEsc,Pending,Project 2 structural draft,"Writing, labs","Presentation 2 delivered",,,2,1,0,0
+4,16,Phase 1,Week 16,2,8,10,,,Portfolio Project 2 continued + TryHackMe Blue (EternalBlue) + Windows PrivEsc,Pending,Project 2 draft committed,Writing English docs,SOW template study,,"Project 2 draft",2,1,0,0
+5,17-20,Phase 1,Sentry EXAM + DevSecOps Pipeline + Portfolio Project 3,2,8,10,,,Sentry certification + DevSecOps pipeline running + Project 3 ready,Pending,"Exam in Week 18; pipeline operational","Writing English documentation","First LinkedIn post (short lab note)",Sentry Certified (M5),"Project 3: DevSecOps Pipeline draft",4,2,0,0
+5,17,Phase 1,Week 17,2,8,10,,,Sentry final review + Semgrep in GitHub Actions + exam booked,Pending,Exam booked; Semgrep CI working,Writing in English,LinkedIn post drafting,,,2,0,0,0
+5,18,Phase 1,Week 18,2,8,10,,,SENTRY EXAM + gitleaks + Trivy container scanning,Pending,Exam taken; full CI pipeline running,"Writing, English practice","Post Sentry achievement on LinkedIn",Sentry Certified (M5),"CI pipeline live",2,1,0,0
+5,19,Phase 1,Week 19,2,8,10,,,CyberArk Sentry lab (policy inheritance + CPM plugins) + Portfolio Project 3 write-up start,Pending,Project 3 draft started,Writing English docs,Consulting presentation prep,,,2,1,0,0
+5,20,Phase 1,Week 20,2,8,10,,,Portfolio Project 3 polish + TryHackMe Metasploit + Blue (unguided) + Ice,Pending,Project 3 draft 80% done,Writing English docs,Article preparation,,"Project 3 draft",2,1,0,0
+6,21-24,Phase 1,RECOVERY MONTH + Publish Portfolio Projects 2 and 3,1,3,8,,,Portfolio Projects 2 and 3 published + language exchange started,Pending,"Rest + publish; 8 hrs/week","Light reading, consolidation",Recovery consolidation,,,"Project 2 + 3 published",0,0,0,0
+6,21,Phase 1,Week 21,1,3,4,,,Rest + language exchange partner search (italki/Tandem),Pending,Language partner session scheduled,Light reading,Monthly review,,,0,0,0,0
+6,22,Phase 1,Week 22,1,3,4,,,Language exchange first session + English self-recording #1,Pending,"Self-recording done, 5 min",Self-recording #1 completed,Knowledge check,,,0,0,0,0
+6,23,Phase 1,Week 23,1,3,4,,,Portfolio Project 2 polish: add architecture diagrams + comparison tables,Pending,Project 2 polished,Light reading,Conjur docs preview,,,0,0,0,0
+6,24,Phase 1,Week 24,1,3,4,,,PUBLISH Projects 2 and 3 to GitHub + Phase 1 retrospective article on LinkedIn,Pending,"Projects 2 + 3 live","Writing + publishing",Phase 1 retrospective article published,,"Projects 2 + 3: PUBLISHED",0,0,0,0
+7,25-28,Phase 2,Guardian Exam + Pentest Foundations Begin,3,7,10,,,GUARDIAN CERTIFIED + offensive security begins,Pending,"Guardian passed, pentest foundations","Reading pentest docs, writing notes","Presentation: PAM + Offensive Security",Guardian Certified (M8),"Project 2: Conjur + K8s DevSecOps started",3,2,0,0
 7,25,Phase 2,Week 25,3,7,10,,,Guardian practice tests + Linux privesc basics,In Progress,90%+ Guardian tests,Pentesting documentation,Portfolio Project 2 start,,,1,1,0,0
 7,26,Phase 2,Week 26,3,7,10,,,Guardian weak areas + networking fundamentals for pentesting,In Progress,95%+ tests,Writing articles,Project 2 building,,,1,1,0,0
 7,27,Phase 2,Week 27,3,7,10,,,Guardian final prep + TryHackMe intro path,In Progress,Ready for exam,"Writing, publishing",Presentation prep,,,1,0,0,0
@@ -82,8 +82,8 @@ Month,Week,Phase,Focus_Area,Study_Hours_Planned,Lab_Hours_Planned,Total_Hours,St
 17,65,Phase 3,Week 65,3,7,10,,,Final OSCP prep + practice,In Progress,Final prep,"Final review notes",OSCP confidence check,,,2,1,2,0
 17,66,Phase 3,Week 66,3,7,10,,,OSCP EXAM (24 hours) + report (24 hours),In Progress,48-hour marathon,"Exam report in English",OSCP exam taken,,,1,0,0,1
 17,67,Phase 3,Week 67,3,7,10,,,OSCP result + post-exam recovery,In Progress,Recovery + result,"Writing OSCP journey post","OSCP result received",,,1,1,1,1
-17,68,Phase 3,Week 68,3,7,10,,,OSCP CERTIFIED + Project 6 capstone finalization,Complete,"OSCP ✓, capstone ready","Capstone documentation, case studies","Capstone complete",OSCP Certified (M17),"Project 6: PAM + Pentest Capstone",1,1,1,1
-18,69-72,Phase 3,CONSULTING LAUNCH,3,7,10,,,Consulting practice launched — first client engagement,Pending,"Business launch, first client","Website live, marketing","Launch month","","All 6 portfolio projects published",3,2,0,3
+17,68,Phase 3,Week 68,3,7,10,,,OSCP CERTIFIED + Project 6 capstone finalization,Complete,"OSCP ✓, capstone ready","Capstone documentation, case studies","Capstone complete",OSCP Certified (M17),"Project 7: PAM + Pentest Capstone",1,1,1,1
+18,69-72,Phase 3,CONSULTING LAUNCH,3,7,10,,,Consulting practice launched — first client engagement,Pending,"Business launch, first client","Website live, marketing","Launch month","","All 7 portfolio projects published",3,2,0,3
 18,69,Phase 3,Week 69,3,7,10,,,Business entity finalized + insurance + website live,In Progress,Business ready,"Website content, LinkedIn","Launch announcements",,,1,1,0,1
 18,70,Phase 3,Week 70,3,7,10,,,LinkedIn launch + network outreach + rate card published,In Progress,Launch day,"Launch post, network outreach","Network activation",,,1,0,0,0
 18,71,Phase 3,Week 71,3,7,10,,,First discovery calls + proposal drafting,In Progress,First calls,"Proposal writing, English practice","Discovery calls",,,0,1,0,1
