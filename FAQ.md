@@ -350,8 +350,8 @@ The full month-by-month networking calendar is in [docs/NETWORKING_STRATEGY.md](
 **A**: **Realistic range: $150-350/hour**, depending on service line and market:
 
 **Service line rates** (dual-track positioning opens two revenue streams):
-- **Pentesting standalone**: $150-250/hr
-- **PAM implementation**: $175-275/hr
+- **Pentesting standalone**: $175-225/hr
+- **PAM implementation**: $200-275/hr
 - **Combined PAM + pentest assessment**: $250-350/hr (premium for dual expertise)
 
 **Factors affecting rate**:
@@ -359,7 +359,7 @@ The full month-by-month networking calendar is in [docs/NETWORKING_STRATEGY.md](
 - **Industry**: Banking/healthcare = higher, SMB = lower
 - **Certifications**: OSCP + CyberArk stack = command top rates
 - **English fluency**: Professional English = 50-100% rate increase
-- **Portfolio**: 6-8 projects = credibility = higher rates
+- **Portfolio**: 6 portfolio projects = credibility = higher rates
 - **Dual specialization**: PAM + pentesting = niche = premium rates vs. single-track consultants
 
 **Realistic expectations by market**:
@@ -398,7 +398,7 @@ The full month-by-month networking calendar is in [docs/NETWORKING_STRATEGY.md](
 
 **Key readiness indicators**:
 - [ ] All certifications obtained (including OSCP at M17)
-- [ ] 5+ portfolio projects documented
+- [ ] 6 portfolio projects documented
 - [ ] Professional English fluency
 - [ ] Consulting materials ready (proposals, SOWs, presentations)
 - [ ] 2-3 case studies prepared
@@ -412,7 +412,7 @@ The full month-by-month networking calendar is in [docs/NETWORKING_STRATEGY.md](
 **Most likely scenario**: You WILL find work because:
 - PAM/Conjur + pentesting consultants are in high demand
 - 5 certifications (Defender, Sentry, Guardian, eJPT, OSCP) = strong credibility
-- 6-8 portfolio projects = proof of expertise
+- 6 portfolio projects = proof of expertise
 - Healthcare and banking need PAM (regulatory requirements); OSCP opens pentesting engagements
 
 **If struggling to find consulting clients**:

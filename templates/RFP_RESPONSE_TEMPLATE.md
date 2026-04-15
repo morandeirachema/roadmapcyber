@@ -17,7 +17,7 @@ Dear [Contact Person],
 
 Thank you for the opportunity to respond to your Request for Proposal for [Project Name]. I am pleased to submit this proposal outlining my approach to [brief project description].
 
-With [X] certifications in CyberArk PAM (Defender, Sentry, Guardian) and CCSP cloud security certification, combined with extensive hands-on experience deploying PAM and Conjur solutions across multi-cloud environments, I am confident in my ability to deliver [key project outcomes].
+With [X] certifications in CyberArk PAM (Defender, Sentry, Guardian), offensive security (OSCP, eJPT), and extensive hands-on experience deploying PAM and Conjur solutions across multi-cloud environments, I am confident in my ability to deliver [key project outcomes].
 
 This proposal includes:
 - Executive Summary
@@ -52,7 +52,7 @@ Sincerely,
 
 **Key Differentiators**:
 - Expert-level CyberArk certifications (Defender, Sentry, Guardian)
-- CCSP certified cloud security expertise
+- Offensive security certifications (OSCP, eJPT) — dual-track PAM + pentest capability
 - [X] documented portfolio projects demonstrating relevant experience
 - Multi-cloud expertise (AWS + Azure)
 - Healthcare/banking compliance knowledge (HIPAA, PCI DSS 4.0, SOC2, NIS2)
@@ -221,8 +221,8 @@ Based on the RFP, we understand your key requirements as:
 - ✅ **CyberArk Defender** - Privileged Access Management Foundation
 - ✅ **CyberArk Sentry** - Advanced PAM Administration
 - ✅ **CyberArk Guardian** - Expert-Level PAM Implementation
-- ✅ **CCSP** - Certified Cloud Security Professional (ISC²)
-- ✅ **CKA** - Certified Kubernetes Administrator (Linux Foundation)
+- ✅ **OSCP** - Offensive Security Certified Professional (OffSec)
+- ✅ **eJPT** - eLearnSecurity Junior Penetration Tester (INE)
 
 ### Relevant Experience
 
@@ -392,5 +392,5 @@ I look forward to the opportunity to work with [Client Name] on this important s
 
 ---
 
-**Last Updated**: 2026-04-07
-**Version**: 1.1
+**Last Updated**: 2026-04-14
+**Version**: 1.2

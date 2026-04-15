@@ -336,8 +336,8 @@ PAM/Conjur Security Consultant
 
 **Certifications**:
 - CyberArk Defender, Sentry, Guardian
-- CCSP (Certified Cloud Security Professional)
-- CKA (Certified Kubernetes Administrator)
+- OSCP (Offensive Security Certified Professional)
+- eJPT (eLearnSecurity Junior Penetration Tester)
 
 **Specializations**:
 - Healthcare compliance (HIPAA)
@@ -360,5 +360,5 @@ PAM/Conjur Security Consultant
 
 ---
 
-**Last Updated**: 2026-04-07
-**Version**: 1.1
+**Last Updated**: 2026-04-14
+**Version**: 1.2

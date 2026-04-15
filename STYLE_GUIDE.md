@@ -1,6 +1,6 @@
 # Documentation Style Guide
 
-Comprehensive formatting and terminology standards for the 27-Month Cybersecurity Roadmap. This guide ensures consistency, readability, and professionalism across all documentation.
+Comprehensive formatting and terminology standards for the 18-Month Cybersecurity Roadmap. This guide ensures consistency, readability, and professionalism across all documentation.
 
 **Target Audience**: Contributors, editors, and maintainers of roadmap documentation
 
@@ -29,21 +29,21 @@ Comprehensive formatting and terminology standards for the 27-Month Cybersecurit
 
 ```markdown
 # Months
-✅ Month 5, Month 12, Month 27 (in prose)
-✅ M5, M8, M11 (in tables/charts)
+✅ Month 4, Month 12, Month 18 (in prose)
+✅ M4, M6, M8 (in tables/charts)
 
 # Phases
-✅ Phase 1: PAM + Kubernetes Mastery (Months 1-11)
-✅ PHASE 1: PAM + Kubernetes Mastery (Months 1-11) [headers only]
+✅ Phase 1: Security Foundations + PAM Mastery (Months 1-6)
+✅ PHASE 1: Security Foundations + PAM Mastery (Months 1-6) [headers only]
 
 # Time
-✅ 10-12 hours/week
+✅ 12-15 hours/week
 ✅ 8 hrs/week (recovery months)
 
 # Certifications
 ✅ CyberArk Defender, CyberArk Sentry, CyberArk Guardian
-✅ CKS (Certified Kubernetes Security Specialist)
-✅ CCSP (Certified Cloud Security Professional)
+✅ eJPT (eLearnSecurity Junior Penetration Tester)
+✅ OSCP (Offensive Security Certified Professional)
 
 # Technology
 ✅ CyberArk PAM, CyberArk Conjur, Kubernetes, K8s
@@ -112,8 +112,8 @@ Content...
 
 | Directory | Format | Examples |
 |-----------|--------|----------|
-| `roadmap/` | CAPS_WITH_UNDERSCORES.md | `OVERVIEW.md`, `PHASE1_MONTHS_1-11.md` |
-| `docs/` | CAPS_WITH_UNDERSCORES.md | `CYBERARK_CERTIFICATIONS.md`, `CKS_CERTIFICATION_GUIDE.md` |
+| `roadmap/` | CAPS_WITH_UNDERSCORES.md | `OVERVIEW.md`, `PHASE1_MONTHS_1-6.md` |
+| `docs/` | CAPS_WITH_UNDERSCORES.md | `CYBERARK_CERTIFICATIONS.md`, `HANDS_ON_LABS_PHASE1.md` |
 | `templates/` | CAPS_WITH_UNDERSCORES.md | `RFP_RESPONSE_TEMPLATE.md`, `SOW_TEMPLATE.md` |
 | `examples/` | CAPS_WITH_UNDERSCORES.md | `PORTFOLIO_PROJECT_EXAMPLE.md`, `CASE_STUDY_EXAMPLE.md` |
 
@@ -121,12 +121,12 @@ Content...
 ```
 ✅ roadmap/OVERVIEW.md
 ✅ roadmap/MONTH_BY_MONTH_SCHEDULE.md
-✅ roadmap/PHASE1_MONTHS_1-11.md
-✅ roadmap/PHASE2_MONTHS_12-18.md
-✅ roadmap/PHASE3_MONTHS_19-27.md
+✅ roadmap/PHASE1_MONTHS_1-6.md
+✅ roadmap/PHASE2_MONTHS_7-12.md
+✅ roadmap/PHASE3_MONTHS_13-18.md
 ✅ docs/CYBERARK_CERTIFICATIONS.md
-✅ docs/CKS_CERTIFICATION_GUIDE.md
-✅ docs/CKS_CHEAT_SHEETS.md
+✅ docs/HANDS_ON_LABS_PHASE1.md
+✅ docs/OFFICIAL_RESOURCES.md
 ✅ templates/RFP_RESPONSE_TEMPLATE.md
 ✅ examples/PORTFOLIO_PROJECT_EXAMPLE.md
 
@@ -146,7 +146,7 @@ Content...
 
 **Examples**:
 ```
-✅ 27MONTH_PROGRESS_TRACKER.csv
+✅ 18MONTH_PROGRESS_TRACKER.csv
 ✅ CERTIFICATION_SCHEDULE.csv
 ✅ BUDGET_BREAKDOWN.csv
 
@@ -199,7 +199,7 @@ Level 2 Header
 ```markdown
 ✅ Correct:
 ## Recovery Months
-Content: Recovery months (🏖️ M12, M18, M27) provide rest time.
+Content: Recovery months (🏖️ M6, M12, M18) provide rest time.
 
 ❌ Incorrect:
 ## 🏖️ Recovery Months
@@ -293,9 +293,9 @@ Content: Recovery months (🏖️ M12, M18, M27) provide rest time.
 ```markdown
 ✅ Correct - Summary section:
 **Success Metrics**:
-✅ All 3 CyberArk certifications obtained
-✅ K8s mastery achieved
-✅ 7-8 portfolio projects published
+✅ All 5 certifications obtained (Defender, Sentry, Guardian, eJPT, OSCP)
+✅ Active Directory + cloud pentesting mastery achieved
+✅ 6 portfolio projects published
 
 ❌ Incorrect - Task lists should use [x], not ✅:
 ✅ Complete CyberArk Defender
@@ -412,11 +412,11 @@ For more info, go [here](BUDGET.md).
 ```markdown
 | Certification | Month | Cost | Prerequisite | Difficulty |
 |:--------------|:-----:|-----:|:-------------|:----------:|
-| CyberArk Defender | M5 | $250-500 | None | ⭐⭐ |
-| CyberArk Sentry | M8 | $250-500 | Defender | ⭐⭐⭐ |
-| CKS | M9-10 | $395 | Valid CKA | ⭐⭐⭐⭐ |
-| CyberArk Guardian | M11 | $250-500 | Sentry | ⭐⭐⭐⭐⭐ |
-| CCSP | M27 | $599 | 5 years exp | ⭐⭐⭐⭐ |
+| CyberArk Defender | M4 | $250-500 | None | ⭐⭐ |
+| CyberArk Sentry | M6 | $250-500 | Defender | ⭐⭐⭐ |
+| CyberArk Guardian | M8 | $250-500 | Sentry | ⭐⭐⭐⭐⭐ |
+| eJPT | M12 | $200 | None | ⭐⭐⭐ |
+| OSCP | M17 | $1,499 | eJPT + HTB | ⭐⭐⭐⭐⭐ |
 ```
 
 ### Code Blocks
@@ -425,7 +425,7 @@ For more info, go [here](BUDGET.md).
 
 ```markdown
 ✅ Correct:
-Edit the `27MONTH_PROGRESS_TRACKER.csv` file.
+Edit the `18MONTH_PROGRESS_TRACKER.csv` file.
 Run the `kubectl get pods` command.
 Configure `RBAC` policies in `auth-config.yaml`.
 The `runAsNonRoot` security context is required.
@@ -487,41 +487,41 @@ kubectl apply -f deployment.yaml
 
 ```markdown
 ✅ Correct:
-Month 1, Month 5, Month 12, Month 27
-You'll complete Month 5 certification...
-During Month 9, you'll prepare for CKS...
+Month 1, Month 4, Month 12, Month 18
+You'll complete Month 4 certification...
+During Month 9, you'll attack Active Directory...
 
 ❌ Incorrect:
-month 1, M. 1, month-1, Month-5
-You'll complete M5 certification... (use "Month 5" in prose)
+month 1, M. 1, month-1, Month-4
+You'll complete M4 certification... (use "Month 4" in prose)
 ```
 
 **Abbreviation in Tables/Charts**: `M[number]`
 
 ```markdown
 ✅ Correct in tables:
-| M1 | M5 | M8 | M9-10 | M11 | M27 |
+| M1 | M4 | M6 | M8 | M12 | M17 |
 
 ✅ Correct when space-constrained:
-Recovery months: M12, M18, M27
-Certifications: M5, M8, M9-10, M11, M27
+Recovery months: M6, M12, M18
+Certifications: M4, M6, M8, M12, M17
 
 ❌ Incorrect in regular prose:
-You'll complete M5 certification... (should be "Month 5")
+You'll complete M4 certification... (should be "Month 4")
 ```
 
 **Month Ranges**:
 
 ```markdown
 ✅ Correct:
-Months 1-11 (full range)
-Month 9-10 (CKS preparation)
-M9-10 (in tables)
+Months 1-6 (full range)
+Months 13-18 (Phase 3)
+M7-12 (in tables)
 
 ❌ Incorrect:
-Months 1 to 11
-Month 9 through 10
-M9 to M10
+Months 1 to 6
+Month 1 through 6
+M1 to M6
 ```
 
 **Full Form with Weeks**: `Month [number] (Weeks X-Y)`
@@ -538,9 +538,9 @@ Month 5 (Weeks 17-20) includes Defender exam.
 
 ```markdown
 ✅ Correct:
-Week 1, Week 36, Week 108
+Week 1, Week 36, Week 66
 Weeks 1-4, Weeks 33-40
-During Week 40, you'll take the CKS exam.
+During Week 66, you'll take the OSCP exam.
 
 ❌ Incorrect:
 week 1, W1, w/1
@@ -565,9 +565,9 @@ phase 1, PHASE ONE, Phase-1, Ph1
 
 ```markdown
 ✅ Correct:
-# PHASE 1: PAM + Kubernetes Mastery (Months 1-11)
-## PHASE 2: Conjur + DevSecOps (Months 12-18)
-### PHASE 3: Cloud Security + CCSP (Months 19-27)
+# PHASE 1: Security Foundations + PAM Mastery (Months 1-6)
+## PHASE 2: Pentesting Foundations + Advanced PAM (Months 7-12)
+### PHASE 3: Cloud Security + Advanced Pentesting + Launch (Months 13-18)
 
 ❌ Incorrect:
 # Phase 1 - PAM + Kubernetes Mastery - Months 1-11
@@ -586,24 +586,24 @@ phase 1, PHASE ONE, Phase-1, Ph1
 | CyberArk Sentry | CyberArk Sentry | Sentry | N/A |
 | CyberArk Guardian | CyberArk Guardian | Guardian | N/A |
 | CyberArk Trustee | CyberArk Trustee | Trustee | N/A |
-| Certified Kubernetes Security Specialist | CKS or Certified Kubernetes Security Specialist | CKS | CKS |
-| Certified Kubernetes Administrator | CKA or Certified Kubernetes Administrator | CKA | CKA |
-| Certified Cloud Security Professional | CCSP or Certified Cloud Security Professional | CCSP | CCSP |
+| eLearnSecurity Junior Penetration Tester | eJPT or eLearnSecurity Junior Penetration Tester | eJPT | eJPT |
+| Offensive Security Certified Professional | OSCP or Offensive Security Certified Professional | OSCP | OSCP |
+| Certified Cloud Security Professional | CCSP or Certified Cloud Security Professional | CCSP | CCSP (optional post-M18) |
 | Certified Information Systems Security Professional | CISSP or Certified Information Systems Security Professional | CISSP | CISSP |
 
 **Examples**:
 
 ```markdown
 ✅ Correct:
-The CyberArk Defender (Month 5) is the foundation certification.
+The CyberArk Defender (Month 4) is the foundation certification.
 After obtaining Defender, you'll prepare for Sentry.
 
-The CKS (Certified Kubernetes Security Specialist) exam requires valid CKA.
-After passing CKS, you can leverage your Kubernetes security expertise.
+The OSCP (Offensive Security Certified Professional) exam is a 24-hour practical.
+After passing OSCP, you have the credential to launch the consulting practice.
 
 ✅ Also correct:
-The Certified Kubernetes Security Specialist (CKS) is earned at Month 9-10.
-CKS requires valid CKA (Certified Kubernetes Administrator) certification.
+The Offensive Security Certified Professional (OSCP) is earned at Month 17.
+OSCP requires completing OffSec's PEN-200 course and passing the 24-hour exam.
 
 ❌ Incorrect:
 The Defender Certification (wrong - remove "Certification")
@@ -802,12 +802,12 @@ Run kubectl get pods to verify deployment.
 **Combination Example**:
 
 ```markdown
-**Month 9 Focus**: CKS preparation begins
+**Month 9 Focus**: Active Directory attacks + Conjur Docker
 
-During Month 9, you'll study for the **CKS** (Certified Kubernetes Security
-Specialist) certification. The exam requires a *valid CKA certification* as
-a prerequisite. Practice with `kubectl` security commands and review the
-[CKS_CERTIFICATION_GUIDE.md](docs/CKS_CERTIFICATION_GUIDE.md).
+During Month 9, you'll attack **Active Directory** (Kerberoasting, Pass-the-Hash,
+BloodHound enumeration) while standing up **Conjur** in Docker. This is the
+dual-track month where PAM knowledge meets offensive technique. See
+[HANDS_ON_LABS_PHASE2.md](docs/HANDS_ON_LABS_PHASE2.md).
 ```
 
 ### Date References
@@ -1288,7 +1288,7 @@ Set runAsNonRoot to true.
 
 **✅ Correct**:
 ```markdown
-Edit the `27MONTH_PROGRESS_TRACKER.csv` file.
+Edit the `18MONTH_PROGRESS_TRACKER.csv` file.
 Run `kubectl get pods` to check status.
 Set `runAsNonRoot` to `true`.
 ```
@@ -1510,23 +1510,24 @@ If you identify a new pattern or best practice:
 
 ## Document Control
 
-**Style Guide Version**: 2.1
-**Last Updated**: 2026-04-07
-**Previous Version**: 2.0 (2025-12-01)
+**Style Guide Version**: 2.2
+**Last Updated**: 2026-04-14
+**Previous Version**: 2.1 (2026-04-07)
 **Maintained By**: Documentation Team
 **Review Frequency**: Monthly or as needed
 
 **Changelog**:
+- **2.2** (2026-04-14): Align examples with 18-month program structure
+  - Updated all cert months: Defender M4, Sentry M6, Guardian M8, eJPT M12, OSCP M17
+  - Replaced CKS/CCSP examples with eJPT/OSCP (current primary certs)
+  - Updated phase names and month ranges throughout examples
+  - Fixed recovery months to M6, M12, M18
+  - Updated portfolio count to 6 projects
 - **2.1** (2026-04-07): Annual accuracy review
   - Updated date format examples to reflect 2026
   - Minor example corrections for current tooling
 - **2.0** (2025-11-22): Complete refactor to A+ grade
-  - Added Quick Reference Card section
-  - Expanded certification names to include CKS
-  - Added Advanced Formatting section
-  - Added Quality Checklist section
+  - Added Quick Reference Card, Advanced Formatting, Quality Checklist
   - Expanded Common Mistakes with 10 detailed examples
   - Added Automation & Tools section
-  - Improved examples throughout
-  - Enhanced table formats and visual hierarchy
 - **1.0** (2025-11-21): Initial version
